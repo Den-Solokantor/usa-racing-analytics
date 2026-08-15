@@ -76,6 +76,26 @@ usa-racing-analytics/
 - [ ] Архив прошлых обзоров
 - [ ] Простые скрипты для подготовки `races.json`
 
+
+## Автообновление новостей
+
+GitHub Actions каждые 4 часа:
+1. Тянет RSS (TDN, Paulick Report, …)
+2. Переводит заголовки и краткие описания на русский
+3. Пишет в `data/news.json` и пушит в репозиторий
+4. Netlify автоматически пересобирает сайт
+
+Файлы:
+- `scripts/update_news.py` — скрипт
+- `.github/workflows/update-news.yml` — расписание
+
+Ручной запуск: GitHub → Actions → **Update racing news** → Run workflow
+
+Локально:
+```bash
+python scripts/update_news.py
+```
+
 ## Важно
 
 Официального публичного API у Equibase нет.  

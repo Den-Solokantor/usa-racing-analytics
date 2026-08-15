@@ -30,39 +30,59 @@
     </div>
   </header>
 
-  <!-- Hero -->
+  <!-- Hero + News (side by side) -->
   <section class="hero">
-    <div class="container">
-      <div class="hero-content">
-        <h1>Аналитика американских<br />скачек без воды</h1>
-        <p class="hero-subtitle">
-          Обзоры треков, статистика лошадей и жокеев, поиск value и честные выводы. 
-          Только США. Только данные.
-        </p>
-        <div class="hero-actions">
-          <a href="#today" class="btn btn-primary">Смотреть сегодня</a>
-          <a href="#analytics" class="btn btn-outline">Перейти к аналитике</a>
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <div class="hero-content">
+          <h1>Аналитика американских<br />скачек без воды</h1>
+          <p class="hero-subtitle">
+            Обзоры треков, статистика лошадей и жокеев, поиск value и честные выводы. 
+            Только США. Только данные.
+          </p>
+          <div class="hero-actions">
+            <a href="#today" class="btn btn-primary">Смотреть сегодня</a>
+            <a href="#analytics" class="btn btn-outline">Перейти к аналитике</a>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-card">
+            <div class="stat-value" id="statTracks">12+</div>
+            <div class="stat-label">Треков в фокусе</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="statRaces">180+</div>
+            <div class="stat-label">Гонок в неделю</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="statValue">34%</div>
+            <div class="stat-label">Value-находок</div>
+          </div>
         </div>
       </div>
-      <div class="hero-stats">
-        <div class="stat-card">
-          <div class="stat-value" id="statTracks">12+</div>
-          <div class="stat-label">Треков в фокусе</div>
+
+      <!-- News sidebar at hero level -->
+      <aside class="news-sidebar" id="newsSidebar">
+        <div class="news-panel">
+          <div class="news-panel-header">
+            <h2>Новости скачек</h2>
+            <span class="news-live-dot" title="Обновляется"></span>
+          </div>
+          <p class="news-panel-sub">США · автообновление · перевод на русский</p>
+          <div id="newsList" class="news-list">
+            <div class="loading-placeholder">Загрузка новостей...</div>
+          </div>
+          <div class="news-sources">
+            <a href="https://www.bloodhorse.com/" target="_blank" rel="noopener">BloodHorse</a>
+            <a href="https://www.thoroughbreddailynews.com/" target="_blank" rel="noopener">TDN</a>
+            <a href="https://paulickreport.com/" target="_blank" rel="noopener">Paulick</a>
+          </div>
         </div>
-        <div class="stat-card">
-          <div class="stat-value" id="statRaces">180+</div>
-          <div class="stat-label">Гонок в неделю</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-value" id="statValue">34%</div>
-          <div class="stat-label">Value-находок</div>
-        </div>
-      </div>
+      </aside>
     </div>
   </section>
 
-  <!-- Main layout: content + news sidebar -->
-  <div class="layout container">
+  <div class="container">
     <div class="main-content">
 
   <!-- Today's Races -->
@@ -253,26 +273,7 @@
   </section>
 
     </div><!-- /.main-content -->
-
-    <!-- News sidebar -->
-    <aside class="news-sidebar" id="newsSidebar">
-      <div class="news-panel">
-        <div class="news-panel-header">
-          <h2>Новости скачек</h2>
-          <span class="news-live-dot" title="Обновляется"></span>
-        </div>
-        <p class="news-panel-sub">США · BloodHorse, TDN, Paulick Report</p>
-        <div id="newsList" class="news-list">
-          <div class="loading-placeholder">Загрузка новостей...</div>
-        </div>
-        <div class="news-sources">
-          <a href="https://www.bloodhorse.com/" target="_blank" rel="noopener">BloodHorse</a>
-          <a href="https://www.thoroughbreddailynews.com/" target="_blank" rel="noopener">TDN</a>
-          <a href="https://paulickreport.com/" target="_blank" rel="noopener">Paulick</a>
-        </div>
-      </div>
-    </aside>
-  </div><!-- /.layout -->
+  </div><!-- /.container -->
 
   <!-- Footer -->
   <footer class="footer">
