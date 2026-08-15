@@ -1,0 +1,35 @@
+{
+  "updated": "2026-08-15T10:00:00Z",
+  "races": [
+    {
+      "id": "sar-8",
+      "track": "Saratoga",
+      "time": "15:40 ET",
+      "title": "Race 8 · Allowance Optional Claiming",
+      "distance": "1 mile · Turf",
+      "purse": "Purse $110,000",
+      "preview": "Сильный состав. Обратить внимание на #4 и #7. Поверхность и дистанция играют на руку лошадям с хорошим late pace.",
+      "tags": ["Value possible", "Turf"]
+    },
+    {
+      "id": "dmr-5",
+      "track": "Del Mar",
+      "time": "17:05 ET",
+      "title": "Race 5 · Maiden Special Weight",
+      "distance": "6.5f · Dirt",
+      "purse": "Purse $80,000",
+      "preview": "Дебютанты и second-time starters. Смотрим на работу утром и pedigree. Потенциальный overlay на #2.",
+      "tags": ["Watchlist", "Dirt"]
+    },
+    {
+      "id": "cnl-3",
+      "track": "Colonial Downs",
+      "time": "14:20 ET",
+      "title": "Race 3 · Claiming $16,000",
+      "distance": "1 1/16m · Inner Turf",
+      "purse": "Purse $28,000",
+      "preview": "Классический claiming. Высокая конкуренция. Ищем class-droppers и лошадей с хорошим finishing kick на этой дистанции.",
+      "tags": ["Claiming"]
+    }
+  ]
+}
