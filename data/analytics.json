@@ -1,0 +1,107 @@
+{
+  "updated": "2026-08-15T18:00:00Z",
+  "blocks": [
+    {
+      "id": "horses",
+      "icon": "📊",
+      "title": "Статистика лошадей",
+      "short": "Форма последних стартов, speed figures, late pace, surface preferences, distance specialization.",
+      "content": {
+        "intro": "Смотрим на стабильность формы и то, как лошадь бежит именно этот тип гонки.",
+        "points": [
+          "Последние 3–5 стартов: место, класс, поверхность, дистанция",
+          "Speed figures (Beyer / Equibase) — сравнение уровня",
+          "Late pace: кто добивает в конце, кто «сгорает»",
+          "Предпочтения: dirt / turf / synthetic",
+          "Специализация по дистанции: sprint vs route"
+        ],
+        "note": "Обновляй этот блок в data/analytics.json — без правки HTML."
+      }
+    },
+    {
+      "id": "connections",
+      "icon": "👤",
+      "title": "Жокеи и тренеры",
+      "short": "Win% и ROI по трекам, по дистанциям, по типу гонок. Связки «тренер + жокей».",
+      "content": {
+        "intro": "Связка тренер + жокей часто важнее «имени» лошади в overnight-гонках.",
+        "points": [
+          "Win% тренера на конкретном треке за 30/90 дней",
+          "ROI жокея в claiming / allowance / stakes",
+          "Повторяющиеся успешные пары тренер–жокей",
+          "Смена жокея: апгрейд vs даунгрейд",
+          "Тренеры, которые сильно готовят first-time starters"
+        ],
+        "note": "Добавляй свежие наблюдения по meet в points."
+      }
+    },
+    {
+      "id": "tracks",
+      "icon": "🛤️",
+      "title": "Специфика треков",
+      "short": "Bias (rail / outside), влияние погоды, особенности покрытия (dirt / turf / synthetic).",
+      "content": {
+        "intro": "Каждый трек и даже каждый день meet может иметь свой bias.",
+        "points": [
+          "Rail bias vs outside bias на dirt",
+          "Влияние влаги и sealed track",
+          "Turf: firm / good / soft — кто выигрывает",
+          "Post position: короткие спринты vs длинный забег до первого поворота",
+          "Synthetic vs dirt: разные профили лошадей"
+        ],
+        "note": "Перед картой дня сверяй bias последних 2–3 дней."
+      }
+    },
+    {
+      "id": "value",
+      "icon": "💰",
+      "title": "Value & Overlay",
+      "short": "Поиск завышенных коэффициентов относительно нашей вероятностной оценки.",
+      "content": {
+        "intro": "Value — когда твоя оценка вероятности выше, чем подразумевает рынок.",
+        "points": [
+          "Сравни morning line и live tote / fixed odds",
+          "Ищи overlay: лошадь «длиннее», чем заслуживает",
+          "Не путай value и «просто высокий коэффициент»",
+          "Фиксируй свои вероятности до движения рынка",
+          "Веди журнал: где модель права, где нет"
+        ],
+        "note": "Ядро подхода: не «кто победит», а где рынок ошибается."
+      }
+    },
+    {
+      "id": "pedigree",
+      "icon": "🧬",
+      "title": "Pedigree & Class",
+      "short": "Анализ происхождения, class moves, claiming levels и их влияние на результат.",
+      "content": {
+        "intro": "Класс и кровь объясняют, почему лошадь «должна» или «не должна» выдерживать шаг.",
+        "points": [
+          "Class drop / class rise — как рынок на это реагирует",
+          "Claiming levels: резкое падение цены часто сигнал",
+          "Pedigree под дистанцию и поверхность",
+          "First-time route / first-time turf по крови",
+          "Конюшни, которые стабильно поднимают claimers"
+        ],
+        "note": "Связывай class move с формой, а не смотри только один фактор."
+      }
+    },
+    {
+      "id": "trends",
+      "icon": "📈",
+      "title": "Тренды и паттерны",
+      "short": "Повторяющиеся сценарии, second-off-layoff, first-time-lasix, equipment changes.",
+      "content": {
+        "intro": "Паттерны не гарантия, но дают край в marginal fields.",
+        "points": [
+          "Second-off-layoff: часто сильнее, чем возврат",
+          "First-time Lasix / equipment (blinkers on/off)",
+          "Workout patterns перед дебютом",
+          "Повторяющиеся сценарии pace (lone speed и т.п.)",
+          "Сезонные тренды трека и meet"
+        ],
+        "note": "Записывай паттерны, которые подтверждаешь цифрами."
+      }
+    }
+  ]
+}
