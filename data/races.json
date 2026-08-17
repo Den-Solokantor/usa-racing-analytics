@@ -1,35 +1,49 @@
 {
-  "updated": "2026-08-15T10:00:00Z",
+  "updated": "2026-08-17T09:18:22.794444-04:00",
+  "source": "seasonal-fallback",
+  "date": "2026-08-17",
   "races": [
     {
-      "id": "sar-8",
+      "id": "mon-0817-4",
+      "track": "Monmouth Park",
+      "time": "13:10 ET",
+      "title": "Race 4 · Allowance Optional Claiming",
+      "distance": "1 mile · Dirt",
+      "purse": "Purse $90,000",
+      "preview": "Нью-Джерси. Карточка на 17.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
+      "tags": [
+        "Dirt",
+        "USA",
+        "Claiming",
+        "Watchlist"
+      ]
+    },
+    {
+      "id": "sar-0817-6",
       "track": "Saratoga",
-      "time": "15:40 ET",
-      "title": "Race 8 · Allowance Optional Claiming",
-      "distance": "1 mile · Turf",
-      "purse": "Purse $110,000",
-      "preview": "Сильный состав. Обратить внимание на #4 и #7. Поверхность и дистанция играют на руку лошадям с хорошим late pace.",
-      "tags": ["Value possible", "Turf"]
+      "time": "14:40 ET",
+      "title": "Race 6 · Maiden Special Weight",
+      "distance": "6.5f · Turf",
+      "purse": "Purse $75,000",
+      "preview": "NYRA · лето. Карточка на 17.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
+      "tags": [
+        "Turf",
+        "USA"
+      ]
     },
     {
-      "id": "dmr-5",
+      "id": "del-0817-8",
       "track": "Del Mar",
-      "time": "17:05 ET",
-      "title": "Race 5 · Maiden Special Weight",
-      "distance": "6.5f · Dirt",
-      "purse": "Purse $80,000",
-      "preview": "Дебютанты и second-time starters. Смотрим на работу утром и pedigree. Потенциальный overlay на #2.",
-      "tags": ["Watchlist", "Dirt"]
-    },
-    {
-      "id": "cnl-3",
-      "track": "Colonial Downs",
-      "time": "14:20 ET",
-      "title": "Race 3 · Claiming $16,000",
-      "distance": "1 1/16m · Inner Turf",
-      "purse": "Purse $28,000",
-      "preview": "Классический claiming. Высокая конкуренция. Ищем class-droppers и лошадей с хорошим finishing kick на этой дистанции.",
-      "tags": ["Claiming"]
+      "time": "15:35 ET",
+      "title": "Race 8 · Claiming $25,000",
+      "distance": "1 1/16m · Dirt",
+      "purse": "Purse $32,000",
+      "preview": "Калифорния · лето. Карточка на 17.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
+      "tags": [
+        "Dirt",
+        "USA",
+        "Claiming"
+      ]
     }
   ]
 }
