@@ -23,8 +23,7 @@ jobs:
 
       - name: Update today's races
         env:
-          RACING_API_USER: ${{ secrets.RACING_API_USER }}
-          RACING_API_PASSWORD: ${{ secrets.RACING_API_PASSWORD }}
+          FORMFAV_API_KEY: ${{ secrets.FORMFAV_API_KEY }}
         run: python scripts/update_races.py
 
       - name: Commit if changed
