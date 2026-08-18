@@ -1,69 +1,267 @@
-.results-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 12px;
-  margin-top: 12px;
-}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>USA Racing Analytics — Аналитика американских скачек</title>
+  <meta name="description" content="Независимая аналитика, обзоры и статистика по американским скачкам. Треки, лошади, жокеи, value-ставки." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <span class="logo-icon">🏇</span>
+        <span class="logo-text">USA Racing <span>Analytics</span></span>
+      </a>
+      <nav class="nav">
+        <a href="#today" class="nav-link">Сегодня</a>
+        <a href="#results" class="nav-link">Результаты</a>
+        <a href="#tracks" class="nav-link">Треки</a>
+        <a href="#analytics" class="nav-link">Аналитика</a>
+        <a href="#value" class="nav-link">Value</a>
+        <a href="#contact" class="nav-link">Связь</a>
+        <a href="#about" class="nav-link">О проекте</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">🌙</button>
+    </div>
+  </header>
 
-.result-card {
-  border: 1px solid rgba(128, 128, 128, 0.25);
-  border-radius: 10px;
-  padding: 14px 16px;
-  background: rgba(128, 128, 128, 0.05);
-}
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <div class="hero-content">
+          <h1>Аналитика американских<br />скачек без воды</h1>
+          <p class="hero-subtitle">
+            Обзоры треков, статистика лошадей и жокеев, поиск value и честные выводы.
+            Только США. Только данные.
+          </p>
+          <div class="hero-actions">
+            <a href="#today" class="btn btn-primary">Смотреть сегодня</a>
+            <a href="#analytics" class="btn btn-outline">Перейти к аналитике</a>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-card">
+            <div class="stat-value" id="statTracks">12+</div>
+            <div class="stat-label">Треков в фокусе</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="statRaces">180+</div>
+            <div class="stat-label">Гонок в неделю</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="statValue">34%</div>
+            <div class="stat-label">Value-находок</div>
+          </div>
+        </div>
+      </div>
 
-.result-card__header {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.85em;
-  opacity: 0.75;
-  margin-bottom: 6px;
-}
+      <aside class="news-sidebar" id="newsSidebar">
+        <div class="news-panel">
+          <div class="news-panel-header">
+            <h2>Новости скачек</h2>
+            <span class="news-live-dot" title="Обновляется"></span>
+          </div>
+          <p class="news-panel-sub">США · автообновление · перевод на русский</p>
+          <div id="newsList" class="news-list">
+            <div class="loading-placeholder">Загрузка новостей...</div>
+          </div>
+          <div class="news-sources">
+            <a href="https://www.bloodhorse.com/" target="_blank" rel="noopener">BloodHorse</a>
+            <a href="https://www.thoroughbreddailynews.com/" target="_blank" rel="noopener">TDN</a>
+            <a href="https://paulickreport.com/" target="_blank" rel="noopener">Paulick</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
 
-.result-card__title {
-  font-weight: 600;
-  margin-bottom: 8px;
-}
+  <section id="today" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Сегодня на треках США</h2>
+        <p class="section-desc">Ключевые встречи и предварительный обзор</p>
+      </div>
+      <p class="section-desc" id="racesUpdated" style="margin-bottom: 20px; font-size: 0.9rem;"></p>
+      <div class="races-grid" id="racesGrid">
+        <div class="loading-placeholder">Загрузка гонок...</div>
+      </div>
+    </div>
+  </section>
 
-.result-card__winner {
-  font-size: 0.95em;
-}
+  <section id="results" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>Результаты дня</h2>
+        <p class="section-desc">Победители по трекам США — обновляется автоматически</p>
+      </div>
+      <p class="section-desc" id="resultsMeta" style="margin-bottom: 16px; font-size: 0.9rem;"></p>
+      <div id="resultsBoard" class="results-board">
+        <div class="loading-placeholder">Загрузка результатов...</div>
+      </div>
+    </div>
+  </section>
 
-.result-card__winner-name {
-  color: #2e7d32;
-}
+  <section id="tracks" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Треки под наблюдением</h2>
+        <p class="section-desc">Основные площадки, по которым ведётся аналитика</p>
+      </div>
+      <div class="tracks-grid">
+        <div class="track-card">
+          <div class="track-name">Saratoga</div>
+          <div class="track-info">Нью-Йорк · Лето</div>
+          <p>Престижный summer meet. Высокий уровень конкуренции, много stakes.</p>
+        </div>
+        <div class="track-card">
+          <div class="track-name">Del Mar</div>
+          <div class="track-info">Калифорния · Лето / Осень</div>
+          <p>«Where the turf meets the surf». Быстрая дорожка, сильные местные конюшни.</p>
+        </div>
+        <div class="track-card">
+          <div class="track-name">Saratoga / Belmont</div>
+          <div class="track-info">NYRA circuit</div>
+          <p>Ключевой восточный круг. Belmont — длинная дистанция, особая специфика.</p>
+        </div>
+        <div class="track-card">
+          <div class="track-name">Churchill Downs</div>
+          <div class="track-info">Кентукки</div>
+          <p>Дом Kentucky Derby. Глубокая статистика и исторические данные.</p>
+        </div>
+        <div class="track-card">
+          <div class="track-name">Gulfstream Park</div>
+          <div class="track-info">Флорида · Зима</div>
+          <p>Зимний хаб. Много молодых лошадей и prep-гонок к весенним stakes.</p>
+        </div>
+        <div class="track-card">
+          <div class="track-name">Santa Anita</div>
+          <div class="track-info">Калифорния</div>
+          <p>Классика западного побережья. Важные зимние и весенние встречи.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-.result-card__pending {
-  opacity: 0.6;
-  font-style: italic;
-}
+  <section id="analytics" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Аналитические блоки</h2>
+        <p class="section-desc">Что именно разбираем и на что смотрим</p>
+      </div>
+      <p class="section-desc" id="analyticsUpdated" style="margin-bottom: 16px; font-size: 0.9rem;"></p>
+      <div class="analytics-grid" id="analyticsGrid">
+        <div class="loading-placeholder">Загрузка блоков...</div>
+      </div>
+      <div class="analytics-detail" id="analyticsDetail" hidden>
+        <button type="button" class="analytics-detail-close" id="analyticsDetailClose" aria-label="Закрыть">×</button>
+        <div class="analytics-detail-icon" id="analyticsDetailIcon"></div>
+        <h3 id="analyticsDetailTitle"></h3>
+        <p class="analytics-detail-intro" id="analyticsDetailIntro"></p>
+        <ul class="analytics-detail-points" id="analyticsDetailPoints"></ul>
+        <p class="analytics-detail-note" id="analyticsDetailNote"></p>
+      </div>
+    </div>
+  </section>
 
-.result-card__source-link {
-  display: inline-block;
-  margin-top: 8px;
-  font-size: 0.85em;
-  text-decoration: none;
-  opacity: 0.8;
-}
+  <section id="value" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>Value-находки</h2>
+        <p class="section-desc">Примеры ситуаций, где рынок может ошибаться</p>
+      </div>
+      <div class="value-list">
+        <div class="value-item">
+          <div class="value-badge">Пример</div>
+          <h3>Class drop + хорошая late pace</h3>
+          <p>Лошадь опускается в claiming после нескольких стартов в allowance. Рынок часто недооценивает таких, особенно если есть сильный finishing kick.</p>
+        </div>
+        <div class="value-item">
+          <div class="value-badge">Пример</div>
+          <h3>Первый старт на новой дистанции</h3>
+          <p>Pedigree и работа утром указывают на способность бежать дальше, а рынок всё ещё ориентируется на предыдущие спринты.</p>
+        </div>
+        <div class="value-item">
+          <div class="value-badge">Пример</div>
+          <h3>Сильный тренер на конкретном треке</h3>
+          <p>Некоторые конюшни стабильно показывают высокий ROI на определённых площадках и типах гонок. Это нужно учитывать отдельно от общей статистики.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-.result-card__source-link:hover {
-  text-decoration: underline;
-  opacity: 1;
-}
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Написать мне</h2>
+        <p class="section-desc">Вопросы, идеи, предложения по аналитике</p>
+      </div>
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="name" required placeholder="Как к вам обращаться" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Сообщение</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Ваш вопрос или предложение..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+        <p class="form-note" id="formStatus"></p>
+      </form>
+    </div>
+  </section>
 
-.results-empty,
-.results-error {
-  opacity: 0.7;
-  font-style: italic;
-}
+  <section id="about" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>О проекте</h2>
+      </div>
+      <div class="about-content">
+        <p>
+          <strong>USA Racing Analytics</strong> — личный проект, посвящённый
+          глубокому разбору американских скачек. Здесь нет «верняков» и гарантий.
+          Есть данные, наблюдения, статистика и попытка находить value там,
+          где рынок бывает неэффективен.
+        </p>
+        <p>
+          Фокус — только США. Основные треки: Saratoga, Belmont, Del Mar,
+          Santa Anita, Churchill Downs, Gulfstream, Colonial Downs и другие.
+        </p>
+        <p class="about-note">
+          Гонки дня обновляются через файл <code>data/races.json</code> —
+          без правки HTML. Данные Equibase официально недоступны через публичный API;
+          используются открытые источники и ручная/полуавтоматическая аналитика.
+        </p>
+      </div>
+    </div>
+  </section>
 
-.results-attribution {
-  margin-top: 14px;
-  font-size: 0.8em;
-  opacity: 0.6;
-  grid-column: 1 / -1;
-}
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="logo-icon">🏇</span>
+          <span>USA Racing Analytics</span>
+        </div>
+        <div class="footer-note">
+          Независимый проект. Не является букмекерской конторой.
+          Играйте ответственно.
+        </div>
+        <div class="footer-copy">© 2026 USA Racing Analytics</div>
+      </div>
+    </div>
+  </footer>
 
-.results-attribution a {
-  color: inherit;
-}
+  <script src="js/main.js"></script>
+</body>
+</html>
