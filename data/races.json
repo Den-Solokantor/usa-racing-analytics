@@ -1,29 +1,16 @@
 {
-  "updated": "2026-08-18T20:48:58.811747-04:00",
+  "updated": "2026-08-19T00:30:27.197117-04:00",
   "source": "seasonal-fallback",
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "races": [
     {
-      "id": "sar-0818-4",
-      "track": "Saratoga",
-      "time": "14:40 ET",
-      "title": "Race 4 · Maiden Special Weight",
-      "distance": "6.5f · Turf",
-      "purse": "Purse $75,000",
-      "preview": "NYRA · лето. Карточка на 18.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
-      "tags": [
-        "Turf",
-        "USA"
-      ]
-    },
-    {
-      "id": "del-0818-6",
+      "id": "del-0819-4",
       "track": "Del Mar",
       "time": "15:35 ET",
-      "title": "Race 6 · Claiming $25,000",
+      "title": "Race 4 · Claiming $25,000",
       "distance": "1 1/16m · Dirt",
       "purse": "Purse $32,000",
-      "preview": "Калифорния · лето. Карточка на 18.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
+      "preview": "Калифорния · лето. Карточка на 19.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
       "tags": [
         "Dirt",
         "USA",
@@ -31,15 +18,29 @@
       ]
     },
     {
-      "id": "ell-0818-8",
+      "id": "ell-0819-6",
       "track": "Ellis Park",
       "time": "16:20 ET",
-      "title": "Race 8 · Allowance",
+      "title": "Race 6 · Allowance",
       "distance": "7f · Dirt",
       "purse": "Purse $85,000",
-      "preview": "Кентукки. Карточка на 18.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
+      "preview": "Кентукки. Карточка на 19.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
       "tags": [
         "Dirt",
+        "USA",
+        "Watchlist"
+      ]
+    },
+    {
+      "id": "col-0819-8",
+      "track": "Colonial Downs",
+      "time": "17:05 ET",
+      "title": "Race 8 · Stakes",
+      "distance": "1 1/8m · Turf",
+      "purse": "Purse $150,000",
+      "preview": "Вирджиния. Карточка на 19.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
+      "tags": [
+        "Turf",
         "USA",
         "Watchlist"
       ]
