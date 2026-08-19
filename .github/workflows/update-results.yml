@@ -1,0 +1,37 @@
+name: Update racing stakes results
+
+on:
+  schedule:
+    # Каждые 4 часа
+    - cron: "0 */4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-results:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run update script
+        run: python scripts/update_stakes_results.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/results.json; then
+            echo "Нет изменений в results.json"
+          else
+            git add data/results.json
+            git commit -m "chore: update stakes results [automated]"
+            git push
+          fi
