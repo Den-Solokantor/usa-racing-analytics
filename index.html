@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
@@ -36,7 +36,7 @@
         <div class="hero-content">
           <h1>Аналитика американских<br />скачек без воды</h1>
           <p class="hero-subtitle">
-            Обзоры треков, статистика лошадей и жокеев, поиск value и честные выводы.
+            Обзоры треков, статистика лошадей и жокеев, поиск value и честные выводы. 
             Только США. Только данные.
           </p>
           <div class="hero-actions">
@@ -80,12 +80,16 @@
     </div>
   </section>
 
+  <div class="container">
+    <div class="main-content">
+
   <section id="today" class="section">
     <div class="container">
       <div class="section-header">
         <h2>Сегодня на треках США</h2>
         <p class="section-desc">Ключевые встречи и предварительный обзор</p>
       </div>
+
       <p class="section-desc" id="racesUpdated" style="margin-bottom: 20px; font-size: 0.9rem;"></p>
       <div class="races-grid" id="racesGrid">
         <div class="loading-placeholder">Загрузка гонок...</div>
@@ -112,6 +116,7 @@
         <h2>Треки под наблюдением</h2>
         <p class="section-desc">Основные площадки, по которым ведётся аналитика</p>
       </div>
+
       <div class="tracks-grid">
         <div class="track-card">
           <div class="track-name">Saratoga</div>
@@ -153,6 +158,7 @@
         <h2>Аналитические блоки</h2>
         <p class="section-desc">Что именно разбираем и на что смотрим</p>
       </div>
+
       <p class="section-desc" id="analyticsUpdated" style="margin-bottom: 16px; font-size: 0.9rem;"></p>
       <div class="analytics-grid" id="analyticsGrid">
         <div class="loading-placeholder">Загрузка блоков...</div>
@@ -174,21 +180,25 @@
         <h2>Value-находки</h2>
         <p class="section-desc">Примеры ситуаций, где рынок может ошибаться</p>
       </div>
+
       <div class="value-list">
         <div class="value-item">
           <div class="value-badge">Пример</div>
           <h3>Class drop + хорошая late pace</h3>
-          <p>Лошадь опускается в claiming после нескольких стартов в allowance. Рынок часто недооценивает таких, особенно если есть сильный finishing kick.</p>
+          <p>Лошадь опускается в claiming после нескольких стартов в allowance. 
+          Рынок часто недооценивает таких, особенно если есть сильный finishing kick.</p>
         </div>
         <div class="value-item">
           <div class="value-badge">Пример</div>
           <h3>Первый старт на новой дистанции</h3>
-          <p>Pedigree и работа утром указывают на способность бежать дальше, а рынок всё ещё ориентируется на предыдущие спринты.</p>
+          <p>Pedigree и работа утром указывают на способность бежать дальше, 
+          а рынок всё ещё ориентируется на предыдущие спринты.</p>
         </div>
         <div class="value-item">
           <div class="value-badge">Пример</div>
           <h3>Сильный тренер на конкретном треке</h3>
-          <p>Некоторые конюшни стабильно показывают высокий ROI на определённых площадках и типах гонок. Это нужно учитывать отдельно от общей статистики.</p>
+          <p>Некоторые конюшни стабильно показывают высокий ROI на определённых 
+          площадках и типах гонок. Это нужно учитывать отдельно от общей статистики.</p>
         </div>
       </div>
     </div>
@@ -200,6 +210,7 @@
         <h2>Написать мне</h2>
         <p class="section-desc">Вопросы, идеи, предложения по аналитике</p>
       </div>
+
       <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
         <div class="form-row">
           <div class="form-group">
@@ -228,23 +239,26 @@
       </div>
       <div class="about-content">
         <p>
-          <strong>USA Racing Analytics</strong> — личный проект, посвящённый
-          глубокому разбору американских скачек. Здесь нет «верняков» и гарантий.
-          Есть данные, наблюдения, статистика и попытка находить value там,
+          <strong>USA Racing Analytics</strong> — личный проект, посвящённый 
+          глубокому разбору американских скачек. Здесь нет «верняков» и гарантий. 
+          Есть данные, наблюдения, статистика и попытка находить value там, 
           где рынок бывает неэффективен.
         </p>
         <p>
-          Фокус — только США. Основные треки: Saratoga, Belmont, Del Mar,
+          Фокус — только США. Основные треки: Saratoga, Belmont, Del Mar, 
           Santa Anita, Churchill Downs, Gulfstream, Colonial Downs и другие.
         </p>
         <p class="about-note">
-          Гонки дня обновляются через файл <code>data/races.json</code> —
-          без правки HTML. Данные Equibase официально недоступны через публичный API;
+          Гонки дня обновляются через файл <code>data/races.json</code> — 
+          без правки HTML. Данные Equibase официально недоступны через публичный API; 
           используются открытые источники и ручная/полуавтоматическая аналитика.
         </p>
       </div>
     </div>
   </section>
+
+    </div>
+  </div>
 
   <footer class="footer">
     <div class="container">
@@ -254,7 +268,7 @@
           <span>USA Racing Analytics</span>
         </div>
         <div class="footer-note">
-          Независимый проект. Не является букмекерской конторой.
+          Независимый проект. Не является букмекерской конторой. 
           Играйте ответственно.
         </div>
         <div class="footer-copy">© 2026 USA Racing Analytics</div>
@@ -263,5 +277,7 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/results.js"></script>
 </body>
 </html>
+                                                                                                        
