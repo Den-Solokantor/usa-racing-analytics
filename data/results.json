@@ -1,187 +1,53 @@
 {
-  "updated": "2026-08-19T04:28:17.232680-04:00",
+  "updated": "2026-08-19T10:00:00-04:00",
   "date": "2026-08-19",
-  "source": "placeholder",
-  "note": "Реальные победители появятся после подключения FORMFAV_API_KEY или ручного обновления JSON.",
+  "source": "manual+otb-rss",
+  "note": "Обычные заезды — вручную. Крупные stakes — RSS OffTrackBetting.com.",
+  "results": [],
+  "stakes_results": [],
   "tracks": [
     {
       "track": "Saratoga",
-      "code": "SARA",
+      "code": "SAR",
       "races": [
-        {
-          "race": 1,
-          "title": "",
-          "winner": "— ожидание —",
-          "jockey": "",
-          "trainer": "",
-          "odds": "",
-          "margin": "",
-          "status": "pending"
-        },
-        {
-          "race": 2,
-          "title": "",
-          "winner": "— ожидание —",
-          "jockey": "",
-          "trainer": "",
-          "odds": "",
-          "margin": "",
-          "status": "pending"
-        },
-        {
-          "race": 3,
-          "title": "",
-          "winner": "— ожидание —",
-          "jockey": "",
-          "trainer": "",
-          "odds": "",
-          "margin": "",
-          "status": "pending"
-        }
+        { "race": 1, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 2, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 3, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 4, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 5, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 6, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 7, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 8, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 9, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" }
       ]
     },
     {
       "track": "Del Mar",
-      "code": "DEL-",
+      "code": "DMR",
       "races": [
-        {
-          "race": 1,
-          "title": "",
-          "winner": "— ожидание —",
-          "jockey": "",
-          "trainer": "",
-          "odds": "",
-          "margin": "",
-          "status": "pending"
-        },
-        {
-          "race": 2,
-          "title": "",
-          "winner": "— ожидание —",
-          "jockey": "",
-          "trainer": "",
-          "odds": "",
-          "margin": "",
-          "status": "pending"
-        },
-        {
-          "race": 3,
-          "title": "",
-          "winner": "— ожидание —",
-          "jockey": "",
-          "trainer": "",
-          "odds": "",
-          "margin": "",
-          "status": "pending"
-        }
+        { "race": 1, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 2, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 3, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 4, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 5, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 6, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 7, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 8, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 9, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" }
       ]
     },
     {
       "track": "Monmouth Park",
-      "code": "MONM",
+      "code": "MTH",
       "races": [
-        {
-          "race": 1,
-          "title": "",
-          "winner": "— ожидание —",
-          "jockey": "",
-          "trainer": "",
-          "odds": "",
-          "margin": "",
-          "status": "pending"
-        },
-        {
-          "race": 2,
-          "title": "",
-          "winner": "— ожидание —",
-          "jockey": "",
-          "trainer": "",
-          "odds": "",
-          "margin": "",
-          "status": "pending"
-        },
-        {
-          "race": 3,
-          "title": "",
-          "winner": "— ожидание —",
-          "jockey": "",
-          "trainer": "",
-          "odds": "",
-          "margin": "",
-          "status": "pending"
-        }
-      ]
-    },
-    {
-      "track": "Colonial Downs",
-      "code": "COLO",
-      "races": [
-        {
-          "race": 1,
-          "title": "",
-          "winner": "— ожидание —",
-          "jockey": "",
-          "trainer": "",
-          "odds": "",
-          "margin": "",
-          "status": "pending"
-        },
-        {
-          "race": 2,
-          "title": "",
-          "winner": "— ожидание —",
-          "jockey": "",
-          "trainer": "",
-          "odds": "",
-          "margin": "",
-          "status": "pending"
-        },
-        {
-          "race": 3,
-          "title": "",
-          "winner": "— ожидание —",
-          "jockey": "",
-          "trainer": "",
-          "odds": "",
-          "margin": "",
-          "status": "pending"
-        }
-      ]
-    },
-    {
-      "track": "Ellis Park",
-      "code": "ELLI",
-      "races": [
-        {
-          "race": 1,
-          "title": "",
-          "winner": "— ожидание —",
-          "jockey": "",
-          "trainer": "",
-          "odds": "",
-          "margin": "",
-          "status": "pending"
-        },
-        {
-          "race": 2,
-          "title": "",
-          "winner": "— ожидание —",
-          "jockey": "",
-          "trainer": "",
-          "odds": "",
-          "margin": "",
-          "status": "pending"
-        },
-        {
-          "race": 3,
-          "title": "",
-          "winner": "— ожидание —",
-          "jockey": "",
-          "trainer": "",
-          "odds": "",
-          "margin": "",
-          "status": "pending"
-        }
+        { "race": 1, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 2, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 3, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 4, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 5, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 6, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 7, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" },
+        { "race": 8, "title": "", "winner": "— ожидание —", "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending" }
       ]
     }
   ]
