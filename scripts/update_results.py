@@ -1,177 +1,222 @@
 #!/usr/bin/env python3
-"""Update data/results.json — winners by track (ET day)."""
+"""
+Обновление data/results.json:
+  - tracks[]          — НЕ трогаем (ручной ввод обычных заездов)
+  - stakes_results[]  — из RSS OffTrackBetting.com (крупные stakes)
+  - results[]         — оставляем как есть (опциональный плоский список)
+
+Без FormFav / Rapid / Equibase.
+"""
 from __future__ import annotations
 
 import json
-import os
 import re
 import sys
-import time
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
-from typing import Any
 from urllib.error import HTTPError, URLError
-from urllib.parse import urlencode
 from urllib.request import Request, urlopen
+from xml.etree import ElementTree as ET
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "results.json"
-UA = "USA-Racing-Analytics/1.0 (results bot)"
-ET = ZoneInfo("America/New_York")
-BASE = "https://api.formfav.com/v1"
+ETZ = ZoneInfo("America/New_York")
+UA = "USA-Racing-Analytics/1.0 (results; +https://solokantorracing.netlify.app)"
+
+# Официальные RSS с https://www.offtrackbetting.com/rss.html
+OTB_FEEDS = [
+    "https://www.offtrackbetting.com/rss-results-2.0.xml",
+    "https://www.offtrackbetting.com/rss-results-1.0.xml",
+]
 
 
 def now_et() -> datetime:
-    return datetime.now(ET)
+    return datetime.now(ETZ)
 
 
-def fetch(url: str, headers: dict[str, str] | None = None, timeout: int = 40) -> bytes:
-    h = {"User-Agent": UA, "Accept": "application/json"}
-    if headers:
-        h.update(headers)
-    req = Request(url, headers=h)
+def fetch(url: str, timeout: int = 40) -> bytes:
+    req = Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/xml, text/xml, */*"})
     with urlopen(req, timeout=timeout) as r:
         return r.read()
 
 
-def slugify(name: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", name.strip().lower()).strip("-")
+def strip_html(text: str) -> str:
+    text = re.sub(r"<[^>]+>", " ", text or "")
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
 
 
-def from_formfav(api_key: str, day: datetime) -> list[dict[str, Any]]:
-    date_s = day.strftime("%Y-%m-%d")
-    headers = {"X-API-Key": api_key}
-    q = urlencode({"date": date_s, "race_code": "gallops", "timezone": "America/New_York"})
-    data = json.loads(fetch(f"{BASE}/form/meetings?{q}", headers=headers).decode("utf-8", "replace"))
-    meetings: list[Any] = []
-    if isinstance(data, list):
-        meetings = data
-    elif isinstance(data, dict):
-        meetings = data.get("meetings") or data.get("data") or data.get("tracks") or []
+def parse_otb_item(title: str, description: str, link: str) -> dict | None:
+    """
+    Типичные заголовки OTB:
+      "2025 Whitney Stakes Results & Race Replay - Sierra Leone"
+      "Alabama Stakes Results - Horse Name"
+    """
+    t = strip_html(title)
+    d = strip_html(description)
+    if not t:
+        return None
 
-    tracks_out: list[dict[str, Any]] = []
-    for meet in meetings:
-        if not isinstance(meet, dict):
-            continue
-        track = str(meet.get("track") or meet.get("venue") or meet.get("name") or meet.get("course") or "").strip()
-        slug = str(meet.get("slug") or meet.get("track_slug") or slugify(track))
-        country = str(meet.get("country") or meet.get("countryCode") or "").lower()
-        if country and country not in ("us", "usa", "ca", ""):
-            if len(country) == 2 and country != "us":
-                continue
-        if not slug:
-            continue
+    winner = ""
+    # «... Results ... - WinnerName»
+    m = re.search(r"(?:Results?|Replay)\s*[-–—:]\s*(.+)$", t, re.I)
+    if m:
+        winner = m.group(1).strip()
+        # убрать хвосты вроде "& Race Replay"
+        winner = re.sub(r"\s*&\s*Race\s*Replay.*$", "", winner, flags=re.I).strip()
 
-        rq = urlencode({
-            "date": date_s, "track": slug, "race_code": "gallops",
-            "country": "us", "timezone": "America/New_York",
-        })
+    race_title = t
+    race_title = re.sub(r"\s*Results?.*$", "", race_title, flags=re.I).strip(" -–—")
+
+    track = ""
+    # иногда трек в description
+    tm = re.search(
+        r"\bat\s+([A-Z][A-Za-z0-9 .'\-]+?(?:Park|Course|Downs|Meadows|Field|Coliseum)?)\b",
+        d,
+    )
+    if tm:
+        track = tm.group(1).strip()
+
+    if not winner and not race_title:
+        return None
+
+    return {
+        "track": track,
+        "title": race_title or t,
+        "winner": winner or "—",
+        "link": link or "",
+        "status": "official" if winner else "pending",
+        "source": "offtrackbetting",
+    }
+
+
+def fetch_stakes_from_otb() -> list[dict]:
+    items: list[dict] = []
+    seen: set[str] = set()
+
+    for feed in OTB_FEEDS:
         try:
-            time.sleep(0.4)
-            res = json.loads(fetch(f"{BASE}/results/meeting?{rq}", headers=headers).decode("utf-8", "replace"))
-        except Exception as e:
-            print(f"results skip {slug}: {e}", file=sys.stderr)
+            raw = fetch(feed)
+            root = ET.fromstring(raw)
+        except (HTTPError, URLError, TimeoutError, ET.ParseError) as e:
+            print(f"OTB feed skip {feed}: {e}", file=sys.stderr)
             continue
 
-        races_data = res.get("races") or res.get("results") or res.get("data") or [] if isinstance(res, dict) else (res if isinstance(res, list) else [])
-        race_rows: list[dict[str, Any]] = []
-        for r in races_data:
-            if not isinstance(r, dict):
+        # RSS 2.0: channel/item
+        channel = root.find("channel")
+        entries = channel.findall("item") if channel is not None else root.findall("item")
+        # Atom fallback
+        if not entries:
+            ns = {"a": "http://www.w3.org/2005/Atom"}
+            entries = root.findall("a:entry", ns)
+
+        for el in entries:
+            title = (el.findtext("title") or "").strip()
+            link = (el.findtext("link") or "").strip()
+            if not link:
+                link_el = el.find("link")
+                if link_el is not None:
+                    link = (link_el.get("href") or "").strip()
+            desc = (el.findtext("description") or el.findtext("{http://www.w3.org/2005/Atom}summary") or "").strip()
+
+            parsed = parse_otb_item(title, desc, link)
+            if not parsed:
                 continue
-            num = r.get("race") or r.get("raceNumber") or r.get("number") or r.get("race_number")
-            title = str(r.get("raceName") or r.get("title") or r.get("name") or "").strip()
-            winner = jockey = trainer = odds = margin = ""
-            w = r.get("winner") or r.get("first") or {}
-            if isinstance(w, dict):
-                winner = str(w.get("name") or w.get("horse") or "").strip()
-                jockey = str(w.get("jockey") or "").strip()
-                trainer = str(w.get("trainer") or "").strip()
-                odds = str(w.get("odds") or w.get("sp") or "").strip()
-                margin = str(w.get("margin") or w.get("distance") or "").strip()
-            elif isinstance(w, str):
-                winner = w
-            runners = r.get("runners") or r.get("horses") or r.get("finishers") or []
-            if not winner and isinstance(runners, list):
-                for h in runners:
-                    if not isinstance(h, dict):
-                        continue
-                    pos = str(h.get("position") or h.get("pos") or h.get("finish") or "")
-                    if pos in ("1", "1st", "first"):
-                        winner = str(h.get("name") or h.get("horse") or "").strip()
-                        jockey = str(h.get("jockey") or "").strip()
-                        trainer = str(h.get("trainer") or "").strip()
-                        odds = str(h.get("odds") or h.get("sp") or "").strip()
-                        margin = str(h.get("margin") or h.get("distance_beaten") or "").strip()
-                        break
-            race_rows.append({
-                "race": int(num) if num is not None and str(num).isdigit() else num,
-                "title": title,
-                "winner": winner or "— ожидание —",
-                "jockey": jockey, "trainer": trainer, "odds": odds, "margin": margin,
-                "status": "official" if winner else "pending",
-            })
-        if race_rows:
-            tracks_out.append({"track": track or slug, "code": slug.upper()[:4], "races": race_rows})
-    return tracks_out
+            key = (parsed.get("title") or "") + "|" + (parsed.get("winner") or "")
+            if key in seen:
+                continue
+            seen.add(key)
+            items.append(parsed)
+
+        if items:
+            print(f"OTB: {len(items)} stakes from {feed}")
+            break
+
+    return items[:40]
 
 
-def placeholder_tracks(day: datetime) -> list[dict[str, Any]]:
+def seasonal_tracks(day: datetime) -> list[dict]:
+    """Только если tracks пустой — шаблон сезона (pending)."""
     month = day.month
     if month in (7, 8, 9):
-        names = ["Saratoga", "Del Mar", "Monmouth Park", "Colonial Downs", "Ellis Park"]
+        names = [("Saratoga", "SAR"), ("Del Mar", "DMR"), ("Monmouth Park", "MTH")]
     elif month in (10, 11):
-        names = ["Keeneland", "Santa Anita", "Belmont at Aqueduct", "Gulfstream Park"]
+        names = [("Keeneland", "KEE"), ("Santa Anita", "SA"), ("Belmont at Aqueduct", "BAQ")]
     elif month in (12, 1, 2, 3):
-        names = ["Gulfstream Park", "Santa Anita", "Aqueduct", "Fair Grounds"]
+        names = [("Gulfstream Park", "GP"), ("Santa Anita", "SA"), ("Aqueduct", "AQU")]
     else:
-        names = ["Keeneland", "Churchill Downs", "Belmont", "Santa Anita"]
+        names = [("Keeneland", "KEE"), ("Churchill Downs", "CD"), ("Santa Anita", "SA")]
+
     out = []
-    for name in names[:5]:
+    for name, code in names:
         out.append({
-            "track": name, "code": slugify(name)[:4].upper(),
-            "races": [{
-                "race": n, "title": "", "winner": "— ожидание —",
-                "jockey": "", "trainer": "", "odds": "", "margin": "", "status": "pending",
-            } for n in range(1, 4)],
+            "track": name,
+            "code": code,
+            "races": [
+                {
+                    "race": n,
+                    "title": "",
+                    "winner": "— ожидание —",
+                    "jockey": "",
+                    "trainer": "",
+                    "odds": "",
+                    "margin": "",
+                    "status": "pending",
+                }
+                for n in range(1, 10)
+            ],
         })
     return out
 
 
 def main() -> int:
     day = now_et()
-    key = os.environ.get("FORMFAV_API_KEY", "").strip()
-    tracks: list[dict[str, Any]] = []
-    source = "placeholder"
-    note = "Реальные победители появятся после подключения FORMFAV_API_KEY или ручного обновления JSON."
-    if key:
+    existing: dict = {}
+    if OUT.exists():
         try:
-            print("Trying FormFav results...")
-            tracks = from_formfav(key, day)
-            if not tracks:
-                yday = day - timedelta(days=1)
-                print("No results for today — try yesterday...")
-                tracks = from_formfav(key, yday)
-                if tracks:
-                    day = yday
-            if tracks:
-                source = "formfav"
-                note = "Данные FormFav (результаты встреч)."
-                print(f"FormFav: {len(tracks)} tracks")
-            else:
-                print("FormFav empty — placeholder", file=sys.stderr)
-        except (HTTPError, URLError, TimeoutError, json.JSONDecodeError, KeyError) as e:
-            print(f"FormFav failed: {e}", file=sys.stderr)
+            existing = json.loads(OUT.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            print("WARN: results.json broken — rebuild", file=sys.stderr)
+            existing = {}
+
+    # Ручные данные сохраняем
+    tracks = existing.get("tracks") or []
+    flat_results = existing.get("results") or []
     if not tracks:
-        tracks = placeholder_tracks(day)
+        tracks = seasonal_tracks(day)
+        print("tracks empty → seasonal template")
+
+    stakes: list[dict] = []
+    source = "manual"
+    note = "Обычные заезды — вручную в tracks. Stakes — OTB RSS (если доступен)."
+
+    try:
+        stakes = fetch_stakes_from_otb()
+        if stakes:
+            source = "manual+otb-rss"
+            note = "Обычные заезды — вручную. Крупные stakes — RSS OffTrackBetting.com."
+        else:
+            # не затираем старые stakes, если RSS пустой/403
+            stakes = existing.get("stakes_results") or []
+            print("OTB empty — keep previous stakes_results", file=sys.stderr)
+    except Exception as e:
+        print(f"OTB failed: {e}", file=sys.stderr)
+        stakes = existing.get("stakes_results") or []
+
     payload = {
-        "updated": datetime.now(ET).isoformat(),
+        "updated": now_et().isoformat(),
         "date": day.strftime("%Y-%m-%d"),
-        "source": source, "note": note, "tracks": tracks,
+        "source": source,
+        "note": note,
+        "results": flat_results,
+        "stakes_results": stakes,
+        "tracks": tracks,
     }
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote results -> {OUT} source={source} tracks={len(tracks)}")
+    print(f"Wrote {OUT} source={source} tracks={len(tracks)} stakes={len(stakes)}")
     return 0
 
 
