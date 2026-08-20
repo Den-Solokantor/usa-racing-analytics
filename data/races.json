@@ -1,49 +1,456 @@
 {
-  "updated": "2026-08-20T00:30:37.037964-04:00",
-  "source": "seasonal-fallback",
+  "updated": "2026-08-20T07:25:14.237248+03:00",
+  "source": "equibase-parser",
   "date": "2026-08-20",
   "races": [
     {
-      "id": "ell-0820-4",
-      "track": "Ellis Park",
-      "time": "16:20 ET",
-      "title": "Race 4 · Allowance",
-      "distance": "7f · Dirt",
-      "purse": "Purse $85,000",
-      "preview": "Кентукки. Карточка на 20.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
+      "id": "btp-0820-1",
+      "track": "BTP",
+      "time": "12:35 PM ET",
+      "title": "Race 1",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $8,000",
+      "preview": "Поле: Vanessa's Wish, Isha, Biv, Lilbitofsugar, Classic Tiramisu. ML: Vanessa's Wish (3.5); Isha (5.0); Biv (9.0); Lilbitofsugar (4.0); Classic Tiramisu (3.0). ~Win по ML (не live-кэф): Vanessa's Wish 3.5; Isha 5.0; Biv 9.0; Lilbitofsugar 4.0; Classic Tiramisu 3.0",
       "tags": [
-        "Dirt",
         "USA",
-        "Watchlist"
+        "Equibase",
+        "ML",
+        "ML estimate"
       ]
     },
     {
-      "id": "col-0820-6",
-      "track": "Colonial Downs",
-      "time": "17:05 ET",
-      "title": "Race 6 · Stakes",
-      "distance": "1 1/8m · Turf",
-      "purse": "Purse $150,000",
-      "preview": "Вирджиния. Карточка на 20.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
+      "id": "btp-0820-2",
+      "track": "BTP",
+      "time": "1:05 PM ET",
+      "title": "Race 2",
+      "distance": "Six Furlongs",
+      "purse": "Purse $8,000",
+      "preview": "Поле: Thundering Heart, Caballo Feliz, Theo's Thunder, Good Scout, Say It Ain't So. ML: Thundering Heart (3.5); Caballo Feliz (4.0); Theo's Thunder (5.0); Good Scout (2.8); Say It Ain't So (11.0). ~Win по ML (не live-кэф): Thundering Heart 3.5; Caballo Feliz 4.0; Theo's Thunder 5.0; Good Scout 2.8; Say It Ain't So 11.0",
       "tags": [
-        "Turf",
         "USA",
-        "Watchlist"
+        "Equibase",
+        "ML",
+        "ML estimate"
       ]
     },
     {
-      "id": "mon-0820-8",
-      "track": "Monmouth Park",
-      "time": "13:10 ET",
-      "title": "Race 8 · Allowance Optional Claiming",
-      "distance": "1 mile · Dirt",
+      "id": "btp-0820-3",
+      "track": "BTP",
+      "time": "1:35 PM ET",
+      "title": "Race 3",
+      "distance": "Six And One Half Furlongs",
+      "purse": "Purse $14,900",
+      "preview": "Поле: Blazing Burroughs, Mission Control, Crafted, It'sgoodtobeseen, Mr. High Pockets. ML: Blazing Burroughs (3.0); Mission Control (3.5); Crafted (4.5); It'sgoodtobeseen (6.0); Mr. High Pockets (5.0). ~Win по ML (не live-кэф): Blazing Burroughs 3.0; Mission Control 3.5; Crafted 4.5; It'sgoodtobeseen 6.0; Mr. High Pockets 5.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "btp-0820-4",
+      "track": "BTP",
+      "time": "2:05 PM ET",
+      "title": "Race 4",
+      "distance": "One Mile",
+      "purse": "Purse $10,500",
+      "preview": "Поле: Trojan Cheerleader, Combustible Mass, Tash Spice, Missymoo Iloveyou, Right and Tight, A Little Patience, Blue Northern, Boujeeonabudget … (+2). ML: Trojan Cheerleader (9.0); Combustible Mass (4.0); Tash Spice (6.0); Missymoo Iloveyou (16.0); Right and Tight (9.0); A Little Patience (13.0). ~Win по ML (не live-кэф): Trojan Cheerleader 9.0; Combustible Mass 4.0; Tash Spice 6.0; Missymoo Iloveyou 16.0; Right and Tight 9.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "btp-0820-5",
+      "track": "BTP",
+      "time": "2:35 PM ET",
+      "title": "Race 5",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $8,000",
+      "preview": "Поле: Scoville Unit, Stay Frosty, Freedom Empire, Cocktails N Dreams, Far From Home, Fort Bull. ML: Scoville Unit (2.8); Stay Frosty (7.0); Freedom Empire (4.5); Cocktails N Dreams (3.5); Far From Home (16.0); Fort Bull (5.5). ~Win по ML (не live-кэф): Scoville Unit 2.8; Stay Frosty 7.0; Freedom Empire 4.5; Cocktails N Dreams 3.5; Far From Home 16.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "btp-0820-6",
+      "track": "BTP",
+      "time": "3:05 PM ET",
+      "title": "Race 6",
+      "distance": "One Mile",
+      "purse": "Purse $9,500",
+      "preview": "Поле: Annunaki, Yes Please Do, Crested, Grippy Socks, Rocky World, Arrhythmia, Pinit Annie, Bourbon Americana … (+3). ML: Annunaki (16.0); Yes Please Do (11.0); Crested (21.0); Grippy Socks (16.0); Rocky World (4.0); Arrhythmia (31.0). ~Win по ML (не live-кэф): Annunaki 16.0; Yes Please Do 11.0; Crested 21.0; Grippy Socks 16.0; Rocky World 4.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "btp-0820-7",
+      "track": "BTP",
+      "time": "3:35 PM ET",
+      "title": "Race 7",
+      "distance": "Six And One Half Furlongs",
+      "purse": "Purse $8,000",
+      "preview": "Поле: Can of Corn, Cantarito, Ambulante, Nico's Derby Run, We Will Conquer, Sir Thomas Teal. ML: Can of Corn (3.5); Cantarito (5.0); Ambulante (16.0); Nico's Derby Run (4.5); We Will Conquer (11.0); Sir Thomas Teal (3.0). ~Win по ML (не live-кэф): Can of Corn 3.5; Cantarito 5.0; Ambulante 16.0; Nico's Derby Run 4.5; We Will Conquer 11.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "btp-0820-8",
+      "track": "BTP",
+      "time": "4:05 PM ET",
+      "title": "Race 8",
+      "distance": "One Mile",
+      "purse": "Purse $9,000",
+      "preview": "Поле: Cachaceira, Ceebee, Pharaoh's Favorite, Swigert, Dialed Inna, Scrapbook, Lucky Shore, Ask Amanda … (+3). ML: Cachaceira (11.0); Ceebee (9.0); Pharaoh's Favorite (21.0); Swigert (16.0); Dialed Inna (31.0); Scrapbook (21.0). ~Win по ML (не live-кэф): Cachaceira 11.0; Ceebee 9.0; Pharaoh's Favorite 21.0; Swigert 16.0; Dialed Inna 31.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cby-0820-1",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 1",
+      "distance": "Three Hundred Yards",
+      "purse": "Purse $16,000",
+      "preview": "Поле: Shez Painted Monday, Wise Lady, Gfr Belles Dynasty, Pure Relentless, Iza B Slick, One Sweet Lil Lady, One Lone Eagle, Yep Yep … (+1). ML: Shez Painted Monday (13.0); Wise Lady (7.0); Gfr Belles Dynasty (11.0); Pure Relentless (6.0); Iza B Slick (3.5); One Sweet Lil Lady (16.0). ~Win по ML (не live-кэф): Shez Painted Monday 13.0; Wise Lady 7.0; Gfr Belles Dynasty 11.0; Pure Relentless 6.0; Iza B Slick 3.5",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cby-0820-2",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 2",
+      "distance": "Three Hundred And Fifty Yards",
+      "purse": "Purse $59,400",
+      "preview": "Поле: Ourrelentlessdynasty, Wisp, Incendiari, Livin D Dream, Sheza a Sugar Momma, Why So Political, Daylynn, Golden Wonton … (+2). ML: Ourrelentlessdynasty (13.0); Wisp (16.0); Incendiari (31.0); Livin D Dream (7.0); Sheza a Sugar Momma (3.5); Why So Political (3.0). ~Win по ML (не live-кэф): Ourrelentlessdynasty 13.0; Wisp 16.0; Incendiari 31.0; Livin D Dream 7.0; Sheza a Sugar Momma 3.5",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cby-0820-3",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 3",
+      "distance": "Four Hundred Yards",
+      "purse": "Purse $36,675",
+      "preview": "Поле: Half a House, Averys Marble Queen, Uncle Redheads, Eza One, Terrorizer, Ding Dang Dulce, Holliewood, Finz Up … (+2). ML: Half a House (13.0); Averys Marble Queen (21.0); Uncle Redheads (3.0); Eza One (13.0); Terrorizer (16.0); Ding Dang Dulce (4.0). ~Win по ML (не live-кэф): Half a House 13.0; Averys Marble Queen 21.0; Uncle Redheads 3.0; Eza One 13.0; Terrorizer 16.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cby-0820-4",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 4",
+      "distance": "Seven And One Half Furlongs",
+      "purse": "Purse $29,000",
+      "preview": "Поле: Rynotograce, Ramblingamblinman, I'll Make Bank, High Ransom, Wyles, Paw Allen, It's Miles. ML: Rynotograce (5.5); Ramblingamblinman (5.0); I'll Make Bank (9.0); High Ransom (3.5); Wyles (4.5); Paw Allen (6.0). ~Win по ML (не live-кэф): Rynotograce 5.5; Ramblingamblinman 5.0; I'll Make Bank 9.0; High Ransom 3.5; Wyles 4.5",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cby-0820-5",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 5",
+      "distance": "One Mile",
+      "purse": "Purse $14,000",
+      "preview": "Поле: Speaking Loud, Whatsyourobjective, King of the Trail, Latin Force, Ky Do Declare, The Man the Myth, Bears' D. ML: Speaking Loud (13.0); Whatsyourobjective (3.5); King of the Trail (13.0); Latin Force (5.5); Ky Do Declare (2.8); The Man the Myth (21.0). ~Win по ML (не live-кэф): Speaking Loud 13.0; Whatsyourobjective 3.5; King of the Trail 13.0; Latin Force 5.5; Ky Do Declare 2.8",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cby-0820-6",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 6",
+      "distance": "One Mile",
+      "purse": "Purse $24,500",
+      "preview": "Поле: Everything Bugs Me, Mairsils First, Make It Happen, Clearly Authentic, Gottotry Mischief, Raven's Quest, Tour Queen, Morgs World. ML: Everything Bugs Me (5.5); Mairsils First (16.0); Make It Happen (13.0); Clearly Authentic (4.0); Gottotry Mischief (9.0); Raven's Quest (7.0). ~Win по ML (не live-кэф): Everything Bugs Me 5.5; Mairsils First 16.0; Make It Happen 13.0; Clearly Authentic 4.0; Gottotry Mischief 9.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cby-0820-7",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 7",
+      "distance": "Six Furlongs",
+      "purse": "Purse $28,000",
+      "preview": "Поле: Risky Bourbon, Tangos Mischief, Shances R, Mor Tiger Paw, Huey. ML: Risky Bourbon (9.0); Tangos Mischief (4.0); Shances R (3.0); Mor Tiger Paw (2.6); Huey (6.0). ~Win по ML (не live-кэф): Risky Bourbon 9.0; Tangos Mischief 4.0; Shances R 3.0; Mor Tiger Paw 2.6; Huey 6.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cby-0820-8",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 8",
+      "distance": "Six Furlongs",
+      "purse": "Purse $10,000",
+      "preview": "Поле: Mr Fabricator, Laws of Man, Toolittletoolate, Pass Line, Out Run'm, Secret Potion. ML: Mr Fabricator (2.8); Laws of Man (6.0); Toolittletoolate (7.0); Pass Line (3.5); Out Run'm (4.5); Secret Potion (13.0). ~Win по ML (не live-кэф): Mr Fabricator 2.8; Laws of Man 6.0; Toolittletoolate 7.0; Pass Line 3.5; Out Run'm 4.5",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cnl-0820-1",
+      "track": "CNL",
+      "time": "12:30 PM ET",
+      "title": "Race 1",
+      "distance": "Six And One Half Furlongs",
+      "purse": "Purse $40,000",
+      "preview": "Поле: Nantucket Love, Hill Country, Easy Pick, Saint Shance, Chappelle, Crevalli, Scrutinator, Never Till Now. ML: Nantucket Love (31.0); Hill Country (16.0); Easy Pick (7.0); Saint Shance (9.0); Chappelle (2.0); Crevalli (9.0). ~Win по ML (не live-кэф): Nantucket Love 31.0; Hill Country 16.0; Easy Pick 7.0; Saint Shance 9.0; Chappelle 2.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cnl-0820-2",
+      "track": "CNL",
+      "time": "1:02 PM ET",
+      "title": "Race 2",
+      "distance": "Five Furlongs",
+      "purse": "Purse $70,000",
+      "preview": "Поле: Moirai, La Loba, Princess Eliana, Baby Chantal, For the Money, Diamond Deb, Empress Warrior, Union Spirit … (+1). ML: Moirai (16.0); La Loba (31.0); Princess Eliana (31.0); Baby Chantal (31.0); For the Money (1.6); Diamond Deb (31.0). ~Win по ML (не live-кэф): Moirai 16.0; La Loba 31.0; Princess Eliana 31.0; Baby Chantal 31.0; For the Money 1.6",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cnl-0820-3",
+      "track": "CNL",
+      "time": "1:34 PM ET",
+      "title": "Race 3",
+      "distance": "One Mile",
+      "purse": "Purse $80,000",
+      "preview": "Поле: Adero, Aristotle, Caldera, Winterfell, Crossland, Macho Music. ML: Adero (4.5); Aristotle (7.0); Caldera (1.8); Winterfell (7.0); Crossland (31.0); Macho Music (5.5). ~Win по ML (не live-кэф): Adero 4.5; Aristotle 7.0; Caldera 1.8; Winterfell 7.0; Crossland 31.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cnl-0820-4",
+      "track": "CNL",
+      "time": "2:05 PM ET",
+      "title": "Race 4",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $50,000",
+      "preview": "Поле: Enzo, Jamalamadingdong, Start Tappin, Matthew's Ticket, Lundi Loot, Capovivo, Epico, Vanderbilt. ML: Enzo (5.0); Jamalamadingdong (11.0); Start Tappin (11.0); Matthew's Ticket (6.0); Lundi Loot (21.0); Capovivo (3.0). ~Win по ML (не live-кэф): Enzo 5.0; Jamalamadingdong 11.0; Start Tappin 11.0; Matthew's Ticket 6.0; Lundi Loot 21.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cnl-0820-5",
+      "track": "CNL",
+      "time": "2:35 PM ET",
+      "title": "Race 5",
+      "distance": "One Mile",
+      "purse": "Purse $28,000",
+      "preview": "Поле: Divine Swagger, H Abarrio, Dare Defying, Henry's Buddy, Juansinmiedo, Please Pat My Back, Arrow Ghost, Kilkerran … (+4). ML: Divine Swagger (9.0); H Abarrio (5.5); Dare Defying (4.5); Henry's Buddy (4.5); Juansinmiedo (16.0); Please Pat My Back (31.0). ~Win по ML (не live-кэф): Divine Swagger 9.0; H Abarrio 5.5; Dare Defying 4.5; Henry's Buddy 4.5; Juansinmiedo 16.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cnl-0820-6",
+      "track": "CNL",
+      "time": "3:06 PM ET",
+      "title": "Race 6",
+      "distance": "One Mile",
       "purse": "Purse $90,000",
-      "preview": "Нью-Джерси. Карточка на 20.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
+      "preview": "Поле: Stone Cold Flex, Master Schemer, Sir Maximus, Oviatt Class, Tuff Luck, Masakado, Jolly by Golly, Bruno. ML: Stone Cold Flex (4.0); Master Schemer (21.0); Sir Maximus (6.0); Oviatt Class (21.0); Tuff Luck (7.0); Masakado (11.0). ~Win по ML (не live-кэф): Stone Cold Flex 4.0; Master Schemer 21.0; Sir Maximus 6.0; Oviatt Class 21.0; Tuff Luck 7.0",
       "tags": [
-        "Dirt",
         "USA",
-        "Claiming",
-        "Watchlist"
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cnl-0820-7",
+      "track": "CNL",
+      "time": "3:38 PM ET",
+      "title": "Race 7",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $72,000",
+      "preview": "Поле: Wheneveruremember, Luca Machine, Jungle Glow, Firmantown, Mischievous Richie, Then What Time, Knockanara, Cyclonite. ML: Wheneveruremember (16.0); Luca Machine (21.0); Jungle Glow (4.5); Firmantown (11.0); Mischievous Richie (6.0); Then What Time (3.5). ~Win по ML (не live-кэф): Wheneveruremember 16.0; Luca Machine 21.0; Jungle Glow 4.5; Firmantown 11.0; Mischievous Richie 6.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cnl-0820-8",
+      "track": "CNL",
+      "time": "4:10 PM ET",
+      "title": "Race 8",
+      "distance": "One Mile",
+      "purse": "Purse $34,500",
+      "preview": "Поле: Pencil Me In, Souper Crunchy, Singularity, Hyteck Prince, Mr Flowers, Rennie, Owhatanite, Tyson's Delivery … (+6). ML: Pencil Me In (31.0); Souper Crunchy (4.0); Singularity (31.0); Hyteck Prince (9.0); Mr Flowers (2.4); Rennie (31.0). ~Win по ML (не live-кэф): Pencil Me In 31.0; Souper Crunchy 4.0; Singularity 31.0; Hyteck Prince 9.0; Mr Flowers 2.4",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "ct-0820-1",
+      "track": "Colonial Downs",
+      "time": "7:00 PM ET",
+      "title": "Race 1",
+      "distance": "Four And One Half Furlongs",
+      "purse": "Purse $16,200",
+      "preview": "Поле: Duchess Dee Anna, Hobnob's Girl, Graceful Cat, Kaylee's Fireball, Unusual Bay, Sola Vino, Pawleys Island, Ekati Indian. ML: Duchess Dee Anna (21.0); Hobnob's Girl (2.4); Graceful Cat (9.0); Kaylee's Fireball (7.0); Unusual Bay (2.8); Sola Vino (21.0). ~Win по ML (не live-кэф): Duchess Dee Anna 21.0; Hobnob's Girl 2.4; Graceful Cat 9.0; Kaylee's Fireball 7.0; Unusual Bay 2.8",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "ct-0820-2",
+      "track": "Colonial Downs",
+      "time": "7:30 PM ET",
+      "title": "Race 2",
+      "distance": "Four And One Half Furlongs",
+      "purse": "Purse $24,400",
+      "preview": "Поле: Beautiful Crazy, Julita, Valid Reason, Cajun Expectation, Dissolute, Breezey Bella, Little Bit of That. ML: Beautiful Crazy (3.5); Julita (11.0); Valid Reason (9.0); Cajun Expectation (16.0); Dissolute (13.0); Breezey Bella (2.6). ~Win по ML (не live-кэф): Beautiful Crazy 3.5; Julita 11.0; Valid Reason 9.0; Cajun Expectation 16.0; Dissolute 13.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "ct-0820-3",
+      "track": "Colonial Downs",
+      "time": "7:57 PM ET",
+      "title": "Race 3",
+      "distance": "Six And One Half Furlongs",
+      "purse": "Purse $9,700",
+      "preview": "Поле: Workislife, Buckin' Dreamer, Bid On Blue, Irish Warlock, Smooth Rico, Ridiculous, Ravin's Town, Imperial King … (+1). ML: Workislife (7.0); Buckin' Dreamer (5.0); Bid On Blue (11.0); Irish Warlock (6.0); Smooth Rico (16.0); Ridiculous (9.0). ~Win по ML (не live-кэф): Workislife 7.0; Buckin' Dreamer 5.0; Bid On Blue 11.0; Irish Warlock 6.0; Smooth Rico 16.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "ct-0820-4",
+      "track": "Colonial Downs",
+      "time": "8:25 PM ET",
+      "title": "Race 4",
+      "distance": "Seven Furlongs",
+      "purse": "Purse $32,900",
+      "preview": "Поле: Tactfully, Call Me a Taxi, Standard Deduction, Hobson's Choice, Dr. Buzzy, Municipal, Honor the Bull. ML: Tactfully (11.0); Call Me a Taxi (6.0); Standard Deduction (5.5); Hobson's Choice (4.5); Dr. Buzzy (5.0); Municipal (2.8). ~Win по ML (не live-кэф): Tactfully 11.0; Call Me a Taxi 6.0; Standard Deduction 5.5; Hobson's Choice 4.5; Dr. Buzzy 5.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "ct-0820-5",
+      "track": "Colonial Downs",
+      "time": "8:53 PM ET",
+      "title": "Race 5",
+      "distance": "Four And One Half Furlongs",
+      "purse": "Purse $20,700",
+      "preview": "Поле: Shuffle, Magical Surprise, Cano's Baby, Renegade Rabbit, Punxadonny, Super Puncher, Fernando's Gold, Camp Crystal Lake … (+1). ML: Shuffle (13.0); Magical Surprise (2.6); Cano's Baby (31.0); Renegade Rabbit (4.5); Punxadonny (7.0); Super Puncher (21.0). ~Win по ML (не live-кэф): Shuffle 13.0; Magical Surprise 2.6; Cano's Baby 31.0; Renegade Rabbit 4.5; Punxadonny 7.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "ct-0820-6",
+      "track": "Colonial Downs",
+      "time": "9:21 PM ET",
+      "title": "Race 6",
+      "distance": "Four And One Half Furlongs",
+      "purse": "Purse $34,100",
+      "preview": "Поле: Namaste, Rita the Redhead, Ain't No Angel, Chanterelle, Gift of the Magi, Belle Cause, Captured in Time, Great Fiber. ML: Namaste (2.4); Rita the Redhead (31.0); Ain't No Angel (5.0); Chanterelle (7.0); Gift of the Magi (16.0); Belle Cause (7.0). ~Win по ML (не live-кэф): Namaste 2.4; Rita the Redhead 31.0; Ain't No Angel 5.0; Chanterelle 7.0; Gift of the Magi 16.0",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
       ]
     }
   ]
