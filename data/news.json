@@ -1,12 +1,76 @@
 {
-  "updated": "2026-08-21T16:24:22.252856+00:00",
+  "updated": "2026-08-21T20:17:47.198497+00:00",
   "items": [
+    {
+      "title": "Гонки Knightsbridge-Led Pacific Classic одна из двух WAYI в субботу",
+      "title_en": "Knightsbridge-Led Pacific Classic One Of Two ‘WAYI’ Races Saturday",
+      "source": "TDN",
+      "url": "https://www.thoroughbreddailynews.com/knightsbridge-led-pacific-classic-one-of-two-wayi-races-saturday/",
+      "time": "1 ч. назад",
+      "summary": "Несмотря на потерю ведущих западных брендов, таких как Journalism ( Curlin ) и Nysos ( Nyquist ), субботний GI Pacific Classic по-прежнему имеет 11-глубокое поле претендентов, борющихся за «Win and You 're In»."
+    },
+    {
+      "title": "Письмо редактору: Время для прозрачности",
+      "title_en": "Letter To The Editor: Time For Transparency",
+      "source": "TDN",
+      "url": "https://www.thoroughbreddailynews.com/letter-to-the-editor-time-for-transparency/",
+      "time": "2 ч. назад",
+      "summary": "Маршалл Грамм совершил как минимум две большие ошибки. Он должен был предупредить HISA о безопасности своей базы данных, и он не должен был действовать на основе информации, которую у него не было разрешения на использование. Тем не менее,"
+    },
+    {
+      "title": "Суббота: семизначные дети в изобилии в Саратоге, Эллисе и Дель-Мар",
+      "title_en": "Saturday Insights: Seven-Figure Babies Abound at Saratoga, Ellis and Del Mar",
+      "source": "TDN",
+      "url": "https://www.thoroughbreddailynews.com/saturday-insights-seven-figure-babies-abound-at-saratoga-ellis-and-del-mar/",
+      "time": "2 ч. назад",
+      "summary": "$ 115 000, Msw, 2 года, 6 1/2fT, время публикации: 13:55. Продемонстрировав множество семизначных младенцев, третья гонка во второй половине дня предлагает несколько лучших родословных в племенной книге. Ведущий"
+    },
+    {
+      "title": "HISA требует смены пароля для пользователей портала в условиях продолжающейся утечки данных",
+      "title_en": "HISA Requires Password Change For Portal Users Amid Ongoing Data Breach",
+      "source": "TDN",
+      "url": "https://www.thoroughbreddailynews.com/hisa-requires-password-change-for-portal-users-amid-ongoing-data-breach/",
+      "time": "2 ч. назад",
+      "summary": "Пользователям портала HISA в пятницу днем было отправлено электронное письмо с предложением изменить свои пароли, начиная с понедельника, 24 августа, в связи с продолжающейся утечкой данных. Кроме того, в электронном письме содержится краткая обновленная информация"
+    },
+    {
+      "title": "Создание волн: Саратогское дерби приобретает европейский вкус",
+      "title_en": "Making Waves: Saratoga Derby Gains European Flavour",
+      "source": "TDN",
+      "url": "https://www.thoroughbreddailynews.com/making-waves-saratoga-derby-gains-european-flavour/",
+      "time": "2 ч. назад",
+      "summary": "В этой серии TDN рассматривает заметные успехи европейских производителей в Северной Америке. Эту колонну выделяет победа Глация при Саратоге. Another Feather In Too Darn Hot's"
+    },
+    {
+      "title": "Саратога примет баскетбольных тренеров Сиенского университета",
+      "title_en": "Saratoga To Host Siena University Basketball Coaches",
+      "source": "TDN",
+      "url": "https://www.thoroughbreddailynews.com/saratoga-to-host-siena-university-basketball-coaches/",
+      "time": "3 ч. назад",
+      "summary": "Нью-Йоркская гоночная ассоциация (New York Racing Association, Inc.) приглашает поклонников баскетбола из Сиенского университета на гоночную трассу Saratoga Race Course в среду, 26 августа, для специальной встречи и приветствия с новой мужской баскетбольной головой Сиены."
+    },
+    {
+      "title": "Summer Breezes, Спонсор OBS: 22 августа 2026 г.",
+      "title_en": "Summer Breezes, Sponsored By OBS: August 22, 2026",
+      "source": "TDN",
+      "url": "https://www.thoroughbreddailynews.com/summer-breezes-sponsored-by-obs-august-22-2026/",
+      "time": "3 ч. назад",
+      "summary": "Некоторые из самых ожидаемых гонок в течение летнего сезона - это «детские» гонки во время встреч в бутиках в Саратоге и Дель Мар, а также в Эллис-парке, которые привлекают свою долю"
+    },
+    {
+      "title": "Богиня Солнца лидирует в европейском рейтинге Timeform на 2 года",
+      "title_en": "Sun Goddess Leads Timeform’s European 2yo Rankings",
+      "source": "TDN",
+      "url": "https://www.thoroughbreddailynews.com/sun-goddess-leads-timeforms-european-2yo-rankings/",
+      "time": "3 ч. назад",
+      "summary": "Накануне своей шестилетней победы в «Полумиллионе Гарри» богиня Солнца (нация сиу) теперь занимает почетное место в европейских двухлетних рейтингах Timeform. Героиня G1 Phoenix Stakes, которая участвует в гонках"
+    },
     {
       "title": "Восхождение Ка Ин превращается в блестящее испытание барьера в преддверии сезона в Гонконге",
       "title_en": "Ka Ying Rising Turns In Brilliant Barrier Trial Ahead Of HK Season",
       "source": "TDN",
       "url": "https://www.thoroughbreddailynews.com/ka-ying-rising-turns-in-brilliant-barrier-trial-ahead-of-hk-season/",
-      "time": "13 мин. назад",
+      "time": "4 ч. назад",
       "summary": "Правящая в Гонконге Лошадь года Ka Ying Rising (Shamexpress) была в отличном настроении во время утреннего испытания барьера в пятницу в Ша Тине (видео). Гельдинг должен появиться в день открытия нового"
     },
     {
@@ -14,72 +78,8 @@
       "title_en": "U.S.-Conceived American Pharoah Filly Has Japanese Appeal",
       "source": "TDN",
       "url": "https://www.thoroughbreddailynews.com/u-s-conceived-american-pharoah-filly-has-japanese-appeal/",
-      "time": "23 мин. назад",
+      "time": "4 ч. назад",
       "summary": "В этой продолжающейся серии мы рассмотрим американских и/или зачатых бегунов, участвующих в предстоящих уик-эндах на трассах на трассе Японской гоночной ассоциации, с акцентом на родословную и"
-    },
-    {
-      "title": "«He Was All Fire»: Bacio Wires Nunthorpe в мастер-классе Эрнандеса",
-      "title_en": "‘He Was All Fire’: Bacio Wires Nunthorpe In Hernandez Masterclass",
-      "source": "TDN",
-      "url": "https://www.thoroughbreddailynews.com/usa-bacio-dominates-the-nunthorpe/",
-      "time": "1 ч. назад",
-      "summary": "На любые вопросы о легкой земле Йорка всесторонне ответил Басио (Музыка Маклина), когда американская сенсация выступила в пятницу в G1 Coolmore City Of Troy Nunthorpe Stakes."
-    },
-    {
-      "title": "«Он был настоящей сделкой» – Муртаг вспоминает Аламшара",
-      "title_en": "‘He Was The Real Deal’ – Murtagh Remembers Alamshar",
-      "source": "TDN",
-      "url": "https://www.thoroughbreddailynews.com/he-was-the-real-deal-murtagh-remebers-alamshar/",
-      "time": "1 ч. назад",
-      "summary": "Его Высочество Ага Хан в блестящем ирландском дерби G1, король Георг VI и герой Ставок королевы Елизаветы Аламшар умер от старости 20 августа, объявили жеребцы JBBA в пятницу утром."
-    },
-    {
-      "title": "Первый победитель группы Bayside Boy As Arapaho Gold Lands Gimcrack Spoils",
-      "title_en": "First Group Winner For Bayside Boy As Arapaho Gold Lands Gimcrack Spoils",
-      "source": "TDN",
-      "url": "https://www.thoroughbreddailynews.com/first-group-winner-for-bayside-boy-as-arapaho-gold-lands-gimcrack-spoils/",
-      "time": "1 ч. назад",
-      "summary": "Кэрол Додс (Carole Dods) и Дуг Грэм (Doug Graham), победитель розовых ставок Арапахо Голд (Arapaho Gold) (Bayside Boy) продолжили в том же духе и подняли свой рекорд до идеальной четвёрки из четырёх, став первокурсниками сира Бейсайд Бойз (Bayside Boy's fi)"
-    },
-    {
-      "title": "Солнечные возвышенности: гость Rae занят на пенсии",
-      "title_en": "Sunlit Uplands Keeps Rae Guest Busy In Retirement",
-      "source": "TDN",
-      "url": "https://www.thoroughbreddailynews.com/sunlit-uplands-keep-rae-guest-busy-in-retirement/",
-      "time": "2 ч. назад",
-      "summary": "САРАТОГА-СПРИНГС, Нью-Йорк – Благодаря Sunlit Uplands (Ире) (Sands of Mali {Fr}), первый полный год выхода на пенсию Rae Guest был совсем не скучным. После завершения карьеры продолжительностью около 60 лет"
-    },
-    {
-      "title": "Ирад Ортиз-младший должен оставаться вне крепления «до дальнейшего уведомления»",
-      "title_en": "Irad Ortiz Jr. To Remain Off Mounts ‘Until Further Notice’",
-      "source": "TDN",
-      "url": "https://www.thoroughbreddailynews.com/irad-ortiz-jr-to-remain-off-mounts-until-further-notice/",
-      "time": "2 ч. назад",
-      "summary": "Жокей Ирад Ортиз-младший останется на скакунах до дальнейшего уведомления, поскольку он продолжает заживать после травмы ноги, полученной в инциденте перед гонкой 8 августа в Саратоге. В репортаже, рассказанном Daily Racin"
-    },
-    {
-      "title": "Бриллиантовое ожерелье: звездный аттракцион в супервоскресенье в Довиле",
-      "title_en": "Diamond Necklace The Star Attraction On Super Sunday At Deauville",
-      "source": "TDN",
-      "url": "https://www.thoroughbreddailynews.com/diamond-necklace-the-star-attraction-on-super-sunday-at-deauville/",
-      "time": "5 ч. назад",
-      "summary": "Непобедимое бриллиантовое ожерелье Кулмора и Вестерберга (базилика Святого Марка) попытается в пятый раз подряд одержать победу в группе 1 на воскресном G1 Sumbe Prix Jean et Louis Romanet в Довиле. Сопровождается"
-    },
-    {
-      "title": "Записная книжка Saratoga, представленная NYRA Bets: Наполеон Соло побежит в Траверсе, Веласкес поедет",
-      "title_en": "Saratoga Notebook, presented by NYRA Bets: Napoleon Solo Will Run in Travers, Velazquez Will Ride",
-      "source": "TDN",
-      "url": "https://www.thoroughbreddailynews.com/saratoga-notebook-presented-by-nyra-bets-napoleon-solo-will-run-in-travers-velazquez-will-ride/",
-      "time": "17 ч. назад",
-      "summary": "САРАТОГА-СПРИНГС, Нью-Йорк — Решение принято. Napoleon Solo ( Liam's Map ), победитель GI Preakness Stakes, побежит в следующем субботнем GI, $ 1.25 million Travers Stakes at Saratoga. The gre"
-    },
-    {
-      "title": "Дебют New York-Bred Cash Burn Sizzles в спа-центре",
-      "title_en": "New York-Bred Cash Burn Sizzles in Debut at the Spa",
-      "source": "TDN",
-      "url": "https://www.thoroughbreddailynews.com/new-york-bred-cash-burn-sizzles-in-debut-at-the-spa/",
-      "time": "20 ч. назад",
-      "summary": "ОЖОГ НАЛИЧНЫМИ КЛАРАВИЧА СТЕЙБЛА (f, 2, Найквист ) заставил 4-5 выглядеть выгодной сделкой в этом открытии по сравнению с другими нью-йоркскими племенами. Она гналась от третьего до дробей:22,18 и :46,12. Все нарядились"
     }
   ]
 }
