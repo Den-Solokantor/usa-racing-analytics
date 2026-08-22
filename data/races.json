@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-22T06:59:33.853317+03:00",
+  "updated": "2026-08-22T09:18:48.481449+03:00",
   "source": "equibase-parser",
   "date": "2026-08-22",
   "races": [
     {
       "id": "alb-0822-1",
-      "track": "ALB",
+      "track": "Albuquerque",
       "time": "",
       "title": "Race 1",
       "distance": "Eight Hundred And Seventy Yards",
@@ -76,7 +76,7 @@
     },
     {
       "id": "alb-0822-2",
-      "track": "ALB",
+      "track": "Albuquerque",
       "time": "",
       "title": "Race 2",
       "distance": "Four Hundred Yards",
@@ -147,7 +147,7 @@
     },
     {
       "id": "alb-0822-3",
-      "track": "ALB",
+      "track": "Albuquerque",
       "time": "",
       "title": "Race 3",
       "distance": "Three Hundred And Thirty Yards",
@@ -230,7 +230,7 @@
     },
     {
       "id": "alb-0822-4",
-      "track": "ALB",
+      "track": "Albuquerque",
       "time": "",
       "title": "Race 4",
       "distance": "Eight Hundred And Seventy Yards",
@@ -307,7 +307,7 @@
     },
     {
       "id": "alb-0822-5",
-      "track": "ALB",
+      "track": "Albuquerque",
       "time": "",
       "title": "Race 5",
       "distance": "Three Hundred And Fifty Yards",
@@ -396,7 +396,7 @@
     },
     {
       "id": "alb-0822-6",
-      "track": "ALB",
+      "track": "Albuquerque",
       "time": "",
       "title": "Race 6",
       "distance": "Three Hundred And Thirty Yards",
@@ -485,7 +485,7 @@
     },
     {
       "id": "alb-0822-7",
-      "track": "ALB",
+      "track": "Albuquerque",
       "time": "",
       "title": "Race 7",
       "distance": "Eight Hundred And Seventy Yards",
@@ -562,7 +562,7 @@
     },
     {
       "id": "alb-0822-8",
-      "track": "ALB",
+      "track": "Albuquerque",
       "time": "",
       "title": "Race 8",
       "distance": "Four Hundred Yards",
@@ -645,7 +645,7 @@
     },
     {
       "id": "alb-0822-9",
-      "track": "ALB",
+      "track": "Albuquerque",
       "time": "",
       "title": "Race 9",
       "distance": "Four Hundred Yards",
@@ -734,7 +734,7 @@
     },
     {
       "id": "alb-0822-10",
-      "track": "ALB",
+      "track": "Albuquerque",
       "time": "",
       "title": "Race 10",
       "distance": "Three Hundred And Fifty Yards",
@@ -1295,7 +1295,7 @@
     },
     {
       "id": "cas-0822-1",
-      "track": "CAS",
+      "track": "Casino at the Downs",
       "time": "",
       "title": "Race 1",
       "distance": "Two Hundred And Fifty Yards",
@@ -1330,7 +1330,7 @@
     },
     {
       "id": "cas-0822-2",
-      "track": "CAS",
+      "track": "Casino at the Downs",
       "time": "",
       "title": "Race 2",
       "distance": "Two Hundred And Fifty Yards",
@@ -1377,7 +1377,7 @@
     },
     {
       "id": "cas-0822-3",
-      "track": "CAS",
+      "track": "Casino at the Downs",
       "time": "",
       "title": "Race 3",
       "distance": "Two Hundred And Fifty Yards",
@@ -1424,7 +1424,7 @@
     },
     {
       "id": "cas-0822-4",
-      "track": "CAS",
+      "track": "Casino at the Downs",
       "time": "",
       "title": "Race 4",
       "distance": "Two Hundred And Fifty Yards",
@@ -1471,7 +1471,7 @@
     },
     {
       "id": "cas-0822-5",
-      "track": "CAS",
+      "track": "Casino at the Downs",
       "time": "",
       "title": "Race 5",
       "distance": "Two Hundred And Fifty Yards",
@@ -1524,7 +1524,7 @@
     },
     {
       "id": "cas-0822-6",
-      "track": "CAS",
+      "track": "Casino at the Downs",
       "time": "",
       "title": "Race 6",
       "distance": "Six Hundred And Sixty Yards",
