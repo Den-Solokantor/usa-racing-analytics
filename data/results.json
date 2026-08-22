@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-22T09:31:06.375578+03:00",
+  "updated": "2026-08-22T10:06:56.638923+03:00",
   "date": "2026-08-22",
-  "source": "manual+cards",
+  "source": "manual",
   "note": "Состав как в «Сегодня». После финиша проставь place: 1,2,3… и status: official.",
   "results": [],
   "stakes_results": [],
@@ -13,7 +13,7 @@
       "title": "Race 1",
       "distance": "Eight Hundred And Seventy Yards",
       "purse": "Purse $14,700",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
         "Result"
@@ -29,13 +29,13 @@
           "post": 2,
           "name": "Billy de Kid",
           "ml": 3.5,
-          "place": null
+          "place": 1
         },
         {
           "post": 3,
           "name": "Discreet Tiger",
           "ml": 4.5,
-          "place": null
+          "place": 2
         },
         {
           "post": 4,
@@ -47,7 +47,7 @@
           "post": 5,
           "name": "Shug's Rocket",
           "ml": 5.5,
-          "place": null
+          "place": 3
         },
         {
           "post": 6,
