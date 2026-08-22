@@ -1,0 +1,38 @@
+name: Update cards (Equibase)
+
+on:
+  schedule:
+    - cron: "0 11,16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install httpx
+
+      - name: Fetch cards → races.json + results field
+        run: python scripts/update_cards_from_equibase.py
+        continue-on-error: true
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/races.json data/results.json
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: auto cards + results field"
+            git push
+          fi
