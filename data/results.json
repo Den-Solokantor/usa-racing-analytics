@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T10:06:56.638923+03:00",
+  "updated": "2026-08-22T10:11:04.980141+03:00",
   "date": "2026-08-22",
   "source": "manual",
   "note": "Состав как в «Сегодня». После финиша проставь place: 1,2,3… и status: official.",
@@ -82,7 +82,7 @@
       "title": "Race 2",
       "distance": "Four Hundred Yards",
       "purse": "Purse $23,300",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
         "Result"
@@ -92,7 +92,7 @@
           "post": 1,
           "name": "Magical Marfa",
           "ml": 9.0,
-          "place": null
+          "place": 1
         },
         {
           "post": 2,
@@ -110,7 +110,7 @@
           "post": 4,
           "name": "Fabulous Dashtiny",
           "ml": 11.0,
-          "place": null
+          "place": 2
         },
         {
           "post": 5,
@@ -128,7 +128,7 @@
           "post": 7,
           "name": "Light My Lips",
           "ml": 4.0,
-          "place": null
+          "place": 3
         },
         {
           "post": 8,
