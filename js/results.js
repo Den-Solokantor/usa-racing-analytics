@@ -1,53 +1,98 @@
-// ===== Load race results (winners) from JSON =====
-// Читает data/results.json:
-//   - tracks[].races[]  (основной формат)
-//   - results[]         (плоский список, опционально)
-//   - stakes_results[]  (крупные stakes, опционально)
-// Стили: те же классы, что у карточек гонок (race-card и т.д.)
+// ===== Результаты дня — тот же вид, что «Сегодня», + колонка Место =====
 
-const resultsObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.style.opacity = '1';
-      entry.target.style.transform = 'translateY(0)';
-    }
-  });
-}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-
-function isPendingWinner(r) {
-  if (!r) return true;
-  if (r.status === 'pending') return true;
-  const w = String(r.winner || '').trim();
-  if (!w) return true;
-  if (w.indexOf('ожидание') !== -1) return true;
-  return false;
+function escapeHtml(str) {
+  return String(str ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }
 
-function renderRaceCard(r, trackName, trackCode) {
-  const pending = isPendingWinner(r);
-  const raceLabel = r.race != null ? 'R' + r.race : '';
-  const title = r.title || (raceLabel ? 'Race ' + r.race : 'Заезд');
+function placeClass(place) {
+  if (place === 1) return 'place-1';
+  if (place === 2) return 'place-2';
+  if (place === 3) return 'place-3';
+  return '';
+}
 
-  const winnerHtml = pending
-    ? `<div class="race-tags"><span class="tag tag-secondary">Ожидаем результат…</span></div>`
-    : `
-      <div class="race-meta">
-        <span>Победитель: <strong>${r.winner}</strong></span>
-        ${r.jockey ? `<span>жокей ${r.jockey}</span>` : ''}
-        ${r.odds ? `<span>${r.odds}</span>` : ''}
-      </div>
-    `;
+function renderHorsesTable(horses, showPlaces) {
+  if (!horses || !horses.length) {
+    return '<p class="race-preview">Нет данных по лошадям</p>';
+  }
+
+  const sorted = [...horses].sort((a, b) => {
+    if (showPlaces) {
+      const pa = a.place != null ? a.place : 999;
+      const pb = b.place != null ? b.place : 999;
+      if (pa !== pb) return pa - pb;
+    }
+    return (a.post || 0) - (b.post || 0);
+  });
+
+  const rows = sorted
+    .map((h) => {
+      const placeCell = showPlaces
+        ? `<td class="col-place ${placeClass(h.place)}">${
+            h.place != null ? escapeHtml(h.place) : '—'
+          }</td>`
+        : '';
+      const ml = h.ml != null ? h.ml : '—';
+      return `<tr>
+        <td class="col-post">${h.post != null ? escapeHtml(h.post) : ''}</td>
+        <td class="col-name">${escapeHtml(h.name || '')}</td>
+        <td class="col-ml">${escapeHtml(ml)}</td>
+        ${placeCell}
+      </tr>`;
+    })
+    .join('');
 
   return `
-    <article class="race-card">
-      <div class="race-card-header">
-        <span class="track-badge">${trackName || trackCode || ''}</span>
-        <span class="race-time">${raceLabel || r.time || ''}</span>
-      </div>
-      <h3 class="race-title">${title}</h3>
-      ${winnerHtml}
-    </article>
-  `;
+    <div class="race-table-wrap">
+      <table class="race-table">
+        <thead>
+          <tr>
+            <th class="col-post">№</th>
+            <th class="col-name">Лошадь</th>
+            <th class="col-ml">ML</th>
+            ${showPlaces ? '<th class="col-place">Место</th>' : ''}
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+}
+
+function raceFromLegacyTrackRace(t, r) {
+  // Старый формат tracks[].races → одна «карточка»
+  const pending =
+    r.status === 'pending' ||
+    !r.winner ||
+    String(r.winner).indexOf('ожидание') !== -1;
+
+  const horses = [];
+  if (!pending && r.winner) {
+    horses.push({
+      post: r.post || '',
+      name: r.winner,
+      ml: r.odds || null,
+      place: 1,
+    });
+  }
+
+  return {
+    id: `${(t.code || t.track || 'x').toLowerCase()}-r${r.race}`,
+    track: t.track || t.code || '',
+    time: r.time || '',
+    title: r.title || (r.race != null ? 'Race ' + r.race : 'Заезд'),
+    distance: '',
+    purse: '',
+    status: pending ? 'pending' : 'official',
+    tags: pending ? ['Pending'] : ['Result'],
+    horses,
+    _legacyWinner: r.winner,
+    _legacyJockey: r.jockey,
+    _pending: pending,
+  };
 }
 
 async function loadResults() {
@@ -57,140 +102,133 @@ async function loadResults() {
 
   try {
     const res = await fetch('data/results.json?t=' + Date.now());
-    if (!res.ok) throw new Error('Не удалось загрузить results.json');
-
+    if (!res.ok) throw new Error('results.json HTTP ' + res.status);
     const data = await res.json();
 
     if (metaEl) {
       const parts = [];
       if (data.date) parts.push('Дата: ' + data.date);
-      if (data.source === 'placeholder') {
-        parts.push('ожидание официальных результатов');
-      } else if (data.source) {
-        parts.push('источник: ' + data.source);
-      }
+      if (data.source) parts.push('источник: ' + data.source);
       if (data.updated) {
         try {
-          const date = new Date(data.updated);
           parts.push(
             'обновлено ' +
-              date.toLocaleString('ru-RU', {
+              new Date(data.updated).toLocaleString('ru-RU', {
                 day: 'numeric',
                 month: 'long',
                 hour: '2-digit',
-                minute: '2-digit'
+                minute: '2-digit',
               })
           );
-        } catch (e) {
-          /* ignore */
-        }
+        } catch (e) {}
       }
       metaEl.textContent = parts.join(' · ');
     }
 
-    const tracks = data.tracks || [];
-    const todayResults = data.results || [];
-    const stakesResults = data.stakes_results || [];
+    let races = data.races || [];
 
-    const hasTracks = tracks.some(t => (t.races || []).length > 0);
-    const hasFlat = todayResults.length > 0;
-    const hasStakes = stakesResults.length > 0;
+    // Совместимость со старым форматом tracks[]
+    if (!races.length && data.tracks && data.tracks.length) {
+      races = [];
+      data.tracks.forEach((t) => {
+        (t.races || []).forEach((r) => {
+          races.push(raceFromLegacyTrackRace(t, r));
+        });
+      });
+    }
 
-    if (!hasTracks && !hasFlat && !hasStakes) {
-      board.innerHTML = '<div class="loading-placeholder">Результатов пока нет</div>';
+    // Stakes (OTB) — простые карточки
+    const stakes = data.stakes_results || [];
+
+    if (!races.length && !stakes.length) {
+      board.innerHTML =
+        '<div class="loading-placeholder">Результатов пока нет. После забегов заполни places в data/results.json</div>';
       return;
     }
 
     let html = '';
 
-    // --- Основной формат: tracks → races ---
-    if (hasTracks) {
-      tracks.forEach(t => {
-        const races = t.races || [];
-        if (!races.length) return;
+    if (races.length) {
+      board.style.display = 'grid';
+      board.style.gridTemplateColumns =
+        'repeat(auto-fill, minmax(300px, 1fr))';
+      board.style.gap = '20px';
 
-        html += `
-          <div style="grid-column: 1 / -1; margin-top: 8px; margin-bottom: 4px;">
-            <strong style="font-size: 1.1rem;">${t.track || ''}</strong>
-            ${t.code ? `<span style="opacity:0.55; margin-left:8px; font-size:0.8rem;">${t.code}</span>` : ''}
-          </div>
-        `;
+      html += races
+        .map((race) => {
+          const official = race.status === 'official';
+          const showPlaces =
+            official ||
+            (race.horses || []).some((h) => h.place != null);
 
-        html += races
-          .map(r => renderRaceCard(r, t.track, t.code))
-          .join('');
-      });
-    }
+          const tags = (race.tags || []).map((tag) => {
+            return `<span class="tag tag-secondary">${escapeHtml(tag)}</span>`;
+          }).join('');
 
-    // --- Плоский список results[] (если есть) ---
-    if (hasFlat) {
-      html += todayResults
-        .map(r => renderRaceCard(r, r.track, r.code || ''))
-        .join('');
-    }
+          let body;
+          if (race.horses && race.horses.length) {
+            body = renderHorsesTable(race.horses, showPlaces);
+          } else if (race._pending) {
+            body =
+              '<div class="race-tags"><span class="tag tag-secondary">Ожидаем результат…</span></div>';
+          } else if (race._legacyWinner) {
+            body = `<div class="race-meta"><span>Победитель: <strong>${escapeHtml(
+              race._legacyWinner
+            )}</strong></span></div>`;
+          } else {
+            body =
+              '<div class="race-tags"><span class="tag tag-secondary">Нет поля</span></div>';
+          }
 
-    // --- Stakes ---
-    if (hasStakes) {
-      html += `
-        <div class="section-desc" style="grid-column: 1 / -1; margin-top: 20px; font-weight: 600;">
-          Крупные заезды (stakes)
-        </div>
-      `;
-
-      const sorted = [...stakesResults].sort((a, b) =>
-        (b.title || '').localeCompare(a.title || '')
-      );
-
-      html += sorted
-        .map(s => {
-          const pending = isPendingWinner(s);
           return `
             <article class="race-card">
               <div class="race-card-header">
-                <span class="track-badge">${s.track || ''}</span>
+                <span class="track-badge">${escapeHtml(race.track || '')}</span>
+                <span class="race-time">${escapeHtml(race.time || '')}</span>
               </div>
-              <h3 class="race-title">${s.title || ''}</h3>
-              ${
-                pending
-                  ? `<div class="race-tags"><span class="tag tag-secondary">Ожидаем результат…</span></div>`
-                  : `<div class="race-meta"><span>Победитель: <strong>${s.winner || '—'}</strong></span></div>`
-              }
-              ${
-                s.link
-                  ? `<div class="race-tags"><a class="tag" href="${s.link}" target="_blank" rel="noopener">Видеоповтор →</a></div>`
-                  : ''
-              }
-            </article>
-          `;
+              <h3 class="race-title">${escapeHtml(race.title || '')}</h3>
+              <div class="race-meta">
+                <span>${escapeHtml(race.distance || '')}</span>
+                <span>${escapeHtml(race.purse || '')}</span>
+              </div>
+              ${body}
+              <div class="race-tags">${tags}</div>
+            </article>`;
         })
         .join('');
     }
 
+    if (stakes.length) {
+      html += `<div style="grid-column:1/-1;margin-top:12px;font-weight:600">Крупные stakes</div>`;
+      html += stakes
+        .map(
+          (s) => `
+        <article class="race-card">
+          <div class="race-card-header">
+            <span class="track-badge">${escapeHtml(s.track || '')}</span>
+          </div>
+          <h3 class="race-title">${escapeHtml(s.title || '')}</h3>
+          <div class="race-meta">
+            <span>Победитель: <strong>${escapeHtml(s.winner || '—')}</strong></span>
+          </div>
+        </article>`
+        )
+        .join('');
+    }
+
     if (data.note) {
-      html += `
-        <div class="section-desc" style="grid-column: 1 / -1; font-size: 0.85rem; opacity: 0.7; margin-top: 12px;">
-          ${data.note}
-        </div>
-      `;
+      html += `<p class="section-desc" style="grid-column:1/-1;font-size:0.85rem;opacity:0.7">${escapeHtml(
+        data.note
+      )}</p>`;
     }
 
     board.innerHTML = html;
-
-    // Сетка, как у гонок дня
-    board.style.display = 'grid';
-    board.style.gridTemplateColumns = 'repeat(auto-fill, minmax(280px, 1fr))';
-    board.style.gap = '16px';
-
-    document.querySelectorAll('#resultsBoard .race-card').forEach(el => {
-      el.style.opacity = '1';
-      el.style.transform = 'translateY(0)';
-    });
   } catch (err) {
     console.error(err);
     board.innerHTML =
-      '<div class="loading-placeholder">Ошибка загрузки результатов. Проверьте data/results.json</div>';
+      '<div class="loading-placeholder">Ошибка загрузки results.json</div>';
   }
 }
 
 loadResults();
-console.log('Results module loaded');
+console.log('Results module loaded (card+places)');
