@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T11:07:29.391244+03:00",
+  "updated": "2026-08-22T08:35:20.277509+00:00",
   "date": "2026-08-22",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
