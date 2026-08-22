@@ -1091,7 +1091,16 @@ button.analytics-card {
 .race-table tbody tr:hover {
   background: rgba(201, 162, 39, 0.06);
 } 
-
+/* Места в таблице результатов */
+.race-table .col-place {
+  width: 3em;
+  text-align: center;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.race-table .place-1 { color: #e0b83a; }
+.race-table .place-2 { color: #9aabbc; }
+.race-table .place-3 { color: #c47a4a; }
   
   color: var(--text-muted);
   padding-top: 12px;
