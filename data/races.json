@@ -1,48 +1,47 @@
 {
-  "updated": "2026-08-22T20:53:25.742716-04:00",
+  "updated": "2026-08-23T00:29:41.393869-04:00",
   "source": "seasonal-fallback",
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "races": [
     {
-      "id": "mon-0822-4",
-      "track": "Monmouth Park",
-      "time": "13:10 ET",
-      "title": "Race 4 · Allowance Optional Claiming",
-      "distance": "1 mile · Dirt",
-      "purse": "Purse $90,000",
-      "preview": "Нью-Джерси. Карточка на 22.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
-      "tags": [
-        "Dirt",
-        "USA",
-        "Claiming",
-        "Watchlist"
-      ]
-    },
-    {
-      "id": "sar-0822-6",
+      "id": "sar-0823-4",
       "track": "Saratoga",
       "time": "14:40 ET",
-      "title": "Race 6 · Maiden Special Weight",
+      "title": "Race 4 · Maiden Special Weight",
       "distance": "6.5f · Turf",
       "purse": "Purse $75,000",
-      "preview": "NYRA · лето. Карточка на 22.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
+      "preview": "NYRA · лето. Карточка на 23.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
       "tags": [
         "Turf",
         "USA"
       ]
     },
     {
-      "id": "del-0822-8",
+      "id": "del-0823-6",
       "track": "Del Mar",
       "time": "15:35 ET",
-      "title": "Race 8 · Claiming $25,000",
+      "title": "Race 6 · Claiming $25,000",
       "distance": "1 1/16m · Dirt",
       "purse": "Purse $32,000",
-      "preview": "Калифорния · лето. Карточка на 22.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
+      "preview": "Калифорния · лето. Карточка на 23.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
       "tags": [
         "Dirt",
         "USA",
         "Claiming"
+      ]
+    },
+    {
+      "id": "ell-0823-8",
+      "track": "Ellis Park",
+      "time": "16:20 ET",
+      "title": "Race 8 · Allowance",
+      "distance": "7f · Dirt",
+      "purse": "Purse $85,000",
+      "preview": "Кентукки. Карточка на 23.08.2026 (автошаблон). Для официальных entries: секреты RACING_API_USER / RACING_API_PASSWORD.",
+      "tags": [
+        "Dirt",
+        "USA",
+        "Watchlist"
       ]
     }
   ]
