@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T11:11:31.008792+00:00",
+  "updated": "2026-08-23T16:11:38.333659+00:00",
   "source": "equibase-parser-gha",
   "date": "2026-08-23",
   "races": [
@@ -857,12 +857,6 @@
           "win": null
         },
         {
-          "post": 6,
-          "name": "Bolt of Luck",
-          "ml": 11.0,
-          "win": null
-        },
-        {
           "post": 7,
           "name": "Wilkin County",
           "ml": 6.0,
@@ -1103,12 +1097,6 @@
           "name": "Hurricane Mattie",
           "ml": 13.0,
           "win": null
-        },
-        {
-          "post": 8,
-          "name": "Sacred Defiance",
-          "ml": 21.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -1214,12 +1202,6 @@
           "post": 4,
           "name": "Bad Boy Blaze",
           "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Coco No Loco",
-          "ml": 21.0,
           "win": null
         },
         {
@@ -1400,12 +1382,6 @@
           "win": null
         },
         {
-          "post": 4,
-          "name": "Tiz a Princess",
-          "ml": 21.0,
-          "win": null
-        },
-        {
           "post": 5,
           "name": "Yo Adrian",
           "ml": 3.0,
@@ -1448,21 +1424,9 @@
           "win": null
         },
         {
-          "post": 12,
-          "name": "Ballykeefe",
-          "ml": 13.0,
-          "win": null
-        },
-        {
           "post": 13,
           "name": "Horsing Around",
           "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "Rockyta",
-          "ml": 5.5,
           "win": null
         }
       ],
@@ -1519,12 +1483,6 @@
           "win": null
         },
         {
-          "post": 7,
-          "name": "National Law",
-          "ml": 13.0,
-          "win": null
-        },
-        {
           "post": 8,
           "name": "Pinfire",
           "ml": 11.0,
@@ -1569,12 +1527,6 @@
           "post": 3,
           "name": "Lazy Y Legacy",
           "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "It's Fine",
-          "ml": 5.5,
           "win": null
         },
         {
@@ -2384,12 +2336,6 @@
           "win": null
         },
         {
-          "post": 7,
-          "name": "This Beau Knows",
-          "ml": 7.0,
-          "win": null
-        },
-        {
           "post": 8,
           "name": "Ramblin",
           "ml": 7.0,
@@ -2412,18 +2358,6 @@
       "distance": "Six Furlongs",
       "purse": "Purse $31,250",
       "horses": [
-        {
-          "post": 1,
-          "name": "Pick a Switch",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Honor Bound",
-          "ml": 13.0,
-          "win": null
-        },
         {
           "post": 3,
           "name": "McKinsense",
@@ -2452,12 +2386,6 @@
           "post": 7,
           "name": "Pelican Hill",
           "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Whatever",
-          "ml": 9.0,
           "win": null
         },
         {
@@ -2508,21 +2436,9 @@
           "win": null
         },
         {
-          "post": 4,
-          "name": "Hamlet",
-          "ml": 9.0,
-          "win": null
-        },
-        {
           "post": 5,
           "name": "Nyttime Story",
           "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Turnbuckle",
-          "ml": 13.0,
           "win": null
         },
         {
@@ -2564,12 +2480,6 @@
           "post": 1,
           "name": "Added Touch",
           "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Raging Current",
-          "ml": 9.0,
           "win": null
         },
         {
@@ -2736,12 +2646,6 @@
           "post": 2,
           "name": "Twilight Delight",
           "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Military Cruiser",
-          "ml": 4.5,
           "win": null
         },
         {
