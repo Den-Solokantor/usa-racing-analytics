@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T11:17:09.340350+00:00",
+  "updated": "2026-08-24T16:22:30.085483+00:00",
   "date": "2026-08-24",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -128,21 +128,9 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Sugar's Last Hope",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "America's Justice",
           "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Bolt to Run",
-          "ml": 3.5,
           "place": null
         },
         {
@@ -242,12 +230,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Roses At Noon",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Ty Ty Rose",
           "ml": 6.0,
@@ -281,12 +263,6 @@
           "post": 7,
           "name": "Playingon Broadway",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Lookie Here",
-          "ml": 4.5,
           "place": null
         },
         {
@@ -341,33 +317,9 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Evanderkeen",
-          "ml": 13.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "O P Firecracker",
           "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Register",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Beta",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "Bourbon Chase",
-          "ml": 2.6,
           "place": null
         }
       ]
@@ -401,12 +353,6 @@
           "post": 3,
           "name": "Light the Mira",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Salute to Service",
-          "ml": 7.0,
           "place": null
         },
         {
@@ -514,7 +460,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -554,12 +501,6 @@
           "place": null
         },
         {
-          "post": 7,
-          "name": "Rafaroo",
-          "ml": 2.4,
-          "place": null
-        },
-        {
           "post": 8,
           "name": "Santal",
           "ml": 11.0,
@@ -596,24 +537,6 @@
           "post": 3,
           "name": "Serrania",
           "ml": 3.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Fiftyshadesofpink",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "La Reina Del Flow",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Rose Dancer",
-          "ml": 21.0,
           "place": null
         },
         {
@@ -782,12 +705,6 @@
           "place": null
         },
         {
-          "post": 7,
-          "name": "Modo Leyenda",
-          "ml": 5.5,
-          "place": null
-        },
-        {
           "post": 8,
           "name": "Winning Defense",
           "ml": 5.0,
@@ -884,12 +801,6 @@
           "post": 12,
           "name": "Saratoga Flash",
           "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 13,
-          "name": "Dimanche Gras",
-          "ml": 6.0,
           "place": null
         }
       ]
@@ -1034,12 +945,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Halfin",
-          "ml": 31.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Swing Route",
           "ml": 7.0,
@@ -1103,12 +1008,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Lunar Sky",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Best Hat",
           "ml": 9.0,
@@ -1127,21 +1026,9 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Gone to Far",
-          "ml": 9.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Onelilconquest",
           "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Mayzforcebewithu",
-          "ml": 4.0,
           "place": null
         },
         {
@@ -1177,12 +1064,6 @@
         "Result"
       ],
       "horses": [
-        {
-          "post": 1,
-          "name": "Sound Doctrine",
-          "ml": 7.0,
-          "place": null
-        },
         {
           "post": 2,
           "name": "Vsop",
@@ -1316,12 +1197,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Leo's Beetle Bomb",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Dewey Oxburger",
           "ml": 6.0,
@@ -1331,18 +1206,6 @@
           "post": 7,
           "name": "Engine Sol",
           "ml": 2.2,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Dotties Blue Money (IN)",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "Speight Knight (IN)",
-          "ml": 1.6,
           "place": null
         }
       ]
@@ -1529,12 +1392,6 @@
           "place": null
         },
         {
-          "post": 6,
-          "name": "Freshair",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 7,
           "name": "J Z's Not Again",
           "ml": 31.0,
@@ -1544,12 +1401,6 @@
           "post": 8,
           "name": "Epic Fury",
           "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "Rockaway Beach",
-          "ml": 13.0,
           "place": null
         },
         {
@@ -1568,12 +1419,6 @@
           "post": 12,
           "name": "Maroon Tide",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 13,
-          "name": "Easy Loving",
-          "ml": 11.0,
           "place": null
         },
         {
@@ -1640,12 +1485,6 @@
           "place": null
         },
         {
-          "post": 8,
-          "name": "J Z's Last Schance",
-          "ml": 6.0,
-          "place": null
-        },
-        {
           "post": 9,
           "name": "Parking Lot Pours",
           "ml": 16.0,
@@ -1682,12 +1521,6 @@
           "post": 2,
           "name": "Midnight Cowboy 123",
           "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Run Dont Walk",
-          "ml": 4.5,
           "place": null
         },
         {
@@ -1874,12 +1707,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Tiz a Ryder",
-          "ml": 13.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Play the Field",
           "ml": 16.0,
@@ -1931,12 +1758,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Lost Da Vinci",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Izzy's Baby Boy",
           "ml": 16.0,
@@ -1985,12 +1806,6 @@
           "post": 3,
           "name": "Mo Sky",
           "ml": 2.4,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Back Street Baby",
-          "ml": 6.0,
           "place": null
         },
         {
