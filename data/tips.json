@@ -1,0 +1,68 @@
+{
+  "updated": "2026-08-25T08:28:46.457202+00:00",
+  "date": "2026-08-25",
+  "source": "tipmeerkat+gyto",
+  "note": "Это прогнозы (tips), не официальные results. Сверка с place — после set_places / chart.",
+  "tips": [],
+  "articles": [
+    {
+      "source": "getyourtipsout",
+      "title": "American Tips",
+      "url": "https://www.getyourtipsout.co.uk/american-horse-racing-tips/",
+      "role": "article"
+    },
+    {
+      "source": "getyourtipsout",
+      "title": "Gulfstream Park Tips",
+      "url": "https://www.getyourtipsout.co.uk/american-horse-racing-tips/gulfstream-park-tips/",
+      "role": "article"
+    },
+    {
+      "source": "getyourtipsout",
+      "title": "Tampa Bay Down Tips",
+      "url": "https://www.getyourtipsout.co.uk/american-horse-racing-tips/tampa-bay-downs-tips/",
+      "role": "article"
+    },
+    {
+      "source": "getyourtipsout",
+      "title": "Monday&rsquo;s American Horse Racing Tips",
+      "url": "https://www.getyourtipsout.co.uk/2026/08/24/mondays-american-horse-racing-tips-192/",
+      "role": "article"
+    },
+    {
+      "source": "getyourtipsout",
+      "title": "Tuesday&rsquo;s American Horse Racing Tips",
+      "url": "https://www.getyourtipsout.co.uk/2026/08/18/tuesdays-american-horse-racing-tips-194/",
+      "role": "article"
+    },
+    {
+      "source": "getyourtipsout",
+      "title": "Saturday&rsquo;s American Horse Racing Tips",
+      "url": "https://www.getyourtipsout.co.uk/2026/08/15/saturdays-american-horse-racing-tips-153/",
+      "role": "article"
+    },
+    {
+      "source": "getyourtipsout",
+      "title": "Thursday&rsquo;s American Horse Racing Tips",
+      "url": "https://www.getyourtipsout.co.uk/2026/08/13/thursdays-american-horse-racing-tips-172/",
+      "role": "article"
+    },
+    {
+      "source": "getyourtipsout",
+      "title": "Wednesday&rsquo;s American Horse Racing Tips",
+      "url": "https://www.getyourtipsout.co.uk/2026/08/12/wednesdays-american-horse-racing-tips-188/",
+      "role": "article"
+    },
+    {
+      "source": "getyourtipsout",
+      "title": "Tuesday&rsquo;s American Horse Racing Tips",
+      "url": "https://www.getyourtipsout.co.uk/2026/08/11/tuesdays-american-horse-racing-tips-193/",
+      "role": "article"
+    }
+  ],
+  "stats": {
+    "tips": 0,
+    "articles": 9,
+    "tracks": 0
+  }
+}
