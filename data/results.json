@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T11:16:20.048060+00:00",
+  "updated": "2026-08-25T16:23:07.739022+00:00",
   "date": "2026-08-25",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -53,12 +53,6 @@
           "post": 6,
           "name": "Cast a Coin",
           "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Mission Critical",
-          "ml": 4.0,
           "place": null
         }
       ]
@@ -140,12 +134,6 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Raging Sea Captain",
-          "ml": 3.5,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "Fast Amendment",
           "ml": 5.0,
@@ -191,12 +179,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Tasty Wave",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Rachel's Rock",
           "ml": 4.0,
@@ -230,12 +212,6 @@
           "post": 7,
           "name": "Glory Bound Clara",
           "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Book of Wisdom",
-          "ml": 6.0,
           "place": null
         }
       ]
@@ -506,12 +482,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Secord",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Maizey Blue",
           "ml": 4.5,
@@ -521,12 +491,6 @@
           "post": 3,
           "name": "Peruvian Princess",
           "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Frosty Karina",
-          "ml": 21.0,
           "place": null
         },
         {
@@ -557,12 +521,6 @@
           "post": 9,
           "name": "Bourbon Slip",
           "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Dancinwiththeboys",
-          "ml": 16.0,
           "place": null
         }
       ]
@@ -1364,12 +1322,6 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Asian Sun",
-          "ml": 9.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Hope Restored",
           "ml": 3.0,
@@ -1487,12 +1439,6 @@
           "post": 4,
           "name": "Socorro's Prayer",
           "ml": 2.4,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Sombeyay King",
-          "ml": 21.0,
           "place": null
         },
         {
@@ -1719,12 +1665,6 @@
           "name": "Thiever",
           "ml": 16.0,
           "place": null
-        },
-        {
-          "post": 10,
-          "name": "Pro Fever (IN)",
-          "ml": 9.0,
-          "place": null
         }
       ]
     },
@@ -1922,14 +1862,8 @@
           "place": null
         },
         {
-          "post": 8,
-          "name": "Sweet Darlin",
-          "ml": 7.0,
-          "place": null
-        },
-        {
           "post": 9,
-          "name": "Rosieontheriver (KY)",
+          "name": "Rosieontheriver",
           "ml": 6.0,
           "place": null
         }
@@ -2051,12 +1985,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Irish Whiskey",
-          "ml": 1.6,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Ay Ay Ron",
           "ml": 9.0,
@@ -2120,12 +2048,6 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Special Moment",
-          "ml": 9.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Napoleonic Code",
           "ml": 31.0,
@@ -2138,12 +2060,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "King Arthur Ridge",
-          "ml": 31.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Gasoline",
           "ml": 7.0,
@@ -2153,18 +2069,6 @@
           "post": 7,
           "name": "Slava Ukraini",
           "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Twoko Bay",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "Seven Channels",
-          "ml": 16.0,
           "place": null
         }
       ]
@@ -2270,12 +2174,6 @@
           "place": null
         },
         {
-          "post": 7,
-          "name": "Sedalia Trail",
-          "ml": 31.0,
-          "place": null
-        },
-        {
           "post": 8,
           "name": "Bernardo",
           "ml": 4.5,
@@ -2297,12 +2195,6 @@
           "post": 11,
           "name": "Riddick",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Expect Victory",
-          "ml": 21.0,
           "place": null
         }
       ]
@@ -2336,12 +2228,6 @@
           "post": 3,
           "name": "Lomachenko",
           "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Crafty Conquest",
-          "ml": 5.5,
           "place": null
         },
         {
@@ -2408,12 +2294,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Bellavalencia",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Handle On You",
           "ml": 5.5,
@@ -2435,12 +2315,6 @@
           "post": 9,
           "name": "Mean to Me",
           "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "High Vibes",
-          "ml": 21.0,
           "place": null
         }
       ]
@@ -2465,18 +2339,6 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Valentine Bug",
-          "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Blind Eye",
-          "ml": 13.0,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "Bosley",
           "ml": 4.0,
@@ -2492,12 +2354,6 @@
           "post": 6,
           "name": "Misterchilliwilli",
           "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Legal Titan",
-          "ml": 10.0,
           "place": null
         },
         {
@@ -2546,12 +2402,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Justoutoftheblue",
-          "ml": 5.5,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Betta Go Go Go",
           "ml": 11.0,
@@ -2591,12 +2441,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Red Delicious",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Girl Bye",
           "ml": 5.0,
@@ -2624,12 +2468,6 @@
           "post": 6,
           "name": "Flight Control",
           "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Salty Mama",
-          "ml": 13.0,
           "place": null
         },
         {
