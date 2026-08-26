@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T11:19:00.445794+00:00",
+  "updated": "2026-08-26T16:40:40.097614+00:00",
   "date": "2026-08-26",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -16,7 +16,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -236,12 +237,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Bayou Magic",
-          "ml": 13.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Candy Nun",
           "ml": 7.0,
@@ -299,18 +294,6 @@
           "place": null
         },
         {
-          "post": 7,
-          "name": "American Mink",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Willowy",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 9,
           "name": "La Heroica",
           "ml": 21.0,
@@ -344,21 +327,9 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Out Work'n",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Garrincha",
           "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Halter Boy",
-          "ml": 13.0,
           "place": null
         },
         {
@@ -371,12 +342,6 @@
           "post": 6,
           "name": "Icarus",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Race Day Rebal",
-          "ml": 4.5,
           "place": null
         },
         {
@@ -419,12 +384,6 @@
           "place": null
         },
         {
-          "post": 4,
-          "name": "Magical Deceiver",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 5,
           "name": "Bistineau Blizzard",
           "ml": 11.0,
@@ -434,12 +393,6 @@
           "post": 6,
           "name": "Majestuoso",
           "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Youhadme At Merlot",
-          "ml": 5.0,
           "place": null
         },
         {
@@ -593,12 +546,6 @@
           "post": 2,
           "name": "Lady Banker",
           "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Montauk Mystique",
-          "ml": 5.0,
           "place": null
         },
         {
@@ -902,12 +849,6 @@
           "place": null
         },
         {
-          "post": 9,
-          "name": "Chardonnay Derby",
-          "ml": 11.0,
-          "place": null
-        },
-        {
           "post": 10,
           "name": "Flying Phoebe",
           "ml": 13.0,
@@ -935,21 +876,9 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Going for Glory",
-          "ml": 11.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Lollipops",
           "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Maritude",
-          "ml": 21.0,
           "place": null
         },
         {
@@ -1073,18 +1002,6 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Creative Minister",
-          "ml": 2.6,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Chiringo",
-          "ml": 5.5,
-          "place": null
-        },
-        {
           "post": 5,
           "name": "Rocket Hoss",
           "ml": 11.0,
@@ -1190,12 +1107,6 @@
           "post": 5,
           "name": "Kefka",
           "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Oxbabe",
-          "ml": 6.0,
           "place": null
         },
         {
@@ -1382,12 +1293,6 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Red Clay Runaway",
-          "ml": 13.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Toll Booth Willy",
           "ml": 21.0,
@@ -1403,24 +1308,6 @@
           "post": 5,
           "name": "Best Life",
           "ml": 8.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Glacier",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Legendary Odds",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Biathlon",
-          "ml": 7.0,
           "place": null
         },
         {
@@ -1457,12 +1344,6 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Watcher",
-          "ml": 6.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Royal Justice",
           "ml": 5.0,
@@ -1493,12 +1374,6 @@
           "place": null
         },
         {
-          "post": 8,
-          "name": "Seeyouinabit",
-          "ml": 31.0,
-          "place": null
-        },
-        {
           "post": 9,
           "name": "Hoosier Promise",
           "ml": 21.0,
@@ -1514,24 +1389,6 @@
           "post": 11,
           "name": "Spotty Showers",
           "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Lil Gin N Class",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 13,
-          "name": "Lilmorecraken",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 14,
-          "name": "Skippinjustice",
-          "ml": 31.0,
           "place": null
         }
       ]
@@ -1562,12 +1419,6 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Storm Back",
-          "ml": 31.0,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "V Max",
           "ml": 5.0,
@@ -1592,12 +1443,6 @@
           "place": null
         },
         {
-          "post": 8,
-          "name": "Takeitandrun",
-          "ml": 11.0,
-          "place": null
-        },
-        {
           "post": 9,
           "name": "Sir Bahjy",
           "ml": 16.0,
@@ -1618,18 +1463,6 @@
         {
           "post": 12,
           "name": "Gas Alley",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 13,
-          "name": "Terminally Handsom (IN)",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 14,
-          "name": "Goldwyn (IN)",
           "ml": 9.0,
           "place": null
         },
@@ -1952,12 +1785,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Honor That Dude",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Hms Diamond",
           "ml": 4.5,
@@ -1990,12 +1817,6 @@
         "Result"
       ],
       "horses": [
-        {
-          "post": 1,
-          "name": "Universal Sound",
-          "ml": 1.4,
-          "place": null
-        },
         {
           "post": 2,
           "name": "Peyton's Day",
@@ -2094,12 +1915,6 @@
           "name": "Jonny Quist",
           "ml": 5.5,
           "place": null
-        },
-        {
-          "post": 7,
-          "name": "Bailamos",
-          "ml": 9.0,
-          "place": null
         }
       ]
     },
@@ -2138,12 +1953,6 @@
           "post": 4,
           "name": "Hot Wings",
           "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Spice Bag",
-          "ml": 4.0,
           "place": null
         },
         {
@@ -2325,12 +2134,6 @@
           "name": "Offthe Beaten Path",
           "ml": 5.5,
           "place": null
-        },
-        {
-          "post": 11,
-          "name": "Charthena",
-          "ml": 5.0,
-          "place": null
         }
       ]
     },
@@ -2387,12 +2190,6 @@
           "post": 7,
           "name": "Captain Creed",
           "ml": 3.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Arak",
-          "ml": 4.0,
           "place": null
         }
       ]
@@ -2549,21 +2346,9 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Uncaptured Boy",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Markhamian",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Lost in Manhattan",
-          "ml": 21.0,
           "place": null
         },
         {
