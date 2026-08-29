@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T15:22:35.762658+00:00",
+  "updated": "2026-08-29T18:58:43.699141+00:00",
   "date": "2026-08-29",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -932,12 +932,6 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Passthecat",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "Prince Is My Boy",
           "ml": 9.0,
@@ -995,27 +989,9 @@
           "place": null
         },
         {
-          "post": 4,
-          "name": "Firespitten Kitten",
-          "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "No Sando Czar Star",
-          "ml": 11.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "They Call Me Moose",
           "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Mischief's Pride",
-          "ml": 11.0,
           "place": null
         },
         {
@@ -1036,7 +1012,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1081,15 +1058,10 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
-        {
-          "post": 1,
-          "name": "Iconic Rock",
-          "ml": 4.5,
-          "place": null
-        },
         {
           "post": 2,
           "name": "Halter Boy",
@@ -1132,7 +1104,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1177,7 +1150,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1228,7 +1202,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1328,12 +1303,6 @@
           "place": null
         },
         {
-          "post": 6,
-          "name": "Teralee's Charm",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 7,
           "name": "Tidal Tactics",
           "ml": 31.0,
@@ -1391,12 +1360,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Cor Spice",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Mister Bad Example",
           "ml": 4.5,
@@ -1429,12 +1392,6 @@
         "Result"
       ],
       "horses": [
-        {
-          "post": 1,
-          "name": "Got Ghosted",
-          "ml": 13.0,
-          "place": null
-        },
         {
           "post": 2,
           "name": "Mr Fabricator",
@@ -1490,12 +1447,6 @@
           "post": 2,
           "name": "Rumpus in Paradise",
           "ml": 2.8,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "In Speight of Zoom",
-          "ml": 9.0,
           "place": null
         },
         {
@@ -1640,18 +1591,6 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Copper Vixen",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Snowcap",
-          "ml": 3.0,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "Tiger Fantasy",
           "ml": 13.0,
@@ -1685,12 +1624,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Floribunda",
-          "ml": 6.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Ask the Monarch",
           "ml": 9.0,
@@ -1715,21 +1648,9 @@
           "place": null
         },
         {
-          "post": 6,
-          "name": "Alcohol",
-          "ml": 7.0,
-          "place": null
-        },
-        {
           "post": 7,
           "name": "Merlin's Sister",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Collected Glory",
-          "ml": 5.5,
           "place": null
         }
       ]
@@ -1754,12 +1675,6 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Warp Ride",
-          "ml": 6.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Superstar Swank",
           "ml": 4.5,
@@ -1775,12 +1690,6 @@
           "post": 5,
           "name": "Spunoutofmymind",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Laws of Man",
-          "ml": 6.0,
           "place": null
         },
         {
@@ -1801,7 +1710,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1858,7 +1768,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1921,7 +1832,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1972,7 +1884,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2006,12 +1919,6 @@
           "place": null
         },
         {
-          "post": 7,
-          "name": "El Chispazo",
-          "ml": 2.4,
-          "place": null
-        },
-        {
           "post": 8,
           "name": "Minister for Magic",
           "ml": 4.5,
@@ -2041,7 +1948,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2092,7 +2000,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
