@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T15:06:09.486889+00:00",
+  "updated": "2026-08-30T18:54:15.009165+00:00",
   "date": "2026-08-30",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -221,12 +221,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Remarkable Me",
-          "ml": 13.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Cuervita",
           "ml": 9.0,
@@ -292,12 +286,6 @@
         {
           "post": 6,
           "name": "Runningintherain",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Blazing to Gold",
           "ml": 9.0,
           "place": null
         },
@@ -371,12 +359,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Three Martinis",
-          "ml": 4.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Valentino Who",
           "ml": 16.0,
@@ -405,18 +387,6 @@
           "name": "Kirby Derby",
           "ml": 5.0,
           "place": null
-        },
-        {
-          "post": 11,
-          "name": "American Empire",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Maximum Bull",
-          "ml": 31.0,
-          "place": null
         }
       ]
     },
@@ -434,12 +404,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Discreet Mob",
-          "ml": 3.5,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Don't Hit Me Bash",
           "ml": 7.0,
@@ -449,12 +413,6 @@
           "post": 3,
           "name": "Ten Figures",
           "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Always On Cay",
-          "ml": 9.0,
           "place": null
         },
         {
@@ -611,12 +569,6 @@
           "post": 11,
           "name": "Catchthecat",
           "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "D J Hussar",
-          "ml": 31.0,
           "place": null
         }
       ]
@@ -881,21 +833,9 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Sarah's Boy Blue",
-          "ml": 7.0,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "Jumpingjaggerflash",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Sir Eli",
-          "ml": 21.0,
           "place": null
         },
         {
@@ -908,12 +848,6 @@
           "post": 7,
           "name": "Pure Crystal",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Rocketship Run",
-          "ml": 9.0,
           "place": null
         },
         {
@@ -941,12 +875,6 @@
           "post": 1,
           "name": "Halo Music",
           "ml": 3.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Spike the Punch",
-          "ml": 5.5,
           "place": null
         },
         {
@@ -1031,12 +959,6 @@
           "post": 1,
           "name": "Extremely Probable",
           "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Hey Baby Mikko",
-          "ml": 5.0,
           "place": null
         },
         {
@@ -1303,7 +1225,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1372,7 +1295,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1429,7 +1353,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1492,7 +1417,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1523,12 +1449,6 @@
           "post": 6,
           "name": "Occupy",
           "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Fib",
-          "ml": 6.0,
           "place": null
         },
         {
@@ -1573,7 +1493,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1630,7 +1551,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2025,24 +1947,6 @@
           "name": "High Hull Gill",
           "ml": 21.0,
           "place": null
-        },
-        {
-          "post": 11,
-          "name": "Tapit's Ghost",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "City of Forza",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 13,
-          "name": "Vern Gosdin",
-          "ml": 7.0,
-          "place": null
         }
       ]
     },
@@ -2405,12 +2309,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "First Light",
-          "ml": 9.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Clubhouse Deb",
           "ml": 31.0,
@@ -2618,12 +2516,6 @@
           "post": 13,
           "name": "Keep Dancin Nick",
           "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 14,
-          "name": "Single Track Mind",
-          "ml": 16.0,
           "place": null
         }
       ]

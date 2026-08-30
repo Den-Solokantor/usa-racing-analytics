@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T15:06:09.483604+00:00",
+  "updated": "2026-08-30T18:54:15.005925+00:00",
   "source": "equibase-parser-gha",
   "date": "2026-08-30",
   "races": [
@@ -219,12 +219,6 @@
           "win": null
         },
         {
-          "post": 5,
-          "name": "Remarkable Me",
-          "ml": 13.0,
-          "win": null
-        },
-        {
           "post": 6,
           "name": "Cuervita",
           "ml": 9.0,
@@ -292,12 +286,6 @@
         {
           "post": 6,
           "name": "Runningintherain",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Blazing to Gold",
           "ml": 9.0,
           "win": null
         },
@@ -373,12 +361,6 @@
           "win": null
         },
         {
-          "post": 5,
-          "name": "Three Martinis",
-          "ml": 4.0,
-          "win": null
-        },
-        {
           "post": 6,
           "name": "Valentino Who",
           "ml": 16.0,
@@ -407,18 +389,6 @@
           "name": "Kirby Derby",
           "ml": 5.0,
           "win": null
-        },
-        {
-          "post": 11,
-          "name": "American Empire",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 12,
-          "name": "Maximum Bull",
-          "ml": 31.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -438,12 +408,6 @@
       "purse": "Purse $18,400",
       "horses": [
         {
-          "post": 1,
-          "name": "Discreet Mob",
-          "ml": 3.5,
-          "win": null
-        },
-        {
           "post": 2,
           "name": "Don't Hit Me Bash",
           "ml": 7.0,
@@ -453,12 +417,6 @@
           "post": 3,
           "name": "Ten Figures",
           "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Always On Cay",
-          "ml": 9.0,
           "win": null
         },
         {
@@ -619,12 +577,6 @@
           "post": 11,
           "name": "Catchthecat",
           "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 12,
-          "name": "D J Hussar",
-          "ml": 31.0,
           "win": null
         }
       ],
@@ -899,21 +851,9 @@
           "win": null
         },
         {
-          "post": 3,
-          "name": "Sarah's Boy Blue",
-          "ml": 7.0,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "Jumpingjaggerflash",
           "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Sir Eli",
-          "ml": 21.0,
           "win": null
         },
         {
@@ -926,12 +866,6 @@
           "post": 7,
           "name": "Pure Crystal",
           "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Rocketship Run",
-          "ml": 9.0,
           "win": null
         },
         {
@@ -961,12 +895,6 @@
           "post": 1,
           "name": "Halo Music",
           "ml": 3.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Spike the Punch",
-          "ml": 5.5,
           "win": null
         },
         {
@@ -1055,12 +983,6 @@
           "post": 1,
           "name": "Extremely Probable",
           "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Hey Baby Mikko",
-          "ml": 5.0,
           "win": null
         },
         {
@@ -1400,7 +1322,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1459,7 +1382,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1524,7 +1448,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1566,12 +1491,6 @@
           "win": null
         },
         {
-          "post": 7,
-          "name": "Fib",
-          "ml": 6.0,
-          "win": null
-        },
-        {
           "post": 8,
           "name": "Voladora",
           "ml": 7.0,
@@ -1607,7 +1526,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1666,7 +1586,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1743,7 +1664,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -2078,24 +2000,6 @@
           "post": 10,
           "name": "High Hull Gill",
           "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 11,
-          "name": "Tapit's Ghost",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 12,
-          "name": "City of Forza",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 13,
-          "name": "Vern Gosdin",
-          "ml": 7.0,
           "win": null
         }
       ],
@@ -2471,12 +2375,6 @@
       "purse": "Purse $80,000",
       "horses": [
         {
-          "post": 1,
-          "name": "First Light",
-          "ml": 9.0,
-          "win": null
-        },
-        {
           "post": 2,
           "name": "Clubhouse Deb",
           "ml": 31.0,
@@ -2688,12 +2586,6 @@
           "post": 13,
           "name": "Keep Dancin Nick",
           "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "Single Track Mind",
-          "ml": 16.0,
           "win": null
         }
       ],
