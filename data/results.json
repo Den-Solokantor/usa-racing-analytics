@@ -1,904 +1,17 @@
 {
-  "updated": "2026-08-31T17:45:08.934809+00:00",
-  "date": "2026-08-31",
+  "updated": "2026-09-01T15:16:41.895858+00:00",
+  "date": "2026-09-01",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
   "results": [],
   "stakes_results": [],
   "races": [
     {
-      "id": "evd-0831-1",
-      "track": "EVD",
-      "time": "",
-      "title": "Race 1",
-      "distance": "Six Furlongs",
-      "purse": "Purse $40,000",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "The Red Wicked One",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Preach It Sister",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Kyli's Carlos",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Bouxjee Roux",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "All You",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Dolabella",
-          "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Bobby's Native One",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Melissa Gale",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "Cairo Empress",
-          "ml": 7.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "evd-0831-2",
-      "track": "EVD",
-      "time": "",
-      "title": "Race 2",
-      "distance": "One Mile",
-      "purse": "Purse $33,000",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Above the World",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Spare Me",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Shesabeast",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Princess Is Olivia",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Hard Spirits",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Nomoretanlines",
-          "ml": 3.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "No Map Needed",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Cause We Can",
-          "ml": 21.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "evd-0831-3",
-      "track": "EVD",
-      "time": "",
-      "title": "Race 3",
-      "distance": "Six Furlongs",
-      "purse": "Purse $33,000",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Guns",
-          "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Weitzman",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Duke de Vere",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Flashy Lover",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Ripple's Rocket",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "String Theory",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Grand Oracle",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Fake Smart",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "Begforforgiveness",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Rocketeightyeight",
-          "ml": 16.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "evd-0831-4",
-      "track": "EVD",
-      "time": "",
-      "title": "Race 4",
-      "distance": "One Mile",
-      "purse": "Purse $100,000",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Cosmic Train",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Bons Temps Roule",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Boss of All Bosses",
-          "ml": 3.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Southscape",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Star Rock Star",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "A Million Moons",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Good and Stout",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Wicked as Haggart",
-          "ml": 2.8,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "evd-0831-5",
-      "track": "EVD",
-      "time": "",
-      "title": "Race 5",
-      "distance": "Six Furlongs",
-      "purse": "Purse $100,000",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Secret Faith",
-          "ml": 2.6,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Louisiana Cowgirl",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "She's Magnificent",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Lola and Rose",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Six String",
-          "ml": 2.4,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Whisper Me a Smile",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Cava de Oro",
-          "ml": 13.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "evd-0831-6",
-      "track": "EVD",
-      "time": "",
-      "title": "Race 6",
-      "distance": "Five Furlongs",
-      "purse": "Purse $41,000",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Soft Hands",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Daddy's Gift",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Leobobanna",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Petitfor",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Archtop",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Vitruvius",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Flashy Boy",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Bearcat",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "Me Promesa",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Crimson Red Road",
-          "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 11,
-          "name": "Mingling Mo (LA)",
-          "ml": 7.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "evd-0831-7",
-      "track": "EVD",
-      "time": "",
-      "title": "Race 7",
-      "distance": "Six Furlongs",
-      "purse": "Purse $100,000",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Clear as a Bele",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "El Dinero",
-          "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Achromedoutcat",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Mangum",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "He's Just Lucky",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Letmikefigureitout",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Carpis",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Mr Mo Money",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "Daddy's Code",
-          "ml": 21.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "evd-0831-8",
-      "track": "EVD",
-      "time": "",
-      "title": "Race 8",
-      "distance": "One Mile",
-      "purse": "Purse $100,000",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Diva Beach",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Saved by Grace",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Highly Wicked",
-          "ml": 2.2,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Precious Money",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Clearly Creeps",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Kalil",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Becky'sgottahaveit",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Moonie Pie",
-          "ml": 3.5,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "fl-0831-1",
+      "id": "fl-0901-1",
       "track": "Finger Lakes",
       "time": "12:55 PM ET",
       "title": "Race 1",
-      "distance": "Five And One Half Furlongs",
-      "purse": "Purse $14,000",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result",
-        "Finished"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Practical Rachel",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Bustinroxy",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Tumbles",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Only in My Dreams",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Thin Legs",
-          "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Jackson Avenue",
-          "ml": 7.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "fl-0831-2",
-      "track": "Finger Lakes",
-      "time": "1:24 PM ET",
-      "title": "Race 2",
-      "distance": "One Mile",
-      "purse": "Purse $13,500",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result",
-        "Finished"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Spicey Ticey",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Dancinwiththeboys",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "My Devine One",
-          "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Only La Duss",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Capo Da Monte",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Come Monday",
-          "ml": 2.8,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "fl-0831-3",
-      "track": "Finger Lakes",
-      "time": "1:53 PM ET",
-      "title": "Race 3",
       "distance": "One Mile And Seventy Yards",
-      "purse": "Purse $13,800",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Maturation",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Redoubtableripken",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Real Eleve",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Makar",
-          "ml": 9.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "fl-0831-4",
-      "track": "Finger Lakes",
-      "time": "2:22 PM ET",
-      "title": "Race 4",
-      "distance": "Six Furlongs",
-      "purse": "Purse $17,800",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Spun Size",
-          "ml": 3.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Big Advantage",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Classiwest",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Clarividente",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Nurse Bunny",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Jessica's Ride",
-          "ml": 5.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "fl-0831-5",
-      "track": "Finger Lakes",
-      "time": "2:51 PM ET",
-      "title": "Race 5",
-      "distance": "One Mile",
-      "purse": "Purse $26,900",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Going Home Now",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Rubies for Olivia",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Early On",
-          "ml": 2.2,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Sugartown Sweetie",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Lipan Law",
-          "ml": 4.5,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "fl-0831-6",
-      "track": "Finger Lakes",
-      "time": "3:20 PM ET",
-      "title": "Race 6",
-      "distance": "Five And One Half Furlongs",
-      "purse": "Purse $27,300",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Queens Over Threes",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Galileans Girl",
-          "ml": 3.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Zhen Lou",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Idyll Gossip",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Timely Reward",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Princess Wadadli",
-          "ml": 3.5,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "fl-0831-7",
-      "track": "Finger Lakes",
-      "time": "3:49 PM ET",
-      "title": "Race 7",
-      "distance": "Five And One Half Furlongs",
-      "purse": "Purse $24,500",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Two Thirty A. M.",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Stars N Stones",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "This Time Yes",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Courageoous Oh La",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Sir Kartrite",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Prince of Dance",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Apollo Code",
-          "ml": 3.5,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "fl-0831-8",
-      "track": "Finger Lakes",
-      "time": "4:18 PM ET",
-      "title": "Race 8",
-      "distance": "Six Furlongs",
       "purse": "Purse $18,100",
       "status": "pending",
       "tags": [
@@ -908,205 +21,49 @@
       "horses": [
         {
           "post": 1,
-          "name": "Mayheminthepalace",
-          "ml": 9.0,
+          "name": "Ma Mi Jo Dreams",
+          "ml": 3.5,
           "place": null
         },
         {
           "post": 2,
-          "name": "Lookin' Super",
-          "ml": 7.0,
+          "name": "Dream On Cara",
+          "ml": 4.5,
           "place": null
         },
         {
           "post": 3,
-          "name": "Sutton Breeze",
-          "ml": 6.0,
+          "name": "Troubled Luck",
+          "ml": 4.0,
           "place": null
         },
         {
           "post": 4,
-          "name": "Stormin Sammy",
-          "ml": 11.0,
+          "name": "Love Thyself",
+          "ml": 6.0,
           "place": null
         },
         {
           "post": 5,
-          "name": "Doc Advantage",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "The Institute",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Uncle George",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Flowing River",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "He Has It All",
-          "ml": 13.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "gp-0831-1",
-      "track": "Gulfstream Park",
-      "time": "12:20 PM ET",
-      "title": "Race 1",
-      "distance": "One Mile And Seventy Yards",
-      "purse": "Purse $28,500",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result",
-        "Finished"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Loyalist",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Not One Less",
+          "name": "My Sweet Adaline",
           "ml": 7.0,
           "place": null
         },
         {
-          "post": 3,
-          "name": "Megowan Street",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Our Perfect Amanda",
-          "ml": 9.0,
-          "place": null
-        },
-        {
           "post": 6,
-          "name": "Chazzaprime",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Veronika Z",
-          "ml": 1.6,
+          "name": "Soho Nights",
+          "ml": 6.0,
           "place": null
         }
       ]
     },
     {
-      "id": "gp-0831-2",
-      "track": "Gulfstream Park",
-      "time": "12:54 PM ET",
+      "id": "fl-0901-2",
+      "track": "Finger Lakes",
+      "time": "1:24 PM ET",
       "title": "Race 2",
       "distance": "Five And One Half Furlongs",
-      "purse": "Purse $33,000",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result",
-        "Finished"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Musical Power",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Wudhooh",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Zealot",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Unshakable",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Amande",
-          "ml": 4.5,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "gp-0831-3",
-      "track": "Gulfstream Park",
-      "time": "1:24 PM ET",
-      "title": "Race 3",
-      "distance": "Six Furlongs",
-      "purse": "Purse $65,000",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result",
-        "Finished"
-      ],
-      "horses": [
-        {
-          "post": 2,
-          "name": "Playoff",
-          "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Shelby Coupe",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Whole Lotta Rosie",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Miss Feisty",
-          "ml": 6.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "gp-0831-4",
-      "track": "Gulfstream Park",
-      "time": "1:54 PM ET",
-      "title": "Race 4",
-      "distance": "One And One Sixteenth Miles",
-      "purse": "Purse $42,000",
+      "purse": "Purse $11,200",
       "status": "pending",
       "tags": [
         "USA",
@@ -1115,418 +72,43 @@
       "horses": [
         {
           "post": 1,
-          "name": "Jayhawk",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Tee At One",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Goldentown",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Bail Us Out",
-          "ml": 3.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Degree of Risk",
-          "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Caller",
-          "ml": 13.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "gp-0831-5",
-      "track": "Gulfstream Park",
-      "time": "2:30 PM ET",
-      "title": "Race 5",
-      "distance": "Six Furlongs",
-      "purse": "Purse $65,000",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Stir Flay",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Slew de Oro",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Etruscan Warrior",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Sir Angelus",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Golden Joshua",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Mane Affair",
-          "ml": 4.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "gp-0831-6",
-      "track": "Gulfstream Park",
-      "time": "3:00 PM ET",
-      "title": "Race 6",
-      "distance": "One Mile",
-      "purse": "Purse $33,000",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Guildenstern",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Virginia City",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Souper Legacy",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Act a Fool",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Rashid",
-          "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Grand David",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Brother Brad",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Eddie the Great",
-          "ml": 13.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "gp-0831-7",
-      "track": "Gulfstream Park",
-      "time": "3:30 PM ET",
-      "title": "Race 7",
-      "distance": "One Mile",
-      "purse": "Purse $68,000",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Marilyn's Mate",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Gregarious",
-          "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Salt of the Earth",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Valen Time",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Mediterranean Sea",
-          "ml": 2.4,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "gp-0831-8",
-      "track": "Gulfstream Park",
-      "time": "4:00 PM ET",
-      "title": "Race 8",
-      "distance": "One Mile",
-      "purse": "Purse $25,500",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Blue Slide Park",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Wannabeeloved",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Simo",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "The Thor",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Copperlite",
-          "ml": 2.6,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Dime Papi",
-          "ml": 11.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "gp-0831-9",
-      "track": "Gulfstream Park",
-      "time": "4:30 PM ET",
-      "title": "Race 9",
-      "distance": "Five Furlongs",
-      "purse": "Purse $70,000",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Royally Blue",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Happy Ride",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Sparkling Star",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Laila Bella Girl",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Neodera",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "Softly Dreaming",
-          "ml": 16.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "ind-0831-1",
-      "track": "Indiana Grand",
-      "time": "2:10 PM ET",
-      "title": "Race 1",
-      "distance": "Five Furlongs",
-      "purse": "Purse $39,440",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Windsock",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Whiskey Neat",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Blessed Fortune",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Plank",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Ten Mile House",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Aizhurek",
-          "ml": 3.5,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "ind-0831-2",
-      "track": "Indiana Grand",
-      "time": "2:41 PM ET",
-      "title": "Race 2",
-      "distance": "One Mile",
-      "purse": "Purse $46,240",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Fletcher Bay",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Gamblers Tail",
+          "name": "Hypnocurrency",
           "ml": 2.8,
           "place": null
         },
         {
-          "post": 3,
-          "name": "Music Theory",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Reb",
+          "post": 2,
+          "name": "Red Butterfly",
           "ml": 9.0,
           "place": null
         },
         {
-          "post": 5,
-          "name": "Palm Tree",
-          "ml": 3.5,
+          "post": 3,
+          "name": "Diva Banker",
+          "ml": 3.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Grand Lady Indy",
+          "ml": 5.0,
           "place": null
         },
         {
           "post": 6,
-          "name": "Horse of the Sea",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Stolen Power",
-          "ml": 6.0,
+          "name": "Sweet Tooth Sue",
+          "ml": 7.0,
           "place": null
         }
       ]
     },
     {
-      "id": "ind-0831-3",
-      "track": "Indiana Grand",
-      "time": "3:12 PM ET",
+      "id": "fl-0901-3",
+      "track": "Finger Lakes",
+      "time": "1:53 PM ET",
       "title": "Race 3",
-      "distance": "Six Furlongs",
-      "purse": "Purse $45,000",
+      "distance": "One Mile",
+      "purse": "Purse $17,800",
       "status": "pending",
       "tags": [
         "USA",
@@ -1535,55 +117,520 @@
       "horses": [
         {
           "post": 1,
-          "name": "Littleransomsfire",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Bits of Candy",
-          "ml": 4.5,
+          "name": "Solo Dancing",
+          "ml": 3.5,
           "place": null
         },
         {
           "post": 3,
-          "name": "The Kid Pataky",
+          "name": "Notfanutin",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "I'm Solo N in Love",
+          "ml": 4.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Trew Violence",
+          "ml": 3.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "fl-0901-4",
+      "track": "Finger Lakes",
+      "time": "2:22 PM ET",
+      "title": "Race 4",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $17,500",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Allofasuddenlee",
+          "ml": 4.0,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Ride Share",
           "ml": 6.0,
           "place": null
         },
         {
           "post": 4,
-          "name": "Hot Middles",
+          "name": "Reside",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "First Pitch",
+          "ml": 2.5,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Honor for Mandin",
+          "ml": 13.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "fl-0901-5",
+      "track": "Finger Lakes",
+      "time": "2:51 PM ET",
+      "title": "Race 5",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $13,800",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Deputy Tramon",
+          "ml": 5.0,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Montauk Surf",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Last Drink",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Disco Dancer",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Three Little Birds",
+          "ml": 3.5,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "John the Baptist",
+          "ml": 16.0,
+          "place": null
+        },
+        {
+          "post": 8,
+          "name": "Not My Type",
+          "ml": 11.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "fl-0901-6",
+      "track": "Finger Lakes",
+      "time": "3:20 PM ET",
+      "title": "Race 6",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $14,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Monomoy Beach",
+          "ml": 6.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Nyikos",
+          "ml": 4.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "G Munning",
+          "ml": 6.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Emerald Forest",
+          "ml": 2.8,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "fl-0901-7",
+      "track": "Finger Lakes",
+      "time": "3:49 PM ET",
+      "title": "Race 7",
+      "distance": "One Mile And Seventy Yards",
+      "purse": "Purse $26,500",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Flat Cap",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Sunday's Currency",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Almez",
+          "ml": 5.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Resilient Hero",
+          "ml": 4.5,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Hey Pal",
+          "ml": 3.5,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Call Saul",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Magic Beach",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 8,
+          "name": "Romeo Void",
+          "ml": 13.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "fl-0901-8",
+      "track": "Finger Lakes",
+      "time": "4:18 PM ET",
+      "title": "Race 8",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $17,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "All Fun N Games",
+          "ml": 3.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Scarlett Queen",
+          "ml": 3.5,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Rahfee Tonalist",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Big Jackie",
+          "ml": 4.5,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Alacrity",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Find Me a Prince",
+          "ml": 6.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "fp-0901-1",
+      "track": "FP",
+      "time": "",
+      "title": "Race 1",
+      "distance": "Five Furlongs",
+      "purse": "Purse $38,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Templar",
+          "ml": 8.0,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Sculptor",
+          "ml": 2.6,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Spirit of Troy",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Midnight Griffin",
+          "ml": 8.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Sour Tamarindo",
+          "ml": 5.5,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Slick Henry",
+          "ml": 16.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Midnight Minister",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 8,
+          "name": "Sho Dominic",
+          "ml": 6.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "fp-0901-2",
+      "track": "FP",
+      "time": "",
+      "title": "Race 2",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $14,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Steampunk",
+          "ml": 3.0,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Visionista",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Reba Attack",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Ghaaleb's City",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Mysweetannalyze",
+          "ml": 5.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Summer of Mischief",
+          "ml": 2.2,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "fp-0901-3",
+      "track": "FP",
+      "time": "",
+      "title": "Race 3",
+      "distance": "Six Furlongs",
+      "purse": "Purse $10,500",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Be Lucky Again",
+          "ml": 1.4,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Soul Keeper",
+          "ml": 4.5,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Tap the Prize",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "American Blend",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Stormystormynight",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Allkindsoftrouble",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Cheater",
+          "ml": 9.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "fp-0901-4",
+      "track": "FP",
+      "time": "",
+      "title": "Race 4",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $10,100",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Racetothefinish",
+          "ml": 3.5,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Diamonds Joy",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Wild Tapit",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Ghaly Posse",
           "ml": 2.0,
           "place": null
         },
         {
           "post": 5,
-          "name": "Fat Chance",
+          "name": "Sharp Attack",
           "ml": 9.0,
           "place": null
         },
         {
           "post": 6,
-          "name": "Werk It Wendy",
-          "ml": 7.0,
+          "name": "Ornery Angel",
+          "ml": 13.0,
           "place": null
         },
         {
           "post": 7,
-          "name": "Sunny's Flame",
-          "ml": 21.0,
+          "name": "Lost Sunset",
+          "ml": 16.0,
           "place": null
         }
       ]
     },
     {
-      "id": "ind-0831-4",
-      "track": "Indiana Grand",
-      "time": "3:43 PM ET",
-      "title": "Race 4",
-      "distance": "Five Furlongs",
-      "purse": "Purse $46,240",
+      "id": "fp-0901-5",
+      "track": "FP",
+      "time": "",
+      "title": "Race 5",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $12,000",
       "status": "pending",
       "tags": [
         "USA",
@@ -1592,60 +639,180 @@
       "horses": [
         {
           "post": 1,
-          "name": "Fondre",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Strife",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Shameless Bride",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Zoe's Prime",
+          "name": "Cookin the Books",
           "ml": 11.0,
           "place": null
         },
         {
-          "post": 5,
-          "name": "Victor Valley",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Stormy Paradise",
+          "post": 2,
+          "name": "Misty Sunday",
           "ml": 13.0,
           "place": null
         },
         {
-          "post": 7,
-          "name": "If If If",
+          "post": 3,
+          "name": "Hootie Hoot",
           "ml": 7.0,
           "place": null
         },
         {
-          "post": 8,
-          "name": "Shirley Ann",
-          "ml": 1.8,
+          "post": 4,
+          "name": "No Pay No Hay",
+          "ml": 3.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Alternative Grace",
+          "ml": 10.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Last Gasp",
+          "ml": 8.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Golden Edge",
+          "ml": 2.5,
           "place": null
         }
       ]
     },
     {
-      "id": "ind-0831-5",
-      "track": "Indiana Grand",
-      "time": "4:14 PM ET",
-      "title": "Race 5",
-      "distance": "Five And One Half Furlongs",
+      "id": "fp-0901-6",
+      "track": "FP",
+      "time": "",
+      "title": "Race 6",
+      "distance": "Five Furlongs",
+      "purse": "Purse $10,200",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Lolita J",
+          "ml": 4.0,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Tizmeonemoretime",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Engagement",
+          "ml": 4.5,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "D' Argonaut",
+          "ml": 8.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Girls Knicks Now",
+          "ml": 3.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Belleinthetemple",
+          "ml": 16.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "I'm Hungover",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 8,
+          "name": "Flathead Finale",
+          "ml": 13.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "fp-0901-7",
+      "track": "FP",
+      "time": "",
+      "title": "Race 7",
+      "distance": "Six Furlongs",
+      "purse": "Purse $29,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Red Moscato",
+          "ml": 16.0,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Upturned Brim",
+          "ml": 6.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "More Than Destiny",
+          "ml": 16.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Bureau",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Sweet La Crema",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Honor Point",
+          "ml": 2.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Dust Dancer",
+          "ml": 31.0,
+          "place": null
+        },
+        {
+          "post": 8,
+          "name": "Jack Sixpack",
+          "ml": 4.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "fp-0901-8",
+      "track": "FP",
+      "time": "",
+      "title": "Race 8",
+      "distance": "Six Furlongs",
       "purse": "Purse $38,500",
       "status": "pending",
       "tags": [
@@ -1655,60 +822,519 @@
       "horses": [
         {
           "post": 1,
-          "name": "Sky High Chris",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "El Abeulo",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Jims Promise",
+          "name": "Earl's Outlaw",
           "ml": 3.5,
           "place": null
         },
         {
-          "post": 5,
-          "name": "Mi Picaro",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Discreet Boy",
+          "post": 2,
+          "name": "Summer Cyclone",
           "ml": 9.0,
           "place": null
         },
         {
-          "post": 7,
-          "name": "Drunkbysix",
+          "post": 3,
+          "name": "Senor Ruben",
           "ml": 13.0,
           "place": null
         },
         {
+          "post": 4,
+          "name": "Adam Five Oh",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Mike's Last Call",
+          "ml": 31.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Somethintobelieven",
+          "ml": 2.6,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Holden Michael",
+          "ml": 31.0,
+          "place": null
+        },
+        {
           "post": 8,
-          "name": "Sleepy Beauty",
-          "ml": 7.0,
+          "name": "Big Skookum",
+          "ml": 8.0,
           "place": null
         },
         {
           "post": 9,
-          "name": "Pretzel Logic",
-          "ml": 11.0,
+          "name": "Playground Warrior",
+          "ml": 7.0,
           "place": null
         }
       ]
     },
     {
-      "id": "ind-0831-6",
+      "id": "ind-0901-1",
+      "track": "Indiana Grand",
+      "time": "2:10 PM ET",
+      "title": "Race 1",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $49,680",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Keyana",
+          "ml": 5.5,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Stipulate",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Viral Plane Lady",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Jr Miss Buttercup",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "City Prayers",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Hold Your Breath",
+          "ml": 2.4,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Night Kiss",
+          "ml": 6.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "ind-0901-2",
+      "track": "Indiana Grand",
+      "time": "2:41 PM ET",
+      "title": "Race 2",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $46,240",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Liams Fancy",
+          "ml": 3.0,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "C C's Gift",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Stella's Mischief",
+          "ml": 3.5,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Hello Honey",
+          "ml": 4.5,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Fizzypopberrytwist",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Spring Loaded",
+          "ml": 5.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "ind-0901-3",
+      "track": "Indiana Grand",
+      "time": "3:12 PM ET",
+      "title": "Race 3",
+      "distance": "One Mile And Seventy Yards",
+      "purse": "Purse $41,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Barca Billy",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Gunzo",
+          "ml": 5.5,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Parker",
+          "ml": 4.5,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Infinite Speed",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Dewey Oxburger",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Rock City Kid",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Tank Walk",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 8,
+          "name": "Seen You Later",
+          "ml": 3.5,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "ind-0901-4",
+      "track": "Indiana Grand",
+      "time": "3:43 PM ET",
+      "title": "Race 4",
+      "distance": "Six Furlongs",
+      "purse": "Purse $24,480",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 2,
+          "name": "Berniedott",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Cause Ima Boss",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Run David Run",
+          "ml": 5.5,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Watch the Law",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Coaldigger",
+          "ml": 16.0,
+          "place": null
+        },
+        {
+          "post": 8,
+          "name": "Symbol",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 9,
+          "name": "Start Out",
+          "ml": 6.0,
+          "place": null
+        },
+        {
+          "post": 10,
+          "name": "Cardinal Union",
+          "ml": 7.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "ind-0901-5",
+      "track": "Indiana Grand",
+      "time": "4:14 PM ET",
+      "title": "Race 5",
+      "distance": "One Mile",
+      "purse": "Purse $32,640",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Calycanthus",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Justhappytobehere",
+          "ml": 5.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Jailhouse Justice",
+          "ml": 5.5,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Moogie Son",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Whatdoyouthinkmark",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Accredit",
+          "ml": 3.5,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Go Bali Go",
+          "ml": 6.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "ind-0901-6",
       "track": "Indiana Grand",
       "time": "4:45 PM ET",
       "title": "Race 6",
-      "distance": "Five Furlongs",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $38,500",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 2,
+          "name": "Exquisite Justice",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Pioneer Sky",
+          "ml": 4.5,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Lil Gitana",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "J's Alley Cat",
+          "ml": 6.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Soxit Toem",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "La Peruana",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 8,
+          "name": "Miss Unbridled",
+          "ml": 16.0,
+          "place": null
+        },
+        {
+          "post": 9,
+          "name": "Moonshining Mama",
+          "ml": 5.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "ind-0901-7",
+      "track": "Indiana Grand",
+      "time": "5:16 PM ET",
+      "title": "Race 7",
+      "distance": "One Mile",
+      "purse": "Purse $36,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Golden Creek",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Once More",
+          "ml": 4.5,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Windy Storm",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Amy El",
+          "ml": 5.5,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Royal Tiara",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Cloudless Day",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Pious",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 8,
+          "name": "Captured",
+          "ml": 6.0,
+          "place": null
+        },
+        {
+          "post": 9,
+          "name": "So Now What",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 10,
+          "name": "Obvious Agenda",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 11,
+          "name": "Moon Lite Girl",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 13,
+          "name": "Cover Art",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 14,
+          "name": "Lavish Justice",
+          "ml": 31.0,
+          "place": null
+        },
+        {
+          "post": 15,
+          "name": "Go Eve Go",
+          "ml": 31.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "ind-0901-8",
+      "track": "Indiana Grand",
+      "time": "5:47 PM ET",
+      "title": "Race 8",
+      "distance": "One And One Sixteenth Miles",
       "purse": "Purse $43,520",
       "status": "pending",
       "tags": [
@@ -1718,199 +1344,73 @@
       "horses": [
         {
           "post": 1,
-          "name": "Bourbon and Beth",
-          "ml": 11.0,
+          "name": "Silver Curlin",
+          "ml": 31.0,
           "place": null
         },
         {
           "post": 2,
-          "name": "Rose Quest",
-          "ml": 4.0,
+          "name": "Cinquante Cinq",
+          "ml": 5.5,
           "place": null
         },
         {
           "post": 3,
-          "name": "Yalina",
+          "name": "Sono Bella",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Ruby Regent",
           "ml": 5.0,
           "place": null
         },
         {
-          "post": 4,
-          "name": "Rebelka",
-          "ml": 7.0,
-          "place": null
-        },
-        {
           "post": 5,
-          "name": "Frizzle",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Sayet",
-          "ml": 5.5,
+          "name": "Figurine",
+          "ml": 21.0,
           "place": null
         },
         {
           "post": 7,
-          "name": "Amoaray",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Dama Diamante",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "Opalite Dust",
-          "ml": 21.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "ind-0831-7",
-      "track": "Indiana Grand",
-      "time": "5:16 PM ET",
-      "title": "Race 7",
-      "distance": "Five And One Half Furlongs",
-      "purse": "Purse $38,500",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Kansascityjustice",
-          "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Jr El Apache",
+          "name": "Rhapsody in Motion",
           "ml": 9.0,
           "place": null
         },
         {
-          "post": 3,
-          "name": "Front Shirt Pocket",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Ephesian Cat",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Primal Roar",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Whiskey Storm",
-          "ml": 11.0,
-          "place": null
-        },
-        {
           "post": 8,
-          "name": "Ferocious Justice",
-          "ml": 5.5,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "ind-0831-8",
-      "track": "Indiana Grand",
-      "time": "5:47 PM ET",
-      "title": "Race 8",
-      "distance": "One And One Sixteenth Miles",
-      "purse": "Purse $23,120",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Scenic Justice",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Leave It to Kitten",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "River Redemption",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Summer Lover",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "He Gots to Go",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Happy Happy Day",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Boitano",
-          "ml": 2.8,
+          "name": "Juno Palace",
+          "ml": 31.0,
           "place": null
         },
         {
           "post": 9,
-          "name": "Wicked Suprise",
-          "ml": 7.0,
+          "name": "Royal Scarlett",
+          "ml": 31.0,
           "place": null
         },
         {
           "post": 10,
-          "name": "On Palm Sunday",
-          "ml": 13.0,
+          "name": "Pinpointed",
+          "ml": 7.0,
           "place": null
         },
         {
           "post": 11,
-          "name": "Memphis Pharoah",
-          "ml": 21.0,
+          "name": "Beau Cup",
+          "ml": 6.0,
           "place": null
         }
       ]
     },
     {
-      "id": "mnr-0831-1",
-      "track": "MNR",
-      "time": "7:00 PM ET",
-      "title": "Race 1",
-      "distance": "Six Furlongs",
-      "purse": "Purse $7,000",
+      "id": "ind-0901-9",
+      "track": "Indiana Grand",
+      "time": "6:15 PM ET",
+      "title": "Race 9",
+      "distance": "Three Hundred And Fifty Yards",
+      "purse": "Purse $18,000",
       "status": "pending",
       "tags": [
         "USA",
@@ -1919,185 +1419,59 @@
       "horses": [
         {
           "post": 1,
-          "name": "Braggadocious",
-          "ml": 10.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Classic Alphie",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Stepnoski",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Whisky Reserve",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Bossme",
+          "name": "Hf Firecracker",
           "ml": 5.5,
           "place": null
         },
         {
-          "post": 6,
-          "name": "Loyal Clement",
-          "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Cold Plunge",
-          "ml": 16.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "mnr-0831-2",
-      "track": "MNR",
-      "time": "7:25 PM ET",
-      "title": "Race 2",
-      "distance": "Seven Furlongs",
-      "purse": "Purse $14,500",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Miss Teca",
-          "ml": 11.0,
-          "place": null
-        },
-        {
           "post": 2,
-          "name": "Sagcy",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Bailey's Girl",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Mima Princess",
-          "ml": 8.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Dancing Shadows",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Buxtehude",
+          "name": "Lb Favorite Delight",
           "ml": 7.0,
           "place": null
         },
         {
-          "post": 7,
-          "name": "Dance On Air",
-          "ml": 3.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Red Drapes",
+          "post": 3,
+          "name": "Dare to Fly",
           "ml": 6.0,
           "place": null
         },
         {
-          "post": 9,
-          "name": "Somethingtosay",
-          "ml": 21.0,
-          "place": null
-        }
-      ]
-    },
-    {
-      "id": "mnr-0831-3",
-      "track": "MNR",
-      "time": "7:50 PM ET",
-      "title": "Race 3",
-      "distance": "Seven Furlongs",
-      "purse": "Purse $14,500",
-      "status": "pending",
-      "tags": [
-        "USA",
-        "Result"
-      ],
-      "horses": [
-        {
-          "post": 1,
-          "name": "Mazarn",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Face of Shadows",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Slainte Mhath",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 4,
-          "name": "Dot Your Eyes",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Itza Kitty",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Tarragon",
+          "name": "Three Eyed Candy",
           "ml": 3.0,
           "place": null
         },
         {
+          "post": 5,
+          "name": "Whiskey Beach",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Jess Knew",
+          "ml": 9.0,
+          "place": null
+        },
+        {
           "post": 7,
-          "name": "Shez Twisted",
-          "ml": 11.0,
+          "name": "Gv Little Guy",
+          "ml": 9.0,
           "place": null
         },
         {
           "post": 8,
-          "name": "Morgan's Bluff",
-          "ml": 16.0,
+          "name": "Heza Classy Cowboy",
+          "ml": 7.0,
           "place": null
         }
       ]
     },
     {
-      "id": "mnr-0831-4",
+      "id": "mnr-0901-1",
       "track": "MNR",
-      "time": "8:15 PM ET",
-      "title": "Race 4",
+      "time": "7:00 PM ET",
+      "title": "Race 1",
       "distance": "One Mile",
       "purse": "Purse $12,000",
       "status": "pending",
@@ -2108,66 +1482,135 @@
       "horses": [
         {
           "post": 1,
-          "name": "Cloudy Bay",
-          "ml": 11.0,
+          "name": "Bold Advance",
+          "ml": 4.5,
           "place": null
         },
         {
           "post": 2,
-          "name": "Worldly Beauty",
-          "ml": 4.0,
+          "name": "Dr Jack Flyer",
+          "ml": 11.0,
           "place": null
         },
         {
           "post": 3,
-          "name": "Political Spin",
-          "ml": 6.0,
+          "name": "Coach Campbell",
+          "ml": 13.0,
           "place": null
         },
         {
           "post": 4,
-          "name": "Wild Looker",
+          "name": "R Doc",
           "ml": 16.0,
           "place": null
         },
         {
           "post": 5,
-          "name": "Dont Compress",
-          "ml": 7.0,
+          "name": "North Warden",
+          "ml": 4.0,
           "place": null
         },
         {
           "post": 6,
-          "name": "Sufferin Succotash",
-          "ml": 13.0,
+          "name": "Shiva",
+          "ml": 9.0,
           "place": null
         },
         {
           "post": 7,
-          "name": "Future Flay",
-          "ml": 8.0,
+          "name": "Vanzzy",
+          "ml": 7.0,
           "place": null
         },
         {
           "post": 8,
-          "name": "Never So Lucky",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "C C's Heart",
-          "ml": 3.5,
+          "name": "If I Were You",
+          "ml": 3.0,
           "place": null
         }
       ]
     },
     {
-      "id": "mnr-0831-5",
+      "id": "mnr-0901-2",
       "track": "MNR",
-      "time": "8:40 PM ET",
-      "title": "Race 5",
-      "distance": "One Mile",
+      "time": "7:25 PM ET",
+      "title": "Race 2",
+      "distance": "Five Furlongs",
+      "purse": "Purse $16,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Illini",
+          "ml": 8.0,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Speighty War (KY)",
+          "ml": 3.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Button Box",
+          "ml": 3.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Breezer",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Todo Fino",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Mac Daddy",
+          "ml": 16.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Dropkick Murphy",
+          "ml": 6.0,
+          "place": null
+        },
+        {
+          "post": 8,
+          "name": "Royal Salute",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 9,
+          "name": "Unworkable",
+          "ml": 4.0,
+          "place": null
+        },
+        {
+          "post": 10,
+          "name": "No Name Dude",
+          "ml": 21.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "mnr-0901-3",
+      "track": "MNR",
+      "time": "7:50 PM ET",
+      "title": "Race 3",
+      "distance": "Five Furlongs",
       "purse": "Purse $13,000",
       "status": "pending",
       "tags": [
@@ -2177,60 +1620,330 @@
       "horses": [
         {
           "post": 1,
-          "name": "Prairie Hawk",
-          "ml": 4.0,
+          "name": "Now That Ican Rock",
+          "ml": 6.0,
           "place": null
         },
         {
           "post": 2,
-          "name": "Lowells Legacy",
-          "ml": 21.0,
+          "name": "Lord Ante",
+          "ml": 3.0,
           "place": null
         },
         {
           "post": 3,
-          "name": "Boldness",
-          "ml": 4.5,
+          "name": "Winfromwithin",
+          "ml": 13.0,
           "place": null
         },
         {
           "post": 4,
-          "name": "Afraidofthebunny",
-          "ml": 7.0,
+          "name": "Fayathaan",
+          "ml": 5.0,
           "place": null
         },
         {
           "post": 5,
-          "name": "Some R Blessed",
+          "name": "Legal Titan",
           "ml": 9.0,
           "place": null
         },
         {
           "post": 6,
-          "name": "Tojo's Mojo",
-          "ml": 3.0,
+          "name": "Vroysky",
+          "ml": 11.0,
           "place": null
         },
         {
           "post": 7,
-          "name": "Kakao",
-          "ml": 16.0,
+          "name": "Kiltoom",
+          "ml": 13.0,
           "place": null
         },
         {
           "post": 8,
-          "name": "Khozando",
+          "name": "Disco Cents",
+          "ml": 8.0,
+          "place": null
+        },
+        {
+          "post": 9,
+          "name": "Hotline Blink",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 10,
+          "name": "Timberry Tiddler",
+          "ml": 21.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "mnr-0901-4",
+      "track": "MNR",
+      "time": "8:15 PM ET",
+      "title": "Race 4",
+      "distance": "Seven Furlongs",
+      "purse": "Purse $16,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Liz Dreamin",
+          "ml": 16.0,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Hayami",
+          "ml": 5.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Busker",
+          "ml": 3.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Christina of Milan",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Lucky and Pretty",
+          "ml": 6.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Princess Ewuana",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Sperry Chalet",
+          "ml": 8.0,
+          "place": null
+        },
+        {
+          "post": 8,
+          "name": "Gallant Runner",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 9,
+          "name": "Gorda",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 10,
+          "name": "Yasushe",
+          "ml": 16.0,
+          "place": null
+        },
+        {
+          "post": 11,
+          "name": "Crafty Lawyer",
+          "ml": 4.0,
+          "place": null
+        },
+        {
+          "post": 12,
+          "name": "Inferno",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 13,
+          "name": "Cole's Valentine",
+          "ml": 6.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "mnr-0901-5",
+      "track": "MNR",
+      "time": "8:40 PM ET",
+      "title": "Race 5",
+      "distance": "One Mile",
+      "purse": "Purse $15,500",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Redwhiteandtacos",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Goldcrest",
+          "ml": 3.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Kiss Cam",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Worth Considering",
+          "ml": 16.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Canadian Bear",
+          "ml": 4.5,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Night Nurse",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Genieinabridle",
+          "ml": 4.0,
+          "place": null
+        },
+        {
+          "post": 8,
+          "name": "Snappin Buttons",
           "ml": 11.0,
           "place": null
         }
       ]
     },
     {
-      "id": "mnr-0831-6",
+      "id": "mnr-0901-6",
       "track": "MNR",
       "time": "9:05 PM ET",
       "title": "Race 6",
-      "distance": "One Mile",
+      "distance": "Four And One Half Furlongs",
+      "purse": "Purse $11,500",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Parade of Fears",
+          "ml": 4.5,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "French Onion",
+          "ml": 5.5,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Bazoo",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Kool Kathmandu",
+          "ml": 3.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Mitico",
+          "ml": 3.5,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Ace Ventura",
+          "ml": 16.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "mnr-0901-7",
+      "track": "MNR",
+      "time": "9:30 PM ET",
+      "title": "Race 7",
+      "distance": "Five Furlongs",
+      "purse": "Purse $13,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Fair Trade",
+          "ml": 3.5,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Stubold",
+          "ml": 5.5,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Bonita Vida",
+          "ml": 3.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "The Little Sultana",
+          "ml": 4.5,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Flat Discount",
+          "ml": 16.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Coda Mia",
+          "ml": 11.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "mnr-0901-8",
+      "track": "MNR",
+      "time": "9:55 PM ET",
+      "title": "Race 8",
+      "distance": "Five And One Half Furlongs",
       "purse": "Purse $9,000",
       "status": "pending",
       "tags": [
@@ -2240,49 +1953,85 @@
       "horses": [
         {
           "post": 1,
-          "name": "Khnum",
-          "ml": 3.5,
+          "name": "R Candy",
+          "ml": 13.0,
           "place": null
         },
         {
           "post": 2,
-          "name": "Nvdia",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Second Best",
+          "name": "Heavenly Lady",
           "ml": 16.0,
           "place": null
         },
         {
+          "post": 3,
+          "name": "Smiles for David",
+          "ml": 11.0,
+          "place": null
+        },
+        {
           "post": 4,
-          "name": "Win With Color",
-          "ml": 5.5,
+          "name": "Presleys Volley",
+          "ml": 3.5,
           "place": null
         },
         {
           "post": 5,
-          "name": "Power Party",
-          "ml": 4.5,
+          "name": "Maam Cross",
+          "ml": 5.0,
           "place": null
         },
         {
           "post": 6,
-          "name": "Summer Forever",
-          "ml": 3.0,
+          "name": "Lovely Odds",
+          "ml": 16.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Estrella Silver",
+          "ml": 21.0,
+          "place": null
+        },
+        {
+          "post": 8,
+          "name": "Intel Agent",
+          "ml": 6.0,
+          "place": null
+        },
+        {
+          "post": 9,
+          "name": "Highway Robbery",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 10,
+          "name": "Holly Roller",
+          "ml": 8.0,
+          "place": null
+        },
+        {
+          "post": 11,
+          "name": "Dream Life",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 12,
+          "name": "Bowling Blue",
+          "ml": 4.0,
           "place": null
         }
       ]
     },
     {
-      "id": "mnr-0831-7",
-      "track": "MNR",
-      "time": "9:30 PM ET",
-      "title": "Race 7",
-      "distance": "One Mile",
-      "purse": "Purse $13,000",
+      "id": "pid-0901-1",
+      "track": "PID",
+      "time": "3:30 PM ET",
+      "title": "Race 1",
+      "distance": "One Mile And Seventy Yards",
+      "purse": "Purse $18,000",
       "status": "pending",
       "tags": [
         "USA",
@@ -2291,38 +2040,350 @@
       "horses": [
         {
           "post": 1,
-          "name": "Hard Astray",
-          "ml": 11.0,
+          "name": "Taco Cat Backwards",
+          "ml": 9.0,
           "place": null
         },
         {
           "post": 2,
-          "name": "Tate",
-          "ml": 3.5,
+          "name": "Lucy Playa",
+          "ml": 9.0,
           "place": null
         },
         {
           "post": 3,
-          "name": "El Guty",
-          "ml": 4.5,
+          "name": "Mistrial Wind",
+          "ml": 3.5,
           "place": null
         },
         {
           "post": 4,
-          "name": "Judge Rules",
-          "ml": 3.0,
+          "name": "New Issue",
+          "ml": 5.5,
           "place": null
         },
         {
           "post": 5,
-          "name": "Q Bond",
-          "ml": 16.0,
+          "name": "Starlit Sky",
+          "ml": 4.0,
           "place": null
         },
         {
           "post": 6,
-          "name": "Curlins Incharge",
+          "name": "Hits Different",
+          "ml": 5.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "pid-0901-2",
+      "track": "PID",
+      "time": "3:57 PM ET",
+      "title": "Race 2",
+      "distance": "Six Furlongs",
+      "purse": "Purse $22,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Forty Love",
+          "ml": 3.5,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Savage State",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Ready Set Cairo",
+          "ml": 5.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Gift Exchange",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Vasa",
+          "ml": 3.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Strike D' Oro",
+          "ml": 4.5,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "pid-0901-3",
+      "track": "PID",
+      "time": "4:24 PM ET",
+      "title": "Race 3",
+      "distance": "Six And One Half Furlongs",
+      "purse": "Purse $17,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Housebuilder",
+          "ml": 4.5,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Camilo",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Turf Cat",
+          "ml": 3.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Enjoy the Music",
           "ml": 5.5,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Sydney Street",
+          "ml": 5.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "pid-0901-4",
+      "track": "PID",
+      "time": "4:51 PM ET",
+      "title": "Race 4",
+      "distance": "One Mile And Seventy Yards",
+      "purse": "Purse $12,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Secretary of War",
+          "ml": 2.8,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Lightning Charlie",
+          "ml": 5.5,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Yadi",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "I'm No Angel",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Duel Fuel",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Wicked Finn",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Keystone Hank",
+          "ml": 4.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "pid-0901-5",
+      "track": "PID",
+      "time": "5:18 PM ET",
+      "title": "Race 5",
+      "distance": "Six Furlongs",
+      "purse": "Purse $33,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Braggart Joe",
+          "ml": 3.0,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Freestate",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Hit That Review",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Thorn of Hearts",
+          "ml": 4.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Span of Control",
+          "ml": 5.5,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Call Me Later",
+          "ml": 3.5,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "pid-0901-6",
+      "track": "PID",
+      "time": "5:45 PM ET",
+      "title": "Race 6",
+      "distance": "Six And One Half Furlongs",
+      "purse": "Purse $32,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Cactus Cairo",
+          "ml": 4.5,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Just One Kiss",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Hardly Ready",
+          "ml": 9.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Trail of Roses",
+          "ml": 5.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Starship Discovery",
+          "ml": 5.5,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Inspire Courage",
+          "ml": 4.0,
+          "place": null
+        }
+      ]
+    },
+    {
+      "id": "pid-0901-7",
+      "track": "PID",
+      "time": "6:12 PM ET",
+      "title": "Race 7",
+      "distance": "Six Furlongs",
+      "purse": "Purse $33,000",
+      "status": "pending",
+      "tags": [
+        "USA",
+        "Result"
+      ],
+      "horses": [
+        {
+          "post": 1,
+          "name": "Xerces",
+          "ml": 5.5,
+          "place": null
+        },
+        {
+          "post": 2,
+          "name": "Boujie Betz",
+          "ml": 7.0,
+          "place": null
+        },
+        {
+          "post": 3,
+          "name": "Spoken Vow",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 4,
+          "name": "Eastern Sunrise",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 5,
+          "name": "Boogie Woogie",
+          "ml": 4.5,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Shez Untappable",
+          "ml": 3.5,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Au Courant",
+          "ml": 4.0,
           "place": null
         }
       ]
