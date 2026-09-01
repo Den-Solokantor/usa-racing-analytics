@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T15:16:41.895858+00:00",
+  "updated": "2026-09-01T18:57:09.894780+00:00",
   "date": "2026-09-01",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -16,7 +16,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -67,7 +68,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -112,7 +114,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -132,12 +135,6 @@
           "name": "I'm Solo N in Love",
           "ml": 4.0,
           "place": null
-        },
-        {
-          "post": 5,
-          "name": "Trew Violence",
-          "ml": 3.0,
-          "place": null
         }
       ]
     },
@@ -151,7 +148,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -196,7 +194,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -410,12 +409,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Templar",
-          "ml": 8.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Sculptor",
           "ml": 2.6,
@@ -431,12 +424,6 @@
           "post": 4,
           "name": "Midnight Griffin",
           "ml": 8.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Sour Tamarindo",
-          "ml": 5.5,
           "place": null
         },
         {
@@ -472,12 +459,6 @@
         "Result"
       ],
       "horses": [
-        {
-          "post": 1,
-          "name": "Steampunk",
-          "ml": 3.0,
-          "place": null
-        },
         {
           "post": 2,
           "name": "Visionista",
@@ -587,21 +568,9 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Diamonds Joy",
-          "ml": 7.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Wild Tapit",
           "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Ghaly Posse",
-          "ml": 2.0,
           "place": null
         },
         {
@@ -728,12 +697,6 @@
           "post": 6,
           "name": "Belleinthetemple",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "I'm Hungover",
-          "ml": 7.0,
           "place": null
         },
         {
@@ -886,7 +849,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -943,7 +907,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1130,12 +1095,6 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Justhappytobehere",
-          "ml": 5.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Jailhouse Justice",
           "ml": 5.5,
@@ -1314,18 +1273,6 @@
           "name": "Cover Art",
           "ml": 9.0,
           "place": null
-        },
-        {
-          "post": 14,
-          "name": "Lavish Justice",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 15,
-          "name": "Go Eve Go",
-          "ml": 31.0,
-          "place": null
         }
       ]
     },
@@ -1481,12 +1428,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Bold Advance",
-          "ml": 4.5,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Dr Jack Flyer",
           "ml": 11.0,
@@ -1514,12 +1455,6 @@
           "post": 6,
           "name": "Shiva",
           "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Vanzzy",
-          "ml": 7.0,
           "place": null
         },
         {
@@ -1637,12 +1572,6 @@
           "place": null
         },
         {
-          "post": 4,
-          "name": "Fayathaan",
-          "ml": 5.0,
-          "place": null
-        },
-        {
           "post": 5,
           "name": "Legal Titan",
           "ml": 9.0,
@@ -1671,12 +1600,6 @@
           "name": "Hotline Blink",
           "ml": 13.0,
           "place": null
-        },
-        {
-          "post": 10,
-          "name": "Timberry Tiddler",
-          "ml": 21.0,
-          "place": null
         }
       ]
     },
@@ -1693,12 +1616,6 @@
         "Result"
       ],
       "horses": [
-        {
-          "post": 1,
-          "name": "Liz Dreamin",
-          "ml": 16.0,
-          "place": null
-        },
         {
           "post": 2,
           "name": "Hayami",
@@ -1752,24 +1669,6 @@
           "name": "Yasushe",
           "ml": 16.0,
           "place": null
-        },
-        {
-          "post": 11,
-          "name": "Crafty Lawyer",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Inferno",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 13,
-          "name": "Cole's Valentine",
-          "ml": 6.0,
-          "place": null
         }
       ]
     },
@@ -1799,33 +1698,15 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Kiss Cam",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "Worth Considering",
           "ml": 16.0,
           "place": null
         },
         {
-          "post": 5,
-          "name": "Canadian Bear",
-          "ml": 4.5,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Night Nurse",
           "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Genieinabridle",
-          "ml": 4.0,
           "place": null
         },
         {
@@ -1923,18 +1804,6 @@
           "name": "The Little Sultana",
           "ml": 4.5,
           "place": null
-        },
-        {
-          "post": 5,
-          "name": "Flat Discount",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Coda Mia",
-          "ml": 11.0,
-          "place": null
         }
       ]
     },
@@ -1952,12 +1821,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "R Candy",
-          "ml": 13.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Heavenly Lady",
           "ml": 16.0,
@@ -1973,18 +1836,6 @@
           "post": 4,
           "name": "Presleys Volley",
           "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Maam Cross",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Lovely Odds",
-          "ml": 16.0,
           "place": null
         },
         {
@@ -2045,27 +1896,9 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Lucy Playa",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Mistrial Wind",
-          "ml": 3.5,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "New Issue",
           "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Starlit Sky",
-          "ml": 4.0,
           "place": null
         },
         {
@@ -2117,12 +1950,6 @@
           "post": 5,
           "name": "Vasa",
           "ml": 3.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Strike D' Oro",
-          "ml": 4.5,
           "place": null
         }
       ]
@@ -2267,12 +2094,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Span of Control",
-          "ml": 5.5,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Call Me Later",
           "ml": 3.5,
@@ -2359,12 +2180,6 @@
         {
           "post": 3,
           "name": "Spoken Vow",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Eastern Sunrise",
           "ml": 11.0,
           "place": null
         },

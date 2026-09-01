@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T15:16:41.892677+00:00",
+  "updated": "2026-09-01T18:57:09.891843+00:00",
   "source": "equibase-parser-gha",
   "date": "2026-09-01",
   "races": [
@@ -53,7 +53,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -100,7 +101,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -128,12 +130,6 @@
           "name": "I'm Solo N in Love",
           "ml": 4.0,
           "win": null
-        },
-        {
-          "post": 5,
-          "name": "Trew Violence",
-          "ml": 3.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -141,7 +137,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -188,7 +185,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -247,7 +245,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -418,12 +417,6 @@
       "purse": "Purse $38,000",
       "horses": [
         {
-          "post": 1,
-          "name": "Templar",
-          "ml": 8.0,
-          "win": null
-        },
-        {
           "post": 2,
           "name": "Sculptor",
           "ml": 2.6,
@@ -439,12 +432,6 @@
           "post": 4,
           "name": "Midnight Griffin",
           "ml": 8.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Sour Tamarindo",
-          "ml": 5.5,
           "win": null
         },
         {
@@ -482,12 +469,6 @@
       "distance": "Five And One Half Furlongs",
       "purse": "Purse $14,000",
       "horses": [
-        {
-          "post": 1,
-          "name": "Steampunk",
-          "ml": 3.0,
-          "win": null
-        },
         {
           "post": 2,
           "name": "Visionista",
@@ -601,21 +582,9 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Diamonds Joy",
-          "ml": 7.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Wild Tapit",
           "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Ghaly Posse",
-          "ml": 2.0,
           "win": null
         },
         {
@@ -746,12 +715,6 @@
           "post": 6,
           "name": "Belleinthetemple",
           "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "I'm Hungover",
-          "ml": 7.0,
           "win": null
         },
         {
@@ -961,7 +924,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1014,7 +978,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1159,12 +1124,6 @@
           "post": 1,
           "name": "Calycanthus",
           "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Justhappytobehere",
-          "ml": 5.0,
           "win": null
         },
         {
@@ -1350,18 +1309,6 @@
           "name": "Cover Art",
           "ml": 9.0,
           "win": null
-        },
-        {
-          "post": 14,
-          "name": "Lavish Justice",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 15,
-          "name": "Go Eve Go",
-          "ml": 31.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -1523,12 +1470,6 @@
       "purse": "Purse $12,000",
       "horses": [
         {
-          "post": 1,
-          "name": "Bold Advance",
-          "ml": 4.5,
-          "win": null
-        },
-        {
           "post": 2,
           "name": "Dr Jack Flyer",
           "ml": 11.0,
@@ -1556,12 +1497,6 @@
           "post": 6,
           "name": "Shiva",
           "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Vanzzy",
-          "ml": 7.0,
           "win": null
         },
         {
@@ -1683,12 +1618,6 @@
           "win": null
         },
         {
-          "post": 4,
-          "name": "Fayathaan",
-          "ml": 5.0,
-          "win": null
-        },
-        {
           "post": 5,
           "name": "Legal Titan",
           "ml": 9.0,
@@ -1717,12 +1646,6 @@
           "name": "Hotline Blink",
           "ml": 13.0,
           "win": null
-        },
-        {
-          "post": 10,
-          "name": "Timberry Tiddler",
-          "ml": 21.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -1741,12 +1664,6 @@
       "distance": "Seven Furlongs",
       "purse": "Purse $16,000",
       "horses": [
-        {
-          "post": 1,
-          "name": "Liz Dreamin",
-          "ml": 16.0,
-          "win": null
-        },
         {
           "post": 2,
           "name": "Hayami",
@@ -1800,24 +1717,6 @@
           "name": "Yasushe",
           "ml": 16.0,
           "win": null
-        },
-        {
-          "post": 11,
-          "name": "Crafty Lawyer",
-          "ml": 4.0,
-          "win": null
-        },
-        {
-          "post": 12,
-          "name": "Inferno",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 13,
-          "name": "Cole's Valentine",
-          "ml": 6.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -1849,33 +1748,15 @@
           "win": null
         },
         {
-          "post": 3,
-          "name": "Kiss Cam",
-          "ml": 21.0,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "Worth Considering",
           "ml": 16.0,
           "win": null
         },
         {
-          "post": 5,
-          "name": "Canadian Bear",
-          "ml": 4.5,
-          "win": null
-        },
-        {
           "post": 6,
           "name": "Night Nurse",
           "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Genieinabridle",
-          "ml": 4.0,
           "win": null
         },
         {
@@ -1977,18 +1858,6 @@
           "name": "The Little Sultana",
           "ml": 4.5,
           "win": null
-        },
-        {
-          "post": 5,
-          "name": "Flat Discount",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Coda Mia",
-          "ml": 11.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -2008,12 +1877,6 @@
       "purse": "Purse $9,000",
       "horses": [
         {
-          "post": 1,
-          "name": "R Candy",
-          "ml": 13.0,
-          "win": null
-        },
-        {
           "post": 2,
           "name": "Heavenly Lady",
           "ml": 16.0,
@@ -2029,18 +1892,6 @@
           "post": 4,
           "name": "Presleys Volley",
           "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Maam Cross",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Lovely Odds",
-          "ml": 16.0,
           "win": null
         },
         {
@@ -2103,27 +1954,9 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Lucy Playa",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Mistrial Wind",
-          "ml": 3.5,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "New Issue",
           "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Starlit Sky",
-          "ml": 4.0,
           "win": null
         },
         {
@@ -2177,12 +2010,6 @@
           "post": 5,
           "name": "Vasa",
           "ml": 3.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Strike D' Oro",
-          "ml": 4.5,
           "win": null
         }
       ],
@@ -2333,12 +2160,6 @@
           "win": null
         },
         {
-          "post": 5,
-          "name": "Span of Control",
-          "ml": 5.5,
-          "win": null
-        },
-        {
           "post": 6,
           "name": "Call Me Later",
           "ml": 3.5,
@@ -2429,12 +2250,6 @@
         {
           "post": 3,
           "name": "Spoken Vow",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Eastern Sunrise",
           "ml": 11.0,
           "win": null
         },
