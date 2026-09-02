@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T14:47:35.051514+00:00",
+  "updated": "2026-09-02T19:02:40.691913+00:00",
   "date": "2026-09-02",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -16,7 +16,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -67,7 +68,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -118,7 +120,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -131,12 +134,6 @@
           "post": 2,
           "name": "Not for Hire",
           "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Skyler's Starship",
-          "ml": 4.5,
           "place": null
         },
         {
@@ -163,7 +160,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -214,7 +212,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -350,21 +349,9 @@
           "place": null
         },
         {
-          "post": 4,
-          "name": "Canyouhearmerunnin",
-          "ml": 6.0,
-          "place": null
-        },
-        {
           "post": 5,
           "name": "Nutsie",
           "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Gatsby",
-          "ml": 3.5,
           "place": null
         },
         {
@@ -401,18 +388,6 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Saint Solomon",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Kealybug",
-          "ml": 6.0,
-          "place": null
-        },
-        {
           "post": 5,
           "name": "Last Vintage",
           "ml": 21.0,
@@ -422,12 +397,6 @@
           "post": 6,
           "name": "Broken Record",
           "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Rollofthesoul",
-          "ml": 16.0,
           "place": null
         }
       ]
@@ -442,19 +411,14 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 1,
           "name": "Blazing Memories",
           "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Mr. Strike",
-          "ml": 7.0,
           "place": null
         },
         {
@@ -499,7 +463,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1073,18 +1038,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Royal Coast",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Oldfashlovesong",
-          "ml": 3.5,
-          "place": null
-        },
-        {
           "post": 7,
           "name": "La Chica de Oro",
           "ml": 11.0,
@@ -1112,21 +1065,9 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Mr. Brad's Cowboy",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Obvious Conclusion",
           "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Jonesboogie",
-          "ml": 31.0,
           "place": null
         },
         {
@@ -1325,12 +1266,6 @@
           "place": null
         },
         {
-          "post": 7,
-          "name": "Hermosa Italiana",
-          "ml": 3.5,
-          "place": null
-        },
-        {
           "post": 8,
           "name": "Gotta Scoot",
           "ml": 9.0,
@@ -1421,18 +1356,6 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Cinco Taco",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Sweet Present",
-          "ml": 31.0,
-          "place": null
-        },
-        {
           "post": 5,
           "name": "Concrete Bolt",
           "ml": 7.0,
@@ -1451,12 +1374,6 @@
           "place": null
         },
         {
-          "post": 8,
-          "name": "Alajuela",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 9,
           "name": "Fosforito",
           "ml": 21.0,
@@ -1466,12 +1383,6 @@
           "post": 10,
           "name": "Bernardo",
           "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 11,
-          "name": "Hank Ridge",
-          "ml": 21.0,
           "place": null
         }
       ]
@@ -1517,18 +1428,6 @@
           "post": 5,
           "name": "Fernando's Gold",
           "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Lucho",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "One Step Beyond",
-          "ml": 5.5,
           "place": null
         }
       ]
@@ -1625,12 +1524,6 @@
           "post": 5,
           "name": "Mitote",
           "ml": 3.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Why Winchill Why",
-          "ml": 7.0,
           "place": null
         },
         {
@@ -1739,12 +1632,6 @@
           "post": 2,
           "name": "Semper Anticus",
           "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Gray Beast",
-          "ml": 5.0,
           "place": null
         },
         {
@@ -1862,12 +1749,6 @@
           "place": null
         },
         {
-          "post": 4,
-          "name": "Red Drapes",
-          "ml": 5.0,
-          "place": null
-        },
-        {
           "post": 5,
           "name": "I'm Kidding",
           "ml": 7.0,
@@ -1906,12 +1787,6 @@
         "Result"
       ],
       "horses": [
-        {
-          "post": 1,
-          "name": "Illusions of Love",
-          "ml": 16.0,
-          "place": null
-        },
         {
           "post": 2,
           "name": "Honestly",
@@ -1955,21 +1830,9 @@
           "place": null
         },
         {
-          "post": 9,
-          "name": "Scream Machine",
-          "ml": 5.0,
-          "place": null
-        },
-        {
           "post": 10,
           "name": "Silver Candice",
           "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 11,
-          "name": "Entitled Defense",
-          "ml": 11.0,
           "place": null
         },
         {
@@ -2039,12 +1902,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Quiet City",
-          "ml": 11.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Celestial Speed",
           "ml": 3.0,
@@ -2060,12 +1917,6 @@
           "post": 4,
           "name": "Bess' Candy",
           "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Reckless Spending",
-          "ml": 5.0,
           "place": null
         },
         {
@@ -2151,14 +2002,8 @@
         },
         {
           "post": 9,
-          "name": "Whisper Roar (PA)",
+          "name": "Whisper Roar",
           "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Bronx Boys (PA)",
-          "ml": 7.0,
           "place": null
         }
       ]
@@ -2342,18 +2187,6 @@
           "place": null
         },
         {
-          "post": 4,
-          "name": "Capt. Candy",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Ridley Park",
-          "ml": 11.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Uncaptured Star",
           "ml": 11.0,
@@ -2402,12 +2235,6 @@
           "post": 1,
           "name": "Trashy Mission",
           "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Nessy",
-          "ml": 4.0,
           "place": null
         },
         {
