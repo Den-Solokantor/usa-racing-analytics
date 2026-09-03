@@ -1,320 +1,32 @@
 {
-  "updated": "2026-09-02T19:02:40.688740+00:00",
+  "updated": "2026-09-03T14:46:45.140659+00:00",
   "source": "equibase-parser-gha",
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "races": [
     {
-      "id": "fl-0902-1",
-      "track": "Finger Lakes",
-      "time": "12:55 PM ET",
+      "id": "btp-0903-1",
+      "track": "Belterra Park",
+      "time": "11:15 AM ET",
       "title": "Race 1",
-      "distance": "Six Furlongs",
-      "purse": "Purse $20,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Numeric",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Kaz Music",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Miss Stones",
-          "ml": 2.6,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Dolce Sera",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Moontown",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Foxy Cara",
-          "ml": 4.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate",
-        "Finished"
-      ]
-    },
-    {
-      "id": "fl-0902-2",
-      "track": "Finger Lakes",
-      "time": "1:24 PM ET",
-      "title": "Race 2",
       "distance": "Five Furlongs",
-      "purse": "Purse $32,600",
+      "purse": "Purse $8,000",
       "horses": [
         {
           "post": 1,
-          "name": "Beach Life",
+          "name": "Black Candy",
           "ml": 3.5,
           "win": null
         },
         {
           "post": 2,
-          "name": "Locked Horns",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "I'm a Happy Man",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Big Poppy",
+          "name": "Wicked Vette",
           "ml": 4.0,
           "win": null
         },
         {
-          "post": 5,
-          "name": "Referendum",
-          "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Roadhouse Warrior",
-          "ml": 7.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate",
-        "Finished"
-      ]
-    },
-    {
-      "id": "fl-0902-3",
-      "track": "Finger Lakes",
-      "time": "1:53 PM ET",
-      "title": "Race 3",
-      "distance": "Six Furlongs",
-      "purse": "Purse $27,300",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Hit the Post",
-          "ml": 2.8,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Not for Hire",
-          "ml": 3.5,
-          "win": null
-        },
-        {
           "post": 4,
-          "name": "Revivalism",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Lord King",
-          "ml": 3.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate",
-        "Finished"
-      ]
-    },
-    {
-      "id": "fl-0902-4",
-      "track": "Finger Lakes",
-      "time": "2:22 PM ET",
-      "title": "Race 4",
-      "distance": "Six Furlongs",
-      "purse": "Purse $13,700",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Stormy's Dreaming",
-          "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Cruising Cat",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Anmolo",
-          "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Winston D",
-          "ml": 3.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Eight Sunset Drive",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Renew the Blue",
-          "ml": 5.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate",
-        "Finished"
-      ]
-    },
-    {
-      "id": "fl-0902-5",
-      "track": "Finger Lakes",
-      "time": "2:51 PM ET",
-      "title": "Race 5",
-      "distance": "Six Furlongs",
-      "purse": "Purse $13,700",
-      "horses": [
-        {
-          "post": 1,
-          "name": "New Matthew",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Valiant Warrior",
-          "ml": 4.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Army Proud",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Ragtime Prankster",
-          "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Witt Dashing Speed",
+          "name": "Call Me Drossel",
           "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Midnight Musume",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Shellac",
-          "ml": 3.5,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate",
-        "Finished"
-      ]
-    },
-    {
-      "id": "fl-0902-6",
-      "track": "Finger Lakes",
-      "time": "3:20 PM ET",
-      "title": "Race 6",
-      "distance": "Six Furlongs",
-      "purse": "Purse $17,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Trinity River",
-          "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Fess",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Connor's Turn",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "King Solomon",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Solo Street",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Hold the Phone",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Keep 'Em Honest",
-          "ml": 4.5,
           "win": null
         }
       ],
@@ -327,545 +39,41 @@
       ]
     },
     {
-      "id": "fl-0902-7",
-      "track": "Finger Lakes",
-      "time": "3:49 PM ET",
-      "title": "Race 7",
-      "distance": "Six Furlongs",
-      "purse": "Purse $22,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Hay Hay Harry",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Pompous Prince",
-          "ml": 4.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Bustin Away",
-          "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Nutsie",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Prince of Truth",
-          "ml": 7.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "fl-0902-8",
-      "track": "Finger Lakes",
-      "time": "4:18 PM ET",
-      "title": "Race 8",
-      "distance": "One Mile And Seventy Yards",
-      "purse": "Purse $13,500",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Beck's Dreamer",
-          "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Solo Flight",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Last Vintage",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Broken Record",
-          "ml": 4.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "ind-0902-1",
-      "track": "Indiana Grand",
-      "time": "2:10 PM ET",
-      "title": "Race 1",
-      "distance": "One Mile",
-      "purse": "Purse $36,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Blazing Memories",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Yosemite's Rockin",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Channelurambition",
-          "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Nordic Prince",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Chief of Change",
-          "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Tricked You",
-          "ml": 3.5,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate",
-        "Finished"
-      ]
-    },
-    {
-      "id": "ind-0902-2",
-      "track": "Indiana Grand",
-      "time": "2:41 PM ET",
+      "id": "btp-0903-2",
+      "track": "Belterra Park",
+      "time": "11:45 AM ET",
       "title": "Race 2",
-      "distance": "One Mile",
-      "purse": "Purse $46,240",
+      "distance": "Six And One Half Furlongs",
+      "purse": "Purse $11,000",
       "horses": [
         {
           "post": 1,
-          "name": "She's Honed In",
-          "ml": 5.5,
+          "name": "Unkept Promises",
+          "ml": 7.0,
           "win": null
         },
         {
           "post": 2,
-          "name": "Senora d'Oro",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Fashion Designer",
-          "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Bamtwentyklater",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "No Time Left",
-          "ml": 7.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate",
-        "Finished"
-      ]
-    },
-    {
-      "id": "ind-0902-3",
-      "track": "Indiana Grand",
-      "time": "3:12 PM ET",
-      "title": "Race 3",
-      "distance": "Six Furlongs",
-      "purse": "Purse $18,500",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Practical Justice",
-          "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Penitent",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Taylor's Moonshine",
-          "ml": 3.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Chisel",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Happiest Moment",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Silver Syon",
-          "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Mommas Wish",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Gray V.",
-          "ml": 13.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "ind-0902-4",
-      "track": "Indiana Grand",
-      "time": "3:43 PM ET",
-      "title": "Race 4",
-      "distance": "Six Furlongs",
-      "purse": "Purse $43,520",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Premiere Dancer",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Mayweather",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Hodl Hard",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Countthecarats",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Chargeaholic",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Gdoubleyou",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Big Boy Thunder",
+          "name": "The Pretty One",
           "ml": 4.0,
           "win": null
         },
         {
-          "post": 8,
-          "name": "Fun to Tap",
-          "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 9,
-          "name": "Fancy Gentleman",
-          "ml": 9.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "ind-0902-5",
-      "track": "Indiana Grand",
-      "time": "4:14 PM ET",
-      "title": "Race 5",
-      "distance": "Five Furlongs",
-      "purse": "Purse $25,160",
-      "horses": [
-        {
-          "post": 1,
-          "name": "The Exodus Twist",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Rioja Alta",
-          "ml": 6.0,
-          "win": null
-        },
-        {
           "post": 3,
-          "name": "Tip Toe Joe",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Coal Fired",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "American Wind",
-          "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Lone Return",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Super Smooth",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Madferit",
-          "ml": 3.5,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "ind-0902-6",
-      "track": "Indiana Grand",
-      "time": "4:45 PM ET",
-      "title": "Race 6",
-      "distance": "Five And One Half Furlongs",
-      "purse": "Purse $36,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "J's Jersey Boy",
-          "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Whitey Lange",
-          "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Comeonwithit",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "He's Spun to Run",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "C R George",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Suspenders",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Red Clay Runaway",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Grandfather Sir",
-          "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 9,
-          "name": "Crazy Luck",
-          "ml": 9.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "ind-0902-7",
-      "track": "Indiana Grand",
-      "time": "5:16 PM ET",
-      "title": "Race 7",
-      "distance": "One Mile",
-      "purse": "Purse $38,080",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Turn Him Loose",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Breakaway",
+          "name": "Tanganyika",
           "ml": 3.0,
           "win": null
         },
         {
-          "post": 3,
-          "name": "Night Watcher",
+          "post": 4,
+          "name": "Constant Chatter",
           "ml": 5.0,
           "win": null
         },
         {
-          "post": 4,
-          "name": "Working for Glory",
-          "ml": 7.0,
-          "win": null
-        },
-        {
           "post": 5,
-          "name": "Jr Bartholomew",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Feed Me the Rock",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 9,
-          "name": "Gentleman Jim",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 10,
-          "name": "Chondrite",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 11,
-          "name": "Kenwood Street",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 12,
-          "name": "Zun Reyder",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 13,
-          "name": "Soho Jimmy",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "Tapcon",
-          "ml": 21.0,
+          "name": "Modern Miss",
+          "ml": 3.5,
           "win": null
         }
       ],
@@ -878,307 +86,53 @@
       ]
     },
     {
-      "id": "ind-0902-8",
-      "track": "Indiana Grand",
-      "time": "5:47 PM ET",
-      "title": "Race 8",
-      "distance": "One Mile",
-      "purse": "Purse $43,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Inclusive Justice",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Goody Two Socks",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Gonnagetchagetcha",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Starry Eye Justice",
-          "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Unbridled Sabbath",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Midnight Caper",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "I Forgot It",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Sweet Jannaelise",
-          "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 9,
-          "name": "Skippinjustice",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 10,
-          "name": "Flowered",
-          "ml": 16.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "ind-0902-9",
-      "track": "Indiana Grand",
-      "time": "6:15 PM ET",
-      "title": "Race 9",
-      "distance": "Three Hundred And Thirty Yards",
-      "purse": "Purse $18,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Flashin Ferrari 123",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Politicallybodacious",
-          "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Chelsidashin",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Sn Fireheart",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Blue Collar Cowboy",
-          "ml": 2.8,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Feeling Frosty",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Cyber Saint M",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Eos Bodacious Boy",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 9,
-          "name": "Magic Valentime",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 10,
-          "name": "Apollitical Twin V",
-          "ml": 5.5,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "lad-0902-1",
-      "track": "LAD",
-      "time": "",
-      "title": "Race 1",
-      "distance": "Seven And One Half Furlongs",
-      "purse": "Purse $12,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Mojane Metal",
-          "ml": 1.5,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Meg's Ladybug",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Gab",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Night Tizzy",
-          "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "La Chica de Oro",
-          "ml": 11.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "lad-0902-2",
-      "track": "LAD",
-      "time": "",
-      "title": "Race 2",
-      "distance": "Six Furlongs",
-      "purse": "Purse $7,800",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Sir Tristan",
-          "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Obvious Conclusion",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Chief Now Now",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Gone Elvis",
-          "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "New York New York",
-          "ml": 2.6,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Heroic Act",
-          "ml": 2.8,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "lad-0902-3",
-      "track": "LAD",
-      "time": "",
+      "id": "btp-0903-3",
+      "track": "Belterra Park",
+      "time": "12:15 PM ET",
       "title": "Race 3",
       "distance": "Five Furlongs",
-      "purse": "Purse $13,600",
+      "purse": "Purse $11,000",
       "horses": [
         {
           "post": 1,
-          "name": "I Bet You Wont",
-          "ml": 7.0,
+          "name": "Hialeah Hottie",
+          "ml": 4.5,
           "win": null
         },
         {
           "post": 2,
-          "name": "Quikonthetrigger",
-          "ml": 5.5,
+          "name": "Chica Linda",
+          "ml": 9.0,
           "win": null
         },
         {
           "post": 3,
-          "name": "Demotion",
-          "ml": 2.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Its Wild Again",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Code of Parapluie",
+          "name": "Eastern Star",
           "ml": 16.0,
           "win": null
         },
         {
+          "post": 4,
+          "name": "Twizzle",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Escovedo",
+          "ml": 6.0,
+          "win": null
+        },
+        {
           "post": 6,
-          "name": "Our Bodie",
+          "name": "Echo Road",
           "ml": 3.5,
           "win": null
         },
         {
           "post": 7,
-          "name": "Patek",
-          "ml": 21.0,
+          "name": "Rye Smile",
+          "ml": 5.0,
           "win": null
         }
       ],
@@ -1191,525 +145,35 @@
       ]
     },
     {
-      "id": "lad-0902-4",
-      "track": "LAD",
-      "time": "",
+      "id": "btp-0903-4",
+      "track": "Belterra Park",
+      "time": "12:45 PM ET",
       "title": "Race 4",
-      "distance": "Five And One Half Furlongs",
-      "purse": "Purse $19,500",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Jactani",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Grand Eagle",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Fourforfortyfour",
-          "ml": 3.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Standard Issue",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "God's Plan",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Velocity Vixen",
-          "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Nazarene",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Eternal Legacy",
-          "ml": 3.5,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "lad-0902-5",
-      "track": "LAD",
-      "time": "",
-      "title": "Race 5",
-      "distance": "Five Furlongs",
-      "purse": "Purse $9,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Laura's Treat",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Sherrys Ridge",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Charming Leah",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Khozy's Operetta",
-          "ml": 4.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Miss Country",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Hammydown",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Gotta Scoot",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 9,
-          "name": "Pocket Threes",
-          "ml": 4.5,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "lad-0902-6",
-      "track": "LAD",
-      "time": "",
-      "title": "Race 6",
-      "distance": "Seven Furlongs",
-      "purse": "Purse $7,800",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Imma Going to Win",
-          "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Saranac Lake",
-          "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Texas Moon",
-          "ml": 3.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Blueberry Eyes",
-          "ml": 2.8,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "How Bout Me",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Seriously Sassy",
-          "ml": 6.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "lad-0902-7",
-      "track": "LAD",
-      "time": "",
-      "title": "Race 7",
-      "distance": "Seven And One Half Furlongs",
-      "purse": "Purse $9,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Rocky Colavito",
-          "ml": 2.5,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Rowdy American",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Concrete Bolt",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Keokuk Kid",
-          "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Riddick",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 9,
-          "name": "Fosforito",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 10,
-          "name": "Bernardo",
-          "ml": 3.5,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "mnr-0902-1",
-      "track": "MNR",
-      "time": "7:00 PM ET",
-      "title": "Race 1",
-      "distance": "Five And One Half Furlongs",
-      "purse": "Purse $9,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Johnny Lies",
-          "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Ticket to Paradise",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Red Fern",
-          "ml": 4.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Hidden Favor",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Fernando's Gold",
-          "ml": 4.5,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "mnr-0902-2",
-      "track": "MNR",
-      "time": "7:25 PM ET",
-      "title": "Race 2",
-      "distance": "Four And One Half Furlongs",
-      "purse": "Purse $7,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Knobiesmagicsonde",
-          "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Salty Mama",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Coastalness",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Spatula",
-          "ml": 3.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Maam Cross",
-          "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Echo Vision",
-          "ml": 3.5,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "mnr-0902-3",
-      "track": "MNR",
-      "time": "7:50 PM ET",
-      "title": "Race 3",
-      "distance": "One Mile",
-      "purse": "Purse $21,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Team Ramajama",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Candy for Cynthia",
-          "ml": 4.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Candy Connection",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Good Holiday",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Mitote",
-          "ml": 3.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Dancing King",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Blown Away",
-          "ml": 4.5,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "mnr-0902-4",
-      "track": "MNR",
-      "time": "8:15 PM ET",
-      "title": "Race 4",
-      "distance": "One Mile",
-      "purse": "Purse $15,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Tafaany",
-          "ml": 3.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Una Roca",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Positive Carry",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Good Enough for Me",
-          "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Sip'n' Speed",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Rainbow Rania",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Siljim",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Fifth Gear",
-          "ml": 8.0,
-          "win": null
-        },
-        {
-          "post": 9,
-          "name": "Morgan's Bluff",
-          "ml": 4.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "mnr-0902-5",
-      "track": "MNR",
-      "time": "8:40 PM ET",
-      "title": "Race 5",
       "distance": "One Mile",
       "purse": "Purse $9,500",
       "horses": [
         {
           "post": 1,
-          "name": "Scuba",
-          "ml": 2.0,
+          "name": "The Reinbow Factor",
+          "ml": 2.6,
           "win": null
         },
         {
           "post": 2,
-          "name": "Semper Anticus",
-          "ml": 4.0,
+          "name": "Brahms Halo",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Bethel Road",
+          "ml": 2.8,
           "win": null
         },
         {
           "post": 4,
-          "name": "Global Phenom",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Risky Spirit",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Unaffected",
-          "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Klimtster",
-          "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Missing Rocks",
-          "ml": 21.0,
+          "name": "Flaming Embers",
+          "ml": 5.5,
           "win": null
         }
       ],
@@ -1722,47 +186,200 @@
       ]
     },
     {
-      "id": "mnr-0902-6",
-      "track": "MNR",
-      "time": "9:05 PM ET",
-      "title": "Race 6",
-      "distance": "One Mile",
-      "purse": "Purse $12,000",
+      "id": "btp-0903-5",
+      "track": "Belterra Park",
+      "time": "1:15 PM ET",
+      "title": "Race 5",
+      "distance": "Five Furlongs",
+      "purse": "Purse $13,500",
       "horses": [
         {
           "post": 1,
-          "name": "Pour Me a Drink",
-          "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Morning Holiday",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Myra Fleener",
+          "name": "Transcendence",
           "ml": 16.0,
           "win": null
         },
         {
+          "post": 2,
+          "name": "Secret Operation",
+          "ml": 21.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Time Leap",
+          "ml": 7.0,
+          "win": null
+        },
+        {
           "post": 4,
-          "name": "Best Virginia",
+          "name": "Fancy Fascinator",
+          "ml": 3.5,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Midnight Mary",
           "ml": 5.5,
           "win": null
         },
         {
+          "post": 7,
+          "name": "Better Half",
+          "ml": 16.0,
+          "win": null
+        },
+        {
+          "post": 8,
+          "name": "Our Last Song",
+          "ml": 11.0,
+          "win": null
+        },
+        {
+          "post": 9,
+          "name": "Frolic in the Park",
+          "ml": 4.5,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "btp-0903-6",
+      "track": "Belterra Park",
+      "time": "1:45 PM ET",
+      "title": "Race 6",
+      "distance": "Six Furlongs",
+      "purse": "Purse $8,000",
+      "horses": [
+        {
+          "post": 3,
+          "name": "Ahumado",
+          "ml": 3.5,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Imtakinittothebank",
+          "ml": 7.0,
+          "win": null
+        },
+        {
           "post": 5,
-          "name": "Amadora's Empire",
+          "name": "Heavy Hitter",
+          "ml": 5.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Line to Gain",
+          "ml": 11.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "btp-0903-7",
+      "track": "Belterra Park",
+      "time": "2:15 PM ET",
+      "title": "Race 7",
+      "distance": "One Mile",
+      "purse": "Purse $9,600",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Last Chance Luis",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Personal Creed",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Cow Creek Kid",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Del Mo",
+          "ml": 4.5,
+          "win": null
+        },
+        {
+          "post": 8,
+          "name": "Assiduously",
+          "ml": 5.5,
+          "win": null
+        },
+        {
+          "post": 9,
+          "name": "Funtastic Vow",
+          "ml": 11.0,
+          "win": null
+        },
+        {
+          "post": 10,
+          "name": "New Year Surprise",
+          "ml": 31.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "btp-0903-8",
+      "track": "Belterra Park",
+      "time": "2:45 PM ET",
+      "title": "Race 8",
+      "distance": "One Mile",
+      "purse": "Purse $8,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Leblon",
+          "ml": 6.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Sargeant Barger",
+          "ml": 3.5,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Flyin Ryan",
           "ml": 4.5,
           "win": null
         },
         {
           "post": 6,
-          "name": "Sweet Talia",
-          "ml": 3.0,
+          "name": "Jet Flight",
+          "ml": 9.0,
           "win": null
         }
       ],
@@ -1775,52 +392,52 @@
       ]
     },
     {
-      "id": "mnr-0902-7",
-      "track": "MNR",
-      "time": "9:30 PM ET",
-      "title": "Race 7",
-      "distance": "Six Furlongs",
-      "purse": "Purse $16,000",
+      "id": "cby-0903-1",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 1",
+      "distance": "Four Hundred And Forty Yards",
+      "purse": "Purse $20,000",
       "horses": [
         {
           "post": 1,
-          "name": "Happy Friday",
-          "ml": 4.0,
+          "name": "L Gallito",
+          "ml": 16.0,
           "win": null
         },
         {
           "post": 2,
-          "name": "Lumenique",
-          "ml": 11.0,
+          "name": "Relentless Legacy",
+          "ml": 3.5,
           "win": null
         },
         {
           "post": 3,
-          "name": "Buxtehude",
-          "ml": 13.0,
+          "name": "Half a House",
+          "ml": 4.5,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Streak N Quartz",
+          "ml": 5.5,
           "win": null
         },
         {
           "post": 5,
-          "name": "I'm Kidding",
-          "ml": 7.0,
+          "name": "Foxy Cowgirl",
+          "ml": 3.0,
           "win": null
         },
         {
           "post": 6,
-          "name": "Donneur de Vie",
-          "ml": 21.0,
+          "name": "Thirty Four Below",
+          "ml": 9.0,
           "win": null
         },
         {
           "post": 7,
-          "name": "Ur Fabulous",
-          "ml": 2.4,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "She Had a Secret",
+          "name": "Stel an Eagle",
           "ml": 16.0,
           "win": null
         }
@@ -1834,65 +451,1462 @@
       ]
     },
     {
-      "id": "mnr-0902-8",
-      "track": "MNR",
-      "time": "9:55 PM ET",
-      "title": "Race 8",
-      "distance": "Five And One Half Furlongs",
-      "purse": "Purse $7,000",
+      "id": "cby-0903-2",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 2",
+      "distance": "Three Hundred And Fifty Yards",
+      "purse": "Purse $41,000",
       "horses": [
         {
+          "post": 1,
+          "name": "Iza B Slick",
+          "ml": 5.0,
+          "win": null
+        },
+        {
           "post": 2,
-          "name": "Honestly",
-          "ml": 11.0,
+          "name": "Eos Hey Bucko",
+          "ml": 9.0,
           "win": null
         },
         {
           "post": 3,
-          "name": "Marmara",
+          "name": "Dead Game Zoomie",
           "ml": 13.0,
           "win": null
         },
         {
           "post": 4,
-          "name": "Save the Flag",
+          "name": "Sheza a Sugar Momma",
+          "ml": 1.8,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Ko for Kj Lady",
+          "ml": 16.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Superona",
+          "ml": 4.5,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Jessapolliticalcandy",
+          "ml": 21.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cby-0903-3",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 3",
+      "distance": "Four Hundred Yards",
+      "purse": "Purse $41,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Straight Takela Nite",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Streak N Mi Corazon",
+          "ml": 6.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Holy Dynasty",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Little White Dove",
+          "ml": 16.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "This Eagle Can Rock",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Del Cartel",
+          "ml": 11.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Cyber Security",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 8,
+          "name": "Sophey",
+          "ml": 3.5,
+          "win": null
+        },
+        {
+          "post": 9,
+          "name": "Spicy Cartel",
+          "ml": 4.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cby-0903-4",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 4",
+      "distance": "One Mile",
+      "purse": "Purse $13,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Sirius Light",
+          "ml": 4.5,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Mairsils First",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Rebel Gal",
+          "ml": 2.8,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Hattie Bloom",
+          "ml": 2.4,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Deal'em and Weep",
+          "ml": 7.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cby-0903-5",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 5",
+      "distance": "One Mile",
+      "purse": "Purse $23,500",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Heavenly Deacon",
+          "ml": 16.0,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Lieutenant Charm",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Two Jack",
+          "ml": 3.5,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Van Ginkel",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Prince Ben",
+          "ml": 4.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Ultra Xtreme",
+          "ml": 6.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "King of the Trail",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 8,
+          "name": "Latin Force",
+          "ml": 5.5,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cby-0903-6",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 6",
+      "distance": "Five Furlongs",
+      "purse": "Purse $10,500",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Just Keep Looking",
+          "ml": 5.5,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Aint Behavin",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Airmail Flyer",
+          "ml": 6.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Bears' D",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Pilot's Creed",
+          "ml": 3.5,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Benz Lake Echo",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Lemon Sohn",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 8,
+          "name": "Wishmaster",
+          "ml": 5.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cby-0903-7",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 7",
+      "distance": "Seven Furlongs",
+      "purse": "Purse $24,500",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Slip Mahoney",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Sir Exton",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Jackman",
+          "ml": 4.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Spun Not Stirred",
+          "ml": 5.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Authentic Gallop",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Silent Runner",
+          "ml": 3.5,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Batter Up",
+          "ml": 5.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cby-0903-8",
+      "track": "Canterbury Park",
+      "time": "",
+      "title": "Race 8",
+      "distance": "Six Furlongs",
+      "purse": "Purse $10,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Gifted Valor",
+          "ml": 4.5,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Twentythreeonblack",
+          "ml": 6.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Ashryver",
+          "ml": 3.5,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Smile Smile Smile",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Athletic Like",
+          "ml": 2.8,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Huey",
+          "ml": 16.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cnl-0903-1",
+      "track": "Colonial Downs",
+      "time": "9:00 AM ET",
+      "title": "Race 1",
+      "distance": "Two And One Fourth Miles",
+      "purse": "Purse $60,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Steadfast Resolve",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Path to Victory",
+          "ml": 31.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Thomas Aquinas",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "McLovin",
+          "ml": 5.5,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Double Clutch",
+          "ml": 4.5,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Deflected",
+          "ml": 5.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Landauer",
+          "ml": 6.0,
+          "win": null
+        },
+        {
+          "post": 9,
+          "name": "Lightup Lightup",
+          "ml": 21.0,
+          "win": null
+        },
+        {
+          "post": 10,
+          "name": "Anyoneforsnacks",
+          "ml": 13.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate",
+        "Finished"
+      ]
+    },
+    {
+      "id": "cnl-0903-2",
+      "track": "Colonial Downs",
+      "time": "9:28 AM ET",
+      "title": "Race 2",
+      "distance": "Two And One Fourth Miles",
+      "purse": "Purse $40,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Bright Eyed Eagle",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Renfro's Reception",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Vintage Year",
+          "ml": 5.5,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Pleasant Fantasy",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "L'Avvocato",
+          "ml": 6.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Shamsat",
+          "ml": 3.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate",
+        "Finished"
+      ]
+    },
+    {
+      "id": "cnl-0903-3",
+      "track": "Colonial Downs",
+      "time": "9:56 AM ET",
+      "title": "Race 3",
+      "distance": "Two And One Fourth Miles",
+      "purse": "Purse $100,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Red Tone",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Camanoe",
+          "ml": 3.5,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Madaket's Arrow",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Gold Charm",
+          "ml": 4.5,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Timetoshine",
+          "ml": 5.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Love Foreverafter",
+          "ml": 5.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate",
+        "Finished"
+      ]
+    },
+    {
+      "id": "cnl-0903-4",
+      "track": "Colonial Downs",
+      "time": "10:25 AM ET",
+      "title": "Race 4",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $87,500",
+      "horses": [
+        {
+          "post": 1,
+          "name": "The Gabe Digger",
+          "ml": 16.0,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Cooptown",
+          "ml": 31.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Side Hug",
+          "ml": 21.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Prince of Peace",
+          "ml": 4.5,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "No Substitute",
+          "ml": 2.2,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Bertiebertbert",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Scooter's Will",
+          "ml": 11.0,
+          "win": null
+        },
+        {
+          "post": 8,
+          "name": "Jack Rabbitness",
+          "ml": 4.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate",
+        "Finished"
+      ]
+    },
+    {
+      "id": "cnl-0903-5",
+      "track": "Colonial Downs",
+      "time": "10:52 AM ET",
+      "title": "Race 5",
+      "distance": "Six Furlongs",
+      "purse": "Purse $70,000",
+      "horses": [
+        {
+          "post": 2,
+          "name": "Belov",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Grind It Out",
+          "ml": 3.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Matowy",
+          "ml": 16.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Power of Vino",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Ring for Peace",
+          "ml": 5.5,
+          "win": null
+        },
+        {
+          "post": 8,
+          "name": "Winslow",
+          "ml": 3.5,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cnl-0903-6",
+      "track": "Colonial Downs",
+      "time": "11:19 AM ET",
+      "title": "Race 6",
+      "distance": "One And One Eighth Miles",
+      "purse": "Purse $36,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Create Trouble",
+          "ml": 2.2,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Oviatt Class",
+          "ml": 21.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Mugatu",
+          "ml": 31.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Righthere Rightnow",
+          "ml": 31.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Walter Me Lad",
+          "ml": 6.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Dairago",
+          "ml": 4.0,
+          "win": null
+        },
+        {
+          "post": 8,
+          "name": "McCullough",
+          "ml": 4.5,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cnl-0903-7",
+      "track": "Colonial Downs",
+      "time": "11:46 AM ET",
+      "title": "Race 7",
+      "distance": "One Mile",
+      "purse": "Purse $50,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Golf Cart Ryder",
+          "ml": 5.0,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Phil's Prince",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "If Ever",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Kuhner",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Red Lad",
+          "ml": 31.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Joy Division",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 8,
+          "name": "Pnutbutter Whiskey",
+          "ml": 31.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cnl-0903-8",
+      "track": "Colonial Downs",
+      "time": "12:13 PM ET",
+      "title": "Race 8",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $70,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "All Over It",
+          "ml": 21.0,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Germaine Lass",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Infinite Aura",
+          "ml": 21.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Twin Stars",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Dreamsmoveon",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Bellablaze",
+          "ml": 4.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Winterscape",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 9,
+          "name": "La Loba",
+          "ml": 31.0,
+          "win": null
+        },
+        {
+          "post": 10,
+          "name": "Amphibious Assault",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 11,
+          "name": "Numerology",
+          "ml": 6.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cnl-0903-9",
+      "track": "Colonial Downs",
+      "time": "12:40 PM ET",
+      "title": "Race 9",
+      "distance": "One And One Sixteenth Miles",
+      "purse": "Purse $36,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Atmidnight",
+          "ml": 5.5,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "More Than Glory",
+          "ml": 31.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Synergism",
+          "ml": 4.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Birdie Rose",
+          "ml": 16.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Tinta Roja",
+          "ml": 31.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Tic Tic Tic Boom",
+          "ml": 31.0,
+          "win": null
+        },
+        {
+          "post": 8,
+          "name": "Let's Dance Again",
+          "ml": 6.0,
+          "win": null
+        },
+        {
+          "post": 9,
+          "name": "Enigmatic",
+          "ml": 21.0,
+          "win": null
+        },
+        {
+          "post": 10,
+          "name": "Mrs. Katz",
+          "ml": 5.0,
+          "win": null
+        },
+        {
+          "post": 11,
+          "name": "Americandreammaker",
+          "ml": 4.5,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cnl-0903-10",
+      "track": "Colonial Downs",
+      "time": "1:07 PM ET",
+      "title": "Race 10",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $90,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Jigger",
+          "ml": 21.0,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Jessica's Eyes",
+          "ml": 5.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Flying to Work",
+          "ml": 31.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Roommate Martin",
           "ml": 21.0,
           "win": null
         },
         {
           "post": 5,
-          "name": "I'm Interested",
-          "ml": 8.0,
+          "name": "King Covee",
+          "ml": 7.0,
           "win": null
         },
         {
           "post": 6,
-          "name": "Vitaemi",
+          "name": "Enduring Gold",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 8,
+          "name": "Overspent",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 9,
+          "name": "Finestkind",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 10,
+          "name": "Dynacito",
+          "ml": 4.5,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "cnl-0903-11",
+      "track": "Colonial Downs",
+      "time": "1:34 PM ET",
+      "title": "Race 11",
+      "distance": "One Mile",
+      "purse": "Purse $32,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Putter Man",
+          "ml": 21.0,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Please Pat My Back",
+          "ml": 31.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Mac Daddyness",
+          "ml": 31.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Gods of Wrath",
+          "ml": 31.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Hill Country",
+          "ml": 4.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Great Hunt",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 9,
+          "name": "Harrier",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 11,
+          "name": "Juansinmiedo",
+          "ml": 31.0,
+          "win": null
+        },
+        {
+          "post": 12,
+          "name": "Daw Samaa",
+          "ml": 2.4,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "del-0903-1",
+      "track": "Delaware Park",
+      "time": "12:20 PM ET",
+      "title": "Race 1",
+      "distance": "One Mile",
+      "purse": "Purse $21,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Sing Scat",
+          "ml": 11.0,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Lady Arwen",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Classic Ballad",
+          "ml": 3.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Tiki Bar",
+          "ml": 4.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Tortuga Island",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Luminous Secret",
+          "ml": 5.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "del-0903-2",
+      "track": "Delaware Park",
+      "time": "12:52 PM ET",
+      "title": "Race 2",
+      "distance": "Five And One Half Furlongs",
+      "purse": "Purse $24,000",
+      "horses": [
+        {
+          "post": 2,
+          "name": "South Street Sally",
+          "ml": 5.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Think Pink",
+          "ml": 3.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Sugar N Fire",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "It's the Law Baby",
+          "ml": 11.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Bourbon N Music",
+          "ml": 4.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Centra",
+          "ml": 9.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "del-0903-3",
+      "track": "Delaware Park",
+      "time": "1:24 PM ET",
+      "title": "Race 3",
+      "distance": "One Mile",
+      "purse": "Purse $26,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Temecula",
+          "ml": 2.6,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Wine Empire",
+          "ml": 16.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Irish Exit",
+          "ml": 4.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "La Houligan",
+          "ml": 3.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Radical Right",
+          "ml": 9.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "del-0903-4",
+      "track": "Delaware Park",
+      "time": "1:56 PM ET",
+      "title": "Race 4",
+      "distance": "About Seven And One Half Furlongs",
+      "purse": "Purse $45,000",
+      "horses": [
+        {
+          "post": 2,
+          "name": "Halls of Congress",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Miss Intentional",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 10,
+          "name": "Flamenca",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 14,
+          "name": "Hidden Overture",
+          "ml": 5.5,
+          "win": null
+        },
+        {
+          "post": 15,
+          "name": "Sugar Bush",
+          "ml": 13.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "del-0903-5",
+      "track": "Delaware Park",
+      "time": "2:28 PM ET",
+      "title": "Race 5",
+      "distance": "One Mile",
+      "purse": "Purse $21,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Broderick",
+          "ml": 16.0,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Ardanwood",
+          "ml": 4.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Freedom Maker",
+          "ml": 11.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Freedom Stance",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Dats My Pharaoh",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "City Panda",
           "ml": 16.0,
           "win": null
         },
         {
           "post": 7,
-          "name": "I'm On Edge",
-          "ml": 3.0,
+          "name": "Lake Chapala",
+          "ml": 16.0,
           "win": null
         },
         {
           "post": 8,
-          "name": "Princess Mitole",
-          "ml": 6.0,
+          "name": "King of Hollywood",
+          "ml": 3.0,
+          "win": null
+        },
+        {
+          "post": 9,
+          "name": "Winter's Ghost",
+          "ml": 7.0,
           "win": null
         },
         {
           "post": 10,
-          "name": "Silver Candice",
+          "name": "Home Invasion",
+          "ml": 16.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "del-0903-6",
+      "track": "Delaware Park",
+      "time": "3:00 PM ET",
+      "title": "Race 6",
+      "distance": "About One Mile",
+      "purse": "Purse $20,000",
+      "horses": [
+        {
+          "post": 3,
+          "name": "My Pal Bill",
+          "ml": 5.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Tyrus",
+          "ml": 3.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "General Fanale",
+          "ml": 21.0,
+          "win": null
+        },
+        {
+          "post": 8,
+          "name": "Boulder Buffs",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 9,
+          "name": "Rum Rock",
+          "ml": 2.6,
+          "win": null
+        },
+        {
+          "post": 11,
+          "name": "Quamash",
           "ml": 9.0,
           "win": null
         },
         {
           "post": 12,
-          "name": "Giuliana's Dream",
-          "ml": 3.0,
+          "name": "Pujol",
+          "ml": 9.0,
           "win": null
         }
       ],
@@ -1905,213 +1919,42 @@
       ]
     },
     {
-      "id": "pen-0902-1",
-      "track": "Penn National",
-      "time": "5:45 PM ET",
-      "title": "Race 1",
-      "distance": "Six Furlongs",
-      "purse": "Purse $21,000",
+      "id": "del-0903-7",
+      "track": "Delaware Park",
+      "time": "3:32 PM ET",
+      "title": "Race 7",
+      "distance": "One Mile",
+      "purse": "Purse $47,000",
       "horses": [
         {
           "post": 1,
-          "name": "Rip My Heart",
-          "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Golden Cookie",
-          "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Brother Paul",
-          "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Kit Scat",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "The Piranha",
-          "ml": 6.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "pen-0902-2",
-      "track": "Penn National",
-      "time": "6:14 PM ET",
-      "title": "Race 2",
-      "distance": "About Five Furlongs",
-      "purse": "Purse $22,000",
-      "horses": [
-        {
-          "post": 2,
-          "name": "Celestial Speed",
-          "ml": 3.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Song to Remember",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Bess' Candy",
+          "name": "High Heel Native",
           "ml": 11.0,
           "win": null
         },
         {
-          "post": 6,
-          "name": "Sandy Girl",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Decree and Declare",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Raven Dance",
-          "ml": 9.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "pen-0902-3",
-      "track": "Penn National",
-      "time": "6:43 PM ET",
-      "title": "Race 3",
-      "distance": "About Five Furlongs",
-      "purse": "Purse $37,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Bigdaddysboy",
-          "ml": 7.0,
-          "win": null
-        },
-        {
           "post": 2,
-          "name": "Declaration Time",
+          "name": "Secret Journey",
           "ml": 11.0,
           "win": null
         },
         {
           "post": 3,
-          "name": "Sunchill",
-          "ml": 9.0,
+          "name": "Miss Ellary",
+          "ml": 4.0,
           "win": null
         },
         {
           "post": 4,
-          "name": "Fletcher",
-          "ml": 7.0,
+          "name": "Intrepids Fantasy",
+          "ml": 2.2,
           "win": null
         },
         {
           "post": 5,
-          "name": "Tropandhagen",
-          "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Chuck Adams",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Mask Patrol",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Keeping the Faith",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 9,
-          "name": "Whisper Roar",
-          "ml": 9.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "pen-0902-4",
-      "track": "Penn National",
-      "time": "7:12 PM ET",
-      "title": "Race 4",
-      "distance": "Six Furlongs",
-      "purse": "Purse $17,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Miami Kaz",
-          "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Penn Franklin",
-          "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Letspumpthebrakes",
-          "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Rar",
+          "name": "Timia",
           "ml": 2.8,
           "win": null
-        },
-        {
-          "post": 5,
-          "name": "Hall of Jazz",
-          "ml": 6.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -2123,99 +1966,99 @@
       ]
     },
     {
-      "id": "pen-0902-5",
-      "track": "Penn National",
-      "time": "7:41 PM ET",
-      "title": "Race 5",
+      "id": "del-0903-8",
+      "track": "Delaware Park",
+      "time": "4:04 PM ET",
+      "title": "Race 8",
       "distance": "Six Furlongs",
-      "purse": "Purse $39,000",
+      "purse": "Purse $15,000",
       "horses": [
         {
           "post": 1,
-          "name": "Missy Sixtysix",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Braquet",
-          "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Itty Biddy City",
-          "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Joyous Song",
+          "name": "Party On Rufus",
           "ml": 3.0,
           "win": null
         },
         {
-          "post": 5,
-          "name": "Midnight Flight",
+          "post": 2,
+          "name": "Saint Cloud",
           "ml": 9.0,
           "win": null
         },
         {
-          "post": 6,
-          "name": "Normandy Life",
-          "ml": 7.0,
-          "win": null
-        }
-      ],
-      "preview": "",
-      "tags": [
-        "USA",
-        "Equibase",
-        "ML",
-        "ML estimate"
-      ]
-    },
-    {
-      "id": "pen-0902-6",
-      "track": "Penn National",
-      "time": "8:10 PM ET",
-      "title": "Race 6",
-      "distance": "Six Furlongs",
-      "purse": "Purse $18,000",
-      "horses": [
-        {
-          "post": 1,
-          "name": "Calisa",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Eleni",
-          "ml": 5.5,
-          "win": null
-        },
-        {
           "post": 3,
-          "name": "Serious Nonsense",
-          "ml": 5.5,
+          "name": "Opportune Notion",
+          "ml": 9.0,
           "win": null
         },
         {
           "post": 4,
-          "name": "Mega Changer",
-          "ml": 5.0,
+          "name": "Migratory",
+          "ml": 4.0,
           "win": null
         },
         {
           "post": 5,
-          "name": "Blast of Mischief",
-          "ml": 3.5,
+          "name": "Sweet Winner",
+          "ml": 5.0,
           "win": null
         },
         {
           "post": 6,
-          "name": "Rozzyroo",
+          "name": "Booted Up",
+          "ml": 7.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Palace Revolt",
+          "ml": 11.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "dmr-0903-1",
+      "track": "Del Mar",
+      "time": "",
+      "title": "Race 1",
+      "distance": "Five Furlongs",
+      "purse": "Purse $84,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Visually",
+          "ml": 16.0,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Tahini",
+          "ml": 3.5,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Saratoga Special",
+          "ml": 4.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Bit's Tiger Magic",
+          "ml": 2.6,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Certitude",
           "ml": 4.0,
           "win": null
         }
@@ -2229,59 +2072,160 @@
       ]
     },
     {
-      "id": "pen-0902-7",
-      "track": "Penn National",
-      "time": "8:39 PM ET",
-      "title": "Race 7",
-      "distance": "Six Furlongs",
-      "purse": "Purse $19,000",
+      "id": "dmr-0903-2",
+      "track": "Del Mar",
+      "time": "",
+      "title": "Race 2",
+      "distance": "One Mile",
+      "purse": "Purse $28,000",
       "horses": [
         {
           "post": 1,
-          "name": "Bells Run",
-          "ml": 11.0,
+          "name": "Union Heiress",
+          "ml": 21.0,
           "win": null
         },
         {
           "post": 2,
-          "name": "Bermuda Triangle",
-          "ml": 4.0,
+          "name": "Good Golly Dolly",
+          "ml": 6.0,
           "win": null
         },
         {
           "post": 3,
-          "name": "Jace Is No Joke",
-          "ml": 7.0,
+          "name": "Rich of Joy",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Victoria's Jewel",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Dats Ms. Blame",
+          "ml": 6.0,
           "win": null
         },
         {
           "post": 6,
-          "name": "Uncaptured Star",
+          "name": "Sugaree",
           "ml": 11.0,
           "win": null
         },
         {
           "post": 7,
-          "name": "Great Kisser",
-          "ml": 6.0,
+          "name": "Busy Making Munny",
+          "ml": 5.0,
           "win": null
         },
         {
           "post": 8,
-          "name": "Prime Motive",
-          "ml": 11.0,
+          "name": "Sugar Reign",
+          "ml": 3.5,
           "win": null
         },
         {
           "post": 9,
-          "name": "No No Joe",
-          "ml": 7.0,
+          "name": "Bitter Truth",
+          "ml": 9.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "dmr-0903-3",
+      "track": "Del Mar",
+      "time": "",
+      "title": "Race 3",
+      "distance": "One Mile",
+      "purse": "Purse $23,000",
+      "horses": [
+        {
+          "post": 2,
+          "name": "Halninethousand",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Fire Chief",
+          "ml": 31.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Farmer Tom",
+          "ml": 4.5,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Major Mo",
+          "ml": 21.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Mansa Musa",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Its the Bandit",
+          "ml": 11.0,
+          "win": null
+        },
+        {
+          "post": 8,
+          "name": "Tiger to You",
+          "ml": 6.0,
+          "win": null
+        },
+        {
+          "post": 9,
+          "name": "Wasting Aces",
+          "ml": 5.0,
           "win": null
         },
         {
           "post": 10,
-          "name": "Bermuda Run",
-          "ml": 11.0,
+          "name": "Dazzle Comm",
+          "ml": 4.0,
+          "win": null
+        },
+        {
+          "post": 11,
+          "name": "Stage Run",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 12,
+          "name": "Zenjin",
+          "ml": 21.0,
+          "win": null
+        },
+        {
+          "post": 13,
+          "name": "Low Tox",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 14,
+          "name": "Rand Good",
+          "ml": 31.0,
           "win": null
         }
       ],
@@ -2294,41 +2238,130 @@
       ]
     },
     {
-      "id": "pid-0902-1",
-      "track": "PID",
-      "time": "3:30 PM ET",
-      "title": "Race 1",
-      "distance": "Five And One Half Furlongs",
-      "purse": "Purse $20,000",
+      "id": "dmr-0903-4",
+      "track": "Del Mar",
+      "time": "",
+      "title": "Race 4",
+      "distance": "Five Furlongs",
+      "purse": "Purse $47,000",
       "horses": [
         {
           "post": 1,
-          "name": "Trashy Mission",
-          "ml": 4.5,
+          "name": "Unbinding",
+          "ml": 3.0,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Midnight Cowgirl",
+          "ml": 9.0,
           "win": null
         },
         {
           "post": 3,
-          "name": "Cash Cashel",
-          "ml": 3.5,
+          "name": "Nikolina",
+          "ml": 6.0,
           "win": null
         },
         {
           "post": 4,
-          "name": "Cerati",
-          "ml": 9.0,
+          "name": "Not A Sinner",
+          "ml": 4.0,
           "win": null
         },
         {
           "post": 5,
-          "name": "Gunnamakecentz",
-          "ml": 9.0,
+          "name": "Hey Lil Lady",
+          "ml": 7.0,
           "win": null
         },
         {
           "post": 6,
-          "name": "Kabitzen",
-          "ml": 5.5,
+          "name": "Wildfire Princess",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Separator",
+          "ml": 13.0,
+          "win": null
+        },
+        {
+          "post": 8,
+          "name": "Llamp",
+          "ml": 11.0,
+          "win": null
+        },
+        {
+          "post": 9,
+          "name": "Still Unwritten",
+          "ml": 7.0,
+          "win": null
+        }
+      ],
+      "preview": "",
+      "tags": [
+        "USA",
+        "Equibase",
+        "ML",
+        "ML estimate"
+      ]
+    },
+    {
+      "id": "dmr-0903-5",
+      "track": "Del Mar",
+      "time": "",
+      "title": "Race 5",
+      "distance": "One Mile",
+      "purse": "Purse $80,000",
+      "horses": [
+        {
+          "post": 1,
+          "name": "Deep Tracks",
+          "ml": 6.0,
+          "win": null
+        },
+        {
+          "post": 2,
+          "name": "Collmus",
+          "ml": 5.0,
+          "win": null
+        },
+        {
+          "post": 3,
+          "name": "Themayor of Delmar",
+          "ml": 21.0,
+          "win": null
+        },
+        {
+          "post": 4,
+          "name": "Truth Or Dare",
+          "ml": 4.5,
+          "win": null
+        },
+        {
+          "post": 5,
+          "name": "Plagarist",
+          "ml": 4.0,
+          "win": null
+        },
+        {
+          "post": 6,
+          "name": "Knave of Hearts",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 7,
+          "name": "Monumental",
+          "ml": 9.0,
+          "win": null
+        },
+        {
+          "post": 8,
+          "name": "Roast",
+          "ml": 7.0,
           "win": null
         }
       ],
