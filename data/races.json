@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T14:46:45.140659+00:00",
+  "updated": "2026-09-03T18:57:27.980909+00:00",
   "source": "equibase-parser-gha",
   "date": "2026-09-03",
   "races": [
@@ -35,7 +35,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -82,7 +83,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -141,7 +143,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -182,7 +185,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -247,7 +251,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -288,7 +293,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -347,7 +353,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -358,12 +365,6 @@
       "distance": "One Mile",
       "purse": "Purse $8,000",
       "horses": [
-        {
-          "post": 1,
-          "name": "Leblon",
-          "ml": 6.0,
-          "win": null
-        },
         {
           "post": 4,
           "name": "Sargeant Barger",
@@ -388,7 +389,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -415,12 +417,6 @@
           "post": 3,
           "name": "Half a House",
           "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Streak N Quartz",
-          "ml": 5.5,
           "win": null
         },
         {
@@ -524,12 +520,6 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Streak N Mi Corazon",
-          "ml": 6.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Holy Dynasty",
           "ml": 7.0,
@@ -592,12 +582,6 @@
           "post": 1,
           "name": "Sirius Light",
           "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Mairsils First",
-          "ml": 9.0,
           "win": null
         },
         {
@@ -766,12 +750,6 @@
       "purse": "Purse $24,500",
       "horses": [
         {
-          "post": 1,
-          "name": "Slip Mahoney",
-          "ml": 7.0,
-          "win": null
-        },
-        {
           "post": 2,
           "name": "Sir Exton",
           "ml": 13.0,
@@ -831,21 +809,9 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Twentythreeonblack",
-          "ml": 6.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Ashryver",
           "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Smile Smile Smile",
-          "ml": 7.0,
           "win": null
         },
         {
@@ -1165,7 +1131,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1224,7 +1191,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1283,7 +1251,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1360,7 +1329,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1437,7 +1407,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1508,7 +1479,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1579,7 +1551,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1632,7 +1605,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1685,7 +1659,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1700,12 +1675,6 @@
           "post": 1,
           "name": "Temecula",
           "ml": 2.6,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Wine Empire",
-          "ml": 16.0,
           "win": null
         },
         {
@@ -1732,7 +1701,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1779,7 +1749,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1856,7 +1827,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -2175,12 +2147,6 @@
           "win": null
         },
         {
-          "post": 6,
-          "name": "Mansa Musa",
-          "ml": 13.0,
-          "win": null
-        },
-        {
           "post": 7,
           "name": "Its the Bandit",
           "ml": 11.0,
@@ -2214,18 +2180,6 @@
           "post": 12,
           "name": "Zenjin",
           "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 13,
-          "name": "Low Tox",
-          "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "Rand Good",
-          "ml": 31.0,
           "win": null
         }
       ],
@@ -2291,12 +2245,6 @@
           "post": 8,
           "name": "Llamp",
           "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 9,
-          "name": "Still Unwritten",
-          "ml": 7.0,
           "win": null
         }
       ],
