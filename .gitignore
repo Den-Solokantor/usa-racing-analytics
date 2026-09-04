@@ -38,3 +38,7 @@ equibase_debug.html
 # Build / deploy
 .netlify/
 .vercel/
+equibase_live_odds.py
+races_for_site.json
+*_cards.csv
+equibase_odds*.csv
