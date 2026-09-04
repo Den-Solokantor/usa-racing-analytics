@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-04T12:00:47.021407+03:00",
+  "updated": "2026-09-04T14:36:29.280230+00:00",
   "date": "2026-09-04",
-  "source": "equibase-quick-results",
-  "note": "Состав как в «Сегодня». place — из Equibase quick-results или set_places / --mode results.",
+  "source": "manual+cards",
+  "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
   "results": [],
   "stakes_results": [],
   "races": [
@@ -686,12 +686,6 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Hulah Jay",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "Heavenly Charm",
           "ml": 21.0,
@@ -794,12 +788,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Southern Soul",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Big Tom",
           "ml": 16.0,
@@ -875,12 +863,6 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Cocktails N Dreams",
-          "ml": 7.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Cantarito",
           "ml": 4.0,
@@ -896,12 +878,6 @@
           "post": 5,
           "name": "Paynter City",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Fort Bull",
-          "ml": 9.0,
           "place": null
         },
         {
@@ -932,12 +908,6 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Grippy Socks",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Yes Please Do",
           "ml": 21.0,
@@ -956,24 +926,6 @@
           "place": null
         },
         {
-          "post": 6,
-          "name": "Moremi",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Marty Girl",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Tiz Laws Hall",
-          "ml": 6.0,
-          "place": null
-        },
-        {
           "post": 9,
           "name": "Tectonic",
           "ml": 7.0,
@@ -983,24 +935,6 @@
           "post": 10,
           "name": "Rocky World",
           "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 11,
-          "name": "Easter On Parade",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Ziva",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 13,
-          "name": "Annunaki",
-          "ml": 16.0,
           "place": null
         }
       ]

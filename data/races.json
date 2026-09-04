@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-04T11:45:21.840169+03:00",
-  "source": "equibase-parser",
+  "updated": "2026-09-04T14:36:29.274507+00:00",
+  "source": "equibase-parser-gha",
   "date": "2026-09-04",
   "races": [
     {
@@ -702,12 +702,6 @@
           "win": null
         },
         {
-          "post": 3,
-          "name": "Hulah Jay",
-          "ml": 16.0,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "Heavenly Charm",
           "ml": 21.0,
@@ -814,12 +808,6 @@
       "purse": "Purse $10,500",
       "horses": [
         {
-          "post": 1,
-          "name": "Southern Soul",
-          "ml": 21.0,
-          "win": null
-        },
-        {
           "post": 2,
           "name": "Big Tom",
           "ml": 16.0,
@@ -897,12 +885,6 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Cocktails N Dreams",
-          "ml": 7.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Cantarito",
           "ml": 4.0,
@@ -918,12 +900,6 @@
           "post": 5,
           "name": "Paynter City",
           "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Fort Bull",
-          "ml": 9.0,
           "win": null
         },
         {
@@ -956,12 +932,6 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Grippy Socks",
-          "ml": 16.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Yes Please Do",
           "ml": 21.0,
@@ -980,24 +950,6 @@
           "win": null
         },
         {
-          "post": 6,
-          "name": "Moremi",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Marty Girl",
-          "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Tiz Laws Hall",
-          "ml": 6.0,
-          "win": null
-        },
-        {
           "post": 9,
           "name": "Tectonic",
           "ml": 7.0,
@@ -1007,24 +959,6 @@
           "post": 10,
           "name": "Rocky World",
           "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 11,
-          "name": "Easter On Parade",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 12,
-          "name": "Ziva",
-          "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 13,
-          "name": "Annunaki",
-          "ml": 16.0,
           "win": null
         }
       ],
