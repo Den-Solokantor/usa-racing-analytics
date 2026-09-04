@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-04T11:45:21.851183+03:00",
+  "updated": "2026-09-04T12:00:47.021407+03:00",
   "date": "2026-09-04",
-  "source": "manual+cards",
+  "source": "equibase-quick-results",
   "note": "Состав как в «Сегодня». place — из Equibase quick-results или set_places / --mode results.",
   "results": [],
   "stakes_results": [],
