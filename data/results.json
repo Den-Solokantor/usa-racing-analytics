@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-04T14:36:29.280230+00:00",
+  "updated": "2026-09-04T20:16:47.212567+03:00",
   "date": "2026-09-04",
-  "source": "manual+cards",
-  "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
+  "source": "equibase-quick-results",
+  "note": "Состав как в «Сегодня». place — из Equibase quick-results или set_places / --mode results.",
   "results": [],
   "stakes_results": [],
   "races": [
@@ -526,10 +526,11 @@
       "title": "Race 1",
       "distance": "Five And One Half Furlongs",
       "purse": "Purse $21,300",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -542,19 +543,22 @@
           "post": 2,
           "name": "Mon Minou",
           "ml": 9.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 17.2
         },
         {
           "post": 3,
           "name": "Moody River",
           "ml": 4.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.1
         },
         {
           "post": 4,
           "name": "Miss Lora Ann",
           "ml": 2.6,
-          "place": null
+          "place": 2,
+          "mutuel_win": 2.1
         },
         {
           "post": 5,
@@ -571,17 +575,19 @@
       "title": "Race 2",
       "distance": "Six Furlongs",
       "purse": "Purse $14,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 1,
           "name": "Warring Thunder",
           "ml": 3.5,
-          "place": null
+          "place": 2,
+          "mutuel_win": 2.6
         },
         {
           "post": 2,
@@ -599,13 +605,15 @@
           "post": 4,
           "name": "Versed",
           "ml": 2.6,
-          "place": null
+          "place": 1,
+          "mutuel_win": 4.2
         },
         {
           "post": 5,
           "name": "Greatdayforhockey",
           "ml": 13.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 6.2
         }
       ]
     },
@@ -616,17 +624,19 @@
       "title": "Race 3",
       "distance": "One Mile And Seventy Yards",
       "purse": "Purse $9,600",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 1,
           "name": "Paired Exchange",
           "ml": 4.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 3.0
         },
         {
           "post": 2,
@@ -644,7 +654,8 @@
           "post": 4,
           "name": "Malevaje",
           "ml": 16.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.6
         },
         {
           "post": 5,
@@ -656,7 +667,8 @@
           "post": 6,
           "name": "Munny Town",
           "ml": 2.4,
-          "place": null
+          "place": 1,
+          "mutuel_win": 2.6
         }
       ]
     },
@@ -667,10 +679,11 @@
       "title": "Race 4",
       "distance": "One Mile",
       "purse": "Purse $9,600",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -686,6 +699,12 @@
           "place": null
         },
         {
+          "post": 3,
+          "name": "Hulah Jay",
+          "ml": 16.0,
+          "place": null
+        },
+        {
           "post": 4,
           "name": "Heavenly Charm",
           "ml": 21.0,
@@ -695,13 +714,15 @@
           "post": 5,
           "name": "Shakrevenge",
           "ml": 3.5,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.4
         },
         {
           "post": 6,
           "name": "Zeliha",
           "ml": 7.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 7.2
         },
         {
           "post": 7,
@@ -719,7 +740,8 @@
           "post": 9,
           "name": "Tutta Bella",
           "ml": 4.5,
-          "place": null
+          "place": 2,
+          "mutuel_win": 3.4
         }
       ]
     },
@@ -787,6 +809,12 @@
         "Result"
       ],
       "horses": [
+        {
+          "post": 1,
+          "name": "Southern Soul",
+          "ml": 21.0,
+          "place": null
+        },
         {
           "post": 2,
           "name": "Big Tom",
@@ -863,6 +891,12 @@
           "place": null
         },
         {
+          "post": 2,
+          "name": "Cocktails N Dreams",
+          "ml": 7.0,
+          "place": null
+        },
+        {
           "post": 3,
           "name": "Cantarito",
           "ml": 4.0,
@@ -878,6 +912,12 @@
           "post": 5,
           "name": "Paynter City",
           "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 6,
+          "name": "Fort Bull",
+          "ml": 9.0,
           "place": null
         },
         {
@@ -908,6 +948,12 @@
           "place": null
         },
         {
+          "post": 2,
+          "name": "Grippy Socks",
+          "ml": 16.0,
+          "place": null
+        },
+        {
           "post": 3,
           "name": "Yes Please Do",
           "ml": 21.0,
@@ -926,6 +972,24 @@
           "place": null
         },
         {
+          "post": 6,
+          "name": "Moremi",
+          "ml": 11.0,
+          "place": null
+        },
+        {
+          "post": 7,
+          "name": "Marty Girl",
+          "ml": 13.0,
+          "place": null
+        },
+        {
+          "post": 8,
+          "name": "Tiz Laws Hall",
+          "ml": 6.0,
+          "place": null
+        },
+        {
           "post": 9,
           "name": "Tectonic",
           "ml": 7.0,
@@ -935,6 +999,24 @@
           "post": 10,
           "name": "Rocky World",
           "ml": 4.5,
+          "place": null
+        },
+        {
+          "post": 11,
+          "name": "Easter On Parade",
+          "ml": 31.0,
+          "place": null
+        },
+        {
+          "post": 12,
+          "name": "Ziva",
+          "ml": 5.5,
+          "place": null
+        },
+        {
+          "post": 13,
+          "name": "Annunaki",
+          "ml": 16.0,
           "place": null
         }
       ]
@@ -946,23 +1028,26 @@
       "title": "Race 1",
       "distance": "Five Furlongs",
       "purse": "Purse $55,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 1,
           "name": "Unrelentingcourage",
           "ml": 7.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 3.8
         },
         {
           "post": 2,
           "name": "Skepticism",
           "ml": 4.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 4.2
         },
         {
           "post": 3,
@@ -974,7 +1059,8 @@
           "post": 4,
           "name": "Day Made",
           "ml": 3.5,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.4
         },
         {
           "post": 5,
@@ -1003,17 +1089,19 @@
       "title": "Race 2",
       "distance": "Five And One Half Furlongs",
       "purse": "Purse $70,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 1,
           "name": "Tizoc",
           "ml": 4.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.1
         },
         {
           "post": 2,
@@ -1025,7 +1113,8 @@
           "post": 3,
           "name": "Coast Highway",
           "ml": 6.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 8.6
         },
         {
           "post": 4,
@@ -1043,7 +1132,8 @@
           "post": 6,
           "name": "Bombay",
           "ml": 5.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 5.0
         },
         {
           "post": 7,
