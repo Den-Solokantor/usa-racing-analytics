@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-04T20:16:47.212567+03:00",
+  "updated": "2026-09-04T18:39:50.662271+00:00",
   "date": "2026-09-04",
-  "source": "equibase-quick-results",
-  "note": "Состав как в «Сегодня». place — из Equibase quick-results или set_places / --mode results.",
+  "source": "manual+cards",
+  "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
   "results": [],
   "stakes_results": [],
   "races": [
@@ -543,22 +543,19 @@
           "post": 2,
           "name": "Mon Minou",
           "ml": 9.0,
-          "place": 1,
-          "mutuel_win": 17.2
+          "place": 1
         },
         {
           "post": 3,
           "name": "Moody River",
           "ml": 4.0,
-          "place": 3,
-          "mutuel_win": 2.1
+          "place": 3
         },
         {
           "post": 4,
           "name": "Miss Lora Ann",
           "ml": 2.6,
-          "place": 2,
-          "mutuel_win": 2.1
+          "place": 2
         },
         {
           "post": 5,
@@ -586,8 +583,7 @@
           "post": 1,
           "name": "Warring Thunder",
           "ml": 3.5,
-          "place": 2,
-          "mutuel_win": 2.6
+          "place": 2
         },
         {
           "post": 2,
@@ -605,15 +601,13 @@
           "post": 4,
           "name": "Versed",
           "ml": 2.6,
-          "place": 1,
-          "mutuel_win": 4.2
+          "place": 1
         },
         {
           "post": 5,
           "name": "Greatdayforhockey",
           "ml": 13.0,
-          "place": 3,
-          "mutuel_win": 6.2
+          "place": 3
         }
       ]
     },
@@ -635,8 +629,7 @@
           "post": 1,
           "name": "Paired Exchange",
           "ml": 4.0,
-          "place": 2,
-          "mutuel_win": 3.0
+          "place": 2
         },
         {
           "post": 2,
@@ -654,8 +647,7 @@
           "post": 4,
           "name": "Malevaje",
           "ml": 16.0,
-          "place": 3,
-          "mutuel_win": 2.6
+          "place": 3
         },
         {
           "post": 5,
@@ -667,8 +659,7 @@
           "post": 6,
           "name": "Munny Town",
           "ml": 2.4,
-          "place": 1,
-          "mutuel_win": 2.6
+          "place": 1
         }
       ]
     },
@@ -699,12 +690,6 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Hulah Jay",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "Heavenly Charm",
           "ml": 21.0,
@@ -714,15 +699,13 @@
           "post": 5,
           "name": "Shakrevenge",
           "ml": 3.5,
-          "place": 3,
-          "mutuel_win": 2.4
+          "place": 3
         },
         {
           "post": 6,
           "name": "Zeliha",
           "ml": 7.0,
-          "place": 1,
-          "mutuel_win": 7.2
+          "place": 1
         },
         {
           "post": 7,
@@ -740,8 +723,7 @@
           "post": 9,
           "name": "Tutta Bella",
           "ml": 4.5,
-          "place": 2,
-          "mutuel_win": 3.4
+          "place": 2
         }
       ]
     },
@@ -755,7 +737,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -806,15 +789,10 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
-        {
-          "post": 1,
-          "name": "Southern Soul",
-          "ml": 21.0,
-          "place": null
-        },
         {
           "post": 2,
           "name": "Big Tom",
@@ -881,7 +859,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -891,33 +870,9 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Cocktails N Dreams",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Cantarito",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Freedom Empire",
-          "ml": 5.0,
-          "place": null
-        },
-        {
           "post": 5,
           "name": "Paynter City",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Fort Bull",
-          "ml": 9.0,
           "place": null
         },
         {
@@ -948,12 +903,6 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Grippy Socks",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Yes Please Do",
           "ml": 21.0,
@@ -972,24 +921,6 @@
           "place": null
         },
         {
-          "post": 6,
-          "name": "Moremi",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Marty Girl",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Tiz Laws Hall",
-          "ml": 6.0,
-          "place": null
-        },
-        {
           "post": 9,
           "name": "Tectonic",
           "ml": 7.0,
@@ -999,24 +930,6 @@
           "post": 10,
           "name": "Rocky World",
           "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 11,
-          "name": "Easter On Parade",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Ziva",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 13,
-          "name": "Annunaki",
-          "ml": 16.0,
           "place": null
         }
       ]
@@ -1039,15 +952,13 @@
           "post": 1,
           "name": "Unrelentingcourage",
           "ml": 7.0,
-          "place": 2,
-          "mutuel_win": 3.8
+          "place": 2
         },
         {
           "post": 2,
           "name": "Skepticism",
           "ml": 4.0,
-          "place": 1,
-          "mutuel_win": 4.2
+          "place": 1
         },
         {
           "post": 3,
@@ -1059,20 +970,7 @@
           "post": 4,
           "name": "Day Made",
           "ml": 3.5,
-          "place": 3,
-          "mutuel_win": 2.4
-        },
-        {
-          "post": 5,
-          "name": "Buckshot",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Theoneandonlylj",
-          "ml": 3.0,
-          "place": null
+          "place": 3
         },
         {
           "post": 7,
@@ -1100,21 +998,13 @@
           "post": 1,
           "name": "Tizoc",
           "ml": 4.0,
-          "place": 3,
-          "mutuel_win": 2.1
-        },
-        {
-          "post": 2,
-          "name": "Professor Green",
-          "ml": 5.5,
-          "place": null
+          "place": 3
         },
         {
           "post": 3,
           "name": "Coast Highway",
           "ml": 6.0,
-          "place": 1,
-          "mutuel_win": 8.6
+          "place": 1
         },
         {
           "post": 4,
@@ -1123,17 +1013,10 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Tiz the Lawfare",
-          "ml": 9.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Bombay",
           "ml": 5.0,
-          "place": 2,
-          "mutuel_win": 5.0
+          "place": 2
         },
         {
           "post": 7,
@@ -1153,7 +1036,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1216,15 +1100,10 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
-        {
-          "post": 1,
-          "name": "Precious Cat",
-          "ml": 9.0,
-          "place": null
-        },
         {
           "post": 2,
           "name": "Horsing Around",
@@ -1256,18 +1135,6 @@
           "place": null
         },
         {
-          "post": 7,
-          "name": "Lucia Sciarra",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Sin Boldly",
-          "ml": 2.5,
-          "place": null
-        },
-        {
           "post": 9,
           "name": "Contra",
           "ml": 7.0,
@@ -1285,7 +1152,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1316,12 +1184,6 @@
           "post": 5,
           "name": "Dale's Bluff",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Ticklers",
-          "ml": 21.0,
           "place": null
         },
         {
@@ -1385,12 +1247,6 @@
           "post": 4,
           "name": "Sohandsometome",
           "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Profound Change",
-          "ml": 16.0,
           "place": null
         },
         {
@@ -1481,12 +1337,6 @@
           "place": null
         },
         {
-          "post": 8,
-          "name": "C C Commander",
-          "ml": 31.0,
-          "place": null
-        },
-        {
           "post": 9,
           "name": "Popcorn N Peaches",
           "ml": 31.0,
@@ -1496,12 +1346,6 @@
           "post": 10,
           "name": "Daenerys",
           "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 11,
-          "name": "Byway",
-          "ml": 6.0,
           "place": null
         }
       ]
@@ -1523,12 +1367,6 @@
           "post": 1,
           "name": "Mykonos",
           "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Dan Gamble",
-          "ml": 31.0,
           "place": null
         },
         {
@@ -1556,21 +1394,9 @@
           "place": null
         },
         {
-          "post": 7,
-          "name": "Don't Tell Tim",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 8,
           "name": "Senor Money",
           "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "He's a Piper",
-          "ml": 6.0,
           "place": null
         },
         {
@@ -1595,12 +1421,6 @@
           "post": 13,
           "name": "Andolin",
           "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 14,
-          "name": "Repurpose",
-          "ml": 7.0,
           "place": null
         }
       ]
@@ -1763,12 +1583,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Sunset Grazen",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Clubhouse Cutie",
           "ml": 16.0,
@@ -1848,12 +1662,6 @@
           "name": "Ninia",
           "ml": 16.0,
           "place": null
-        },
-        {
-          "post": 9,
-          "name": "Una Palabra",
-          "ml": 21.0,
-          "place": null
         }
       ]
     },
@@ -1929,30 +1737,6 @@
           "name": "Harkette",
           "ml": 7.0,
           "place": null
-        },
-        {
-          "post": 11,
-          "name": "Chachacha Ching",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Zayda At the Spa",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 13,
-          "name": "Rejoiceful",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 14,
-          "name": "Shemakesmemad",
-          "ml": 5.0,
-          "place": null
         }
       ]
     },
@@ -1972,18 +1756,6 @@
         {
           "post": 1,
           "name": "Tashie",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Palo Alto Baby",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Big Twist",
           "ml": 9.0,
           "place": null
         },
@@ -2084,12 +1856,6 @@
           "post": 7,
           "name": "Ocean Club",
           "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Beatnik",
-          "ml": 31.0,
           "place": null
         },
         {
@@ -2195,18 +1961,6 @@
           "post": 12,
           "name": "Kerry Gold",
           "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 13,
-          "name": "Shady Tiger",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 14,
-          "name": "Supernal",
-          "ml": 13.0,
           "place": null
         }
       ]
