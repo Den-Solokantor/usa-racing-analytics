@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T13:35:29.777612+00:00",
+  "updated": "2026-09-05T17:46:46.921454+00:00",
   "date": "2026-09-05",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -606,12 +606,6 @@
           "name": "Hurts So Good",
           "ml": 3.0,
           "place": null
-        },
-        {
-          "post": 5,
-          "name": "Leviathan Axe",
-          "ml": 7.0,
-          "place": null
         }
       ]
     },
@@ -686,12 +680,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Ghost Daddy",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Best Up",
           "ml": 13.0,
@@ -755,18 +743,6 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Doc's Joy",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Iron Lotus",
-          "ml": 11.0,
-          "place": null
-        },
-        {
           "post": 5,
           "name": "Hopeshecanrun",
           "ml": 5.0,
@@ -796,7 +772,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -822,12 +799,6 @@
           "name": "Nonstop Vino",
           "ml": 2.8,
           "place": null
-        },
-        {
-          "post": 5,
-          "name": "Ladies Love Cash",
-          "ml": 13.0,
-          "place": null
         }
       ]
     },
@@ -841,25 +812,14 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 1,
           "name": "Jus Too Fly",
           "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "One Mor Story",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "King of Kentucky",
-          "ml": 3.5,
           "place": null
         },
         {
@@ -886,7 +846,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -947,33 +908,15 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Amazon Time",
-          "ml": 11.0,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "English Patience",
           "ml": 4.0,
           "place": null
         },
         {
-          "post": 5,
-          "name": "Playful Quality",
-          "ml": 3.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Well Shaken",
           "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Pampered",
-          "ml": 3.5,
           "place": null
         }
       ]
@@ -995,12 +938,6 @@
           "post": 1,
           "name": "Dr. Bella",
           "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Banned From Midway",
-          "ml": 3.5,
           "place": null
         },
         {
@@ -1043,12 +980,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Vanguardian",
-          "ml": 3.5,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Cross Power",
           "ml": 9.0,
@@ -1070,12 +1001,6 @@
           "post": 5,
           "name": "Line Astern",
           "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Gimmeatreat",
-          "ml": 6.0,
           "place": null
         },
         {
@@ -1112,18 +1037,6 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Heidi N Seek",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "It'sgoodtobeseen",
-          "ml": 7.0,
-          "place": null
-        },
-        {
           "post": 5,
           "name": "Lunchatthelizard",
           "ml": 5.5,
@@ -1133,12 +1046,6 @@
           "post": 6,
           "name": "Crafted",
           "ml": 3.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Cleveland Power",
-          "ml": 11.0,
           "place": null
         }
       ]
@@ -1163,18 +1070,6 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Midnight Tequila",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Chanticleer",
-          "ml": 7.0,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "Fly Commander",
           "ml": 5.0,
@@ -1196,12 +1091,6 @@
           "post": 7,
           "name": "Judge Hernandez",
           "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Feral's Joy",
-          "ml": 16.0,
           "place": null
         }
       ]
@@ -1328,12 +1217,6 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Bye Bye Blind",
-          "ml": 13.0,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "May Surprise",
           "ml": 4.5,
@@ -1407,12 +1290,6 @@
           "name": "Flatter Me Billy",
           "ml": 7.0,
           "place": null
-        },
-        {
-          "post": 5,
-          "name": "Call'em All",
-          "ml": 5.0,
-          "place": null
         }
       ]
     },
@@ -1466,12 +1343,6 @@
           "place": null
         },
         {
-          "post": 7,
-          "name": "Eye On Ry",
-          "ml": 6.0,
-          "place": null
-        },
-        {
           "post": 8,
           "name": "Shankapotamus",
           "ml": 21.0,
@@ -1492,18 +1363,6 @@
         "Result"
       ],
       "horses": [
-        {
-          "post": 1,
-          "name": "That Type Ofa Deal",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Towner Too",
-          "ml": 9.0,
-          "place": null
-        },
         {
           "post": 3,
           "name": "Sir Sterling",
@@ -1654,7 +1513,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1706,12 +1566,6 @@
           "place": null
         },
         {
-          "post": 9,
-          "name": "Role's Mischief",
-          "ml": 31.0,
-          "place": null
-        },
-        {
           "post": 10,
           "name": "Blue Ice",
           "ml": 7.0,
@@ -1735,7 +1589,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1769,18 +1624,6 @@
           "place": null
         },
         {
-          "post": 6,
-          "name": "Twenty Four Cara",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Caramella Gee",
-          "ml": 31.0,
-          "place": null
-        },
-        {
           "post": 8,
           "name": "Daringly",
           "ml": 21.0,
@@ -1789,12 +1632,6 @@
         {
           "post": 9,
           "name": "For Keeps",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Lookinforjoybaloo",
           "ml": 31.0,
           "place": null
         },
@@ -1816,7 +1653,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1868,12 +1706,6 @@
           "place": null
         },
         {
-          "post": 9,
-          "name": "Royal Authentic",
-          "ml": 31.0,
-          "place": null
-        },
-        {
           "post": 10,
           "name": "Teotihuacan",
           "ml": 13.0,
@@ -1922,12 +1754,6 @@
           "post": 5,
           "name": "Gin's Beach Road",
           "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Flight Moon",
-          "ml": 16.0,
           "place": null
         },
         {
@@ -2009,12 +1835,6 @@
           "post": 9,
           "name": "Incinerator",
           "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Paynted Warrior",
-          "ml": 3.5,
           "place": null
         }
       ]
@@ -2117,12 +1937,6 @@
           "post": 4,
           "name": "Boat's a Rockin",
           "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Lord Ante",
-          "ml": 9.0,
           "place": null
         },
         {
@@ -2315,12 +2129,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "McHale",
-          "ml": 31.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Launch Control",
           "ml": 2.4,
@@ -2384,18 +2192,6 @@
           "post": 12,
           "name": "Sometime",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 13,
-          "name": "Lord Donegal",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 14,
-          "name": "Battalion Leader",
-          "ml": 21.0,
           "place": null
         }
       ]
