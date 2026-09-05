@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T13:54:43.283578+00:00",
+  "updated": "2026-09-05T17:24:57.125017+00:00",
   "date": "2026-09-05",
   "source": "tipmeerkat+gyto",
   "note": "Это прогнозы (tips), не официальные results. Сверка с place — после set_places / chart.",
@@ -21,6 +21,12 @@
       "source": "getyourtipsout",
       "title": "Tampa Bay Down Tips",
       "url": "https://www.getyourtipsout.co.uk/american-horse-racing-tips/tampa-bay-downs-tips/",
+      "role": "article"
+    },
+    {
+      "source": "getyourtipsout",
+      "title": "Saturday&rsquo;s American Horse Racing Tips",
+      "url": "https://www.getyourtipsout.co.uk/2026/09/05/saturdays-american-horse-racing-tips-154/",
       "role": "article"
     },
     {
@@ -51,12 +57,6 @@
       "source": "getyourtipsout",
       "title": "Monday&rsquo;s American Horse Racing Tips",
       "url": "https://www.getyourtipsout.co.uk/2026/08/31/mondays-american-horse-racing-tips-193/",
-      "role": "article"
-    },
-    {
-      "source": "getyourtipsout",
-      "title": "Wednesday&rsquo;s American Horse Racing Tips",
-      "url": "https://www.getyourtipsout.co.uk/2026/08/26/wednesdays-american-horse-racing-tips-189/",
       "role": "article"
     }
   ],
