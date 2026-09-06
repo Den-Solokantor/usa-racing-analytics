@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T13:50:29.473687+00:00",
+  "updated": "2026-09-06T17:50:54.751666+00:00",
   "date": "2026-09-06",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -19,18 +19,6 @@
         "Result"
       ],
       "horses": [
-        {
-          "post": 1,
-          "name": "Nu Romantico Bling",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Gray Matters",
-          "ml": 5.5,
-          "place": null
-        },
         {
           "post": 3,
           "name": "James Heza Dynasty",
@@ -53,12 +41,6 @@
           "post": 6,
           "name": "Goodbye Quickie",
           "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Pyc Dancer Fancy",
-          "ml": 21.0,
           "place": null
         },
         {
@@ -89,12 +71,6 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Big Daddys Glass",
-          "ml": 9.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Eyesa Forrest",
           "ml": 4.5,
@@ -116,12 +92,6 @@
           "post": 6,
           "name": "Eyes On Panama",
           "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Magical Marfa",
-          "ml": 4.0,
           "place": null
         }
       ]
@@ -198,18 +168,6 @@
           "name": "Mister Mingo",
           "ml": 5.0,
           "place": null
-        },
-        {
-          "post": 11,
-          "name": "Whirlaway Audry",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Sezagenuineknockout",
-          "ml": 5.5,
-          "place": null
         }
       ]
     },
@@ -251,12 +209,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Elegant Flush",
-          "ml": 31.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Ss Cartels Lioness",
           "ml": 5.5,
@@ -290,12 +242,6 @@
           "post": 11,
           "name": "Diva Stone",
           "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Johnson Kreek",
-          "ml": 31.0,
           "place": null
         }
       ]
@@ -372,18 +318,6 @@
           "name": "Gold D",
           "ml": 6.0,
           "place": null
-        },
-        {
-          "post": 11,
-          "name": "Kj Loco Motion",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Sophies Thunder",
-          "ml": 31.0,
-          "place": null
         }
       ]
     },
@@ -410,12 +344,6 @@
           "post": 2,
           "name": "Tga Cowboy",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Unleeshed",
-          "ml": 13.0,
           "place": null
         },
         {
@@ -458,12 +386,6 @@
           "post": 10,
           "name": "Apolitical Valor",
           "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 11,
-          "name": "Rovos Rail",
-          "ml": 31.0,
           "place": null
         }
       ]
@@ -515,12 +437,6 @@
           "post": 6,
           "name": "Remarkable Cowgirl",
           "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Apollirevenge",
-          "ml": 5.5,
           "place": null
         },
         {
@@ -614,18 +530,6 @@
           "post": 10,
           "name": "Return Valiantly",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 11,
-          "name": "Ram Zee",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Stevies Boy Blu",
-          "ml": 31.0,
           "place": null
         }
       ]
@@ -777,18 +681,6 @@
           "name": "Kisss N Run",
           "ml": 16.0,
           "place": null
-        },
-        {
-          "post": 11,
-          "name": "Triumphovermyenemies",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Rr Hallowed Hero",
-          "ml": 21.0,
-          "place": null
         }
       ]
     },
@@ -881,12 +773,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Chip Shortage",
-          "ml": 7.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "La Palabra",
           "ml": 5.0,
@@ -947,12 +833,6 @@
           "post": 6,
           "name": "Border Vigil",
           "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Stunnem",
-          "ml": 6.0,
           "place": null
         }
       ]
@@ -1127,12 +1007,6 @@
           "post": 2,
           "name": "Nana Moon",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Unarmed",
-          "ml": 7.0,
           "place": null
         },
         {
@@ -1369,7 +1243,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1414,7 +1289,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1453,7 +1329,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1841,12 +1718,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Golden Stride",
-          "ml": 4.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Avos Rose",
           "ml": 11.0,
@@ -1862,12 +1733,6 @@
           "post": 4,
           "name": "H'ray for Bombay",
           "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "I Dance and Flirt",
-          "ml": 7.0,
           "place": null
         },
         {
@@ -1932,12 +1797,6 @@
           "name": "Hay Moon",
           "ml": 7.0,
           "place": null
-        },
-        {
-          "post": 6,
-          "name": "Arromax",
-          "ml": 5.5,
-          "place": null
         }
       ]
     },
@@ -1976,12 +1835,6 @@
           "post": 4,
           "name": "Thirsty Vision",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Little Trouble",
-          "ml": 2.8,
           "place": null
         },
         {
@@ -2093,12 +1946,6 @@
           "place": null
         },
         {
-          "post": 6,
-          "name": "Allison Road",
-          "ml": 9.0,
-          "place": null
-        },
-        {
           "post": 7,
           "name": "Midnight Joy",
           "ml": 4.0,
@@ -2116,7 +1963,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2144,39 +1992,15 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Lady of Troy",
-          "ml": 11.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Combustible Mass",
           "ml": 6.0,
           "place": null
         },
         {
-          "post": 7,
-          "name": "Silent Luna",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Lazy Y Legacy",
-          "ml": 3.5,
-          "place": null
-        },
-        {
           "post": 9,
           "name": "Mahira",
           "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Tricker",
-          "ml": 16.0,
           "place": null
         },
         {
@@ -2189,12 +2013,6 @@
           "post": 12,
           "name": "Bahama Wind",
           "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 13,
-          "name": "Limited Vintage",
-          "ml": 6.0,
           "place": null
         }
       ]
@@ -2209,7 +2027,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2234,12 +2053,6 @@
           "post": 4,
           "name": "Beautiful Quality",
           "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Broken Sound",
-          "ml": 7.0,
           "place": null
         },
         {
@@ -2302,7 +2115,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2330,21 +2144,9 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Miss Serafina",
-          "ml": 31.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Spotty Showers",
           "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "New Age Bad Girl",
-          "ml": 16.0,
           "place": null
         },
         {
@@ -2357,12 +2159,6 @@
           "post": 9,
           "name": "Sophistry",
           "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Clowning Around",
-          "ml": 16.0,
           "place": null
         }
       ]
@@ -2399,12 +2195,6 @@
           "place": null
         },
         {
-          "post": 4,
-          "name": "Gridlock",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 5,
           "name": "U Lite Up My Life",
           "ml": 2.5,
@@ -2420,12 +2210,6 @@
           "post": 7,
           "name": "Athenix",
           "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "In for a Spin",
-          "ml": 21.0,
           "place": null
         }
       ]
