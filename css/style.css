@@ -1225,3 +1225,18 @@ button.analytics-card {
   margin: 0;
   box-shadow: none;
 }
+
+
+.track-group__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-right: 0.35rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  border-radius: 8px;
+  background: rgba(201, 162, 39, 0.12);
+  vertical-align: middle;
+}

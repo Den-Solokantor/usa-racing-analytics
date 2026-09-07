@@ -53,6 +53,75 @@ function escapeHtml(str) {
     .replace(/"/g, '&quot;');
 }
 
+
+const TRACK_ICONS = {
+  "Saratoga": "🏆",
+  "Belmont": "🗽",
+  "Belmont at Aqueduct": "🗽",
+  "Aqueduct": "❄️",
+  "Churchill Downs": "🌹",
+  "Del Mar": "🌊",
+  "Santa Anita": "🌴",
+  "Gulfstream Park": "🦩",
+  "Gulfstream Park West": "🦩",
+  "Keeneland": "🍂",
+  "Oaklawn Park": "💎",
+  "Monmouth Park": "🎡",
+  "Colonial Downs": "🏛️",
+  "Ellis Park": "🐎",
+  "Canterbury Park": "🌲",
+  "Albuquerque": "🌵",
+  "Atokad Downs": "🌾",
+  "ATO": "🌾",
+  "Belterra Park": "🍀",
+  "BTP": "🍀",
+  "Parx Racing": "🔔",
+  "Laurel Park": "🍃",
+  "Pimlico": "🖤",
+  "Penn National": "🎯",
+  "Thistledown": "🌸",
+  "Finger Lakes": "💧",
+  "Horseshoe Indianapolis": "🎰",
+  "Indiana Grand": "🎰",
+  "Tampa Bay Downs": "☀️",
+  "Fair Grounds": "🎺",
+  "Charles Town": "⛰️",
+  "CT": "⛰️",
+  "Turfway Park": "🌉",
+  "Turf Paradise": "🏜️",
+  "Golden Gate Fields": "🌁",
+  "Emerald Downs": "🌿",
+  "Zia Park": "☀️",
+  "Lone Star Park": "⭐",
+  "Remington Park": "🤠",
+  "Prairie Meadows": "🌽",
+  "Woodbine": "🍁",
+  "Delaware Park": "🌳",
+  "Hawthorne": "🏙️",
+  "Mahoning Valley": "🟠",
+  "Ruidoso Downs": "🏔️",
+  "CNL": "🏛️",
+  "DMR": "🌊",
+  "SAR": "🏆",
+  "ALB": "🌵",
+  "BKF": "📘",
+  "ELK": "🦌",
+};
+
+const FALLBACK_ICONS = ["🎪", "🎯", "🎲", "💠", "🔵", "🟣", "🟠", "🟡", "🟢", "⚪", "🟤", "♠️", "♥️", "♦️", "♣️"];
+
+function trackIcon(track) {
+  const t = (track || "").trim();
+  if (TRACK_ICONS[t]) return TRACK_ICONS[t];
+  // code-like short names
+  const up = t.toUpperCase();
+  if (TRACK_ICONS[up]) return TRACK_ICONS[up];
+  let h = 0;
+  for (let i = 0; i < t.length; i++) h = (h * 31 + t.charCodeAt(i)) >>> 0;
+  return FALLBACK_ICONS[h % FALLBACK_ICONS.length];
+}
+
+
 // ===== Load races — группировка по ипподрому (аккордеон) =====
 function renderRaceCard(race) {
   const tagsHtml = (race.tags || []).map(tag => {
@@ -171,7 +240,7 @@ async function loadRaces() {
       return `
         <div class="track-group${open}">
           <button type="button" class="track-group__toggle" aria-expanded="${expanded}">
-            <span class="track-group__name">🏇 ${escapeHtml(track)}</span>
+            <span class="track-group__name"><span class="track-group__icon">${trackIcon(track)}</span> ${escapeHtml(track)}</span>
             <span class="track-group__meta">${n} ${word}</span>
             <span class="track-group__chevron" aria-hidden="true">▾</span>
           </button>
