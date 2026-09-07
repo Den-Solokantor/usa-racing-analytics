@@ -1160,3 +1160,68 @@ button.analytics-card {
 .tip-article:hover {
   text-decoration: underline;
 }
+
+/* ===== Track accordion (Сегодня) ===== */
+.tracks-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.track-group {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.track-group__toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+.track-group__toggle:hover {
+  background: rgba(201, 162, 39, 0.06);
+}
+.track-group__name {
+  font-weight: 700;
+  font-size: 1.05rem;
+  flex: 1;
+}
+.track-group__meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.track-group__chevron {
+  color: var(--accent);
+  transition: transform 0.2s ease;
+  font-size: 1.1rem;
+}
+.track-group.is-open .track-group__chevron {
+  transform: rotate(180deg);
+}
+.track-group__body {
+  display: none;
+  border-top: 1px solid var(--border);
+  padding: 12px 14px 16px;
+  background: var(--bg-alt);
+}
+.track-group.is-open .track-group__body {
+  display: block;
+}
+.track-group__races {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+.race-card--nested {
+  margin: 0;
+  box-shadow: none;
+}

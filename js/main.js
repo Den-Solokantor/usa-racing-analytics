@@ -53,7 +53,90 @@ function escapeHtml(str) {
     .replace(/"/g, '&quot;');
 }
 
-// ===== Load races (таблица № | Лошадь | ML) =====
+// ===== Load races — группировка по ипподрому (аккордеон) =====
+function renderRaceCard(race) {
+  const tagsHtml = (race.tags || []).map(tag => {
+    const primary = ['Value possible', 'Watchlist', 'Live odds'].includes(tag);
+    return `<span class="tag ${primary ? '' : 'tag-secondary'}">${escapeHtml(tag)}</span>`;
+  }).join('');
+
+  let bodyHtml = '';
+  if (race.horses && race.horses.length) {
+    const hasWin = race.horses.some(h => h.win != null);
+    const rows = race.horses.map(h => {
+      const ml = h.ml != null ? h.ml : '—';
+      const winCell = hasWin
+        ? `<td class="col-win">${h.win != null ? escapeHtml(h.win) : '—'}</td>`
+        : '';
+      return `<tr>
+          <td class="col-post">${h.post != null ? escapeHtml(h.post) : ''}</td>
+          <td class="col-name">${escapeHtml(h.name || '')}</td>
+          <td class="col-ml">${escapeHtml(ml)}</td>
+          ${winCell}
+        </tr>`;
+    }).join('');
+
+    bodyHtml = `
+      <div class="race-table-wrap">
+        <table class="race-table">
+          <thead>
+            <tr>
+              <th class="col-post">№</th>
+              <th class="col-name">Лошадь</th>
+              <th class="col-ml">ML</th>
+              ${hasWin ? '<th class="col-win">Live</th>' : ''}
+            </tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
+  } else if (race.preview) {
+    bodyHtml = `<div class="race-preview"><p>${escapeHtml(race.preview)}</p></div>`;
+  }
+
+  return `
+    <article class="race-card race-card--nested">
+      <div class="race-card-header">
+        <span class="race-time">${escapeHtml(race.time || '')}</span>
+      </div>
+      <h3 class="race-title">${escapeHtml(race.title || '')}</h3>
+      <div class="race-meta">
+        <span>${escapeHtml(race.distance || '')}</span>
+        <span>${escapeHtml(race.purse || '')}</span>
+      </div>
+      ${bodyHtml}
+      <div class="race-tags">${tagsHtml}</div>
+    </article>`;
+}
+
+function groupRacesByTrack(races) {
+  const map = new Map();
+  races.forEach((race) => {
+    const key = race.track || 'Track';
+    if (!map.has(key)) map.set(key, []);
+    map.get(key).push(race);
+  });
+  for (const list of map.values()) {
+    list.sort((a, b) => {
+      const na = parseInt(String(a.title || a.id || '').replace(/\D/g, ''), 10) || 0;
+      const nb = parseInt(String(b.title || b.id || '').replace(/\D/g, ''), 10) || 0;
+      return na - nb;
+    });
+  }
+  return [...map.entries()].sort((a, b) => a[0].localeCompare(b[0], 'en'));
+}
+
+function bindTrackAccordions(root) {
+  root.querySelectorAll('.track-group__toggle').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const group = btn.closest('.track-group');
+      if (!group) return;
+      const open = group.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+}
+
 async function loadRaces() {
   const grid = document.getElementById('racesGrid');
   const updatedEl = document.getElementById('racesUpdated');
@@ -77,66 +160,28 @@ async function loadRaces() {
       return;
     }
 
-    grid.innerHTML = data.races.map(race => {
-      const tagsHtml = (race.tags || []).map(tag => {
-        const primary = ['Value possible', 'Watchlist', 'Live odds'].includes(tag);
-        return `<span class="tag ${primary ? '' : 'tag-secondary'}">${escapeHtml(tag)}</span>`;
-      }).join('');
-
-      let bodyHtml = '';
-      if (race.horses && race.horses.length) {
-        const hasWin = race.horses.some(h => h.win != null);
-        const rows = race.horses.map(h => {
-          const ml = h.ml != null ? h.ml : '—';
-          const winCell = hasWin
-            ? `<td class="col-win">${h.win != null ? escapeHtml(h.win) : '—'}</td>`
-            : '';
-          return `<tr>
-              <td class="col-post">${h.post != null ? escapeHtml(h.post) : ''}</td>
-              <td class="col-name">${escapeHtml(h.name || '')}</td>
-              <td class="col-ml">${escapeHtml(ml)}</td>
-              ${winCell}
-            </tr>`;
-        }).join('');
-
-        bodyHtml = `
-          <div class="race-table-wrap">
-            <table class="race-table">
-              <thead>
-                <tr>
-                  <th class="col-post">№</th>
-                  <th class="col-name">Лошадь</th>
-                  <th class="col-ml">ML</th>
-                  ${hasWin ? '<th class="col-win">Live</th>' : ''}
-                </tr>
-              </thead>
-              <tbody>${rows}</tbody>
-            </table>
-          </div>`;
-      } else if (race.preview) {
-        bodyHtml = `<div class="race-preview"><p>${escapeHtml(race.preview)}</p></div>`;
-      }
-
+    const groups = groupRacesByTrack(data.races);
+    grid.className = 'tracks-stack';
+    grid.innerHTML = groups.map(([track, races], idx) => {
+      const open = idx === 0 ? ' is-open' : '';
+      const expanded = idx === 0 ? 'true' : 'false';
+      const n = races.length;
+      const word = n === 1 ? 'заезд' : (n >= 2 && n <= 4 ? 'заезда' : 'заездов');
+      const cards = races.map(renderRaceCard).join('');
       return `
-        <article class="race-card">
-          <div class="race-card-header">
-            <span class="track-badge">${escapeHtml(race.track || '')}</span>
-            <span class="race-time">${escapeHtml(race.time || '')}</span>
+        <div class="track-group${open}">
+          <button type="button" class="track-group__toggle" aria-expanded="${expanded}">
+            <span class="track-group__name">🏇 ${escapeHtml(track)}</span>
+            <span class="track-group__meta">${n} ${word}</span>
+            <span class="track-group__chevron" aria-hidden="true">▾</span>
+          </button>
+          <div class="track-group__body">
+            <div class="track-group__races">${cards}</div>
           </div>
-          <h3 class="race-title">${escapeHtml(race.title || '')}</h3>
-          <div class="race-meta">
-            <span>${escapeHtml(race.distance || '')}</span>
-            <span>${escapeHtml(race.purse || '')}</span>
-          </div>
-          ${bodyHtml}
-          <div class="race-tags">${tagsHtml}</div>
-        </article>`;
+        </div>`;
     }).join('');
 
-    document.querySelectorAll('.race-card').forEach(el => {
-      el.style.opacity = '1';
-      el.style.transform = 'translateY(0)';
-    });
+    bindTrackAccordions(grid);
 
   } catch (err) {
     console.error(err);
@@ -144,7 +189,6 @@ async function loadRaces() {
   }
 }
 
-// ===== Load news =====
 async function loadNews() {
   const list = document.getElementById('newsList');
   if (!list) return;
