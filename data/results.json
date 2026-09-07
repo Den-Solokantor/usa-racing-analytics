@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T21:41:23.489151+03:00",
+  "updated": "2026-09-07T22:32:10.150817+03:00",
   "date": "2026-09-07",
   "source": "equibase-quick-results",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -751,13 +751,15 @@
           "post": 2,
           "name": "Yutan Tapit",
           "ml": 3.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 2.6
         },
         {
           "post": 3,
           "name": "Reds Cashn Gold",
           "ml": 4.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 6.8
         },
         {
           "post": 4,
@@ -805,13 +807,14 @@
           "post": 2,
           "name": "White Mountain",
           "ml": 3.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 8.4
         },
         {
           "post": 3,
           "name": "Jabran",
           "ml": 4.0,
-          "place": null
+          "place": 3
         },
         {
           "post": 4,
@@ -823,7 +826,8 @@
           "post": 5,
           "name": "Ez Fitz",
           "ml": 6.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 10.4
         }
       ]
     },
