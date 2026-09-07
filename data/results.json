@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T22:32:47.023091+03:00",
+  "updated": "2026-09-07T22:36:52.083270+03:00",
   "date": "2026-09-07",
   "source": "equibase-quick-results",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -744,8 +744,8 @@
           "post": 1,
           "name": "Justice Is Coming",
           "ml": 5.0,
-          "place": 1,
-          "mutuel_win": 6.22
+          "place": 3,
+          "mutuel_win": 3.0
         },
         {
           "post": 2,
@@ -777,8 +777,7 @@
           "post": 6,
           "name": "Blues Party",
           "ml": 7.0,
-          "place": 3,
-          "mutuel_win": 2.66
+          "place": null
         }
       ]
     },
