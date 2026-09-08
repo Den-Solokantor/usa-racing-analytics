@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T14:48:52.753468+00:00",
+  "updated": "2026-09-08T19:05:25.231738+00:00",
   "source": "equibase-parser-gha",
   "date": "2026-09-08",
   "races": [
@@ -30,18 +30,6 @@
           "win": null
         },
         {
-          "post": 4,
-          "name": "Beta",
-          "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "October Bliss",
-          "ml": 9.0,
-          "win": null
-        },
-        {
           "post": 6,
           "name": "Eric From Miami",
           "ml": 7.0,
@@ -59,7 +47,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -112,7 +101,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -123,18 +113,6 @@
       "distance": "One Mile",
       "purse": "Purse $32,600",
       "horses": [
-        {
-          "post": 1,
-          "name": "Noisetomakenoise",
-          "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Wayward Queen",
-          "ml": 5.5,
-          "win": null
-        },
         {
           "post": 3,
           "name": "Alma's Law",
@@ -165,7 +143,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -230,7 +209,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -263,12 +243,6 @@
           "post": 4,
           "name": "Striker Joe",
           "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Wisecracker",
-          "ml": 21.0,
           "win": null
         },
         {
@@ -307,7 +281,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -662,12 +637,6 @@
           "win": null
         },
         {
-          "post": 3,
-          "name": "Verrazano First",
-          "ml": 9.0,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "Danza Taxi",
           "ml": 4.0,
@@ -748,12 +717,6 @@
           "post": 6,
           "name": "Indyville",
           "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Richiesonaroll",
-          "ml": 21.0,
           "win": null
         }
       ],
@@ -922,12 +885,6 @@
           "win": null
         },
         {
-          "post": 3,
-          "name": "Biagoddess",
-          "ml": 6.0,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "Cantoo",
           "ml": 31.0,
@@ -955,12 +912,6 @@
           "post": 8,
           "name": "Julynne",
           "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 9,
-          "name": "Arose for Lyla",
-          "ml": 9.0,
           "win": null
         },
         {
@@ -1111,7 +1062,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1141,12 +1093,6 @@
           "win": null
         },
         {
-          "post": 4,
-          "name": "Army Fever",
-          "ml": 3.5,
-          "win": null
-        },
-        {
           "post": 5,
           "name": "Basil",
           "ml": 3.0,
@@ -1164,7 +1110,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1407,12 +1354,6 @@
           "win": null
         },
         {
-          "post": 8,
-          "name": "Mint Driven",
-          "ml": 16.0,
-          "win": null
-        },
-        {
           "post": 9,
           "name": "Navy Soul",
           "ml": 9.0,
@@ -1543,12 +1484,6 @@
           "win": null
         },
         {
-          "post": 7,
-          "name": "C U Whenugetthere",
-          "ml": 7.0,
-          "win": null
-        },
-        {
           "post": 8,
           "name": "Recomputing",
           "ml": 13.0,
@@ -1641,12 +1576,6 @@
           "post": 10,
           "name": "He Stops Road Rage",
           "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 12,
-          "name": "Seizedbymarielaveau",
-          "ml": 16.0,
           "win": null
         }
       ],
@@ -1760,12 +1689,6 @@
           "name": "Hot Pink",
           "ml": 3.0,
           "win": null
-        },
-        {
-          "post": 6,
-          "name": "Majestic Tornado",
-          "ml": 4.5,
-          "win": null
         }
       ],
       "preview": "",
@@ -1850,12 +1773,6 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Easy Out",
-          "ml": 6.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Stolen Princess",
           "ml": 21.0,
@@ -1921,12 +1838,6 @@
           "win": null
         },
         {
-          "post": 4,
-          "name": "Peak Earnings",
-          "ml": 7.0,
-          "win": null
-        },
-        {
           "post": 5,
           "name": "Flame McGoon",
           "ml": 4.0,
@@ -1939,21 +1850,9 @@
           "win": null
         },
         {
-          "post": 7,
-          "name": "Rumpus",
-          "ml": 31.0,
-          "win": null
-        },
-        {
           "post": 8,
           "name": "Parisi",
           "ml": 4.0,
-          "win": null
-        },
-        {
-          "post": 9,
-          "name": "Diamond Empress",
-          "ml": 7.0,
           "win": null
         }
       ],
@@ -1989,12 +1888,6 @@
           "post": 3,
           "name": "Mucino",
           "ml": 2.4,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Bandera Bling",
-          "ml": 16.0,
           "win": null
         },
         {
@@ -2060,12 +1953,6 @@
           "post": 5,
           "name": "Geaux Warrior",
           "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Secret Deal",
-          "ml": 6.0,
           "win": null
         },
         {
@@ -2140,21 +2027,9 @@
           "win": null
         },
         {
-          "post": 7,
-          "name": "Roaring Rapids",
-          "ml": 6.0,
-          "win": null
-        },
-        {
           "post": 8,
           "name": "Dancing On Air",
           "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 9,
-          "name": "Il Vagabundo",
-          "ml": 13.0,
           "win": null
         },
         {
@@ -2170,21 +2045,9 @@
           "win": null
         },
         {
-          "post": 12,
-          "name": "Mexicali Mike",
-          "ml": 9.0,
-          "win": null
-        },
-        {
           "post": 13,
           "name": "Handsome Fox",
           "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "He's a Pisces",
-          "ml": 13.0,
           "win": null
         }
       ],
@@ -2217,21 +2080,9 @@
           "win": null
         },
         {
-          "post": 3,
-          "name": "Lou's Legacy",
-          "ml": 16.0,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "Winfromwithin",
           "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Blind Eye",
-          "ml": 11.0,
           "win": null
         },
         {
@@ -2265,27 +2116,9 @@
           "win": null
         },
         {
-          "post": 11,
-          "name": "Dowagiac Chief",
-          "ml": 3.0,
-          "win": null
-        },
-        {
-          "post": 12,
-          "name": "Adios Buccaneer",
-          "ml": 6.0,
-          "win": null
-        },
-        {
           "post": 13,
           "name": "Jupiter",
           "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "Blistering (KY)",
-          "ml": 3.5,
           "win": null
         }
       ],
@@ -2324,12 +2157,6 @@
           "win": null
         },
         {
-          "post": 4,
-          "name": "Cloud Storage",
-          "ml": 4.0,
-          "win": null
-        },
-        {
           "post": 5,
           "name": "Lu's Redemption",
           "ml": 7.0,
@@ -2345,12 +2172,6 @@
           "post": 7,
           "name": "Canadian Bear",
           "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Take Wings",
-          "ml": 21.0,
           "win": null
         }
       ],
@@ -2377,21 +2198,9 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Wedding March",
-          "ml": 21.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Can She Scoot",
           "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Flight Control",
-          "ml": 7.0,
           "win": null
         },
         {
@@ -2442,12 +2251,6 @@
       "purse": "Purse $10,500",
       "horses": [
         {
-          "post": 1,
-          "name": "Shiva",
-          "ml": 8.0,
-          "win": null
-        },
-        {
           "post": 2,
           "name": "Grazen Sun",
           "ml": 13.0,
@@ -2463,12 +2266,6 @@
           "post": 4,
           "name": "Main Line Cipher",
           "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Probale Ten",
-          "ml": 16.0,
           "win": null
         },
         {
@@ -2553,12 +2350,6 @@
           "name": "Amalfi Lady",
           "ml": 11.0,
           "win": null
-        },
-        {
-          "post": 7,
-          "name": "City Signs",
-          "ml": 4.5,
-          "win": null
         }
       ],
       "preview": "",
@@ -2584,27 +2375,9 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Baby Dog",
-          "ml": 13.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Connect the Dots",
           "ml": 4.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Stanz Coming",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Charlie Hustle",
-          "ml": 21.0,
           "win": null
         },
         {
@@ -2617,12 +2390,6 @@
           "post": 7,
           "name": "Zealous Storm",
           "ml": 3.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Have a Cigar",
-          "ml": 11.0,
           "win": null
         },
         {
@@ -2658,12 +2425,6 @@
           "post": 2,
           "name": "Etretat",
           "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Fat Daddy",
-          "ml": 13.0,
           "win": null
         },
         {
@@ -2712,12 +2473,6 @@
           "post": 11,
           "name": "Bailamos",
           "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 12,
-          "name": "Candy Invasion",
-          "ml": 21.0,
           "win": null
         }
       ],
