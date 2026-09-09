@@ -1,3 +1,4 @@
+
 name: Update racing news and races
 
 on:
@@ -18,7 +19,7 @@ jobs:
         with:
           python-version: "3.12"
 
-            - name: Update news (RU)
+      - name: Update news (RU)
         run: python scripts/update_news.py
         continue-on-error: true
 
