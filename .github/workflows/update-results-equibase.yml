@@ -1,0 +1,64 @@
+name: Update results (Equibase)
+
+on:
+  schedule:
+    # Вечер/ночь по ET (America/New_York):
+    # 00:00, 02:00, 04:00 UTC ≈ 20:00 / 22:00 / 00:00 ET (летнее UTC−4)
+    - cron: "0 0,2,4 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Дата YYYY-MM-DD (пусто = сегодня по ET)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  results:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install httpx
+
+      - name: Resolve race date (America/New_York)
+        id: day
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            DATE="${{ github.event.inputs.date }}"
+          else
+            DATE=$(TZ=America/New_York date +%F)
+          fi
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          echo "Using race date (ET): $DATE"
+
+      - name: Fill places from Equibase quick-results
+        run: |
+          python equibase_live_odds.py \
+            --mode results \
+            --date "${{ steps.day.outputs.date }}" \
+            --auto \
+            --races-json data/results.json
+        continue-on-error: true
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/results.json
+          if git diff --staged --quiet; then
+            echo "No changes in data/results.json"
+          else
+            git commit -m "chore: auto results places ${{ steps.day.outputs.date }}"
+            git pull --rebase origin main || true
+            git push origin main
+          fi
