@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T14:52:33.041125+00:00",
+  "updated": "2026-09-09T18:54:41.012604+00:00",
   "date": "2026-09-09",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -16,7 +16,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -55,7 +56,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -100,7 +102,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -151,19 +154,14 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 1,
           "name": "Raceday Attire",
           "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Tale of Lady Maria",
-          "ml": 11.0,
           "place": null
         },
         {
@@ -202,7 +200,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -394,7 +393,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -451,7 +451,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -508,7 +509,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -553,7 +555,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -610,7 +613,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -782,12 +786,6 @@
           "place": null
         },
         {
-          "post": 7,
-          "name": "Master Nibbles",
-          "ml": 13.0,
-          "place": null
-        },
-        {
           "post": 9,
           "name": "Muthabir",
           "ml": 16.0,
@@ -874,19 +872,14 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 1,
           "name": "Rumblyoungmanrumbl",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Reign It In",
-          "ml": 6.0,
           "place": null
         },
         {
@@ -931,7 +924,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -988,7 +982,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1057,7 +1052,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1070,12 +1066,6 @@
           "post": 2,
           "name": "Newport Bridge",
           "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Burning Munny",
-          "ml": 21.0,
           "place": null
         },
         {
@@ -1120,7 +1110,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1214,18 +1205,6 @@
           "post": 4,
           "name": "Autumn Fire",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Words of War",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "C Robin",
-          "ml": 11.0,
           "place": null
         },
         {
@@ -1343,18 +1322,6 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Fairweatherlover",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Going for Glory",
-          "ml": 11.0,
-          "place": null
-        },
-        {
           "post": 5,
           "name": "Honey in the Bank",
           "ml": 21.0,
@@ -1408,7 +1375,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1465,7 +1433,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1565,21 +1534,9 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Spirit Moves Me",
-          "ml": 11.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Split",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Nola Louise",
-          "ml": 11.0,
           "place": null
         },
         {
@@ -2043,12 +2000,6 @@
           "name": "Golden Reveille",
           "ml": 16.0,
           "place": null
-        },
-        {
-          "post": 14,
-          "name": "Sea Isle City",
-          "ml": 5.5,
-          "place": null
         }
       ]
     },
@@ -2099,12 +2050,6 @@
           "post": 6,
           "name": "Showa",
           "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "First Thought",
-          "ml": 9.0,
           "place": null
         },
         {
@@ -2321,12 +2266,6 @@
           "place": null
         },
         {
-          "post": 8,
-          "name": "Extravagant Prince",
-          "ml": 51.0,
-          "place": null
-        },
-        {
           "post": 9,
           "name": "Divisible By",
           "ml": 9.0,
@@ -2396,12 +2335,6 @@
           "place": null
         },
         {
-          "post": 9,
-          "name": "Halfway to Omaha",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 10,
           "name": "Hey Miss Olivia",
           "ml": 7.0,
@@ -2424,18 +2357,6 @@
           "name": "Ralley to Me",
           "ml": 16.0,
           "place": null
-        },
-        {
-          "post": 14,
-          "name": "Risky Wave",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 15,
-          "name": "Veracious",
-          "ml": 9.0,
-          "place": null
         }
       ]
     },
@@ -2452,12 +2373,6 @@
         "Result"
       ],
       "horses": [
-        {
-          "post": 1,
-          "name": "Money Man Mike",
-          "ml": 4.5,
-          "place": null
-        },
         {
           "post": 2,
           "name": "Salty Viking",
@@ -2495,12 +2410,6 @@
           "place": null
         },
         {
-          "post": 11,
-          "name": "Lux Aeterna",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 12,
           "name": "Bravo Tango",
           "ml": 5.5,
@@ -2522,12 +2431,6 @@
           "post": 15,
           "name": "El Enamorado",
           "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 16,
-          "name": "Titan Ready",
-          "ml": 1.8,
           "place": null
         }
       ]
