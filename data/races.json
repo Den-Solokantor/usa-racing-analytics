@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-10T08:43:16.629271+03:00",
-  "source": "equibase-parser",
+  "updated": "2026-09-10T14:41:31.151190+00:00",
+  "source": "equibase-parser-gha",
   "date": "2026-09-10",
   "races": [
     {
@@ -775,12 +775,6 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Flaming Embers",
-          "ml": 16.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Super Smooth",
           "ml": 21.0,
@@ -796,18 +790,6 @@
           "post": 5,
           "name": "Max n' Lou",
           "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Never On Friday",
-          "ml": 2.6,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Blackjack Man",
-          "ml": 11.0,
           "win": null
         }
       ],
@@ -881,12 +863,6 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Quality Kiss",
-          "ml": 4.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Holy Mo",
           "ml": 16.0,
@@ -940,12 +916,6 @@
           "win": null
         },
         {
-          "post": 3,
-          "name": "Shotgun Pro",
-          "ml": 7.0,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "Power Aura",
           "ml": 3.5,
@@ -961,12 +931,6 @@
           "post": 6,
           "name": "Dave Did It",
           "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Howard's Grit",
-          "ml": 16.0,
           "win": null
         }
       ],
@@ -999,12 +963,6 @@
           "win": null
         },
         {
-          "post": 3,
-          "name": "Thundering Heart",
-          "ml": 2.6,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "Findaway",
           "ml": 5.5,
@@ -1014,12 +972,6 @@
           "post": 5,
           "name": "Devils Red",
           "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Alvin",
-          "ml": 21.0,
           "win": null
         }
       ],
@@ -1052,21 +1004,9 @@
           "win": null
         },
         {
-          "post": 3,
-          "name": "Union Empress",
-          "ml": 5.0,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "Essential Wild Cat",
           "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Love in Lights",
-          "ml": 3.5,
           "win": null
         },
         {
@@ -2073,7 +2013,7 @@
     },
     {
       "id": "ct-0910-1",
-      "track": "Charles Town",
+      "track": "Colonial Downs",
       "time": "7:00 PM ET",
       "title": "Race 1",
       "distance": "Four And One Half Furlongs",
@@ -2132,7 +2072,7 @@
     },
     {
       "id": "ct-0910-2",
-      "track": "Charles Town",
+      "track": "Colonial Downs",
       "time": "7:32 PM ET",
       "title": "Race 2",
       "distance": "One And One Sixteenth Miles",
@@ -2191,7 +2131,7 @@
     },
     {
       "id": "ct-0910-3",
-      "track": "Charles Town",
+      "track": "Colonial Downs",
       "time": "8:02 PM ET",
       "title": "Race 3",
       "distance": "Six And One Half Furlongs",
@@ -2256,7 +2196,7 @@
     },
     {
       "id": "ct-0910-4",
-      "track": "Charles Town",
+      "track": "Colonial Downs",
       "time": "8:32 PM ET",
       "title": "Race 4",
       "distance": "Seven Furlongs",
@@ -2321,7 +2261,7 @@
     },
     {
       "id": "ct-0910-5",
-      "track": "Charles Town",
+      "track": "Colonial Downs",
       "time": "9:02 PM ET",
       "title": "Race 5",
       "distance": "Six And One Half Furlongs",
@@ -2392,7 +2332,7 @@
     },
     {
       "id": "ct-0910-6",
-      "track": "Charles Town",
+      "track": "Colonial Downs",
       "time": "9:32 PM ET",
       "title": "Race 6",
       "distance": "Seven Furlongs",
@@ -2463,7 +2403,7 @@
     },
     {
       "id": "ct-0910-7",
-      "track": "Charles Town",
+      "track": "Colonial Downs",
       "time": "10:02 PM ET",
       "title": "Race 7",
       "distance": "Seven Furlongs",
@@ -2534,7 +2474,7 @@
     },
     {
       "id": "ct-0910-8",
-      "track": "Charles Town",
+      "track": "Colonial Downs",
       "time": "10:32 PM ET",
       "title": "Race 8",
       "distance": "Four And One Half Furlongs",
