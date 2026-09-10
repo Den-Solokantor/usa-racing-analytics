@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T14:41:31.153150+00:00",
+  "updated": "2026-09-10T18:47:22.980064+00:00",
   "date": "2026-09-10",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -19,12 +19,6 @@
         "Result"
       ],
       "horses": [
-        {
-          "post": 1,
-          "name": "Maybelline Eye",
-          "ml": 21.0,
-          "place": null
-        },
         {
           "post": 2,
           "name": "Mariachi Moon",
@@ -84,12 +78,6 @@
           "name": "Dreaming of Daddy",
           "ml": 16.0,
           "place": null
-        },
-        {
-          "post": 12,
-          "name": "Vipercorona",
-          "ml": 16.0,
-          "place": null
         }
       ]
     },
@@ -146,12 +134,6 @@
           "post": 7,
           "name": "Cue Daddy",
           "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Bam Bam Shadow",
-          "ml": 21.0,
           "place": null
         },
         {
@@ -240,18 +222,6 @@
           "name": "Imn Daddies Delight",
           "ml": 11.0,
           "place": null
-        },
-        {
-          "post": 11,
-          "name": "Miss One Smooth Jet",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Sophies Thunder",
-          "ml": 31.0,
-          "place": null
         }
       ]
     },
@@ -314,12 +284,6 @@
           "post": 8,
           "name": "Thirsty",
           "ml": 3.5,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "Don't Hit Me Bash",
-          "ml": 21.0,
           "place": null
         }
       ]
@@ -482,12 +446,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Probate",
-          "ml": 7.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Leave Them Behind",
           "ml": 3.5,
@@ -566,18 +524,6 @@
           "post": 9,
           "name": "Sanger",
           "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Campfire Creed",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 11,
-          "name": "Nativity",
-          "ml": 31.0,
           "place": null
         }
       ]
@@ -661,7 +607,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -706,7 +653,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -751,7 +699,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -790,7 +739,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -835,7 +785,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1178,12 +1129,6 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Shake Up",
-          "ml": 5.0,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "Stability",
           "ml": 9.0,
@@ -1199,12 +1144,6 @@
           "post": 6,
           "name": "Dr. Perry",
           "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Awesome Fantasy",
-          "ml": 5.5,
           "place": null
         }
       ]
@@ -1238,12 +1177,6 @@
           "post": 3,
           "name": "Hattie Bloom",
           "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Northern Angel",
-          "ml": 16.0,
           "place": null
         },
         {
@@ -1365,12 +1298,6 @@
           "name": "Lightning Struck",
           "ml": 6.0,
           "place": null
-        },
-        {
-          "post": 6,
-          "name": "Hey River",
-          "ml": 4.0,
-          "place": null
         }
       ]
     },
@@ -1415,12 +1342,6 @@
           "post": 5,
           "name": "Kabin Eight",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Racheli",
-          "ml": 7.0,
           "place": null
         },
         {
@@ -1535,12 +1456,6 @@
           "post": 1,
           "name": "Cruisin in Harmony",
           "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Sweet Mary",
-          "ml": 13.0,
           "place": null
         },
         {
@@ -1694,12 +1609,6 @@
           "place": null
         },
         {
-          "post": 6,
-          "name": "Brunia",
-          "ml": 5.5,
-          "place": null
-        },
-        {
           "post": 7,
           "name": "Freaks Go",
           "ml": 4.0,
@@ -1757,12 +1666,6 @@
           "place": null
         },
         {
-          "post": 6,
-          "name": "Shacklebolt",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 7,
           "name": "Moonfire",
           "ml": 7.0,
@@ -1772,12 +1675,6 @@
           "post": 8,
           "name": "Old Crow Court",
           "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "Kalapaki Point",
-          "ml": 16.0,
           "place": null
         },
         {
@@ -1844,27 +1741,9 @@
           "place": null
         },
         {
-          "post": 6,
-          "name": "Show of Force",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 7,
           "name": "Systemic Change",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Special Session",
-          "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "First Resort",
-          "ml": 7.0,
           "place": null
         }
       ]
@@ -1901,12 +1780,6 @@
           "place": null
         },
         {
-          "post": 4,
-          "name": "Right On Right On",
-          "ml": 11.0,
-          "place": null
-        },
-        {
           "post": 5,
           "name": "Raising Kane",
           "ml": 9.0,
@@ -1934,12 +1807,6 @@
           "post": 9,
           "name": "Midnight Channel",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "The Best Distance",
-          "ml": 4.5,
           "place": null
         },
         {
@@ -2171,12 +2038,6 @@
           "place": null
         },
         {
-          "post": 6,
-          "name": "Avril",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 7,
           "name": "R Special",
           "ml": 9.0,
@@ -2207,18 +2068,6 @@
           "post": 1,
           "name": "My Yoke",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "War Salute",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Cat Fast",
-          "ml": 2.6,
           "place": null
         },
         {
@@ -2276,12 +2125,6 @@
           "post": 1,
           "name": "Our Memories",
           "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Golden Plunge",
-          "ml": 16.0,
           "place": null
         },
         {
@@ -2469,15 +2312,8 @@
           "name": "Any Pounce",
           "ml": 31.0,
           "place": null
-        },
-        {
-          "post": 11,
-          "name": "Feeling Enchanted",
-          "ml": 21.0,
-          "place": null
         }
       ]
     }
-  ],
-  "stakes_updated": "2026-09-10T11:55:35.968003-04:00"
+  ]
 }
