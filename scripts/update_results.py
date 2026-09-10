@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-Обновление data/results.json:
-  - tracks[]          — НЕ трогаем (ручной ввод обычных заездов)
-  - stakes_results[]  — из RSS OffTrackBetting.com (крупные stakes)
-  - results[]         — оставляем как есть (опциональный плоский список)
+Обновление data/results.json — ТОЛЬКО stakes_results (OTB RSS).
 
-Без FormFav / Rapid / Equibase.
+НЕ трогает:
+  - races[]   — состав дня + place из Equibase (cards / results GHA)
+  - date/source, связанные с equibase
+
+Раньше скрипт пересобирал JSON только с tracks[] и затирал races[] —
+из‑за этого блок «Результаты» на сайте становился пустым.
 """
 from __future__ import annotations
 
@@ -22,9 +24,8 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "results.json"
 ETZ = ZoneInfo("America/New_York")
-UA = "USA-Racing-Analytics/1.0 (results; +https://solokantorracing.netlify.app)"
+UA = "USA-Racing-Analytics/1.0 (stakes-only; +https://solokantorracing.netlify.app)"
 
-# Официальные RSS с https://www.offtrackbetting.com/rss.html
 OTB_FEEDS = [
     "https://www.offtrackbetting.com/rss-results-2.0.xml",
     "https://www.offtrackbetting.com/rss-results-1.0.xml",
@@ -36,187 +37,150 @@ def now_et() -> datetime:
 
 
 def fetch(url: str, timeout: int = 40) -> bytes:
-    req = Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/xml, text/xml, */*"})
+    req = Request(
+        url,
+        headers={
+            "User-Agent": UA,
+            "Accept": "application/rss+xml, application/xml, text/xml, */*",
+        },
+    )
     with urlopen(req, timeout=timeout) as r:
         return r.read()
 
 
 def strip_html(text: str) -> str:
     text = re.sub(r"<[^>]+>", " ", text or "")
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def parse_otb_item(title: str, description: str, link: str) -> dict | None:
-    """
-    Типичные заголовки OTB:
-      "2025 Whitney Stakes Results & Race Replay - Sierra Leone"
-      "Alabama Stakes Results - Horse Name"
-    """
     t = strip_html(title)
     d = strip_html(description)
     if not t:
         return None
 
     winner = ""
-    # «... Results ... - WinnerName»
     m = re.search(r"(?:Results?|Replay)\s*[-–—:]\s*(.+)$", t, re.I)
     if m:
         winner = m.group(1).strip()
-        # убрать хвосты вроде "& Race Replay"
         winner = re.sub(r"\s*&\s*Race\s*Replay.*$", "", winner, flags=re.I).strip()
 
-    race_title = t
-    race_title = re.sub(r"\s*Results?.*$", "", race_title, flags=re.I).strip(" -–—")
+    race_title = re.sub(r"\s*Results?.*$", "", t, flags=re.I).strip(" -–—")
+    if not winner:
+        return None
 
     track = ""
-    # иногда трек в description
     tm = re.search(
-        r"\bat\s+([A-Z][A-Za-z0-9 .'\-]+?(?:Park|Course|Downs|Meadows|Field|Coliseum)?)\b",
+        r"\bat\s+([A-Z][A-Za-z0-9 .'\\-]+?(?:Park|Course|Downs|Meadows|Field)?)\b",
         d,
     )
     if tm:
         track = tm.group(1).strip()
-
-    if not winner and not race_title:
-        return None
+    if not track:
+        m2 = re.search(r"/horse-racing-results/([^/]+)/", link or "")
+        if m2:
+            track = m2.group(1).replace("-", " ").title()
 
     return {
+        "title": race_title,
         "track": track,
-        "title": race_title or t,
-        "winner": winner or "—",
+        "winner": winner,
         "link": link or "",
-        "status": "official" if winner else "pending",
         "source": "offtrackbetting",
+        "fetched": now_et().isoformat(),
     }
 
 
 def fetch_stakes_from_otb() -> list[dict]:
     items: list[dict] = []
     seen: set[str] = set()
+    year = str(now_et().year)
+    prev = str(now_et().year - 1)
 
     for feed in OTB_FEEDS:
         try:
             raw = fetch(feed)
+        except (HTTPError, URLError, TimeoutError) as e:
+            print(f"OTB feed fail {feed}: {e}", file=sys.stderr)
+            continue
+        try:
             root = ET.fromstring(raw)
-        except (HTTPError, URLError, TimeoutError, ET.ParseError) as e:
-            print(f"OTB feed skip {feed}: {e}", file=sys.stderr)
+        except ET.ParseError as e:
+            print(f"OTB XML fail {feed}: {e}", file=sys.stderr)
             continue
 
-        # RSS 2.0: channel/item
-        channel = root.find("channel")
-        entries = channel.findall("item") if channel is not None else root.findall("item")
-        # Atom fallback
-        if not entries:
-            ns = {"a": "http://www.w3.org/2005/Atom"}
-            entries = root.findall("a:entry", ns)
-
-        for el in entries:
-            title = (el.findtext("title") or "").strip()
-            link = (el.findtext("link") or "").strip()
-            if not link:
-                link_el = el.find("link")
-                if link_el is not None:
-                    link = (link_el.get("href") or "").strip()
-            desc = (el.findtext("description") or el.findtext("{http://www.w3.org/2005/Atom}summary") or "").strip()
-
-            parsed = parse_otb_item(title, desc, link)
-            if not parsed:
+        for item in root.findall("./channel/item"):
+            title = item.findtext("title") or ""
+            link = item.findtext("link") or ""
+            desc = item.findtext("description") or ""
+            if year not in title and prev not in title:
                 continue
-            key = (parsed.get("title") or "") + "|" + (parsed.get("winner") or "")
+            rec = parse_otb_item(title, desc, link)
+            if not rec:
+                continue
+            key = rec["title"].lower()
             if key in seen:
                 continue
             seen.add(key)
-            items.append(parsed)
+            items.append(rec)
 
-        if items:
-            print(f"OTB: {len(items)} stakes from {feed}")
-            break
-
-    return items[:40]
-
-
-def seasonal_tracks(day: datetime) -> list[dict]:
-    """Только если tracks пустой — шаблон сезона (pending)."""
-    month = day.month
-    if month in (7, 8, 9):
-        names = [("Saratoga", "SAR"), ("Del Mar", "DMR"), ("Monmouth Park", "MTH")]
-    elif month in (10, 11):
-        names = [("Keeneland", "KEE"), ("Santa Anita", "SA"), ("Belmont at Aqueduct", "BAQ")]
-    elif month in (12, 1, 2, 3):
-        names = [("Gulfstream Park", "GP"), ("Santa Anita", "SA"), ("Aqueduct", "AQU")]
-    else:
-        names = [("Keeneland", "KEE"), ("Churchill Downs", "CD"), ("Santa Anita", "SA")]
-
-    out = []
-    for name, code in names:
-        out.append({
-            "track": name,
-            "code": code,
-            "races": [
-                {
-                    "race": n,
-                    "title": "",
-                    "winner": "— ожидание —",
-                    "jockey": "",
-                    "trainer": "",
-                    "odds": "",
-                    "margin": "",
-                    "status": "pending",
-                }
-                for n in range(1, 10)
-            ],
-        })
-    return out
+    return items
 
 
 def main() -> int:
-    day = now_et()
     existing: dict = {}
     if OUT.exists():
         try:
             existing = json.loads(OUT.read_text(encoding="utf-8"))
         except json.JSONDecodeError:
-            print("WARN: results.json broken — rebuild", file=sys.stderr)
+            print("WARN: results.json broken — keep minimal shell", file=sys.stderr)
             existing = {}
 
-    # Ручные данные сохраняем
-    tracks = existing.get("tracks") or []
-    flat_results = existing.get("results") or []
-    if not tracks:
-        tracks = seasonal_tracks(day)
-        print("tracks empty → seasonal template")
+    # Критично: сохраняем races[] (Equibase cards/results)
+    races = existing.get("races")
+    if races is None:
+        races = []
 
-    stakes: list[dict] = []
-    source = "manual"
-    note = "Обычные заезды — вручную в tracks. Stakes — OTB RSS (если доступен)."
+    tracks = existing.get("tracks")  # legacy, не обязателен
+    flat_results = existing.get("results") or []
 
     try:
         stakes = fetch_stakes_from_otb()
-        if stakes:
-            source = "manual+otb-rss"
-            note = "Обычные заезды — вручную. Крупные stakes — RSS OffTrackBetting.com."
-        else:
-            # не затираем старые stakes, если RSS пустой/403
+        if not stakes:
             stakes = existing.get("stakes_results") or []
             print("OTB empty — keep previous stakes_results", file=sys.stderr)
     except Exception as e:
         print(f"OTB failed: {e}", file=sys.stderr)
         stakes = existing.get("stakes_results") or []
 
-    payload = {
-        "updated": now_et().isoformat(),
-        "date": day.strftime("%Y-%m-%d"),
-        "source": source,
-        "note": note,
-        "results": flat_results,
-        "stakes_results": stakes,
-        "tracks": tracks,
-    }
+    # Не затираем date/source от equibase, если races уже есть
+    payload = dict(existing)  # все прежние ключи
+    payload["stakes_results"] = stakes
+    payload["results"] = flat_results
+    payload["races"] = races
+    if tracks is not None:
+        payload["tracks"] = tracks
+
+    # updated для stakes-слоя — отдельная метка, не ломаем equibase date
+    payload["stakes_updated"] = now_et().isoformat()
+    if not payload.get("updated"):
+        payload["updated"] = payload["stakes_updated"]
+    if not payload.get("date"):
+        payload["date"] = now_et().strftime("%Y-%m-%d")
+    if not payload.get("note"):
+        payload["note"] = (
+            "races[] — Equibase (cards/results GHA). "
+            "stakes_results — OTB RSS. update_results.py не затирает races[]."
+        )
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {OUT} source={source} tracks={len(tracks)} stakes={len(stakes)}")
+    OUT.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    print(
+        f"Wrote {OUT}: races={len(races)} stakes={len(stakes)} "
+        f"(races[] preserved)"
+    )
     return 0
 
 

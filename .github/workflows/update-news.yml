@@ -1,4 +1,3 @@
-
 name: Update racing news and races
 
 on:
@@ -23,12 +22,8 @@ jobs:
         run: python scripts/update_news.py
         continue-on-error: true
 
-      # Гонки дня — только Equibase workflow (update-cards.yml)
-      # - name: Update today's races
-      #   run: python scripts/update_races.py
-      #   continue-on-error: true
-
-      - name: Update results (OTB RSS + manual tracks)
+      # Только stakes_results; races[] НЕ затирается (см. update_results.py)
+      - name: Update stakes_results (OTB RSS)
         run: python scripts/update_results.py
         continue-on-error: true
 
@@ -40,6 +35,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes"
           else
-            git commit -m "chore: auto-update news and results"
+            git commit -m "chore: auto-update news and stakes_results"
             git push
           fi
