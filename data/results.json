@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T02:35:21.533467+00:00",
+  "updated": "2026-09-11T08:29:15.217583+00:00",
   "date": "2026-09-10",
   "source": "equibase-quick-results",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
