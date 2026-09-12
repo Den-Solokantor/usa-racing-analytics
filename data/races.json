@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T13:47:52.444534+00:00",
+  "updated": "2026-09-12T17:58:05.854337+00:00",
   "source": "equibase-parser-gha",
   "date": "2026-09-12",
   "races": [
@@ -892,12 +892,6 @@
           "name": "Wednesday At Shady",
           "ml": 7.0,
           "win": null
-        },
-        {
-          "post": 6,
-          "name": "Ridin Solo",
-          "ml": 13.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -969,12 +963,6 @@
       "distance": "Five And One Half Furlongs",
       "purse": "Purse $5,000",
       "horses": [
-        {
-          "post": 1,
-          "name": "Voices of Autism",
-          "ml": 7.0,
-          "win": null
-        },
         {
           "post": 2,
           "name": "Midship Molly",
@@ -1170,7 +1158,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1211,7 +1200,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1235,12 +1225,6 @@
           "win": null
         },
         {
-          "post": 3,
-          "name": "Push My Button",
-          "ml": 4.0,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "Going Streakin",
           "ml": 3.0,
@@ -1258,7 +1242,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1322,12 +1307,6 @@
       "distance": "Six Furlongs",
       "purse": "Purse $11,000",
       "horses": [
-        {
-          "post": 1,
-          "name": "Better Have Cash",
-          "ml": 13.0,
-          "win": null
-        },
         {
           "post": 2,
           "name": "Willowy",
@@ -1459,12 +1438,6 @@
           "win": null
         },
         {
-          "post": 5,
-          "name": "Panic Mode",
-          "ml": 5.0,
-          "win": null
-        },
-        {
           "post": 6,
           "name": "Bizy Dreamin",
           "ml": 16.0,
@@ -1577,12 +1550,6 @@
           "win": null
         },
         {
-          "post": 4,
-          "name": "Capita Springs",
-          "ml": 5.0,
-          "win": null
-        },
-        {
           "post": 5,
           "name": "Into Music",
           "ml": 4.5,
@@ -1640,12 +1607,6 @@
           "name": "Indie Freedom",
           "ml": 3.5,
           "win": null
-        },
-        {
-          "post": 6,
-          "name": "Arrest",
-          "ml": 5.5,
-          "win": null
         }
       ],
       "preview": "",
@@ -1686,12 +1647,6 @@
           "post": 4,
           "name": "She's Savvy Ally",
           "ml": 3.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Crypto Soleil",
-          "ml": 11.0,
           "win": null
         },
         {
@@ -1777,45 +1732,15 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Midnight Approval",
-          "ml": 9.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "The Man the Myth",
           "ml": 16.0,
           "win": null
         },
         {
-          "post": 4,
-          "name": "Ramblingamblinman",
-          "ml": 6.0,
-          "win": null
-        },
-        {
           "post": 5,
           "name": "Bears' D",
           "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Saint Robert's Row (KY)",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Whatsyourobjective",
-          "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Bluegrass Tap",
-          "ml": 11.0,
           "win": null
         },
         {
@@ -1863,12 +1788,6 @@
           "post": 3,
           "name": "Aero Star",
           "ml": 2.6,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Got Ghosted",
-          "ml": 16.0,
           "win": null
         },
         {
@@ -1935,18 +1854,6 @@
           "name": "Orphan Addy",
           "ml": 3.0,
           "win": null
-        },
-        {
-          "post": 6,
-          "name": "Golden Winterapple",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Stopdistractingme",
-          "ml": 6.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -1969,12 +1876,6 @@
           "post": 1,
           "name": "Smoocherro",
           "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Kiki Krazy",
-          "ml": 9.0,
           "win": null
         },
         {
@@ -2061,12 +1962,6 @@
           "win": null
         },
         {
-          "post": 7,
-          "name": "North Ship",
-          "ml": 6.0,
-          "win": null
-        },
-        {
           "post": 8,
           "name": "Unload",
           "ml": 7.0,
@@ -2084,7 +1979,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -2173,7 +2069,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -2184,12 +2081,6 @@
       "distance": "One And One Eighth Miles",
       "purse": "Purse $67,000",
       "horses": [
-        {
-          "post": 1,
-          "name": "Speightsy Rival",
-          "ml": 31.0,
-          "win": null
-        },
         {
           "post": 2,
           "name": "Tammy's Kiss",
@@ -2245,21 +2136,9 @@
           "win": null
         },
         {
-          "post": 11,
-          "name": "Twas the Law",
-          "ml": 16.0,
-          "win": null
-        },
-        {
           "post": 12,
           "name": "Modern Escape",
           "ml": 51.0,
-          "win": null
-        },
-        {
-          "post": 13,
-          "name": "Union Rose",
-          "ml": 7.0,
           "win": null
         }
       ],
@@ -2268,7 +2147,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -2369,12 +2249,6 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Oblivion",
-          "ml": 6.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Coach Pope",
           "ml": 2.0,
@@ -2438,18 +2312,6 @@
           "post": 13,
           "name": "Heise",
           "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "Cybersteel",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 15,
-          "name": "Fiestabowlforemike",
-          "ml": 11.0,
           "win": null
         }
       ],
@@ -2532,12 +2394,6 @@
           "post": 1,
           "name": "Harrodsburg",
           "ml": 4.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Here Mi Song",
-          "ml": 13.0,
           "win": null
         },
         {
