@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-11T18:50:29.891454+00:00",
+  "updated": "2026-09-12T02:44:14.254231+00:00",
   "date": "2026-09-11",
-  "source": "manual+cards",
+  "source": "equibase-quick-results",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
   "results": [],
   "stakes_results": [],
@@ -13,10 +13,11 @@
       "title": "Race 1",
       "distance": "Eight Hundred And Seventy Yards",
       "purse": "Purse $25,400",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -29,7 +30,8 @@
           "post": 2,
           "name": "L Squared",
           "ml": 4.5,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.8
         },
         {
           "post": 3,
@@ -41,13 +43,15 @@
           "post": 5,
           "name": "Wedding Groom",
           "ml": 3.5,
-          "place": null
+          "place": 1,
+          "mutuel_win": 2.4
         },
         {
           "post": 6,
           "name": "Cash Snow",
           "ml": 9.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 6.6
         },
         {
           "post": 7,
@@ -76,10 +80,11 @@
       "title": "Race 2",
       "distance": "Four Hundred Yards",
       "purse": "Purse $34,600",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -104,13 +109,15 @@
           "post": 4,
           "name": "Breviloquent",
           "ml": 4.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.8
         },
         {
           "post": 6,
           "name": "Lyte My Fire",
           "ml": 5.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 3.8
         },
         {
           "post": 7,
@@ -122,7 +129,8 @@
           "post": 8,
           "name": "Fabulous Piloto",
           "ml": 5.5,
-          "place": null
+          "place": 2,
+          "mutuel_win": 3.4
         },
         {
           "post": 9,
@@ -145,10 +153,11 @@
       "title": "Race 3",
       "distance": "Four Hundred Yards",
       "purse": "Purse $39,600",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -167,7 +176,8 @@
           "post": 4,
           "name": "Pick Your Pour",
           "ml": 7.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.4
         },
         {
           "post": 5,
@@ -197,13 +207,15 @@
           "post": 9,
           "name": "Woody Rocks",
           "ml": 4.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 4.8
         },
         {
           "post": 10,
           "name": "Myy Flashn Denali",
           "ml": 13.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 14.2
         }
       ]
     },
@@ -214,10 +226,11 @@
       "title": "Race 4",
       "distance": "Three Hundred And Fifty Yards",
       "purse": "Purse $34,600",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -242,7 +255,8 @@
           "post": 4,
           "name": "Classy Cowgirl 123",
           "ml": 4.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 4.2
         },
         {
           "post": 5,
@@ -289,17 +303,19 @@
       "title": "Race 5",
       "distance": "Four Hundred Yards",
       "purse": "Purse $75,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 1,
           "name": "Fly Girl 123",
           "ml": 21.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 10.6
         },
         {
           "post": 2,
@@ -311,7 +327,8 @@
           "post": 3,
           "name": "Naughty Politics",
           "ml": 4.5,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.1
         },
         {
           "post": 4,
@@ -329,7 +346,8 @@
           "post": 6,
           "name": "Bp Moonlight",
           "ml": 3.5,
-          "place": null
+          "place": 2,
+          "mutuel_win": 3.6
         },
         {
           "post": 7,
@@ -347,7 +365,8 @@
           "post": 9,
           "name": "Jm Famous Wynn",
           "ml": 5.5,
-          "place": null
+          "place": 4,
+          "mutuel_win": 2.8
         },
         {
           "post": 10,
@@ -364,17 +383,19 @@
       "title": "Race 6",
       "distance": "Five And One Half Furlongs",
       "purse": "Purse $39,600",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 1,
           "name": "Trust Louie Q",
           "ml": 9.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 3.4
         },
         {
           "post": 2,
@@ -398,13 +419,15 @@
           "post": 5,
           "name": "Bitcoin Buy",
           "ml": 3.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 4.2
         },
         {
           "post": 6,
           "name": "Fruity Snack",
           "ml": 3.5,
-          "place": null
+          "place": 2,
+          "mutuel_win": 2.8
         }
       ]
     },
@@ -415,17 +438,19 @@
       "title": "Race 7",
       "distance": "Six Furlongs",
       "purse": "Purse $33,600",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 1,
           "name": "Lucky Vegas",
           "ml": 9.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.8
         },
         {
           "post": 2,
@@ -449,13 +474,15 @@
           "post": 5,
           "name": "Sarah's Court",
           "ml": 5.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 38.8
         },
         {
           "post": 6,
           "name": "Pink Pacific",
           "ml": 6.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 5.4
         }
       ]
     },
@@ -466,17 +493,19 @@
       "title": "Race 8",
       "distance": "Five And One Half Furlongs",
       "purse": "Purse $33,600",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 1,
           "name": "Fifty Cinco",
           "ml": 9.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.2
         },
         {
           "post": 3,
@@ -494,13 +523,15 @@
           "post": 5,
           "name": "McKinzie Street",
           "ml": 3.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 3.2
         },
         {
           "post": 6,
           "name": "Fire Breather",
           "ml": 3.5,
-          "place": null
+          "place": 2,
+          "mutuel_win": 2.2
         }
       ]
     },
@@ -511,10 +542,11 @@
       "title": "Race 9",
       "distance": "Five And One Half Furlongs",
       "purse": "Purse $23,300",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -539,19 +571,22 @@
           "post": 4,
           "name": "I Win Lika Girl",
           "ml": 16.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 79.8
         },
         {
           "post": 5,
           "name": "In Spite of It",
           "ml": 4.5,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.1
         },
         {
           "post": 6,
           "name": "Vegas Love",
           "ml": 9.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 4.6
         },
         {
           "post": 7,
@@ -568,10 +603,11 @@
       "title": "Race 1",
       "distance": "Three Hundred Yards",
       "purse": "Purse $3,250",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -584,7 +620,8 @@
           "post": 2,
           "name": "Tres Patas Blancas",
           "ml": 2.6,
-          "place": null
+          "place": 2,
+          "mutuel_win": 2.4
         },
         {
           "post": 3,
@@ -596,13 +633,15 @@
           "post": 4,
           "name": "El Dorion",
           "ml": 5.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 4.4
         },
         {
           "post": 5,
           "name": "Shesarelentlessgirl",
           "ml": 3.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 5.2
         }
       ]
     },
@@ -613,10 +652,11 @@
       "title": "Race 2",
       "distance": "Five Furlongs",
       "purse": "Purse $3,250",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -635,13 +675,15 @@
           "post": 3,
           "name": "Sahara Sue",
           "ml": 3.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 7.0
         },
         {
           "post": 4,
           "name": "Zohere",
           "ml": 7.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 6.2
         },
         {
           "post": 5,
@@ -653,7 +695,8 @@
           "post": 6,
           "name": "Rally Cat",
           "ml": 1.8,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.6
         }
       ]
     },
@@ -664,10 +707,11 @@
       "title": "Race 3",
       "distance": "Five Hundred And Seventy",
       "purse": "Purse $3,250",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -686,19 +730,22 @@
           "post": 3,
           "name": "Docs Whataform",
           "ml": 13.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 3.0
         },
         {
           "post": 4,
           "name": "Leo Dash",
           "ml": 11.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 3.4
         },
         {
           "post": 6,
           "name": "Rend Collective",
           "ml": 3.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 3.8
         }
       ]
     },
@@ -709,10 +756,11 @@
       "title": "Race 4",
       "distance": "Four Furlongs And Seventy Yards",
       "purse": "Purse $4,500",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -725,7 +773,8 @@
           "post": 2,
           "name": "Gonna Getcha Good",
           "ml": 13.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 29.6
         },
         {
           "post": 3,
@@ -743,13 +792,15 @@
           "post": 5,
           "name": "Size Lord",
           "ml": 11.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 7.8
         },
         {
           "post": 6,
           "name": "Weston",
           "ml": 1.8,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.6
         }
       ]
     },
@@ -760,10 +811,11 @@
       "title": "Race 5",
       "distance": "Three Hundred Yards",
       "purse": "Purse $7,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -776,7 +828,8 @@
           "post": 2,
           "name": "Larks First Kiss",
           "ml": 7.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 5.0
         },
         {
           "post": 3,
@@ -788,13 +841,15 @@
           "post": 4,
           "name": "London Lc",
           "ml": 11.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 2.2
         },
         {
           "post": 5,
           "name": "Jezzabelle",
           "ml": 16.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.1
         }
       ]
     },
@@ -805,10 +860,11 @@
       "title": "Race 6",
       "distance": "Three Hundred And Fifty Yards",
       "purse": "Purse $5,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -833,19 +889,22 @@
           "post": 4,
           "name": "Bw Just a Ruger",
           "ml": 13.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 3.2
         },
         {
           "post": 5,
           "name": "Milagro Lady",
           "ml": 3.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 12.6
         },
         {
           "post": 6,
           "name": "Sheknowsshesmokn",
           "ml": 7.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 4.4
         }
       ]
     },
@@ -856,17 +915,19 @@
       "title": "Race 7",
       "distance": "Three Hundred And Fifty Yards",
       "purse": "Purse $7,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 1,
           "name": "Pevs Ima Lazajane",
           "ml": 13.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.1
         },
         {
           "post": 2,
@@ -878,13 +939,15 @@
           "post": 4,
           "name": "Gw Lighning Strike",
           "ml": 3.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 3.6
         },
         {
           "post": 5,
           "name": "Bg Hawks an Eagles",
           "ml": 1.8,
-          "place": null
+          "place": 1,
+          "mutuel_win": 3.4
         },
         {
           "post": 6,
@@ -901,10 +964,11 @@
       "title": "Race 8",
       "distance": "Six Furlongs",
       "purse": "Purse $3,250",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -917,7 +981,8 @@
           "post": 2,
           "name": "Last Call Zondlo",
           "ml": 6.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 3.6
         },
         {
           "post": 4,
@@ -935,7 +1000,8 @@
           "post": 6,
           "name": "Gonzaga Bay",
           "ml": 4.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 3.8
         },
         {
           "post": 7,
@@ -947,7 +1013,8 @@
           "post": 8,
           "name": "Neptune's Storm",
           "ml": 5.5,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.6
         }
       ]
     },
@@ -958,7 +1025,7 @@
       "title": "Race 1",
       "distance": "Six Furlongs",
       "purse": "Purse $13,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
         "Result",
@@ -975,19 +1042,22 @@
           "post": 2,
           "name": "Power to Glory",
           "ml": 5.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 11.0
         },
         {
           "post": 3,
           "name": "Amazon Time",
           "ml": 11.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 3.2
         },
         {
           "post": 4,
           "name": "Fusion",
           "ml": 2.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 2.6
         },
         {
           "post": 5,
@@ -1004,7 +1074,7 @@
       "title": "Race 2",
       "distance": "Five And One Half Furlongs",
       "purse": "Purse $10,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
         "Result",
@@ -1015,7 +1085,8 @@
           "post": 1,
           "name": "Blue Opal",
           "ml": 5.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 7.0
         },
         {
           "post": 2,
@@ -1027,13 +1098,15 @@
           "post": 3,
           "name": "She Stopped Short",
           "ml": 4.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 3.2
         },
         {
           "post": 4,
           "name": "Belly Dance",
           "ml": 3.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 7.8
         },
         {
           "post": 5,
@@ -1050,7 +1123,7 @@
       "title": "Race 3",
       "distance": "Five Furlongs",
       "purse": "Purse $9,500",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
         "Result",
@@ -1061,19 +1134,20 @@
           "post": 2,
           "name": "Purse Snatcher",
           "ml": 4.5,
-          "place": null
+          "place": 1,
+          "mutuel_win": 2.6
         },
         {
           "post": 3,
           "name": "Mo Breezy",
           "ml": 5.0,
-          "place": null
+          "place": 2
         },
         {
           "post": 5,
           "name": "Easter On Parade",
           "ml": 11.0,
-          "place": null
+          "place": 3
         }
       ]
     },
@@ -1084,7 +1158,7 @@
       "title": "Race 4",
       "distance": "One Mile",
       "purse": "Purse $8,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
         "Result",
@@ -1095,7 +1169,8 @@
           "post": 1,
           "name": "Collator",
           "ml": 3.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 3.4
         },
         {
           "post": 2,
@@ -1113,13 +1188,15 @@
           "post": 4,
           "name": "Sir Thomas Teal",
           "ml": 4.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.1
         },
         {
           "post": 5,
           "name": "Boris Badenov",
           "ml": 3.5,
-          "place": null
+          "place": 1,
+          "mutuel_win": 7.2
         }
       ]
     },
@@ -1130,7 +1207,7 @@
       "title": "Race 5",
       "distance": "Four And One Half Furlongs",
       "purse": "Purse $20,500",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
         "Result",
@@ -1141,13 +1218,15 @@
           "post": 1,
           "name": "Justicetheghost",
           "ml": 3.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 5.6
         },
         {
           "post": 2,
           "name": "Pretty Miss Dolly",
           "ml": 3.5,
-          "place": null
+          "place": 1,
+          "mutuel_win": 7.8
         },
         {
           "post": 3,
@@ -1165,7 +1244,8 @@
           "post": 6,
           "name": "Some Given Event",
           "ml": 5.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.2
         }
       ]
     },
@@ -1176,29 +1256,31 @@
       "title": "Race 6",
       "distance": "One Mile",
       "purse": "Purse $13,500",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 2,
           "name": "Clay Basket",
           "ml": 5.5,
-          "place": null
+          "place": 1,
+          "mutuel_win": 2.8
         },
         {
           "post": 4,
           "name": "Union Empress",
           "ml": 4.5,
-          "place": null
+          "place": 3
         },
         {
           "post": 7,
           "name": "Golexgo",
           "ml": 3.5,
-          "place": null
+          "place": 2
         }
       ]
     },
@@ -1209,23 +1291,26 @@
       "title": "Race 7",
       "distance": "One Mile And Seventy Yards",
       "purse": "Purse $8,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 2,
           "name": "Race Day Rebal",
           "ml": 3.5,
-          "place": null
+          "place": 2,
+          "mutuel_win": 2.4
         },
         {
           "post": 3,
           "name": "Burning Leaves",
           "ml": 5.5,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.2
         },
         {
           "post": 4,
@@ -1237,7 +1322,8 @@
           "post": 6,
           "name": "Hemp Heaven",
           "ml": 11.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 7.0
         },
         {
           "post": 7,
@@ -1260,10 +1346,11 @@
       "title": "Race 8",
       "distance": "One Mile",
       "purse": "Purse $9,600",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1282,7 +1369,8 @@
           "post": 4,
           "name": "Deep Desires",
           "ml": 6.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 3.4
         },
         {
           "post": 6,
@@ -1294,7 +1382,8 @@
           "post": 8,
           "name": "Whiskey Business",
           "ml": 4.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 4.2
         },
         {
           "post": 9,
@@ -1306,7 +1395,8 @@
           "post": 10,
           "name": "Denise Says No",
           "ml": 7.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 3.6
         }
       ]
     },
@@ -1317,7 +1407,7 @@
       "title": "Race 1",
       "distance": "Six Furlongs",
       "purse": "Purse $78,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
         "Result",
@@ -1340,19 +1430,22 @@
           "post": 3,
           "name": "Tarantino",
           "ml": 2.4,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.1
         },
         {
           "post": 4,
           "name": "Barksdale",
           "ml": 3.5,
-          "place": null
+          "place": 2,
+          "mutuel_win": 3.44
         },
         {
           "post": 6,
           "name": "Tom Cat Tuesday",
           "ml": 7.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 17.94
         }
       ]
     },
@@ -1363,7 +1456,7 @@
       "title": "Race 2",
       "distance": "Six Furlongs",
       "purse": "Purse $67,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
         "Result",
@@ -1386,7 +1479,8 @@
           "post": 3,
           "name": "Joe Joe Dude",
           "ml": 16.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 11.26
         },
         {
           "post": 4,
@@ -1404,13 +1498,15 @@
           "post": 6,
           "name": "Don't Kick Me",
           "ml": 7.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 12.44
         },
         {
           "post": 7,
           "name": "Shaved Ice",
           "ml": 6.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 3.5
         },
         {
           "post": 8,
@@ -1427,7 +1523,7 @@
       "title": "Race 3",
       "distance": "Six Furlongs",
       "purse": "Purse $127,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
         "Result",
@@ -1438,7 +1534,8 @@
           "post": 1,
           "name": "Title Worthy",
           "ml": 4.5,
-          "place": null
+          "place": 1,
+          "mutuel_win": 8.94
         },
         {
           "post": 2,
@@ -1450,13 +1547,15 @@
           "post": 3,
           "name": "Never a Doubt",
           "ml": 2.8,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.1
         },
         {
           "post": 4,
           "name": "Sargent Bilko",
           "ml": 2.4,
-          "place": null
+          "place": 2,
+          "mutuel_win": 3.02
         },
         {
           "post": 6,
@@ -1473,7 +1572,7 @@
       "title": "Race 4",
       "distance": "Six Furlongs",
       "purse": "Purse $120,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
         "Result",
@@ -1484,7 +1583,8 @@
           "post": 1,
           "name": "Light Halo",
           "ml": 9.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 6.36
         },
         {
           "post": 2,
@@ -1514,13 +1614,15 @@
           "post": 7,
           "name": "Greatest Hits",
           "ml": 4.5,
-          "place": null
+          "place": 1,
+          "mutuel_win": 10.26
         },
         {
           "post": 8,
           "name": "Getaway Girl",
           "ml": 5.5,
-          "place": null
+          "place": 2,
+          "mutuel_win": 6.82
         },
         {
           "post": 9,
@@ -1555,7 +1657,7 @@
       "title": "Race 5",
       "distance": "Six Furlongs",
       "purse": "Purse $76,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
         "Result",
@@ -1590,19 +1692,22 @@
           "post": 5,
           "name": "Hillbilly Daydream",
           "ml": 16.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 21.96
         },
         {
           "post": 6,
           "name": "Good Mojo",
           "ml": 7.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 7.74
         },
         {
           "post": 7,
           "name": "Join",
           "ml": 6.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 5.98
         },
         {
           "post": 9,
@@ -1619,10 +1724,11 @@
       "title": "Race 6",
       "distance": "Six And One Half Furlongs",
       "purse": "Purse $36,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1665,7 +1771,8 @@
           "post": 7,
           "name": "Prince of Light",
           "ml": 5.5,
-          "place": null
+          "place": 1,
+          "mutuel_win": 6.16
         },
         {
           "post": 8,
@@ -1677,7 +1784,8 @@
           "post": 9,
           "name": "Kid Twist",
           "ml": 4.5,
-          "place": null
+          "place": 3,
+          "mutuel_win": 2.72
         },
         {
           "post": 10,
@@ -1689,7 +1797,8 @@
           "post": 11,
           "name": "Bird the Legend",
           "ml": 9.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 8.46
         },
         {
           "post": 12,
@@ -1706,10 +1815,11 @@
       "title": "Race 7",
       "distance": "Six Furlongs",
       "purse": "Purse $120,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1728,7 +1838,8 @@
           "post": 3,
           "name": "Appeals to Me",
           "ml": 11.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 15.48
         },
         {
           "post": 4,
@@ -1746,13 +1857,15 @@
           "post": 7,
           "name": "Prosecco",
           "ml": 11.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 15.98
         },
         {
           "post": 8,
           "name": "Miss Moneyball",
           "ml": 16.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 12.4
         },
         {
           "post": 9,
@@ -1787,10 +1900,11 @@
       "title": "Race 8",
       "distance": "Six Furlongs",
       "purse": "Purse $62,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1809,7 +1923,8 @@
           "post": 3,
           "name": "Tiz Mary's Comet",
           "ml": 4.5,
-          "place": null
+          "place": 1,
+          "mutuel_win": 4.12
         },
         {
           "post": 4,
@@ -1851,7 +1966,8 @@
           "post": 10,
           "name": "Capital Connection",
           "ml": 6.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 4.64
         },
         {
           "post": 11,
@@ -1863,7 +1979,8 @@
           "post": 12,
           "name": "Just Asap",
           "ml": 11.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 9.8
         }
       ]
     },
@@ -1874,10 +1991,11 @@
       "title": "Race 9",
       "distance": "One Mile",
       "purse": "Purse $134,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1896,7 +2014,8 @@
           "post": 3,
           "name": "Blue Fire",
           "ml": 5.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 3.48
         },
         {
           "post": 4,
@@ -1908,7 +2027,8 @@
           "post": 5,
           "name": "Union Mist",
           "ml": 7.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 3.56
         },
         {
           "post": 7,
@@ -1926,7 +2046,8 @@
           "post": 9,
           "name": "Gowells Delight",
           "ml": 9.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 13.86
         }
       ]
     },
@@ -1937,10 +2058,11 @@
       "title": "Race 10",
       "distance": "One And One Sixteenth Miles",
       "purse": "Purse $57,000",
-      "status": "pending",
+      "status": "official",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1953,7 +2075,8 @@
           "post": 3,
           "name": "Roguishness",
           "ml": 5.0,
-          "place": null
+          "place": 1,
+          "mutuel_win": 3.72
         },
         {
           "post": 4,
@@ -1989,13 +2112,15 @@
           "post": 9,
           "name": "Wicked Gun",
           "ml": 4.0,
-          "place": null
+          "place": 2,
+          "mutuel_win": 4.46
         },
         {
           "post": 10,
           "name": "Flume's Vino",
           "ml": 21.0,
-          "place": null
+          "place": 3,
+          "mutuel_win": 14.92
         },
         {
           "post": 11,
