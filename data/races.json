@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T14:43:43.537428+00:00",
+  "updated": "2026-09-13T18:24:14.197281+00:00",
   "source": "equibase-parser-gha",
   "date": "2026-09-13",
   "races": [
@@ -704,7 +704,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -763,7 +764,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -822,7 +824,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -911,7 +914,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1432,7 +1436,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1491,7 +1496,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1506,12 +1512,6 @@
           "post": 1,
           "name": "Awesome Noah",
           "ml": 2.8,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Tapit's General",
-          "ml": 13.0,
           "win": null
         },
         {
@@ -1544,7 +1544,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1597,7 +1598,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
