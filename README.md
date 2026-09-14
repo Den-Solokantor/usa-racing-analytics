@@ -2,7 +2,13 @@
 
 Независимая аналитика по американским скачкам.  
 Сайт + данные + место для будущих инструментов.
+## Support the project / Поддержать проект
 
+Dear friends, I am an aspiring developer working hard to improve my software products so that you can use them as effectively and conveniently as possible for your tasks! Unfortunately, I have to work on a very low-end computer, which significantly limits my capabilities as a developer. I am slowly saving up for a powerful new laptop for my work, and I would be grateful for any help you could provide!
+
+Если проект вам полезен — буду рад любой поддержке (новый ноутбук для разработки).
+
+☕ **Donate:** [DonationAlerts — den_solokantor](https://www.donationalerts.com/r/den_solokantor)
 ## Быстрый старт
 
 ```bash
