@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T15:20:00.282465+00:00",
+  "updated": "2026-09-15T19:20:31.131069+00:00",
   "source": "equibase-parser-gha",
   "date": "2026-09-15",
   "races": [
@@ -47,7 +47,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -106,7 +107,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -147,7 +149,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -206,7 +209,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -277,7 +281,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -330,7 +335,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -549,12 +555,6 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Cowgirl Frankie",
-          "ml": 21.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Chanel Point",
           "ml": 21.0,
@@ -720,12 +720,6 @@
       "purse": "Purse $14,000",
       "horses": [
         {
-          "post": 1,
-          "name": "Rockin Rocio",
-          "ml": 3.5,
-          "win": null
-        },
-        {
           "post": 2,
           "name": "Naomi an Ruth",
           "ml": 21.0,
@@ -741,18 +735,6 @@
           "post": 4,
           "name": "Wildwood Triple",
           "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Taxday Peyton",
-          "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Veronicaforthewin",
-          "ml": 8.0,
           "win": null
         },
         {
@@ -921,12 +903,6 @@
           "win": null
         },
         {
-          "post": 5,
-          "name": "Don't Tell Kim",
-          "ml": 3.5,
-          "win": null
-        },
-        {
           "post": 6,
           "name": "I Got the Moves",
           "ml": 31.0,
@@ -980,12 +956,6 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Girlolamo'glory",
-          "ml": 16.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Red Moscato",
           "ml": 3.5,
@@ -1013,12 +983,6 @@
           "post": 7,
           "name": "Bill's Honor",
           "ml": 2.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Hand Over My Heart",
-          "ml": 10.0,
           "win": null
         },
         {
@@ -1054,12 +1018,6 @@
           "post": 2,
           "name": "Show Pam",
           "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Turtle Pace",
-          "ml": 2.4,
           "win": null
         },
         {
@@ -1163,7 +1121,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1216,7 +1175,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1275,7 +1235,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1736,12 +1697,6 @@
           "win": null
         },
         {
-          "post": 3,
-          "name": "Sarah's Rolling",
-          "ml": 4.0,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "Cookie Brookie",
           "ml": 6.0,
@@ -1792,12 +1747,6 @@
           "post": 1,
           "name": "Insipid",
           "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Wickey Bibby",
-          "ml": 13.0,
           "win": null
         },
         {
@@ -2030,18 +1979,6 @@
           "name": "Gabarra",
           "ml": 21.0,
           "win": null
-        },
-        {
-          "post": 10,
-          "name": "Max S (KY)",
-          "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 11,
-          "name": "Mr. Faversham (KY)",
-          "ml": 11.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -2070,18 +2007,6 @@
           "post": 2,
           "name": "Country Belle",
           "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Katerini",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "East Shore",
-          "ml": 1.6,
           "win": null
         },
         {
@@ -2162,12 +2087,6 @@
           "win": null
         },
         {
-          "post": 8,
-          "name": "Moenchanted",
-          "ml": 21.0,
-          "win": null
-        },
-        {
           "post": 9,
           "name": "Hand It Over",
           "ml": 7.0,
@@ -2197,21 +2116,9 @@
       "purse": "Purse $12,000",
       "horses": [
         {
-          "post": 1,
-          "name": "If I Were You",
-          "ml": 21.0,
-          "win": null
-        },
-        {
           "post": 2,
           "name": "Hot Wings",
           "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Valentine Bug",
-          "ml": 3.0,
           "win": null
         },
         {
@@ -2230,18 +2137,6 @@
           "post": 6,
           "name": "Krug",
           "ml": 8.0,
-          "win": null
-        },
-        {
-          "post": 7,
-          "name": "Legal Titan",
-          "ml": 4.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Citizen",
-          "ml": 11.0,
           "win": null
         },
         {
@@ -2268,27 +2163,9 @@
       "purse": "Purse $13,000",
       "horses": [
         {
-          "post": 1,
-          "name": "New Age Bad Girl",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Machen Reigns",
-          "ml": 9.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Sicilian Style Two",
           "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Miss M M",
-          "ml": 3.0,
           "win": null
         },
         {
@@ -2316,21 +2193,9 @@
           "win": null
         },
         {
-          "post": 9,
-          "name": "Alien Princess",
-          "ml": 8.0,
-          "win": null
-        },
-        {
           "post": 10,
           "name": "Grey Market",
           "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 11,
-          "name": "Cloudy Bay",
-          "ml": 6.0,
           "win": null
         }
       ],
@@ -2409,30 +2274,6 @@
           "name": "Marmara",
           "ml": 8.0,
           "win": null
-        },
-        {
-          "post": 11,
-          "name": "Save the Flag",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 12,
-          "name": "Golden Charm",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 13,
-          "name": "Prussian Blue",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "One Violent Affair",
-          "ml": 16.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -2464,12 +2305,6 @@
           "win": null
         },
         {
-          "post": 3,
-          "name": "Blown Away",
-          "ml": 3.5,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "Giacomo Casanova",
           "ml": 5.5,
@@ -2479,12 +2314,6 @@
           "post": 5,
           "name": "A Ok",
           "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Fernando's Gold",
-          "ml": 11.0,
           "win": null
         }
       ],

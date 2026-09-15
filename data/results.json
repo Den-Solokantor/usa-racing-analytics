@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T15:20:00.285707+00:00",
+  "updated": "2026-09-15T19:20:31.134697+00:00",
   "date": "2026-09-15",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -16,7 +16,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -61,7 +62,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -118,7 +120,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -157,7 +160,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -214,7 +218,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -283,7 +288,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -539,12 +545,6 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Cowgirl Frankie",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Chanel Point",
           "ml": 21.0,
@@ -704,12 +704,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Rockin Rocio",
-          "ml": 3.5,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Naomi an Ruth",
           "ml": 21.0,
@@ -725,18 +719,6 @@
           "post": 4,
           "name": "Wildwood Triple",
           "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Taxday Peyton",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Veronicaforthewin",
-          "ml": 8.0,
           "place": null
         },
         {
@@ -899,12 +881,6 @@
           "place": null
         },
         {
-          "post": 5,
-          "name": "Don't Tell Kim",
-          "ml": 3.5,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "I Got the Moves",
           "ml": 31.0,
@@ -956,12 +932,6 @@
           "place": null
         },
         {
-          "post": 2,
-          "name": "Girlolamo'glory",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Red Moscato",
           "ml": 3.5,
@@ -989,12 +959,6 @@
           "post": 7,
           "name": "Bill's Honor",
           "ml": 2.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Hand Over My Heart",
-          "ml": 10.0,
           "place": null
         },
         {
@@ -1028,12 +992,6 @@
           "post": 2,
           "name": "Show Pam",
           "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Turtle Pace",
-          "ml": 2.4,
           "place": null
         },
         {
@@ -1090,7 +1048,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1141,7 +1100,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1192,7 +1152,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1688,12 +1649,6 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Sarah's Rolling",
-          "ml": 4.0,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "Cookie Brookie",
           "ml": 6.0,
@@ -1742,12 +1697,6 @@
           "post": 1,
           "name": "Insipid",
           "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Wickey Bibby",
-          "ml": 13.0,
           "place": null
         },
         {
@@ -1974,18 +1923,6 @@
           "name": "Gabarra",
           "ml": 21.0,
           "place": null
-        },
-        {
-          "post": 10,
-          "name": "Max S (KY)",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 11,
-          "name": "Mr. Faversham (KY)",
-          "ml": 11.0,
-          "place": null
         }
       ]
     },
@@ -2012,18 +1949,6 @@
           "post": 2,
           "name": "Country Belle",
           "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Katerini",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "East Shore",
-          "ml": 1.6,
           "place": null
         },
         {
@@ -2102,12 +2027,6 @@
           "place": null
         },
         {
-          "post": 8,
-          "name": "Moenchanted",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 9,
           "name": "Hand It Over",
           "ml": 7.0,
@@ -2135,21 +2054,9 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "If I Were You",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Hot Wings",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Valentine Bug",
-          "ml": 3.0,
           "place": null
         },
         {
@@ -2168,18 +2075,6 @@
           "post": 6,
           "name": "Krug",
           "ml": 8.0,
-          "place": null
-        },
-        {
-          "post": 7,
-          "name": "Legal Titan",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Citizen",
-          "ml": 11.0,
           "place": null
         },
         {
@@ -2204,27 +2099,9 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "New Age Bad Girl",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Machen Reigns",
-          "ml": 9.0,
-          "place": null
-        },
-        {
           "post": 3,
           "name": "Sicilian Style Two",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 4,
-          "name": "Miss M M",
-          "ml": 3.0,
           "place": null
         },
         {
@@ -2252,21 +2129,9 @@
           "place": null
         },
         {
-          "post": 9,
-          "name": "Alien Princess",
-          "ml": 8.0,
-          "place": null
-        },
-        {
           "post": 10,
           "name": "Grey Market",
           "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 11,
-          "name": "Cloudy Bay",
-          "ml": 6.0,
           "place": null
         }
       ]
@@ -2343,30 +2208,6 @@
           "name": "Marmara",
           "ml": 8.0,
           "place": null
-        },
-        {
-          "post": 11,
-          "name": "Save the Flag",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Golden Charm",
-          "ml": 6.0,
-          "place": null
-        },
-        {
-          "post": 13,
-          "name": "Prussian Blue",
-          "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 14,
-          "name": "One Violent Affair",
-          "ml": 16.0,
-          "place": null
         }
       ]
     },
@@ -2396,12 +2237,6 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Blown Away",
-          "ml": 3.5,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "Giacomo Casanova",
           "ml": 5.5,
@@ -2411,12 +2246,6 @@
           "post": 5,
           "name": "A Ok",
           "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Fernando's Gold",
-          "ml": 11.0,
           "place": null
         }
       ]
@@ -2472,6 +2301,5 @@
         }
       ]
     }
-  ],
-  "stakes_updated": "2026-09-15T12:24:25.177443-04:00"
+  ]
 }
