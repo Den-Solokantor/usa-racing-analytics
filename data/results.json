@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T15:11:54.710342+00:00",
+  "updated": "2026-09-16T19:10:43.441893+00:00",
   "date": "2026-09-16",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -89,12 +89,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Jolie Candy",
-          "ml": 7.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Boaz the Overcomer",
           "ml": 9.0,
@@ -134,18 +128,6 @@
           "post": 8,
           "name": "Billy de Kid",
           "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 9,
-          "name": "Discreet Tiger",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Codis Breaker",
-          "ml": 21.0,
           "place": null
         }
       ]
@@ -290,12 +272,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Piney Bluff",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Citizen Barrett",
           "ml": 4.5,
@@ -413,12 +389,6 @@
           "post": 2,
           "name": "So Thrilling",
           "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Royal Dusty",
-          "ml": 9.0,
           "place": null
         },
         {
@@ -583,7 +553,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -628,7 +599,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -673,7 +645,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -724,7 +697,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -769,7 +743,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -820,7 +795,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -938,12 +914,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Pilkington",
-          "ml": 6.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Snow King",
           "ml": 4.5,
@@ -998,18 +968,6 @@
           "post": 1,
           "name": "Jackie Paper",
           "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Little Trouble",
-          "ml": 4.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Summer in Adriane",
-          "ml": 7.0,
           "place": null
         },
         {
@@ -1155,18 +1113,6 @@
           "name": "Mitole Princess",
           "ml": 16.0,
           "place": null
-        },
-        {
-          "post": 9,
-          "name": "Morgs World",
-          "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Everything Bugs Me",
-          "ml": 11.0,
-          "place": null
         }
       ]
     },
@@ -1223,12 +1169,6 @@
           "post": 7,
           "name": "Marq Loantree",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "Belmont Shore",
-          "ml": 4.5,
           "place": null
         },
         {
@@ -1376,12 +1316,6 @@
           "place": null
         },
         {
-          "post": 7,
-          "name": "Instant Love",
-          "ml": 9.0,
-          "place": null
-        },
-        {
           "post": 8,
           "name": "Maywood Honor",
           "ml": 4.0,
@@ -1391,12 +1325,6 @@
           "post": 9,
           "name": "Dancing Boots",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Magica",
-          "ml": 13.0,
           "place": null
         },
         {
@@ -1445,12 +1373,6 @@
           "place": null
         },
         {
-          "post": 4,
-          "name": "Batter Up",
-          "ml": 4.5,
-          "place": null
-        },
-        {
           "post": 5,
           "name": "R N R Audible",
           "ml": 5.5,
@@ -1467,12 +1389,6 @@
           "name": "Outofthedark",
           "ml": 7.0,
           "place": null
-        },
-        {
-          "post": 8,
-          "name": "Dancing Porky",
-          "ml": 11.0,
-          "place": null
         }
       ]
     },
@@ -1486,7 +1402,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1543,7 +1460,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1600,7 +1518,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1628,12 +1547,6 @@
           "place": null
         },
         {
-          "post": 7,
-          "name": "Amazing Max",
-          "ml": 2.6,
-          "place": null
-        },
-        {
           "post": 8,
           "name": "Honor and Courage",
           "ml": 16.0,
@@ -1651,7 +1564,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1696,7 +1610,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1770,18 +1685,6 @@
           "name": "Charging Force",
           "ml": 5.5,
           "place": null
-        },
-        {
-          "post": 13,
-          "name": "Double Arrow",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 14,
-          "name": "When I Go",
-          "ml": 4.5,
-          "place": null
         }
       ]
     },
@@ -1835,12 +1738,6 @@
           "place": null
         },
         {
-          "post": 7,
-          "name": "Glazin' Fury",
-          "ml": 7.0,
-          "place": null
-        },
-        {
           "post": 8,
           "name": "Ducat",
           "ml": 16.0,
@@ -1850,12 +1747,6 @@
           "post": 9,
           "name": "Super Costly",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Miss Pierre",
-          "ml": 13.0,
           "place": null
         },
         {
@@ -2088,18 +1979,6 @@
           "name": "Cosmopolitan Lady",
           "ml": 3.5,
           "place": null
-        },
-        {
-          "post": 14,
-          "name": "Crystal Frost",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 16,
-          "name": "Perpetua",
-          "ml": 7.0,
-          "place": null
         }
       ]
     },
@@ -2113,7 +1992,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2170,7 +2050,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2221,7 +2102,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2290,7 +2172,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2353,7 +2236,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2568,6 +2452,5 @@
         }
       ]
     }
-  ],
-  "stakes_updated": "2026-09-16T12:15:44.765754-04:00"
+  ]
 }
