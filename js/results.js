@@ -1,4 +1,4 @@
-// Results board — data/results.json, группировка по ипподрому
+// Results board — data/results.json + сверка с localStorage picks
 (function () {
   function esc(s) {
     return String(s ?? '')
@@ -9,70 +9,40 @@
   }
 
   const TRACK_ICONS = {
-    "Saratoga": "🏆",
-    "Belmont": "🗽",
-    "Belmont at Aqueduct": "🗽",
-    "Aqueduct": "❄️",
-    "Churchill Downs": "🌹",
-    "Del Mar": "🌊",
-    "Santa Anita": "🌴",
-    "Gulfstream Park": "🦩",
-    "Gulfstream Park West": "🦩",
-    "Keeneland": "🍂",
-    "Oaklawn Park": "💎",
-    "Monmouth Park": "🎡",
-    "Colonial Downs": "🏛️",
-    "Ellis Park": "🐎",
-    "Canterbury Park": "🌲",
-    "Albuquerque": "🌵",
-    "Atokad Downs": "🌾",
-    "ATO": "🌾",
-    "Belterra Park": "🍀",
-    "BTP": "🍀",
-    "Parx Racing": "🔔",
-    "Laurel Park": "🍃",
-    "Pimlico": "🖤",
-    "Penn National": "🎯",
-    "Thistledown": "🌸",
-    "Finger Lakes": "💧",
-    "Horseshoe Indianapolis": "🎰",
-    "Indiana Grand": "🎰",
-    "Tampa Bay Downs": "☀️",
-    "Fair Grounds": "🎺",
-    "Charles Town": "⛰️",
-    "CT": "⛰️",
-    "Turfway Park": "🌉",
-    "Turf Paradise": "🏜️",
-    "Golden Gate Fields": "🌁",
-    "Emerald Downs": "🌿",
-    "Zia Park": "☀️",
-    "Lone Star Park": "⭐",
-    "Remington Park": "🤠",
-    "Prairie Meadows": "🌽",
-    "Woodbine": "🍁",
-    "Delaware Park": "🌳",
-    "Hawthorne": "🏙️",
-    "Mahoning Valley": "🟠",
-    "Ruidoso Downs": "🏔️",
-    "CNL": "🏛️",
-    "DMR": "🌊",
-    "SAR": "🏆",
-    "ALB": "🌵",
-    "BKF": "📘",
-    "ELK": "🦌",
+    "Saratoga": "🏆", "Belmont": "🗽", "Belmont at Aqueduct": "🗽", "Aqueduct": "❄️",
+    "Churchill Downs": "🌹", "Del Mar": "🌊", "Santa Anita": "🌴", "Gulfstream Park": "🦩",
+    "Keeneland": "🍂", "Oaklawn Park": "💎", "Monmouth Park": "🎡", "Colonial Downs": "🏛️",
+    "Ellis Park": "🐎", "Canterbury Park": "🌲", "Albuquerque": "🌵", "Atokad Downs": "🌾",
+    "ATO": "🌾", "Belterra Park": "🍀", "BTP": "🍀", "Parx Racing": "🔔", "Laurel Park": "🍃",
+    "Pimlico": "🖤", "Penn National": "🎯", "Thistledown": "🌸", "Finger Lakes": "💧",
+    "Horseshoe Indianapolis": "🎰", "Indiana Grand": "🎰", "Tampa Bay Downs": "☀️",
+    "Fair Grounds": "🎺", "Charles Town": "⛰️", "CT": "⛰️", "Turfway Park": "🌉",
+    "Turf Paradise": "🏜️", "Golden Gate Fields": "🌁", "Emerald Downs": "🌿", "Zia Park": "☀️",
+    "Lone Star Park": "⭐", "Remington Park": "🤠", "Prairie Meadows": "🌽", "Woodbine": "🍁",
+    "Delaware Park": "🌳", "Hawthorne": "🏙️", "Mahoning Valley": "🟠", "Ruidoso Downs": "🏔️",
+    "CNL": "🏛️", "DMR": "🌊", "SAR": "🏆", "ALB": "🌵", "BKF": "📘", "ELK": "🦌",
   };
-
   const FALLBACK_ICONS = ["🎪", "🎯", "🎲", "💠", "🔵", "🟣", "🟠", "🟡", "🟢", "⚪", "🟤", "♠️", "♥️", "♦️", "♣️"];
 
   function trackIcon(track) {
     const t = (track || "").trim();
     if (TRACK_ICONS[t]) return TRACK_ICONS[t];
-    // code-like short names
     const up = t.toUpperCase();
     if (TRACK_ICONS[up]) return TRACK_ICONS[up];
     let h = 0;
     for (let i = 0; i < t.length; i++) h = (h * 31 + t.charCodeAt(i)) >>> 0;
     return FALLBACK_ICONS[h % FALLBACK_ICONS.length];
+  }
+
+  const PICKS_KEY = 'ura_picks';
+  function getRacePicks(raceId) {
+    try {
+      const map = JSON.parse(localStorage.getItem(PICKS_KEY) || '{}') || {};
+      const arr = map[raceId];
+      return Array.isArray(arr) ? arr.map(Number) : [];
+    } catch (e) {
+      return [];
+    }
   }
 
   function placeCell(place) {
@@ -84,7 +54,8 @@
     return '<td class="col-place ' + cls + '">' + esc(place) + '</td>';
   }
 
-  function horseRows(horses) {
+  function horseRows(horses, raceId) {
+    const picks = getRacePicks(raceId);
     const list = (horses || []).slice().sort((a, b) => {
       const pa = a.place == null ? 999 : Number(a.place);
       const pb = b.place == null ? 999 : Number(b.place);
@@ -94,16 +65,61 @@
     return list
       .map((h) => {
         const ml = h.ml != null ? h.ml : '—';
+        const post = h.post != null ? Number(h.post) : null;
+        const isPick = post != null && picks.includes(post);
+        const place = h.place != null ? Number(h.place) : null;
+        let rowClass = '';
+        let mark = '';
+        if (isPick) {
+          if (place != null && place >= 1 && place <= 3) {
+            rowClass = 'pick-hit';
+            mark = ' <span class="pick-mark pick-mark--hit">✓ топ-3</span>';
+          } else if (place != null) {
+            rowClass = 'pick-miss';
+            mark = ' <span class="pick-mark pick-mark--miss">✗</span>';
+          } else {
+            rowClass = 'is-picked';
+            mark = ' <span class="pick-mark">ставка</span>';
+          }
+        }
         return (
-          '<tr>' +
+          '<tr class="' + rowClass + '">' +
+          '<td class="col-pick">' + (isPick ? '✓' : '') + '</td>' +
           '<td class="col-post">' + esc(h.post != null ? h.post : '') + '</td>' +
-          '<td class="col-name">' + esc(h.name || h.horse || '') + '</td>' +
+          '<td class="col-name">' + esc(h.name || h.horse || '') + mark + '</td>' +
           '<td class="col-ml">' + esc(ml) + '</td>' +
           placeCell(h.place) +
           '</tr>'
         );
       })
       .join('');
+  }
+
+  function raceSummary(race) {
+    const picks = getRacePicks(race.id || '');
+    if (!picks.length) return '';
+    const byPost = {};
+    (race.horses || []).forEach((h) => {
+      if (h.post != null) byPost[Number(h.post)] = h;
+    });
+    let hit = 0;
+    let total = 0;
+    let win = false;
+    picks.forEach((p) => {
+      const h = byPost[p];
+      if (!h || h.place == null) return;
+      total += 1;
+      const pl = Number(h.place);
+      if (pl >= 1 && pl <= 3) hit += 1;
+      if (pl === 1) win = true;
+    });
+    if (total === 0) {
+      return '<div class="pick-summary pick-summary--pending">Твои ставки: ' + picks.length + ' (ждём места)</div>';
+    }
+    const cls = hit > 0 ? 'pick-summary--hit' : 'pick-summary--miss';
+    let text = 'Ставки: ' + hit + '/' + total + ' в топ-3';
+    if (win) text += ' · взял победителя!';
+    return '<div class="pick-summary ' + cls + '">' + text + '</div>';
   }
 
   function raceCard(race) {
@@ -114,15 +130,17 @@
         : '<span class="result-badge result-badge--pending">pending</span>';
     const meta = [race.time, race.distance, race.purse].filter(Boolean).join(' · ');
     const hasPlace = (race.horses || []).some((h) => h.place != null);
+    const raceId = race.id || '';
     return (
       '<article class="result-card race-card--nested' + (hasPlace ? ' result-card--done' : '') + '">' +
       '<div class="result-card__header">' +
       '<span>' + esc(race.title || 'Race') + '</span>' + badge +
       '</div>' +
       (meta ? '<div class="result-card__title" style="font-weight:400;opacity:.75;font-size:0.85rem">' + esc(meta) + '</div>' : '') +
+      raceSummary(race) +
       '<div class="race-table-wrap"><table class="race-table">' +
-      '<thead><tr><th class="col-post">№</th><th class="col-name">Лошадь</th><th class="col-ml">ML</th><th class="col-place">Место</th></tr></thead>' +
-      '<tbody>' + horseRows(race.horses) + '</tbody></table></div></article>'
+      '<thead><tr><th class="col-pick">✓</th><th class="col-post">№</th><th class="col-name">Лошадь</th><th class="col-ml">ML</th><th class="col-place">Место</th></tr></thead>' +
+      '<tbody>' + horseRows(race.horses, raceId) + '</tbody></table></div></article>'
     );
   }
 
@@ -140,7 +158,6 @@
         return na - nb;
       });
     }
-    // треки с местами выше
     return [...map.entries()].sort((a, b) => {
       const ap = a[1].some((r) => (r.horses || []).some((h) => h.place != null)) ? 0 : 1;
       const bp = b[1].some((r) => (r.horses || []).some((h) => h.place != null)) ? 0 : 1;
@@ -159,7 +176,9 @@
       if (!res.ok) throw new Error('results.json ' + res.status);
       const data = await res.json();
       const races = data.races || [];
-      const withPlace = races.filter((r) => (r.horses || []).some((h) => h.place != null));
+      const withPlace = races.filter((r) =>
+        (r.horses || []).some((h) => h.place != null)
+      );
 
       if (meta) {
         const parts = [];

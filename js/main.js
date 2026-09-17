@@ -122,6 +122,57 @@ function trackIcon(track) {
 }
 
 
+
+// ===== My picks (localStorage) =====
+const PICKS_KEY = 'ura_picks';
+
+function loadPicksMap() {
+  try {
+    return JSON.parse(localStorage.getItem(PICKS_KEY) || '{}') || {};
+  } catch (e) {
+    return {};
+  }
+}
+
+function savePicksMap(map) {
+  localStorage.setItem(PICKS_KEY, JSON.stringify(map));
+}
+
+function getRacePicks(raceId) {
+  const map = loadPicksMap();
+  const arr = map[raceId];
+  return Array.isArray(arr) ? arr.map(Number) : [];
+}
+
+function setRacePick(raceId, post, checked) {
+  const map = loadPicksMap();
+  let arr = Array.isArray(map[raceId]) ? map[raceId].map(Number) : [];
+  const p = Number(post);
+  if (checked) {
+    if (!arr.includes(p)) arr.push(p);
+  } else {
+    arr = arr.filter((x) => x !== p);
+  }
+  if (arr.length) map[raceId] = arr;
+  else delete map[raceId];
+  savePicksMap(map);
+}
+
+function bindPickCheckboxes(root) {
+  if (!root) return;
+  root.querySelectorAll('.pick-checkbox').forEach((cb) => {
+    cb.addEventListener('change', () => {
+      const raceId = cb.getAttribute('data-race');
+      const post = cb.getAttribute('data-post');
+      if (!raceId || post == null) return;
+      setRacePick(raceId, post, cb.checked);
+      const row = cb.closest('tr');
+      if (row) row.classList.toggle('is-picked', cb.checked);
+    });
+  });
+}
+
+
 // ===== Load races — группировка по ипподрому (аккордеон) =====
 function renderRaceCard(race) {
   const tagsHtml = (race.tags || []).map(tag => {
@@ -129,16 +180,29 @@ function renderRaceCard(race) {
     return `<span class="tag ${primary ? '' : 'tag-secondary'}">${escapeHtml(tag)}</span>`;
   }).join('');
 
+  const raceId = race.id || '';
+  const picks = getRacePicks(raceId);
+
   let bodyHtml = '';
   if (race.horses && race.horses.length) {
     const hasWin = race.horses.some(h => h.win != null);
     const rows = race.horses.map(h => {
       const ml = h.ml != null ? h.ml : '—';
+      const post = h.post != null ? h.post : '';
+      const checked = picks.includes(Number(post));
       const winCell = hasWin
         ? `<td class="col-win">${h.win != null ? escapeHtml(h.win) : '—'}</td>`
         : '';
-      return `<tr>
-          <td class="col-post">${h.post != null ? escapeHtml(h.post) : ''}</td>
+      return `<tr class="${checked ? 'is-picked' : ''}">
+          <td class="col-pick">
+            <label class="pick-label" title="Моя ставка / прогноз">
+              <input type="checkbox" class="pick-checkbox"
+                data-race="${escapeHtml(raceId)}"
+                data-post="${escapeHtml(post)}"
+                ${checked ? 'checked' : ''} />
+            </label>
+          </td>
+          <td class="col-post">${escapeHtml(post)}</td>
           <td class="col-name">${escapeHtml(h.name || '')}</td>
           <td class="col-ml">${escapeHtml(ml)}</td>
           ${winCell}
@@ -150,6 +214,7 @@ function renderRaceCard(race) {
         <table class="race-table">
           <thead>
             <tr>
+              <th class="col-pick" title="Прогноз">✓</th>
               <th class="col-post">№</th>
               <th class="col-name">Лошадь</th>
               <th class="col-ml">ML</th>
@@ -158,13 +223,14 @@ function renderRaceCard(race) {
           </thead>
           <tbody>${rows}</tbody>
         </table>
-      </div>`;
+      </div>
+      <p class="pick-hint">Отметь лошадей для ставки — вечером сверка с результатами</p>`;
   } else if (race.preview) {
     bodyHtml = `<div class="race-preview"><p>${escapeHtml(race.preview)}</p></div>`;
   }
 
   return `
-    <article class="race-card race-card--nested">
+    <article class="race-card race-card--nested" data-race-id="${escapeHtml(raceId)}">
       <div class="race-card-header">
         <span class="race-time">${escapeHtml(race.time || '')}</span>
       </div>
@@ -251,6 +317,7 @@ async function loadRaces() {
     }).join('');
 
     bindTrackAccordions(grid);
+    bindPickCheckboxes(grid);
 
   } catch (err) {
     console.error(err);

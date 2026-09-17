@@ -1240,3 +1240,69 @@ button.analytics-card {
   background: rgba(201, 162, 39, 0.12);
   vertical-align: middle;
 }
+
+
+/* ===== Picks (ставки / прогнозы) ===== */
+.race-table .col-pick {
+  width: 2.2em;
+  text-align: center;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.pick-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0;
+}
+.pick-checkbox {
+  width: 1.05rem;
+  height: 1.05rem;
+  accent-color: var(--accent, #c9a227);
+  cursor: pointer;
+}
+.race-table tr.is-picked {
+  background: rgba(201, 162, 39, 0.12);
+}
+.race-table tr.pick-hit {
+  background: rgba(61, 154, 106, 0.18);
+}
+.race-table tr.pick-miss {
+  background: rgba(180, 60, 60, 0.12);
+}
+.pick-hint {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin: 6px 0 0;
+  opacity: 0.85;
+}
+.pick-mark {
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-left: 6px;
+  opacity: 0.9;
+}
+.pick-mark--hit { color: var(--success, #3d9a6a); }
+.pick-mark--miss { color: #c45c5c; }
+.pick-summary {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 6px 0 10px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+.pick-summary--hit {
+  border-color: rgba(61, 154, 106, 0.45);
+  color: var(--success, #3d9a6a);
+  background: rgba(61, 154, 106, 0.08);
+}
+.pick-summary--miss {
+  border-color: rgba(180, 60, 60, 0.35);
+  color: #c45c5c;
+  background: rgba(180, 60, 60, 0.06);
+}
+.pick-summary--pending {
+  opacity: 0.8;
+}
