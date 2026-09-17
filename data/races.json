@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T15:21:28.800894+00:00",
+  "updated": "2026-09-17T19:22:41.575864+00:00",
   "source": "equibase-parser-gha",
   "date": "2026-09-17",
   "races": [
@@ -21,12 +21,6 @@
           "post": 2,
           "name": "Mighty Money",
           "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Silk Ridge Road",
-          "ml": 21.0,
           "win": null
         },
         {
@@ -57,12 +51,6 @@
           "post": 8,
           "name": "The Patriot Berna",
           "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 9,
-          "name": "Je King of Hearts",
-          "ml": 7.0,
           "win": null
         }
       ],
@@ -271,18 +259,6 @@
           "name": "Hot Lips Charlie",
           "ml": 16.0,
           "win": null
-        },
-        {
-          "post": 9,
-          "name": "Relentlesscharger",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 10,
-          "name": "Ghost Dreams",
-          "ml": 21.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -359,18 +335,6 @@
           "post": 10,
           "name": "Big Fantasy",
           "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 11,
-          "name": "Docs Dinero",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 12,
-          "name": "Mercedes Rose Bdp",
-          "ml": 31.0,
           "win": null
         }
       ],
@@ -561,12 +525,6 @@
           "name": "Sapello Sonrisa",
           "ml": 16.0,
           "win": null
-        },
-        {
-          "post": 7,
-          "name": "B F T Rigged Up",
-          "ml": 7.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -595,12 +553,6 @@
           "post": 2,
           "name": "Stage Left",
           "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Maximum Bull",
-          "ml": 21.0,
           "win": null
         },
         {
@@ -686,7 +638,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -727,7 +680,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -774,7 +728,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -827,7 +782,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -868,7 +824,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -921,7 +878,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1110,18 +1068,6 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Awesome Fantasy",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Pass Line",
-          "ml": 4.0,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "Toolittletoolate",
           "ml": 5.5,
@@ -1215,12 +1161,6 @@
       "distance": "One Mile",
       "purse": "Purse $10,000",
       "horses": [
-        {
-          "post": 1,
-          "name": "Prince Is My Boy",
-          "ml": 13.0,
-          "win": null
-        },
         {
           "post": 2,
           "name": "Able Seaman",
@@ -1361,12 +1301,6 @@
           "post": 5,
           "name": "Frosty View",
           "ml": 2.8,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Athens Moon",
-          "ml": 3.5,
           "win": null
         }
       ],
@@ -1535,18 +1469,6 @@
           "win": null
         },
         {
-          "post": 7,
-          "name": "Mr Randy",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "Baddest Good Boy",
-          "ml": 4.0,
-          "win": null
-        },
-        {
           "post": 9,
           "name": "Jinxzi",
           "ml": 16.0,
@@ -1624,21 +1546,9 @@
           "win": null
         },
         {
-          "post": 9,
-          "name": "Breaking Hearts",
-          "ml": 11.0,
-          "win": null
-        },
-        {
           "post": 10,
           "name": "Sussudio",
           "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 11,
-          "name": "Tiz Wine Time",
-          "ml": 31.0,
           "win": null
         }
       ],
@@ -1729,30 +1639,6 @@
           "name": "Puunene",
           "ml": 13.0,
           "win": null
-        },
-        {
-          "post": 13,
-          "name": "Flaming Verdict",
-          "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "Clever One",
-          "ml": 4.0,
-          "win": null
-        },
-        {
-          "post": 15,
-          "name": "Tapit Nitro",
-          "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 16,
-          "name": "Treat Me Nice",
-          "ml": 7.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -1831,18 +1717,6 @@
       "purse": "Purse $120,000",
       "horses": [
         {
-          "post": 1,
-          "name": "Silver Jewel",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Banyan",
-          "ml": 31.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Solar Horizon",
           "ml": 7.0,
@@ -1858,12 +1732,6 @@
           "post": 5,
           "name": "American Veteran",
           "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Roscoe Goose",
-          "ml": 3.5,
           "win": null
         },
         {
@@ -2033,12 +1901,6 @@
           "win": null
         },
         {
-          "post": 8,
-          "name": "Malarchuk",
-          "ml": 4.5,
-          "win": null
-        },
-        {
           "post": 9,
           "name": "Urban Planner",
           "ml": 13.0,
@@ -2110,12 +1972,6 @@
           "win": null
         },
         {
-          "post": 9,
-          "name": "Altimeter",
-          "ml": 11.0,
-          "win": null
-        },
-        {
           "post": 10,
           "name": "Halley's Comet",
           "ml": 21.0,
@@ -2130,30 +1986,6 @@
         {
           "post": 12,
           "name": "Dark Rye",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 13,
-          "name": "My King Air",
-          "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "Four Dimes",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 15,
-          "name": "Pelican Hill",
-          "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 16,
-          "name": "Berniedott",
           "ml": 31.0,
           "win": null
         }
