@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T14:41:16.843045+00:00",
+  "updated": "2026-09-18T18:43:59.778570+00:00",
   "source": "equibase-parser-gha",
   "date": "2026-09-18",
   "races": [
@@ -971,7 +971,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -986,12 +987,6 @@
           "post": 1,
           "name": "Cyber Baby",
           "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Harlow Drive",
-          "ml": 11.0,
           "win": null
         },
         {
@@ -1022,12 +1017,6 @@
           "post": 7,
           "name": "Under the Moon",
           "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 8,
-          "name": "As Pretty She Is",
-          "ml": 31.0,
           "win": null
         },
         {
@@ -1065,18 +1054,6 @@
           "name": "Buccherita",
           "ml": 16.0,
           "win": null
-        },
-        {
-          "post": 15,
-          "name": "Cara's Chrome",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 16,
-          "name": "Lady Azul",
-          "ml": 31.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -1084,7 +1061,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1166,30 +1144,6 @@
           "name": "Inflect",
           "ml": 4.5,
           "win": null
-        },
-        {
-          "post": 13,
-          "name": "So Angelina",
-          "ml": 51.0,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "Queenly",
-          "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 15,
-          "name": "Southern Kiss",
-          "ml": 7.0,
-          "win": null
-        },
-        {
-          "post": 16,
-          "name": "Shook Up the World",
-          "ml": 16.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -1197,7 +1151,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1218,12 +1173,6 @@
           "post": 2,
           "name": "Sherlock's Jewel",
           "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Mutaawid",
-          "ml": 7.0,
           "win": null
         },
         {
@@ -1279,18 +1228,6 @@
           "name": "Paros",
           "ml": 16.0,
           "win": null
-        },
-        {
-          "post": 13,
-          "name": "Asbury Park",
-          "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "Emergence",
-          "ml": 11.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -1322,27 +1259,9 @@
           "win": null
         },
         {
-          "post": 3,
-          "name": "Chunk of Gold",
-          "ml": 13.0,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "Phileas Fogg",
           "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Banishing",
-          "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Render Judgment",
-          "ml": 21.0,
           "win": null
         },
         {
@@ -1405,12 +1324,6 @@
           "win": null
         },
         {
-          "post": 7,
-          "name": "Ramblin' Wreck",
-          "ml": 16.0,
-          "win": null
-        },
-        {
           "post": 8,
           "name": "Inspeightofcharlie",
           "ml": 6.0,
@@ -1444,12 +1357,6 @@
           "post": 13,
           "name": "Straight Arrow",
           "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "Carc Brothers",
-          "ml": 3.0,
           "win": null
         }
       ],
@@ -1518,27 +1425,9 @@
           "win": null
         },
         {
-          "post": 9,
-          "name": "Daredevil Kaz",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 10,
-          "name": "Bletchley",
-          "ml": 5.5,
-          "win": null
-        },
-        {
           "post": 11,
           "name": "Card Man",
           "ml": 3.0,
-          "win": null
-        },
-        {
-          "post": 12,
-          "name": "Vapor Trail",
-          "ml": 51.0,
           "win": null
         },
         {
@@ -1635,24 +1524,6 @@
           "name": "Nash Potatoes",
           "ml": 6.0,
           "win": null
-        },
-        {
-          "post": 13,
-          "name": "Disparate Impact",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "Ghazaaly",
-          "ml": 4.5,
-          "win": null
-        },
-        {
-          "post": 15,
-          "name": "Social Hour",
-          "ml": 21.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -1742,30 +1613,6 @@
           "name": "Neshika",
           "ml": 5.0,
           "win": null
-        },
-        {
-          "post": 13,
-          "name": "Vernon Valley",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "Juliet On Approach",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 15,
-          "name": "On a Summer Day",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 16,
-          "name": "Now Or Nevermore",
-          "ml": 7.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -1803,12 +1650,6 @@
           "win": null
         },
         {
-          "post": 4,
-          "name": "Chief Buckeye",
-          "ml": 21.0,
-          "win": null
-        },
-        {
           "post": 6,
           "name": "Artistic Laney",
           "ml": 9.0,
@@ -1820,7 +1661,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1861,7 +1703,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1908,7 +1751,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1942,12 +1786,6 @@
           "name": "Better Half",
           "ml": 7.0,
           "win": null
-        },
-        {
-          "post": 5,
-          "name": "Danzaniteaway",
-          "ml": 4.5,
-          "win": null
         }
       ],
       "preview": "",
@@ -1955,7 +1793,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -2002,7 +1841,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -2238,7 +2078,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -2284,12 +2125,6 @@
           "name": "Argan",
           "ml": 5.5,
           "win": null
-        },
-        {
-          "post": 8,
-          "name": "Acousticat",
-          "ml": 16.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -2297,7 +2132,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -2344,7 +2180,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -2414,24 +2251,6 @@
           "name": "Goose Quill",
           "ml": 4.5,
           "win": null
-        },
-        {
-          "post": 12,
-          "name": "Camphor",
-          "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 13,
-          "name": "Placing Blame",
-          "ml": 11.0,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "Lexi's Epic Ride",
-          "ml": 31.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -2439,7 +2258,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -2830,12 +2650,6 @@
           "win": null
         },
         {
-          "post": 8,
-          "name": "Cherry Springs",
-          "ml": 21.0,
-          "win": null
-        },
-        {
           "post": 9,
           "name": "Winning Matters",
           "ml": 4.5,
@@ -2876,12 +2690,6 @@
       "distance": "Four And One Half Furlongs",
       "purse": "Purse $13,300",
       "horses": [
-        {
-          "post": 1,
-          "name": "Jlodiamond",
-          "ml": 4.0,
-          "win": null
-        },
         {
           "post": 2,
           "name": "Julie Belle",

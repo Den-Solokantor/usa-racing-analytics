@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T14:41:16.846524+00:00",
+  "updated": "2026-09-18T18:43:59.782009+00:00",
   "date": "2026-09-18",
   "source": "manual+cards",
   "note": "Состав как в «Сегодня». После финиша: python set_places.py --race ID --winner ...",
@@ -886,7 +886,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -961,19 +962,14 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
           "post": 1,
           "name": "Cyber Baby",
           "ml": 16.0,
-          "place": null
-        },
-        {
-          "post": 2,
-          "name": "Harlow Drive",
-          "ml": 11.0,
           "place": null
         },
         {
@@ -1004,12 +1000,6 @@
           "post": 7,
           "name": "Under the Moon",
           "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 8,
-          "name": "As Pretty She Is",
-          "ml": 31.0,
           "place": null
         },
         {
@@ -1047,18 +1037,6 @@
           "name": "Buccherita",
           "ml": 16.0,
           "place": null
-        },
-        {
-          "post": 15,
-          "name": "Cara's Chrome",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 16,
-          "name": "Lady Azul",
-          "ml": 31.0,
-          "place": null
         }
       ]
     },
@@ -1072,7 +1050,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1146,30 +1125,6 @@
           "name": "Inflect",
           "ml": 4.5,
           "place": null
-        },
-        {
-          "post": 13,
-          "name": "So Angelina",
-          "ml": 51.0,
-          "place": null
-        },
-        {
-          "post": 14,
-          "name": "Queenly",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 15,
-          "name": "Southern Kiss",
-          "ml": 7.0,
-          "place": null
-        },
-        {
-          "post": 16,
-          "name": "Shook Up the World",
-          "ml": 16.0,
-          "place": null
         }
       ]
     },
@@ -1196,12 +1151,6 @@
           "post": 2,
           "name": "Sherlock's Jewel",
           "ml": 9.0,
-          "place": null
-        },
-        {
-          "post": 3,
-          "name": "Mutaawid",
-          "ml": 7.0,
           "place": null
         },
         {
@@ -1257,18 +1206,6 @@
           "name": "Paros",
           "ml": 16.0,
           "place": null
-        },
-        {
-          "post": 13,
-          "name": "Asbury Park",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 14,
-          "name": "Emergence",
-          "ml": 11.0,
-          "place": null
         }
       ]
     },
@@ -1298,27 +1235,9 @@
           "place": null
         },
         {
-          "post": 3,
-          "name": "Chunk of Gold",
-          "ml": 13.0,
-          "place": null
-        },
-        {
           "post": 4,
           "name": "Phileas Fogg",
           "ml": 5.0,
-          "place": null
-        },
-        {
-          "post": 5,
-          "name": "Banishing",
-          "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 6,
-          "name": "Render Judgment",
-          "ml": 21.0,
           "place": null
         },
         {
@@ -1379,12 +1298,6 @@
           "place": null
         },
         {
-          "post": 7,
-          "name": "Ramblin' Wreck",
-          "ml": 16.0,
-          "place": null
-        },
-        {
           "post": 8,
           "name": "Inspeightofcharlie",
           "ml": 6.0,
@@ -1418,12 +1331,6 @@
           "post": 13,
           "name": "Straight Arrow",
           "ml": 13.0,
-          "place": null
-        },
-        {
-          "post": 14,
-          "name": "Carc Brothers",
-          "ml": 3.0,
           "place": null
         }
       ]
@@ -1490,27 +1397,9 @@
           "place": null
         },
         {
-          "post": 9,
-          "name": "Daredevil Kaz",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 10,
-          "name": "Bletchley",
-          "ml": 5.5,
-          "place": null
-        },
-        {
           "post": 11,
           "name": "Card Man",
           "ml": 3.0,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Vapor Trail",
-          "ml": 51.0,
           "place": null
         },
         {
@@ -1605,24 +1494,6 @@
           "name": "Nash Potatoes",
           "ml": 6.0,
           "place": null
-        },
-        {
-          "post": 13,
-          "name": "Disparate Impact",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 14,
-          "name": "Ghazaaly",
-          "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 15,
-          "name": "Social Hour",
-          "ml": 21.0,
-          "place": null
         }
       ]
     },
@@ -1710,30 +1581,6 @@
           "name": "Neshika",
           "ml": 5.0,
           "place": null
-        },
-        {
-          "post": 13,
-          "name": "Vernon Valley",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 14,
-          "name": "Juliet On Approach",
-          "ml": 21.0,
-          "place": null
-        },
-        {
-          "post": 15,
-          "name": "On a Summer Day",
-          "ml": 31.0,
-          "place": null
-        },
-        {
-          "post": 16,
-          "name": "Now Or Nevermore",
-          "ml": 7.0,
-          "place": null
         }
       ]
     },
@@ -1747,7 +1594,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1769,12 +1617,6 @@
           "place": null
         },
         {
-          "post": 4,
-          "name": "Chief Buckeye",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 6,
           "name": "Artistic Laney",
           "ml": 9.0,
@@ -1792,7 +1634,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1831,7 +1674,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1876,7 +1720,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -1902,12 +1747,6 @@
           "name": "Better Half",
           "ml": 7.0,
           "place": null
-        },
-        {
-          "post": 5,
-          "name": "Danzaniteaway",
-          "ml": 4.5,
-          "place": null
         }
       ]
     },
@@ -1921,7 +1760,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2107,7 +1947,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2194,7 +2035,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2232,12 +2074,6 @@
           "name": "Argan",
           "ml": 5.5,
           "place": null
-        },
-        {
-          "post": 8,
-          "name": "Acousticat",
-          "ml": 16.0,
-          "place": null
         }
       ]
     },
@@ -2251,7 +2087,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2296,7 +2133,8 @@
       "status": "pending",
       "tags": [
         "USA",
-        "Result"
+        "Result",
+        "Finished"
       ],
       "horses": [
         {
@@ -2357,24 +2195,6 @@
           "post": 11,
           "name": "Goose Quill",
           "ml": 4.5,
-          "place": null
-        },
-        {
-          "post": 12,
-          "name": "Camphor",
-          "ml": 5.5,
-          "place": null
-        },
-        {
-          "post": 13,
-          "name": "Placing Blame",
-          "ml": 11.0,
-          "place": null
-        },
-        {
-          "post": 14,
-          "name": "Lexi's Epic Ride",
-          "ml": 31.0,
           "place": null
         }
       ]
@@ -2762,12 +2582,6 @@
           "place": null
         },
         {
-          "post": 8,
-          "name": "Cherry Springs",
-          "ml": 21.0,
-          "place": null
-        },
-        {
           "post": 9,
           "name": "Winning Matters",
           "ml": 4.5,
@@ -2807,12 +2621,6 @@
       ],
       "horses": [
         {
-          "post": 1,
-          "name": "Jlodiamond",
-          "ml": 4.0,
-          "place": null
-        },
-        {
           "post": 2,
           "name": "Julie Belle",
           "ml": 16.0,
@@ -2850,6 +2658,5 @@
         }
       ]
     }
-  ],
-  "stakes_updated": "2026-09-18T11:56:20.584308-04:00"
+  ]
 }
