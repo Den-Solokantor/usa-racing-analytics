@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T14:02:12.017508+00:00",
+  "updated": "2026-09-19T18:16:06.855385+00:00",
   "source": "equibase-parser-gha",
   "date": "2026-09-19",
   "races": [
@@ -663,12 +663,6 @@
           "win": null
         },
         {
-          "post": 3,
-          "name": "Groves",
-          "ml": 3.0,
-          "win": null
-        },
-        {
           "post": 4,
           "name": "Gun Broker",
           "ml": 4.0,
@@ -686,7 +680,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -751,7 +746,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -772,12 +768,6 @@
           "post": 2,
           "name": "Fond Farewell",
           "ml": 5.5,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Bridle a Butterfly",
-          "ml": 7.0,
           "win": null
         },
         {
@@ -805,12 +795,6 @@
           "win": null
         },
         {
-          "post": 8,
-          "name": "Final Verdict",
-          "ml": 7.0,
-          "win": null
-        },
-        {
           "post": 9,
           "name": "War Stride",
           "ml": 9.0,
@@ -822,7 +806,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -876,12 +861,6 @@
           "win": null
         },
         {
-          "post": 8,
-          "name": "Tenebris",
-          "ml": 13.0,
-          "win": null
-        },
-        {
           "post": 9,
           "name": "Red State",
           "ml": 2.6,
@@ -893,7 +872,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1058,30 +1038,6 @@
           "name": "McMoon",
           "ml": 9.0,
           "win": null
-        },
-        {
-          "post": 13,
-          "name": "Cuylle",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 14,
-          "name": "Ed Charles",
-          "ml": 31.0,
-          "win": null
-        },
-        {
-          "post": 15,
-          "name": "Santis",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 16,
-          "name": "Tinian",
-          "ml": 9.0,
-          "win": null
         }
       ],
       "preview": "",
@@ -1158,12 +1114,6 @@
           "post": 10,
           "name": "Rebalancing",
           "ml": 16.0,
-          "win": null
-        },
-        {
-          "post": 11,
-          "name": "Next Level Beau",
-          "ml": 21.0,
           "win": null
         }
       ],
@@ -1267,12 +1217,6 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Lovely Emma",
-          "ml": 11.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Capturing",
           "ml": 16.0,
@@ -1281,18 +1225,6 @@
         {
           "post": 4,
           "name": "Quiet Confidence",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Flamingo Way",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 6,
-          "name": "Obstreperous",
           "ml": 21.0,
           "win": null
         },
@@ -1392,12 +1324,6 @@
           "win": null
         },
         {
-          "post": 8,
-          "name": "Uncle Barrie",
-          "ml": 51.0,
-          "win": null
-        },
-        {
           "post": 9,
           "name": "Beau Cheval",
           "ml": 9.0,
@@ -1468,7 +1394,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1521,7 +1448,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1574,7 +1502,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1621,7 +1550,8 @@
         "USA",
         "Equibase",
         "ML",
-        "ML estimate"
+        "ML estimate",
+        "Finished"
       ]
     },
     {
@@ -1904,18 +1834,6 @@
       "purse": "Purse $23,000",
       "horses": [
         {
-          "post": 1,
-          "name": "Aria Thunder",
-          "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 2,
-          "name": "Swenson Lake",
-          "ml": 5.5,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Golden Stride",
           "ml": 5.0,
@@ -1993,12 +1911,6 @@
           "win": null
         },
         {
-          "post": 6,
-          "name": "Kaia's Choice",
-          "ml": 5.5,
-          "win": null
-        },
-        {
           "post": 7,
           "name": "Erika Marie",
           "ml": 7.0,
@@ -2043,12 +1955,6 @@
           "post": 2,
           "name": "Ace in the Hall",
           "ml": 13.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Candy Arc",
-          "ml": 4.0,
           "win": null
         },
         {
@@ -2099,27 +2005,9 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Hot Legs Romolo",
-          "ml": 5.5,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Rowan August",
           "ml": 9.0,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Arjun for Karz",
-          "ml": 21.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "Loring Park",
-          "ml": 16.0,
           "win": null
         },
         {
@@ -2182,14 +2070,8 @@
           "win": null
         },
         {
-          "post": 3,
-          "name": "Rumpus in Paradise",
-          "ml": 13.0,
-          "win": null
-        },
-        {
           "post": 4,
-          "name": "Bella Mendy (KY)",
+          "name": "Bella Mendy",
           "ml": 5.0,
           "win": null
         },
@@ -2301,12 +2183,6 @@
           "win": null
         },
         {
-          "post": 8,
-          "name": "My Kid's Said No",
-          "ml": 3.0,
-          "win": null
-        },
-        {
           "post": 9,
           "name": "Found the Secret",
           "ml": 16.0,
@@ -2345,12 +2221,6 @@
           "post": 3,
           "name": "Kind Kismet",
           "ml": 3.5,
-          "win": null
-        },
-        {
-          "post": 4,
-          "name": "Honey Hauler",
-          "ml": 11.0,
           "win": null
         },
         {
@@ -2410,12 +2280,6 @@
           "post": 2,
           "name": "Tamarack",
           "ml": 6.0,
-          "win": null
-        },
-        {
-          "post": 3,
-          "name": "Two Jack",
-          "ml": 5.5,
           "win": null
         },
         {
@@ -2626,12 +2490,6 @@
           "win": null
         },
         {
-          "post": 4,
-          "name": "Juneau",
-          "ml": 4.5,
-          "win": null
-        },
-        {
           "post": 5,
           "name": "Luna Toscana",
           "ml": 16.0,
@@ -2703,12 +2561,6 @@
           "win": null
         },
         {
-          "post": 2,
-          "name": "Firebird Suite",
-          "ml": 3.0,
-          "win": null
-        },
-        {
           "post": 3,
           "name": "Voluntold",
           "ml": 11.0,
@@ -2718,12 +2570,6 @@
           "post": 4,
           "name": "Ribadeo",
           "ml": 5.0,
-          "win": null
-        },
-        {
-          "post": 5,
-          "name": "My Sexy Blonde",
-          "ml": 9.0,
           "win": null
         },
         {
